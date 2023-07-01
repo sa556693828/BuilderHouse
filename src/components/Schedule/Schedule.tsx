@@ -1,11 +1,18 @@
 import React from "react";
 import Section from "../Section/Section";
 import TaskCard from "./Card";
+import title from "@/assets/Schedule.svg";
+import style from "@/assets/ScheduleStyle.svg";
 
 export default function Schedule() {
   return (
-    <Section title="SCHEDULE" subTitle="活動日程" id="Schedule">
-      <div className="w-4/5">
+    <Section
+      title={{ pic: title.src, w: "590" }}
+      subTitle="活動日程"
+      id="Schedule"
+      style={{ pic: style.src, w: "90" }}
+    >
+      <div className="">
         <TaskCard
           name="訓練營"
           content="程式設計馬拉松（英語：hackathon，又譯為駭客松），又稱駭客日（hack

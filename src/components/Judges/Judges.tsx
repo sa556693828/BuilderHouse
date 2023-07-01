@@ -2,6 +2,8 @@ import React from "react";
 import Section from "../Section/Section";
 import ProfileCard from "./ProfileCard";
 import pro1 from "@/assets/Judges/pro1.png";
+import title from "@/assets/Judges.svg";
+import style from "@/assets/JudgesStyle.svg";
 
 export default function Judges() {
   const JudgesArray = [
@@ -47,7 +49,12 @@ export default function Judges() {
     },
   ];
   return (
-    <Section title="JUDGES" subTitle="裁判群" id="Judges">
+    <Section
+      title={{ pic: title.src, w: "450" }}
+      subTitle="裁判群"
+      id="Judges"
+      style={{ pic: style.src, w: "80" }}
+    >
       <div className="grid w-4/5 grid-cols-1 gap-5 lg:grid-cols-4">
         {JudgesArray.map((item, idx) => (
           <ProfileCard

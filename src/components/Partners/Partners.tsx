@@ -24,28 +24,29 @@ export default function Partners() {
   ];
 
   return (
-    <Section title="PARTNERS" subTitle="贊助夥伴" id="Partners">
-      <div className="hidden w-4/5 flex-col items-center gap-5 lg:flex">
-        <PartnersCard avatar={lead.src} name="主辦單位" />
-        <div className="flex gap-5">
-          <PartnersCard avatar={kryptocamp.src} name="執行單位" />
-          <PartnersCard avatar={amber.src} name="執行單位" />
-        </div>
-        <div className="grid grid-cols-4 gap-5">
-          {partnersArray.map((item, idx) => (
-            <PartnersCard avatar={item} key={idx} name="合作夥伴" />
-          ))}
-        </div>
-        <div className="flex gap-5">
-          <PartnersCard avatar={google.src} name="合作夥伴" />
-        </div>
-      </div>
-      {/* Mobile */}
-      <div className="flex w-4/5 flex-col items-center gap-5 lg:hidden">
-        {AllArray.map((item, idx) => (
-          <PartnersCard avatar={item.avatar} key={idx} name={item.name} />
-        ))}
-      </div>
-    </Section>
+    // <Section title="PARTNERS" subTitle="贊助夥伴" id="Partners">
+    //   <div className="hidden w-4/5 flex-col items-center gap-5 lg:flex">
+    //     <PartnersCard avatar={lead.src} name="主辦單位" />
+    //     <div className="flex gap-5">
+    //       <PartnersCard avatar={kryptocamp.src} name="執行單位" />
+    //       <PartnersCard avatar={amber.src} name="執行單位" />
+    //     </div>
+    //     <div className="grid grid-cols-4 gap-5">
+    //       {partnersArray.map((item, idx) => (
+    //         <PartnersCard avatar={item} key={idx} name="合作夥伴" />
+    //       ))}
+    //     </div>
+    //     <div className="flex gap-5">
+    //       <PartnersCard avatar={google.src} name="合作夥伴" />
+    //     </div>
+    //   </div>
+    //   {/* Mobile */}
+    //   <div className="flex w-4/5 flex-col items-center gap-5 lg:hidden">
+    //     {AllArray.map((item, idx) => (
+    //       <PartnersCard avatar={item.avatar} key={idx} name={item.name} />
+    //     ))}
+    //   </div>
+    // </Section>
+    <></>
   );
 }

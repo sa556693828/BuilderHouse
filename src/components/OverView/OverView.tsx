@@ -2,7 +2,7 @@ import React from "react";
 import Section from "../Section/Section";
 import ViewCard from "./Card";
 import title from "@/assets/Overview.svg";
-import style from "@/assets/OverviewStyle.svg";
+import style from "@/assets/OverViewStyle.svg";
 
 export default function OverView() {
   return (

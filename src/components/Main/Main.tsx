@@ -43,13 +43,13 @@ export default function Main() {
             </div>
           </div>
           <div className="flex h-1/2 w-full items-center">
-            <div className="w-[48%] flex flex-col items-start gap-5">
-              <div className="text-base font-normal">
+            <div className="w-[48%] flex flex-col items-start gap-5 px-6">
+              <div className="text-base font-normal uppercase">
                 程式設計馬拉松（英語：hackathon，又譯為駭客松），又稱駭客日（hack
                 day）、駭客節（hackfest）或程式設計節（codefest），
                 是一個流傳於駭客（hacker）當中的新詞彙。程式設計馬拉松是一種活動。
               </div>
-              <button className="w-52 bg-bg p-3 text-base font-medium text-[#D4D4D4] transition-all border-[3px]">
+              <button className="w-52 bg-bg p-3 text-base font-medium text-text transition-all border-[3px]">
                 報名
               </button>
             </div>

@@ -16,12 +16,14 @@ export default function Header() {
         justify="space-between"
         align="center"
         px={{ base: "2rem", lg: "8rem" }}
+        py="1.5rem"
         overflow="hidden"
-        className="z-50 h-20 w-full bg-transparent text-white"
+        className="z-50 h-20 w-full bg-transparent text-text"
       >
         <Desktop goPage={goPage} />
         <Mobile goPage={goPage} />
       </Flex>
+      <Divider />
     </>
   );
 }

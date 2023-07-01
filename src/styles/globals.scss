@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  font-family:
+    Montserrat,
+    'Noto Sans TC',
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
+    sans-serif;
+  background: #181A2E;
+  color: white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.main{
+  .header{
+    .nav{
+      color:white;
+      font-weight: 500;
+      // font-size: 1.2rem;
+    }
+  }
+}

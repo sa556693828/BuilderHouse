@@ -22,7 +22,7 @@ module.exports = {
         blueT: "#9747FF",
       },
       backgroundImage: {
-        greenLi: "linear-gradient(to right, #00FFB0, #CCFF00) ",
+        greenLi: "linear-gradient(to right, #00FFB0, #CCFF00)",
       },
       boxShadow: {
         blueLi: "0px 0px 10px rgba(33, 122, 255, 0.25)",

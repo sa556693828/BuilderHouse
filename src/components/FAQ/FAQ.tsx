@@ -18,9 +18,9 @@ export default function FAQ() {
           </div>
           <div className="flex w-3/5 flex-col gap-16 px-10">
             <div className="max-w-xl">Continue...</div>
-            <button className="w-52 border-[3px] bg-transparent p-3 text-base font-medium transition-all">
+            {/* <button className="w-52 border-[3px] bg-transparent p-3 text-base font-medium transition-all">
               詳情
-            </button>
+            </button> */}
           </div>
         </div>
         <Footer />

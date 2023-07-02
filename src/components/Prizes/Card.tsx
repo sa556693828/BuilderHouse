@@ -9,7 +9,9 @@ export default function PrizesCard(props: {
 }) {
   return (
     <div className="h-full bg-gradient-to-r from-redF to-redT p-[2px] transition-all">
-      <div className={`flex h-full w-full items-center gap-2 bg-bg p-4`}>
+      <div
+        className={`flex h-full w-full items-center gap-6 bg-bg p-4 md:gap-2`}
+      >
         <Image
           src={props.pic?.pic}
           width={props.pic?.w}

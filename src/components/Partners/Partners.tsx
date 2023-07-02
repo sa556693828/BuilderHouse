@@ -1,5 +1,4 @@
 import React from "react";
-import PartnersCard from "./Card";
 import lead from "@/assets/Partners/lead.svg";
 import kryptocamp from "@/assets/Partners/kryptocamp.svg";
 import amber from "@/assets/Partners/amber.svg";
@@ -8,10 +7,10 @@ import wormhole from "@/assets/Partners/wormhole.svg";
 import flow from "@/assets/Partners/flow.svg";
 import circle from "@/assets/Partners/circle.svg";
 import google from "@/assets/Partners/google.svg";
-import title from "@/assets/Partners/Partners.svg";
-import style from "@/assets/Partners/PartnersStyle.svg";
-import content from "@/assets/Partners/PartnersContent.svg";
-import BG from "@/assets/Partners/PartnersBg.svg";
+import title from "@/assets/Partners/partners.svg";
+import style from "@/assets/Partners/partnersStyle.svg";
+import content from "@/assets/Partners/partnersContent.svg";
+import BG from "@/assets/Partners/partnersBg.svg";
 import Mask from "@/assets/Mask.svg";
 import { Box } from "@chakra-ui/react";
 
@@ -29,46 +28,51 @@ export default function Partners() {
   ];
 
   return (
-    // <Section title="PARTNERS" subTitle="贊助夥伴" >
-    //   <div className="hidden w-4/5 flex-col items-center gap-5 lg:flex">
-    //     <PartnersCard avatar={lead.src} name="主辦單位" />
-    //     <div className="flex gap-5">
-    //       <PartnersCard avatar={kryptocamp.src} name="執行單位" />
-    //       <PartnersCard avatar={amber.src} name="執行單位" />
-    //     </div>
-    //     <div className="grid grid-cols-4 gap-5">
-    //       {partnersArray.map((item, idx) => (
-    //         <PartnersCard avatar={item} key={idx} name="合作夥伴" />
-    //       ))}
-    //     </div>
-    //     <div className="flex gap-5">
-    //       <PartnersCard avatar={google.src} name="合作夥伴" />
-    //     </div>
-    //   </div>
-    //   {/* Mobile */}
-    //   <div className="flex w-4/5 flex-col items-center gap-5 lg:hidden">
-    //     {AllArray.map((item, idx) => (
-    //       <PartnersCard avatar={item.avatar} key={idx} name={item.name} />
-    //     ))}
-    //   </div>
-    // </Section>
     <>
       <Box
-        className="flex h-full flex-col items-center py-10"
+        className="flex flex-col items-center xl:h-[36rem] 2xl:h-[48rem]"
         id="Partners"
         bgImg={BG.src}
-        bgSize="cover"
+        bgSize="contain"
         bgRepeat="no-repeat"
         bgPosition="center"
       >
-        {/* <div className="flex gap-14 pt-64">
-          <img src={style.src} alt="" width="70" height="100" />
-          <img src={title.src} alt="" width="580" height="100" />
-          <img src={style.src} alt="" width="70" height="100" />
+        <div className="flex w-full flex-col items-center  px-14 pt-64">
+          <div className="flex w-full justify-center gap-14">
+            <img
+              src={style.src}
+              alt=""
+              width="70"
+              height="100"
+              className="hidden lg:block"
+            />
+            <img src={title.src} alt="" width="580" height="100" />
+            <img
+              src={style.src}
+              alt=""
+              width="70"
+              height="100"
+              className="hidden lg:block"
+            />
+          </div>
+          <div className="my-8 flex w-full justify-between text-4xl font-extrabold leading-[64px] md:w-[580px] lg:justify-center">
+            <img
+              src={style.src}
+              alt=""
+              width="50"
+              height="100"
+              className="block lg:hidden"
+            />
+            贊助夥伴
+            <img
+              src={style.src}
+              alt=""
+              width="50"
+              height="100"
+              className="block lg:hidden"
+            />
+          </div>
         </div>
-        <div className="my-8 text-4xl font-extrabold leading-[64px]">
-          贊助夥伴
-        </div> */}
       </Box>
       <div className="flex h-96 items-center justify-center">
         Coming Soon...

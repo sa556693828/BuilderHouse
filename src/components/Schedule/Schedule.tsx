@@ -12,7 +12,7 @@ export default function Schedule() {
       id="Schedule"
       style={{ pic: style.src, w: "90" }}
     >
-      <div className="">
+      <div className="w-full">
         <TaskCard
           name="報名 / 初始提案"
           date="7 月 1 日 ---- 7 月 31 日"

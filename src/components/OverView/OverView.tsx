@@ -12,7 +12,7 @@ export default function OverView() {
       id="OverView"
       style={{ pic: style.src, w: "200" }}
     >
-      <div className="grid grid-cols-1 lg:grid-cols-3 justify-around gap-5">
+      <div className="grid w-full grid-cols-1 gap-5 lg:grid-cols-3">
         <ViewCard
           title="LeadUp The Night"
           content={`- 介紹\n- 過往活動紀錄\n- 未來活動\n- 報名`}

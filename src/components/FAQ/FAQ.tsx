@@ -12,11 +12,11 @@ export default function FAQ() {
         className="flex flex-col items-center justify-between gap-32 bg-gradient-to-r from-[#4285F4] to-[#9747FF]"
         id="FAQ"
       >
-        <div className="flex items-center justify-between gap-16 pb-14 pt-28">
-          <div className="flex w-2/5 justify-end">
+        <div className="flex flex-col items-center justify-between gap-16 px-12 pt-28 lg:flex-row lg:px-0 lg:pb-14">
+          <div className="flex w-full justify-end lg:w-2/5">
             <img src={title.src} alt="" width="400" height="100" />
           </div>
-          <div className="flex w-3/5 flex-col gap-16 px-10">
+          <div className="flex w-full flex-col gap-16 px-10 lg:w-3/5">
             <div className="max-w-xl">Continue...</div>
             {/* <button className="w-52 border-[3px] bg-transparent p-3 text-base font-medium transition-all">
               詳情

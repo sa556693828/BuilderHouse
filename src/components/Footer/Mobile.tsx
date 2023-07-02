@@ -1,14 +1,14 @@
 import React from "react";
-import Logo from "@/assets/Logo.svg";
+import Logo from "@/assets/LogoWhite.svg";
 import Link from "next/link";
 import Image from "next/image";
 
 export default function FooterMobile(props: any) {
   const { goPage } = props;
-  const buttonStyle = "hover:opacity-80";
+  const buttonStyle = "hover:opacity-80 text-text";
 
   return (
-    <footer className="flex flex-col items-start bg-[#ffffff]/20 p-6 lg:hidden">
+    <footer className="flex w-full flex-col items-start border-t-[1px] border-white bg-transparent px-5 py-10 lg:hidden">
       <div className="cursor-pointer" onClick={() => goPage("/")}>
         <Image src={Logo.src} alt="logo" width="250" height="100" />
       </div>
@@ -32,7 +32,7 @@ export default function FooterMobile(props: any) {
           <div className={buttonStyle}>FAQ</div>
         </Link>
       </div>
-      <div className="font-medium text-white/60">© 2023 TAIPEIHACKATHON.</div>
+      <div className="font-medium text-white">© TAIWAN BUILDER HOUSE.</div>
     </footer>
   );
 }

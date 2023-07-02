@@ -1,48 +1,25 @@
 import React from "react";
 import Section from "../Section/Section";
 import ProfileCard from "./ProfileCard";
-import pro1 from "@/assets/Judges/pro1.png";
+import henry from "@/assets/Judges/henry.jpeg";
+import michael from "@/assets/Judges/michael.jpg";
 import title from "@/assets/Judges.svg";
 import style from "@/assets/JudgesStyle.svg";
 
 export default function Judges() {
   const JudgesArray = [
     {
-      name: "Cameron Williamson",
-      company: "Protocol Labs",
-      avatar: pro1.src,
+      name: "Henry",
+      company: "Meta\nGSR Sales Director",
+      avatar: henry.src,
       twitter: "https://twitter.com/protocollabs",
       discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",
     },
     {
-      name: "Cameron Williamson",
-      company: "Protocol Labs",
-      avatar: pro1.src,
-      twitter: "https://twitter.com/protocollabs",
-      discord: "https://discord.com/invite/protocol",
-      telegram: "https://t.me/protocol_labs",
-    },
-    {
-      name: "Cameron Williamson",
-      company: "Protocol Labs",
-      avatar: pro1.src,
-      twitter: "https://twitter.com/protocollabs",
-      discord: "https://discord.com/invite/protocol",
-      telegram: "https://t.me/protocol_labs",
-    },
-    {
-      name: "Cameron Williamson",
-      company: "Protocol Labs",
-      avatar: pro1.src,
-      twitter: "https://twitter.com/protocollabs",
-      discord: "https://discord.com/invite/protocol",
-      telegram: "https://t.me/protocol_labs",
-    },
-    {
-      name: "Cameron Williamson",
-      company: "Protocol Labs",
-      avatar: pro1.src,
+      name: "Michael",
+      company: "Lead Capital\nCo-Founder",
+      avatar: michael.src,
       twitter: "https://twitter.com/protocollabs",
       discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",

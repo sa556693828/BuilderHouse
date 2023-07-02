@@ -1,7 +1,7 @@
 import React from "react";
 import SvgIcon from "@/components/SvgIcon/SvgIcon";
 import Image from "next/image";
-import LinearButton from "../LinearButton/LinearButton";
+import { Box } from "@chakra-ui/react";
 
 export default function ProfileCard(props: {
   avatar: string;
@@ -14,10 +14,18 @@ export default function ProfileCard(props: {
   return (
     <div className="h-full bg-gradient-to-r from-greenF to-greenT pb-[1px] transition-all">
       <div className="flex flex-col items-center p-10 w-full shadow-greenLi h-full bg-bg">
-        <Image src={props.avatar} alt="avatar" width="120" height="120" />
+        <Box
+          className="rounded-full w-32 h-32"
+          bgImg={props.avatar}
+          bgSize="cover"
+          bgRepeat="no-repeat"
+          bgPosition="center"
+        />
         <div className="mt-5 text-center text-lg">
           {props.name}
-          <div className="font-medium text-text">{props.company}</div>
+          <div className="font-medium text-text whitespace-pre-wrap">
+            {props.company}
+          </div>
         </div>
         <div className="flex w-2/3 justify-center gap-6 py-10">
           <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">

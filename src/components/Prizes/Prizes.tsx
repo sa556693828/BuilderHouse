@@ -4,8 +4,8 @@ import PrizesCard from "./Card";
 import title from "@/assets/prizes.svg";
 import style from "@/assets/dotThree.svg";
 import Filecoin from "@/assets/Prizes/Filecoin.svg";
-import Wormhole from "@/assets/Prizes/Wormhole.png";
 import Lead from "@/assets/Prizes/Lead.png";
+import Wormhole from "@/assets/Prizes/wormhole.png";
 
 export default function Prizes() {
   return (

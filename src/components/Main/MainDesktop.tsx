@@ -9,7 +9,7 @@ import Vector from "@/assets/Vector.svg";
 import Title from "@/assets/Title.svg";
 import LinearButton from "../LinearButton/LinearButton";
 // -top-[26px]
-export default function MainMobile() {
+export default function MainDesktop() {
   return (
     <Box className="relative flex h-[100vh] flex-col items-center overflow-hidden">
       <div className="absolute right-32 top-44">

@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "@/assets/Logo.svg";
+import Logo from "@/assets/LogoWhite.svg";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -9,11 +9,11 @@ export default function DesktopFooter(props: any) {
     "flex w-10 items-center justify-center font-medium hover:opacity-80 xl:w-14";
 
   return (
-    <footer className="hidden items-center bg-[#ffffff]/20 px-32 py-4 lg:flex">
+    <footer className="hidden items-center bg-transparent justify-center px-28 py-4 lg:flex w-full gap-5">
       <div className="cursor-pointer" onClick={() => goPage("/")}>
-        <Image src={Logo.src} alt="logo" width="300" height="100" />
+        <Image src={Logo.src} alt="logo" width="260" height="100" />
       </div>
-      <div className="flex flex-1 items-center justify-start gap-10 pl-10 text-sm xl:text-base">
+      <div className="flex flex-1 items-center justify-center gap-16 pl-10 text-sm xl:text-base">
         <Link href="/#OverView" passHref>
           <div className={buttonStyle}>OVERVIEW</div>
         </Link>
@@ -34,7 +34,7 @@ export default function DesktopFooter(props: any) {
         </Link>
       </div>
       <div className="flex justify-end font-medium text-white/60">
-        © 2023 TAIPEIHACKATHON.
+        © TAIWAN BUILDER HOUSE.
       </div>
     </footer>
   );

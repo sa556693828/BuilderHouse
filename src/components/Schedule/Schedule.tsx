@@ -17,19 +17,19 @@ export default function Schedule() {
           name="訓練營"
           content="程式設計馬拉松（英語：hackathon，又譯為駭客松），又稱駭客日（hack
           day）、駭客節（hackfest）或程式設計節（codefest），是一個流傳於駭客（hacker）當中的新詞彙。程式設計馬拉松是一種活動。"
-          color="blue"
+          color="green"
         />
         <TaskCard
           name="黑客松"
           content="程式設計馬拉松（英語：hackathon，又譯為駭客松），又稱駭客日（hack
           day）、駭客節（hackfest）或程式設計節（codefest），是一個流傳於駭客（hacker）當中的新詞彙。程式設計馬拉松是一種活動。"
-          color="yellow"
+          color="red"
         />
         <TaskCard
           name="孵化器"
           content="程式設計馬拉松（英語：hackathon，又譯為駭客松），又稱駭客日（hack
           day）、駭客節（hackfest）或程式設計節（codefest），是一個流傳於駭客（hacker）當中的新詞彙。程式設計馬拉松是一種活動。"
-          color="green"
+          color="blue"
         />
       </div>
     </Section>

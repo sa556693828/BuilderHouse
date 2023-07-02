@@ -1,5 +1,4 @@
 import FAQ from "@/components/FAQ/FAQ";
-import Footer from "@/components/Footer/Footer";
 import Judges from "@/components/Judges/Judges";
 import Main from "@/components/Main/Main";
 import OverView from "@/components/OverView/OverView";
@@ -17,7 +16,6 @@ export default function Home() {
       <Judges />
       <Partners />
       <FAQ />
-      <Footer />
     </>
   );
 }

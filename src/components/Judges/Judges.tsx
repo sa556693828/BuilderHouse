@@ -55,7 +55,7 @@ export default function Judges() {
       id="Judges"
       style={{ pic: style.src, w: "80" }}
     >
-      <div className="grid w-4/5 grid-cols-1 gap-5 lg:grid-cols-4">
+      <div className="grid w-full grid-cols-1 gap-5 lg:grid-cols-4">
         {JudgesArray.map((item, idx) => (
           <ProfileCard
             avatar={item.avatar}

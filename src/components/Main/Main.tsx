@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Divider, Flex } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Taiwan from "@/assets/Taiwan.svg";
 import dotT from "@/assets/dotT.svg";
@@ -7,6 +7,7 @@ import dotThree from "@/assets/dotThree.svg";
 import Sphere from "@/assets/Sphere.png";
 import Vector from "@/assets/Vector.svg";
 import Title from "@/assets/Title.svg";
+import LinearButton from "../LinearButton/LinearButton";
 // -top-[26px]
 export default function Main() {
   return (
@@ -49,9 +50,7 @@ export default function Main() {
                 day）、駭客節（hackfest）或程式設計節（codefest），
                 是一個流傳於駭客（hacker）當中的新詞彙。程式設計馬拉松是一種活動。
               </div>
-              <button className="w-52 bg-bg p-3 text-base font-medium text-text transition-all border-[3px]">
-                報名
-              </button>
+              <LinearButton color="green">報名</LinearButton>
             </div>
             <div className="w-[4%] h-full flex justify-center">
               <div className="w-[2px] h-full bg-line" />

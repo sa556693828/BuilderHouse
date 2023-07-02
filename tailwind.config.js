@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        yellow: "#EFB829",
-        blue: "#217AFF",
-        green: "#25DFB2",
+        blue: "#4285F4",
+        green: "#00FFB0",
+        red: "#E92126",
         grey: "#23252D",
         iconBlack: "#191A23",
         footer: "#474859",
@@ -14,11 +14,20 @@ module.exports = {
         bg: "#030303",
         line: "#D4D4D4",
         text: "#D4D4D4",
+        greenF: "#00FFB0",
+        greenT: "#CCFF00",
+        redF: "#E92126",
+        redT: "#FBBC05",
+        blueF: "#4285F4",
+        blueT: "#9747FF",
+      },
+      backgroundImage: {
+        greenLi: "linear-gradient(to right, #00FFB0, #CCFF00) ",
       },
       boxShadow: {
-        blue: "0px 0px 10px rgba(33, 122, 255, 0.25)",
-        yellow: "0px 0px 10px rgba(239, 184, 41, 0.25)",
-        green: "0px 0px 10px rgba(37, 223, 178, 0.25)",
+        blueLi: "0px 0px 10px rgba(33, 122, 255, 0.25)",
+        yellowLi: "0px 0px 10px rgba(239, 184, 41, 0.25)",
+        greenLi: "0px 0px 10px 0px rgba(0, 255, 176, 0.25)",
       },
     },
   },

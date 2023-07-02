@@ -1,13 +1,13 @@
 import React from "react";
-import { Box, Divider, useDisclosure } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import Logo from "@/assets/Logo.svg";
 import Link from "next/link";
 import Image from "next/image";
 import InputModal from "../InputModal/InputModal";
+import LinearButton from "../LinearButton/LinearButton";
 
 export default function Desktop(props: any) {
   const { goPage } = props;
-  const { isOpen, onOpen, onClose } = useDisclosure();
 
   const buttonStyle =
     "text-xs lg:w-16 xl:w-20 xl:text-md 2xl:w-32 2xl:text-xl flex items-center justify-center hover:opacity-80";
@@ -40,10 +40,9 @@ export default function Desktop(props: any) {
             </Link>
           </div>
           <div className="flex w-44 items-center">
-            <button className="w-52 bg-bg p-3 text-base font-medium text-text transition-all border-[3px]">
+            <LinearButton color="green" contentClass="py-2">
               報名
-            </button>
-            <InputModal isOpen={isOpen} onClose={onClose} />
+            </LinearButton>
           </div>
         </header>
       </Box>

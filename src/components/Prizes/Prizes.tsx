@@ -13,9 +13,15 @@ export default function Prizes() {
       style={{ pic: style.src, w: "90" }}
     >
       <div className="grid w-full grid-cols-1 gap-5 px-4 md:grid-cols-3">
-        <PrizesCard title="1inch Network" content="$20,000" color="blue" />
-        <PrizesCard title="1inch Network" content="$20,000" color="yellow" />
-        <PrizesCard title="1inch Network" content="$20,000" color="green" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
+        <PrizesCard title="1inch Network" content="$20,000" />
       </div>
     </Section>
   );

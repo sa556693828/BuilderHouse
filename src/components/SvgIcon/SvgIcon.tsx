@@ -10,7 +10,7 @@ export default function SvgIcon(props: Props) {
 
   return (
     <svg
-      className={`svg-icon ${iconName} ${props.className ?? ""} fill-white`}
+      className={`svg-icon ${iconName} ${props.className ?? ""} fill-[#949494]`}
       width={width}
       height={height}
     >

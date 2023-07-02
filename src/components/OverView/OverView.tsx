@@ -13,9 +13,9 @@ export default function OverView() {
       style={{ pic: style.src, w: "200" }}
     >
       <div className="grid grid-cols-1 lg:grid-cols-3 justify-around gap-5">
-        <ViewCard title="標題" content="?" color="blue" />
-        <ViewCard title="標題" content="?" color="yellow" />
-        <ViewCard title="標題" content="?" color="green" />
+        <ViewCard title="標題" content="?" />
+        <ViewCard title="標題" content="?" />
+        <ViewCard title="標題" content="?" />
       </div>
     </Section>
   );

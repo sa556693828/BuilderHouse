@@ -8,10 +8,10 @@ import wormhole from "@/assets/Partners/wormhole.svg";
 import flow from "@/assets/Partners/flow.svg";
 import circle from "@/assets/Partners/circle.svg";
 import google from "@/assets/Partners/google.svg";
-import title from "@/assets/Partners.svg";
-import style from "@/assets/PartnersStyle.svg";
-import content from "@/assets/PartnersContent.svg";
-import BG from "@/assets/PartnersBg.svg";
+import title from "@/assets/Partners/Partners.svg";
+import style from "@/assets/Partners/PartnersStyle.svg";
+import content from "@/assets/Partners/PartnersContent.svg";
+import BG from "@/assets/Partners/PartnersBg.svg";
 import Mask from "@/assets/Mask.svg";
 import { Box } from "@chakra-ui/react";
 

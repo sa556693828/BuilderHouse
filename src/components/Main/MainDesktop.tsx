@@ -1,5 +1,5 @@
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import { Box, Flex } from "@chakra-ui/react";
 import Header from "../Header/Header";
 import Taiwan from "@/assets/Taiwan.svg";
 import dotT from "@/assets/dotT.svg";
@@ -11,12 +11,11 @@ import LinearButton from "../LinearButton/LinearButton";
 // -top-[26px]
 export default function MainDesktop() {
   return (
-    <Box className="relative flex h-[100vh] flex-col items-center overflow-hidden">
-      <div className="absolute right-32 top-44">
-        <img src={Sphere.src} alt="" width="" height="100%" />
-      </div>
-      <Header />
-      <div className="flex h-full w-full flex-col px-28 py-16">
+    <>
+      <Flex
+        className="h-full w-full flex-col px-28 py-16 transition-all"
+        display={{ base: "none", lg: "flex" }}
+      >
         <div className="flex w-full items-end justify-start gap-11">
           <img src={Taiwan.src} alt="" width="400" />
           <img src={dotT.src} alt="" width="70" height="50" />
@@ -45,7 +44,7 @@ export default function MainDesktop() {
           </div>
           <div className="flex h-1/2 w-full items-center">
             <div className="flex w-[48%] flex-col items-start gap-5 px-6">
-              <div className="text-base font-normal uppercase">
+              <div className="text-base font-normal uppercase xl:text-lg">
                 Taiwan Builder House 是由 BuilderDAO
                 主辦的黑客松嘉年華，集結學習、創新和社區建立於一身。在教育區域，將提供一系列的工作坊和講座。我們將邀請一些
                 Web3
@@ -62,13 +61,13 @@ export default function MainDesktop() {
             </div>
           </div>
         </div>
-      </div>
+      </Flex>
       {/* <div className="relative my-9 flex w-4/5 flex-col items-center justify-center gap-2 rounded-3xl border-2 border-yellow p-6 pb-10 text-center  text-lg">
  
         <button className="absolute -bottom-10 w-52 rounded-full border-8 border-bg bg-white p-3 text-lg font-semibold text-black transition-all hover:bg-gray-300">
           報名
         </button>
       </div> */}
-    </Box>
+    </>
   );
 }

@@ -61,14 +61,14 @@ export default function Partners() {
         bgRepeat="no-repeat"
         bgPosition="center"
       >
-        <div className="flex gap-14 pt-64">
+        {/* <div className="flex gap-14 pt-64">
           <img src={style.src} alt="" width="70" height="100" />
           <img src={title.src} alt="" width="580" height="100" />
           <img src={style.src} alt="" width="70" height="100" />
         </div>
         <div className="my-8 text-4xl font-extrabold leading-[64px]">
           贊助夥伴
-        </div>
+        </div> */}
       </Box>
       <div className="flex h-96 items-center justify-center">
         Coming Soon...

@@ -4,6 +4,8 @@ import { Button, Divider, Flex } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import Desktop from "./MainDesktop";
 import Mobile from "./MainMobile";
+import Sphere from "@/assets/Sphere.png";
+import Header from "../Header/Header";
 
 export default function Main() {
   const router = useRouter();
@@ -11,18 +13,13 @@ export default function Main() {
     router.push(page);
   };
   return (
-    <>
-      <Flex
-        justify="space-between"
-        align="center"
-        px={{ base: "2rem", lg: "8rem" }}
-        py="1.5rem"
-        overflow="hidden"
-        className="divider z-50 h-20 w-full bg-transparent text-text"
-      >
-        <Desktop />
-        <Mobile />
-      </Flex>
-    </>
+    <Flex className="relative h-[100vh] flex-col items-center overflow-hidden">
+      <div className="absolute -right-10 top-64 transition-all lg:right-32 lg:top-44 xl:top-52">
+        <img src={Sphere.src} alt="" width="" height="100" />
+      </div>
+      <Header />
+      <Desktop />
+      <Mobile />
+    </Flex>
   );
 }

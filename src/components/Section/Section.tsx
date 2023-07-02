@@ -12,8 +12,8 @@ export default function Section(props: {
       className="flex h-full flex-col items-center py-10 gap-16 w-full px-32"
       id={props.id}
     >
-      <div className="flex w-full items-end justify-between">
-        <div className="flex items-end">
+      <div className="flex w-full flex-col items-start justify-center lg:flex-row lg:items-end lg:justify-between">
+        <div className="flex items-end justify-center">
           <img
             src={props.title?.pic}
             alt=""

@@ -70,8 +70,9 @@ export default function Partners() {
           贊助夥伴
         </div>
       </Box>
-      <div className="flex justify-center items-center">
-        <img src={content.src} alt="" width="90%" height="100" />
+      <div className="flex h-96 items-center justify-center">
+        Coming Soon...
+        {/* <img src={content.src} alt="" width="90%" height="100" /> */}
       </div>
       <Box
         className="flex h-56 w-full"

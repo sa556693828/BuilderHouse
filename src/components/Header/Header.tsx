@@ -18,12 +18,11 @@ export default function Header() {
         px={{ base: "2rem", lg: "8rem" }}
         py="1.5rem"
         overflow="hidden"
-        className="z-50 h-20 w-full bg-transparent text-text"
+        className="divider z-50 h-20 w-full bg-transparent text-text"
       >
         <Desktop goPage={goPage} />
         <Mobile goPage={goPage} />
       </Flex>
-      <Divider />
     </>
   );
 }

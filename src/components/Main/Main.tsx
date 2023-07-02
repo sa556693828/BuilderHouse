@@ -11,30 +11,30 @@ import LinearButton from "../LinearButton/LinearButton";
 // -top-[26px]
 export default function Main() {
   return (
-    <Box className="relative flex flex-col items-center overflow-hidden h-[100vh]">
-      <div className="absolute top-44 right-32">
-        <img src={Sphere.src} alt="" width="600" height="600" />
+    <Box className="relative flex h-[100vh] flex-col items-center overflow-hidden">
+      <div className="absolute right-32 top-44">
+        <img src={Sphere.src} alt="" width="" height="100%" />
       </div>
       <Header />
-      <div className="py-16 px-28 w-full flex flex-col h-full">
-        <div className="flex w-full justify-start gap-11 items-end">
+      <div className="flex h-full w-full flex-col px-28 py-16">
+        <div className="flex w-full items-end justify-start gap-11">
           <img src={Taiwan.src} alt="" width="400" />
           <img src={dotT.src} alt="" width="70" height="50" />
         </div>
-        <div className="flex flex-col w-full justify-center mt-7 border-line border-y-2 relative h-full">
+        <div className="relative mt-7 flex h-full w-full flex-col justify-center border-y-2 border-line">
           <div className="absolute -top-[26px] right-1/4">
             <img src={Vector.src} alt="" width="50" height="50" />
           </div>
-          <div className="flex h-3/5 w-full justify-end items-end">
+          <div className="flex h-3/5 w-full items-end justify-end">
             <div className="w-2/5" />
-            <div className="w-1/5 h-full flex justify-center">
-              <div className="w-[2px] h-[110%] bg-line" />
+            <div className="flex h-full w-1/5 justify-center">
+              <div className="h-[110%] w-[2px] bg-line" />
             </div>
-            <div className="w-2/5 flex justify-end pb-10 pr-12">
+            <div className="flex w-2/5 justify-end pb-10 pr-12">
               <img src={dotThree.src} alt="" width="100" height="100" />
             </div>
           </div>
-          <div className="border-b-2 border-line w-full flex justify-center items-end relative">
+          <div className="relative flex w-full items-end justify-center border-b-2 border-line">
             <div className="-mb-[26px] pr-[1px]">
               <img src={Vector.src} alt="" width="50" height="50" />
             </div>
@@ -44,18 +44,20 @@ export default function Main() {
             </div>
           </div>
           <div className="flex h-1/2 w-full items-center">
-            <div className="w-[48%] flex flex-col items-start gap-5 px-6">
+            <div className="flex w-[48%] flex-col items-start gap-5 px-6">
               <div className="text-base font-normal uppercase">
-                程式設計馬拉松（英語：hackathon，又譯為駭客松），又稱駭客日（hack
-                day）、駭客節（hackfest）或程式設計節（codefest），
-                是一個流傳於駭客（hacker）當中的新詞彙。程式設計馬拉松是一種活動。
+                Taiwan Builder House 是由 BuilderDAO
+                主辦的黑客松嘉年華，集結學習、創新和社區建立於一身。在教育區域，將提供一系列的工作坊和講座。我們將邀請一些
+                Web3
+                行業的領先專家和思想領袖，進行深度的對話和分享。整個活動將是一場豐富多元的
+                Web3 探索之旅，我們期待你的參與！
               </div>
               <LinearButton color="green">報名</LinearButton>
             </div>
-            <div className="w-[4%] h-full flex justify-center">
-              <div className="w-[2px] h-full bg-line" />
+            <div className="flex h-full w-[4%] justify-center">
+              <div className="h-full w-[2px] bg-line" />
             </div>
-            <div className="w-[48%] py-4 flex justify-center">
+            <div className="flex w-[48%] justify-center py-4">
               <img src={Title.src} alt="" width="550" height="100" />
             </div>
           </div>

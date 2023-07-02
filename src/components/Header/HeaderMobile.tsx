@@ -29,7 +29,7 @@ export default function Mobile(props: any) {
             <Image src={Logo.src} alt="logo" width="150" height="100" />
           </div>
           <Button
-            className="bg-transparent"
+            className="bg-transparent hover:bg-transparent"
             onClick={() => {
               setHover(true);
               onOpen();
@@ -37,10 +37,9 @@ export default function Mobile(props: any) {
             onMouseOver={() => setHover(true)}
             onMouseOut={() => setHover(false)}
           >
-            <HamburgerIcon w={6} h={6} />
+            <HamburgerIcon w={6} h={6} color={hover ? "gray.400" : "white"} />
           </Button>
         </div>
-        <Divider pt="3" w="90%" />
       </Flex>
 
       <Drawer
@@ -54,7 +53,7 @@ export default function Mobile(props: any) {
         <DrawerContent className="flex items-center gap-4 bg-bg">
           <Flex
             display={{ base: "flex", lg: "none" }}
-            className="w-full flex-col items-center px-2 py-3"
+            className="divider w-full flex-col items-center px-2 pb-4 pt-5"
           >
             <div className="flex w-full items-center justify-between">
               <div className="cursor-pointer pl-3" onClick={() => goPage("/")}>
@@ -69,20 +68,22 @@ export default function Mobile(props: any) {
                 onMouseOver={() => setHover(true)}
                 onMouseOut={() => setHover(false)}
               >
-                <SmallCloseIcon w={6} h={6} />
+                <SmallCloseIcon w={6} h={6} color="white" />
               </Button>
             </div>
-            <Divider pt="3" w="93%" />
           </Flex>
+          {/* <Divider w="100%" /> */}
           <Link
             href="/#OverView"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
-            <div className="flex h-12 items-center pl-6 text-2xl font-black">
-              總覽
-              <div className="pl-4 text-xl font-bold">OVERVIEW</div>
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
+                OVERVIEW
+              </div>
+              <div className="pl-3 text-base font-black">總覽</div>
             </div>
           </Link>
           <Link
@@ -91,9 +92,11 @@ export default function Mobile(props: any) {
             className="w-full"
             onClick={() => onClose()}
           >
-            <div className="flex h-12 items-center pl-6 text-2xl font-black">
-              總獎金
-              <div className="pl-4 text-xl font-bold">PRIZES</div>
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
+                PRIZES
+              </div>
+              <div className="pl-3 text-base font-black">總獎金</div>
             </div>
           </Link>
           <Link
@@ -102,9 +105,11 @@ export default function Mobile(props: any) {
             className="w-full"
             onClick={() => onClose()}
           >
-            <div className="flex h-12 items-center pl-6 text-2xl font-black">
-              活動日程
-              <div className="pl-4 text-xl font-bold">SCHEDULE</div>
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
+                SCHEDULE
+              </div>
+              <div className="pl-3 text-base font-black">活動日程</div>
             </div>
           </Link>
           <Link
@@ -113,9 +118,11 @@ export default function Mobile(props: any) {
             className="w-full"
             onClick={() => onClose()}
           >
-            <div className="flex h-12 items-center pl-6 text-2xl font-black">
-              裁判群
-              <div className="pl-4 text-xl font-bold">JUDGES</div>
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
+                JUDGES
+              </div>
+              <div className="pl-3 text-base font-black">裁判群</div>
             </div>
           </Link>
           <Link
@@ -124,9 +131,11 @@ export default function Mobile(props: any) {
             className="w-full"
             onClick={() => onClose()}
           >
-            <div className="flex h-12 items-center pl-6 text-2xl font-black">
-              贊助夥伴
-              <div className="pl-4 text-xl font-bold">PARTNERS</div>
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
+                PARTNERS
+              </div>
+              <div className="pl-3 text-base font-black">贊助夥伴</div>
             </div>
           </Link>
           <Link
@@ -135,9 +144,11 @@ export default function Mobile(props: any) {
             className="w-full"
             onClick={() => onClose()}
           >
-            <div className="flex h-12 items-center pl-6 text-2xl font-black">
-              相關問題
-              <div className="pl-4 text-xl font-bold">FAQ</div>
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
+                FAQ
+              </div>
+              <div className="pl-3 text-base font-black">相關問題</div>
             </div>
           </Link>
         </DrawerContent>

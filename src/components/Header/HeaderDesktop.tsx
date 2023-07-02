@@ -3,19 +3,18 @@ import { Box } from "@chakra-ui/react";
 import Logo from "@/assets/Logo.svg";
 import Link from "next/link";
 import Image from "next/image";
-import InputModal from "../InputModal/InputModal";
 import LinearButton from "../LinearButton/LinearButton";
 
 export default function Desktop(props: any) {
   const { goPage } = props;
 
   const buttonStyle =
-    "text-xs lg:w-16 xl:w-20 xl:text-md 2xl:w-32 2xl:text-xl flex items-center justify-center hover:opacity-80";
+    "text-xs lg:w-16 xl:w-20 xl:text-md 2xl:w-28 2xl:text-xl flex items-center justify-center hover:opacity-80";
 
   return (
     <>
       <Box className="main w-full" display={{ base: "none", lg: "block" }}>
-        <header className="header flex justify-between items-center">
+        <header className="header flex items-center justify-between">
           <div className="w-44 cursor-pointer" onClick={() => goPage("/")}>
             <Image src={Logo.src} alt="logo" width="500" height="100" />
           </div>

@@ -6,7 +6,13 @@ const config: ThemeConfig = {
   useSystemColorMode: false,
 }
 const colors = {};
-
+const breakpoints = {
+  sm: '640px',
+  md: '768px',
+  lg: '1024px',
+  xl: '1280px',
+  '2xl': '1536px',
+}
 export const theme = extendTheme({
   styles: {
     global: () => ({
@@ -19,6 +25,7 @@ export const theme = extendTheme({
   },
   colors,
   config,
+  breakpoints
 });
 
 export default theme

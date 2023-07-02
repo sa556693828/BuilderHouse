@@ -9,19 +9,16 @@ export default function FAQ() {
   return (
     <>
       <Box
-        className="flex flex-col items-center justify-between bg-gradient-to-r from-[#4285F4] to-[#9747FF] gap-32"
+        className="flex flex-col items-center justify-between gap-32 bg-gradient-to-r from-[#4285F4] to-[#9747FF]"
         id="FAQ"
       >
-        <div className="flex items-center justify-between pt-28 pb-14 gap-16">
-          <div className="w-2/5 flex justify-end">
+        <div className="flex items-center justify-between gap-16 pb-14 pt-28">
+          <div className="flex w-2/5 justify-end">
             <img src={title.src} alt="" width="400" height="100" />
           </div>
-          <div className="flex flex-col w-3/5 px-10 gap-16">
-            <div className="max-w-xl">
-              程式設計馬拉松（英語：hackathon，又譯為駭客松），又稱駭客日（hack
-              day）、駭客節（hackfest）或程式設計節（codefest），是一個流傳於駭客（hacker）當中的新詞彙。程式設計馬拉松是一種活動。
-            </div>
-            <button className="w-52 bg-transparent p-3 text-base font-medium transition-all border-[3px]">
+          <div className="flex w-3/5 flex-col gap-16 px-10">
+            <div className="max-w-xl">Continue...</div>
+            <button className="w-52 border-[3px] bg-transparent p-3 text-base font-medium transition-all">
               詳情
             </button>
           </div>

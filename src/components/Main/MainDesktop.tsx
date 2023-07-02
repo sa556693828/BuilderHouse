@@ -24,12 +24,12 @@ export default function MainDesktop() {
           <div className="absolute -top-[26px] right-1/4">
             <img src={Vector.src} alt="" width="50" height="50" />
           </div>
-          <div className="flex h-3/5 w-full items-end justify-end">
+          <div className="flex h-2/5 w-full items-end justify-end">
             <div className="w-2/5" />
             <div className="flex h-full w-1/5 justify-center">
               <div className="h-[110%] w-[2px] bg-line" />
             </div>
-            <div className="flex w-2/5 justify-end pb-10 pr-12">
+            <div className="flex w-2/5 justify-end">
               <img src={dotThree.src} alt="" width="100" height="100" />
             </div>
           </div>
@@ -42,16 +42,18 @@ export default function MainDesktop() {
               <img src={Vector.src} alt="" width="50" height="50" />
             </div>
           </div>
-          <div className="flex h-1/2 w-full items-center">
-            <div className="flex w-[48%] flex-col items-start gap-5 px-6">
-              <div className="text-base font-normal uppercase xl:text-lg">
+          <div className="flex h-3/5 w-full items-center">
+            <div className="flex w-[48%] flex-col items-start gap-2 px-6">
+              <div className="text-sm font-normal uppercase xl:text-lg">
                 Taiwan Builder House 是由 BuilderDAO
                 主辦的黑客松嘉年華，集結學習、創新和社區建立於一身。在教育區域，將提供一系列的工作坊和講座。我們將邀請一些
                 Web3
                 行業的領先專家和思想領袖，進行深度的對話和分享。整個活動將是一場豐富多元的
                 Web3 探索之旅，我們期待你的參與！
               </div>
-              <LinearButton color="green">報名</LinearButton>
+              <div className="h-12">
+                <LinearButton color="green">報名</LinearButton>
+              </div>
             </div>
             <div className="flex h-full w-[4%] justify-center">
               <div className="h-full w-[2px] bg-line" />

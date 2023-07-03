@@ -18,17 +18,17 @@ export default function Prizes() {
       <div className="grid w-full grid-cols-1 gap-5 px-4 md:grid-cols-3">
         <PrizesCard
           title="Wormhole"
-          content="$2,000"
+          prize="$2,000"
           pic={{ pic: Wormhole.src, w: "50" }}
         />
         <PrizesCard
           title="FileCoin"
-          content="$2,000"
+          prize="$2,000"
           pic={{ pic: Filecoin.src, w: "50" }}
         />
         <PrizesCard
           title="Lead Capital"
-          content="$5,000"
+          prize="$5,000"
           pic={{ pic: Lead.src, w: "45" }}
         />
       </div>

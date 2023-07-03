@@ -27,27 +27,25 @@ export default function InputModal(props: any) {
   };
 
   return (
-    <Modal
-      isOpen={isOpen}
-      onClose={cleanData}
-      size="6xl"
-      closeOnOverlayClick={false}
-    >
+    <Modal isOpen={isOpen} onClose={cleanData} size="6xl" isCentered>
       <ModalOverlay />
-      <ModalContent className="px-20 py-6">
-        <ModalHeader className="flex justify-center text-3xl">
-          SIGN UP
+      <ModalContent className="whitespace-pre-wrap border border-redF bg-bg px-20 py-6">
+        <ModalHeader className="flex justify-center text-center text-3xl">
+          {props?.content?.title}
         </ModalHeader>
         <ModalCloseButton />
         <ModalBody className="flex flex-col text-center">
-          <p className="mb-8 text-5xl">報名</p>
-          {member.map((item, index) => (
+          <p className="mb-8 text-2xl">{props?.content?.prize}</p>
+          <p className="mb-8 text-xl">{props?.content?.illustrate}</p>
+          <p className="mb-8 text-left text-2xl">{props?.content?.content}</p>
+          <p className="mb-8 text-left text-xl">{props?.content?.source}</p>
+          {/* {member.map((item, index) => (
             <InputFormat key={index} index={index} />
-          ))}
+          ))} */}
         </ModalBody>
 
-        <ModalFooter className="flex w-full justify-between">
-          <Button
+        <ModalFooter className="flex w-full">
+          {/* <Button
             variant="ghost"
             className="-ml-3 flex items-center justify-start gap-2"
             onClick={() => {
@@ -64,7 +62,7 @@ export default function InputModal(props: any) {
             }}
           >
             送出報名
-          </button>
+          </button> */}
         </ModalFooter>
       </ModalContent>
     </Modal>

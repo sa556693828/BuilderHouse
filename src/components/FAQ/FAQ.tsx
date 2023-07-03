@@ -9,10 +9,10 @@ export default function FAQ() {
   return (
     <>
       <Box
-        className="flex flex-col items-center justify-between gap-32 bg-gradient-to-r from-[#4285F4] to-[#9747FF]"
+        className="flex flex-col items-center justify-between gap-32 bg-gradient-to-r from-greenF to-greenT"
         id="FAQ"
       >
-        <div className="flex flex-col items-center justify-between gap-16 px-12 pt-28 lg:flex-row lg:px-0 lg:pb-14">
+        <div className="flex flex-col items-center justify-between gap-16 px-12 pt-28 text-black lg:flex-row lg:px-0 lg:pb-14">
           <div className="flex w-full justify-end lg:w-2/5">
             <img src={title.src} alt="" width="400" height="100" />
           </div>

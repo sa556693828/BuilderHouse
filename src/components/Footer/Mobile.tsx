@@ -8,7 +8,7 @@ export default function FooterMobile(props: any) {
   const buttonStyle = "hover:opacity-80 text-text";
 
   return (
-    <footer className="flex w-full flex-col items-start border-t-[1px] border-white bg-transparent px-5 py-10 lg:hidden">
+    <footer className="flex w-full flex-col items-start bg-bg px-5 py-10 lg:hidden">
       <div className="cursor-pointer" onClick={() => goPage("/")}>
         <Image src={Logo.src} alt="logo" width="250" height="100" />
       </div>

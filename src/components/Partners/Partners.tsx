@@ -24,7 +24,7 @@ import PAnews from "@/assets/Partners/PAnews.png";
 import followIn from "@/assets/Partners/followIn.png";
 import ABM from "@/assets/Partners/ABM.jpg";
 import buzhidao from "@/assets/Partners/buzhidao.png";
-import Jclub from "@/assets/Partners/Jclub.jpg";
+import Jclub from "@/assets/Partners/Jclub.png";
 import rabbit from "@/assets/Partners/rabbit.jpg";
 import { Box } from "@chakra-ui/react";
 import PartnersCard from "./Card";

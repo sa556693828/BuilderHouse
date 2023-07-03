@@ -27,15 +27,20 @@ export default function InputModal(props: any) {
   };
 
   return (
-    <Modal isOpen={isOpen} onClose={cleanData} size="6xl" isCentered>
+    <Modal
+      isOpen={isOpen}
+      onClose={cleanData}
+      size={{ lg: "4xl", xl: "6xl" }}
+      isCentered
+    >
       <ModalOverlay />
-      <ModalContent className="whitespace-pre-wrap border border-redF bg-bg px-20 py-6">
-        <ModalHeader className="flex justify-center text-center text-3xl">
+      <ModalContent className="overflow-scroll whitespace-pre-wrap border border-redF bg-bg px-20 py-6">
+        <ModalHeader className="flex justify-center text-center text-2xl">
           {props?.content?.title}
         </ModalHeader>
         <ModalCloseButton />
         <ModalBody className="flex flex-col text-center">
-          <p className="mb-8 text-2xl">{props?.content?.prize}</p>
+          <p className="mb-8 text-xl">{props?.content?.prize}</p>
           <p className="mb-8 text-xl">{props?.content?.illustrate}</p>
           <p className="mb-8 text-left text-2xl">{props?.content?.content}</p>
           <p className="mb-8 text-left text-xl">{props?.content?.source}</p>

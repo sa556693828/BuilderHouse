@@ -16,6 +16,9 @@ import Chaintimes from "@/assets/Partners/Chaintimes.png";
 import FileCoin from "@/assets/Partners/FileCoin.svg";
 import Huobi from "@/assets/Partners/Huobi.svg";
 import BingX from "@/assets/Partners/BingX.png";
+import ikala from "@/assets/Partners/ikala.png";
+import IPFS from "@/assets/Partners/IPFS.png";
+import venture from "@/assets/Partners/venture.png";
 import noneland from "@/assets/Partners/noneland.png";
 import PAnews from "@/assets/Partners/PAnews.png";
 import ABM from "@/assets/Partners/ABM.jpg";
@@ -24,18 +27,36 @@ import Jclub from "@/assets/Partners/Jclub.jpg";
 import rabbit from "@/assets/Partners/rabbit.jpg";
 import { Box } from "@chakra-ui/react";
 import PartnersCard from "./Card";
+import PartnersM from "./MobileCard";
 
 export default function Partners() {
-  // const AllArray = [
-  // { avatar: lead.src, name: "主辦單位" },
-  // { avatar: kryptocamp.src, name: "執行單位" },
-  // { avatar: amber.src, name: "執行單位" },
-  // { avatar: jump.src, name: "合作夥伴" },
-  // { avatar: wormhole.src, name: "合作夥伴" },
-  // { avatar: flow.src, name: "合作夥伴" },
-  // { avatar: circle.src, name: "合作夥伴" },
-  // { avatar: google.src, name: "雲端夥伴" },
-  // ];
+  const hostArr = [{ pic: builder.src, w: "" }];
+  const coHostArr = [
+    { pic: lead.src, w: "" },
+    { pic: carry.src, w: "250" },
+    { pic: zombie.src, w: "250" },
+  ];
+  const StrategicArr = [{ pic: TBW.src, w: "" }];
+  const partnersArr = [
+    { pic: wormhole.src, w: "" },
+    { pic: Chaintimes.src, w: "" },
+    { pic: FileCoin.src, w: "250" },
+    { pic: Huobi.src, w: "" },
+    { pic: BingX.src, w: "250" },
+    { pic: ikala.src, w: "" },
+    { pic: IPFS.src, w: "" },
+    { pic: venture.src, w: "" },
+  ];
+  const MediaArr = [
+    { pic: noneland.src, w: "300" },
+    { pic: ABM.src, w: "200" },
+    { pic: PAnews.src, w: "300" },
+  ];
+  const CommunityArr = [
+    { pic: buzhidao.src, w: "150" },
+    { pic: Jclub.src, w: "300" },
+    { pic: rabbit.src, w: "300" },
+  ];
 
   return (
     <>
@@ -110,10 +131,13 @@ export default function Partners() {
               <PartnersCard avatar={wormhole.src} />
               <PartnersCard avatar={Chaintimes.src} />
               <PartnersCard avatar={FileCoin.src} />
+              <PartnersCard avatar={Huobi.src} />
             </div>
             <div className="flex justify-center gap-10">
-              <PartnersCard avatar={Huobi.src} />
               <PartnersCard avatar={BingX.src} w="220" />
+              <PartnersCard avatar={ikala.src} />
+              <PartnersCard avatar={IPFS.src} />
+              <PartnersCard avatar={venture.src} />
             </div>
           </div>
           <div className="flex w-full flex-col items-center justify-center px-10">
@@ -134,11 +158,14 @@ export default function Partners() {
           </div>
         </div>
         {/* Mobile */}
-        {/* <div className="flex w-4/5 flex-col items-center gap-10 lg:hidden">
-          {AllArray.map((item, idx) => (
-            <PartnersCard avatar={item.avatar} key={idx} name={item.name} />
-          ))}
-        </div> */}
+        <div className="mt-10 flex w-4/5 flex-col items-center gap-36 lg:hidden">
+          <PartnersM avatar={hostArr} title="HOST" />
+          <PartnersM avatar={coHostArr} title="CO - HOST" />
+          <PartnersM avatar={StrategicArr} title="Strategic Partner" />
+          <PartnersM avatar={partnersArr} title="Partner" />
+          <PartnersM avatar={MediaArr} title="Media Partner" />
+          <PartnersM avatar={CommunityArr} title="Community Partner" />
+        </div>
       </div>
       <Box
         className="flex h-56 w-full"

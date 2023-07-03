@@ -11,6 +11,7 @@ export default function PartnersM(props: {
       <div className="text-5xl">{props.title}</div>
       {props.avatar.map((item: any, idx: any) => (
         <Image
+          key={idx}
           src={item.pic}
           width={item.w !== "" ? item.w : "300"}
           height="200"

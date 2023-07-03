@@ -21,6 +21,7 @@ import IPFS from "@/assets/Partners/IPFS.png";
 import venture from "@/assets/Partners/venture.png";
 import noneland from "@/assets/Partners/noneland.png";
 import PAnews from "@/assets/Partners/PAnews.png";
+import followIn from "@/assets/Partners/followIn.png";
 import ABM from "@/assets/Partners/ABM.jpg";
 import buzhidao from "@/assets/Partners/buzhidao.png";
 import Jclub from "@/assets/Partners/Jclub.jpg";
@@ -50,7 +51,8 @@ export default function Partners() {
   const MediaArr = [
     { pic: noneland.src, w: "300" },
     { pic: ABM.src, w: "200" },
-    { pic: PAnews.src, w: "300" },
+    { pic: PAnews.src, w: "250" },
+    { pic: followIn.src, w: "" },
   ];
   const CommunityArr = [
     { pic: buzhidao.src, w: "150" },
@@ -106,12 +108,12 @@ export default function Partners() {
         </div>
       </Box>
       <div className="flex h-full items-center justify-center">
-        <div className="mt-2 hidden w-full flex-col items-center gap-8 lg:flex">
-          <div className="flex w-full flex-col items-center justify-center px-10">
+        <div className="mt-2 hidden w-full flex-col items-center gap-12 lg:flex">
+          <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">HOST</div>
             <PartnersCard avatar={builder.src} />
           </div>
-          <div className="flex w-full flex-col items-center justify-center px-10">
+          <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">CO - HOST</div>
             <div className="grid grid-cols-3 gap-10">
               <PartnersCard avatar={zombie.src} w="210" />
@@ -119,13 +121,13 @@ export default function Partners() {
               <PartnersCard avatar={carry.src} w="180" />
             </div>
           </div>
-          <div className="flex w-full flex-col items-center justify-center px-10">
+          <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">Strategic Partner</div>
             <div className="grid grid-cols-1 gap-10">
               <PartnersCard avatar={TBW.src} />
             </div>
           </div>
-          <div className="flex w-full flex-col items-center justify-center px-10">
+          <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">Partner</div>
             <div className="flex justify-center gap-10">
               <PartnersCard avatar={wormhole.src} />
@@ -140,15 +142,16 @@ export default function Partners() {
               <PartnersCard avatar={venture.src} />
             </div>
           </div>
-          <div className="flex w-full flex-col items-center justify-center px-10">
+          <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">Media Partner</div>
-            <div className="grid grid-cols-3 gap-10">
+            <div className="grid grid-cols-4 gap-10">
               <PartnersCard avatar={noneland.src} />
               <PartnersCard avatar={ABM.src} w="150" />
               <PartnersCard avatar={PAnews.src} />
+              <PartnersCard avatar={followIn.src} />
             </div>
           </div>
-          <div className="flex w-full flex-col items-center justify-center px-10">
+          <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">Community Partner</div>
             <div className="grid grid-cols-3 gap-10">
               <PartnersCard avatar={buzhidao.src} w="100" />

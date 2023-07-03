@@ -1,13 +1,15 @@
 import Image from "next/image";
 import React from "react";
 
-export default function PartnersCard(props: { avatar: string; name?: string }) {
+export default function PartnersCard(props: {
+  avatar: string;
+  name?: string;
+  w?: any;
+}) {
+  const { w = "280" } = props;
   return (
-    <div className="flex flex-col items-center justify-center rounded-[48px] bg-[#23252D] p-10">
-      <div className="flex h-32 w-full items-center">
-        <Image src={props.avatar} width="200" height="200" alt="avatar" />
-      </div>
-      <div className="mt-5 text-lg font-bold">{props.name}</div>
+    <div className="flex h-52 w-full items-center justify-center">
+      <Image src={props.avatar} width={w} height="200" alt="avatar" />
     </div>
   );
 }

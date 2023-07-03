@@ -7,10 +7,7 @@ import {
   ModalFooter,
   ModalBody,
   ModalCloseButton,
-  Button,
 } from "@chakra-ui/react";
-import { IoMdAddCircle } from "react-icons/io";
-import InputFormat from "./InputFormat/InputFormat";
 
 export default function InputModal(props: any) {
   const { isOpen, onClose } = props;
@@ -30,20 +27,20 @@ export default function InputModal(props: any) {
     <Modal
       isOpen={isOpen}
       onClose={cleanData}
-      size={{ lg: "4xl", xl: "6xl" }}
+      size={{ lg: "3xl", xl: "6xl" }}
       isCentered
     >
       <ModalOverlay />
-      <ModalContent className="overflow-scroll whitespace-pre-wrap border border-redF bg-bg px-20 py-6">
+      <ModalContent className="overflow-hidden whitespace-pre-wrap border border-redF bg-bg px-20 py-6">
         <ModalHeader className="flex justify-center text-center text-2xl">
           {props?.content?.title}
         </ModalHeader>
         <ModalCloseButton />
         <ModalBody className="flex flex-col text-center">
           <p className="mb-8 text-xl">{props?.content?.prize}</p>
-          <p className="mb-8 text-xl">{props?.content?.illustrate}</p>
-          <p className="mb-8 text-left text-2xl">{props?.content?.content}</p>
-          <p className="mb-8 text-left text-xl">{props?.content?.source}</p>
+          <p className="mb-8 text-left text-xl">{props?.content?.illustrate}</p>
+          <p className="mb-8 text-left text-lg">{props?.content?.content}</p>
+          <p className="mb-8 text-left text-base">{props?.content?.source}</p>
           {/* {member.map((item, index) => (
             <InputFormat key={index} index={index} />
           ))} */}

@@ -17,15 +17,16 @@ import FileCoin from "@/assets/Partners/FileCoin.svg";
 import Huobi from "@/assets/Partners/Huobi.svg";
 import BingX from "@/assets/Partners/BingX.png";
 import ikala from "@/assets/Partners/ikala.png";
+import Orderly from "@/assets/Partners/Orderly.svg";
 import IPFS from "@/assets/Partners/IPFS.png";
 import venture from "@/assets/Partners/venture.png";
 import noneland from "@/assets/Partners/noneland.png";
 import PAnews from "@/assets/Partners/PAnews.png";
 import followIn from "@/assets/Partners/followIn.png";
-import ABM from "@/assets/Partners/ABM.jpg";
+import ABM from "@/assets/Partners/ABM.png";
 import buzhidao from "@/assets/Partners/buzhidao.png";
 import Jclub from "@/assets/Partners/Jclub.png";
-import rabbit from "@/assets/Partners/rabbit.jpg";
+import rabbit from "@/assets/Partners/rabbit.png";
 import { Box } from "@chakra-ui/react";
 import PartnersCard from "./Card";
 import PartnersM from "./MobileCard";
@@ -34,29 +35,30 @@ export default function Partners() {
   const hostArr = [{ pic: builder.src, w: "" }];
   const coHostArr = [
     { pic: lead.src, w: "" },
-    { pic: carry.src, w: "250" },
-    { pic: zombie.src, w: "250" },
+    { pic: carry.src, w: "200" },
+    { pic: zombie.src, w: "" },
   ];
-  const StrategicArr = [{ pic: TBW.src, w: "" }];
+  const StrategicArr = [{ pic: TBW.src, w: "220" }];
   const partnersArr = [
     { pic: wormhole.src, w: "" },
     { pic: Chaintimes.src, w: "" },
     { pic: FileCoin.src, w: "250" },
     { pic: Huobi.src, w: "" },
-    { pic: BingX.src, w: "250" },
+    { pic: BingX.src, w: "200" },
     { pic: ikala.src, w: "" },
-    { pic: IPFS.src, w: "" },
+    { pic: IPFS.src, w: "200" },
     { pic: venture.src, w: "" },
+    { pic: Orderly.src, w: "300" },
   ];
   const MediaArr = [
-    { pic: noneland.src, w: "300" },
+    { pic: noneland.src, w: "" },
     { pic: ABM.src, w: "200" },
-    { pic: PAnews.src, w: "250" },
-    { pic: followIn.src, w: "" },
+    { pic: PAnews.src, w: "" },
+    { pic: followIn.src, w: "300" },
   ];
   const CommunityArr = [
-    { pic: buzhidao.src, w: "150" },
-    { pic: Jclub.src, w: "300" },
+    { pic: buzhidao.src, w: "" },
+    { pic: Jclub.src, w: "" },
     { pic: rabbit.src, w: "300" },
   ];
 
@@ -96,7 +98,7 @@ export default function Partners() {
               height="100"
               className="block lg:hidden"
             />
-            贊助夥伴
+            夥伴
             <img
               src={style.src}
               alt=""
@@ -140,6 +142,7 @@ export default function Partners() {
               <PartnersCard avatar={ikala.src} />
               <PartnersCard avatar={IPFS.src} />
               <PartnersCard avatar={venture.src} />
+              <PartnersCard avatar={Orderly.src} />
             </div>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-8 px-10">

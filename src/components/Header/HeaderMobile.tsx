@@ -135,7 +135,7 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
                 PARTNERS
               </div>
-              <div className="pl-3 text-base font-black">贊助夥伴</div>
+              <div className="pl-3 text-base font-black">夥伴</div>
             </div>
           </Link>
           <Link

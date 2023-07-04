@@ -118,9 +118,9 @@ export default function Partners() {
           <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">CO - HOST</div>
             <div className="grid grid-cols-3 gap-10">
-              <PartnersCard avatar={zombie.src} w="210" />
+              <PartnersCard avatar={zombie.src} w="250" />
               <PartnersCard avatar={lead.src} />
-              <PartnersCard avatar={carry.src} w="180" />
+              <PartnersCard avatar={carry.src} w="220" />
             </div>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
@@ -135,30 +135,32 @@ export default function Partners() {
               <PartnersCard avatar={wormhole.src} />
               <PartnersCard avatar={Chaintimes.src} />
               <PartnersCard avatar={FileCoin.src} />
-              <PartnersCard avatar={Huobi.src} />
             </div>
             <div className="flex justify-center gap-10">
+              <PartnersCard avatar={Huobi.src} />
               <PartnersCard avatar={BingX.src} w="220" />
               <PartnersCard avatar={ikala.src} />
-              <PartnersCard avatar={IPFS.src} />
-              <PartnersCard avatar={venture.src} />
-              <PartnersCard avatar={Orderly.src} />
+            </div>
+            <div className="flex justify-center gap-10">
+              <PartnersCard avatar={IPFS.src} w="220" />
+              <PartnersCard avatar={venture.src} w="220" />
+              <PartnersCard avatar={Orderly.src} w="400" />
             </div>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">Media Partner</div>
             <div className="grid grid-cols-4 gap-10">
               <PartnersCard avatar={noneland.src} />
-              <PartnersCard avatar={ABM.src} w="150" />
-              <PartnersCard avatar={PAnews.src} />
+              <PartnersCard avatar={ABM.src} w="220" />
+              <PartnersCard avatar={PAnews.src} w="240" />
               <PartnersCard avatar={followIn.src} />
             </div>
           </div>
           <div className="flex w-full flex-col items-center justify-center gap-8 px-10">
             <div className="text-5xl font-bold">Community Partner</div>
             <div className="grid grid-cols-3 gap-10">
-              <PartnersCard avatar={buzhidao.src} w="100" />
-              <PartnersCard avatar={Jclub.src} w="300" />
+              <PartnersCard avatar={buzhidao.src} />
+              <PartnersCard avatar={Jclub.src} />
               <PartnersCard avatar={rabbit.src} />
             </div>
           </div>

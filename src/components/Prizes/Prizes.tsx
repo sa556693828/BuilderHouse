@@ -42,12 +42,12 @@ export default function Prizes() {
           pic={{ pic: Filecoin.src, w: "50" }}
         />
         <PrizesCard
-          title="bingX Ventures"
+          title="BingX Ventures"
           prize="$ -"
           pic={{ pic: bingxVe.src, w: "50" }}
         />
         <PrizesCard
-          title="bingX"
+          title="BingX"
           prize="$ -"
           pic={{ pic: bingX.src, w: "50" }}
         />
@@ -57,7 +57,7 @@ export default function Prizes() {
           pic={{ pic: huobi.src, w: "50" }}
         />
         <PrizesCard
-          title="Chaintimes ventures"
+          title="Chaintimes Ventures"
           prize="$ -"
           pic={{ pic: chaintimes.src, w: "50" }}
         />

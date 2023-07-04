@@ -26,15 +26,31 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
           rel="stylesheet"
         />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#13294b" />
         <meta property="og:title" content="Builder House" />
         <meta property="og:site_name" content="Builder House" />
-        {/* <meta property="og:url" content="" /> */}
+        <meta
+          property="og:url"
+          content="https://www.taiwanbuilderhouse.com/main.png"
+        />
         <meta property="og:description" content="Builder House" />
-
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
           content="https://www.taiwanbuilderhouse.com/main.png"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:domain" content="taiwanbuilderhouse.com" />
+        <meta
+          property="twitter:url"
+          content="https://taiwanbuilderhouse.com/"
+        />
+        <meta name="twitter:title" content="Builder House" />
+        <meta name="twitter:description" content="Builder House" />
+        <meta
+          name="twitter:image"
+          content="https://taiwanbuilderhouse.com/main.png"
         />
       </Head>
       <body>

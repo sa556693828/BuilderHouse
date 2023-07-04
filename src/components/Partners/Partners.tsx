@@ -12,7 +12,7 @@ import lead from "@/assets/Partners/lead.svg";
 import zombie from "@/assets/Partners/zombie.svg";
 import TBW from "@/assets/Partners/TBW.png";
 import wormhole from "@/assets/Partners/wormhole.svg";
-import Chaintimes from "@/assets/Partners/Chaintimes.png";
+import chain from "@/assets/Partners/chain.png";
 import FileCoin from "@/assets/Partners/FileCoin.svg";
 import Huobi from "@/assets/Partners/Huobi.svg";
 import BingX from "@/assets/Partners/BingX.png";
@@ -41,7 +41,7 @@ export default function Partners() {
   const StrategicArr = [{ pic: TBW.src, w: "220" }];
   const partnersArr = [
     { pic: wormhole.src, w: "" },
-    { pic: Chaintimes.src, w: "" },
+    { pic: chain.src, w: "" },
     { pic: FileCoin.src, w: "250" },
     { pic: Huobi.src, w: "" },
     { pic: BingX.src, w: "200" },
@@ -133,7 +133,7 @@ export default function Partners() {
             <div className="text-5xl font-bold">Partner</div>
             <div className="flex justify-center gap-10">
               <PartnersCard avatar={wormhole.src} />
-              <PartnersCard avatar={Chaintimes.src} />
+              <PartnersCard avatar={chain.src} />
               <PartnersCard avatar={FileCoin.src} />
             </div>
             <div className="flex justify-center gap-10">

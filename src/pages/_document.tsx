@@ -34,7 +34,7 @@ export default function Document() {
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          // content="https:// /main.png"
+          content="https://www.taiwanbuilderhouse.com/main.png"
         />
       </Head>
       <body>

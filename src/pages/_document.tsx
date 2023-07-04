@@ -28,7 +28,7 @@ export default function Document() {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#13294b" />
-        <meta property="og:title" content="Builder House" />
+        <meta property="og:title" content="Taiwan Builder House" />
         <meta property="og:site_name" content="Builder House" />
         <meta
           property="og:url"
@@ -46,7 +46,7 @@ export default function Document() {
           property="twitter:url"
           content="https://taiwanbuilderhouse.com/"
         />
-        <meta name="twitter:title" content="Builder House" />
+        <meta name="twitter:title" content="Taiwan Builder House" />
         <meta name="twitter:description" content="Builder House" />
         <meta
           name="twitter:image"

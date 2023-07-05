@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Section(props: {
+export default function SectionOld(props: {
   children: React.ReactNode;
   title: { pic: string; w: string };
   subTitle: string;
@@ -12,8 +12,8 @@ export default function Section(props: {
       className="flex h-full w-full flex-col items-center gap-16 px-5 py-28 transition-all duration-300 lg:px-32"
       id={props.id}
     >
-      <div className="flex w-full flex-col justify-start lg:items-center lg:justify-between">
-        <div className="flex flex-col gap-6 lg:items-center lg:justify-center lg:gap-10">
+      <div className="flex w-full flex-row justify-start lg:items-end lg:justify-between">
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-center lg:gap-0">
           <img
             src={props.title?.pic}
             alt=""
@@ -24,6 +24,13 @@ export default function Section(props: {
             {props.subTitle}
           </div>
         </div>
+        <img
+          src={props.style?.pic}
+          alt=""
+          width={props.style?.w}
+          height="100"
+          className="hidden lg:block"
+        />
       </div>
       {props.children}
     </div>

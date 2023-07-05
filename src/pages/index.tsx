@@ -5,11 +5,13 @@ import OverView from "@/components/OverView/OverView";
 import Partners from "@/components/Partners/Partners";
 import Prizes from "@/components/Prizes/Prizes";
 import Schedule from "@/components/Schedule/Schedule";
+import TimeLine from "@/components/TimeLine/TimeLine";
 
 export default function Home() {
   return (
     <>
       <Main />
+      <TimeLine />
       <OverView />
       <Prizes />
       <Schedule />

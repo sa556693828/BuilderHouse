@@ -7,26 +7,26 @@ import style from "@/assets/OverViewStyle.svg";
 export default function OverView() {
   return (
     <Section
-      title={{ pic: title.src, w: "570" }}
+      title={{ pic: title.src, w: "300" }}
       subTitle="總覽"
       id="OverView"
       style={{ pic: style.src, w: "200" }}
     >
       <div className="grid w-full grid-cols-1 gap-5 lg:grid-cols-3">
         <ViewCard
-          title="報名 / 初始提案"
-          content={`請填寫 Taiwan Builder House 報名表格，並透過報名確認郵件中的邀請，加入 TBH 的工作區，以進行比賽協調以及相關的溝通和更新。\n\n參與者可以以專案或尋找團隊的個人身分註冊，但只有專案才有資格被列入入圍團隊。尋找團隊的個人可以在組建或加入團隊後，更新他們現有的註冊或創建新的團隊註冊。\n\n選擇心儀題目，並根據要求於 8 月 1 日前繳交初始提案，提案模式可以是 Deck、Prototype、MVP。`}
-          date="7 月 1 日 ---- 8 月 15 日"
+          title="HACKER"
+          date=""
+          content={`Hacker 是那些展現出出色技術創新和解決方案的參與者。他們通過提交優秀的項目來表達他們的技術才華和創新思維。如果他們的項目在活動中獲得了好評，並且被認為有潛力，他們可以獲得獎勵且可能獲得孵化的機會，以進一步發展和完善他們的項目。`}
         />
         <ViewCard
-          title="入圍"
-          date="8 月 1 日 ---- 8 月 15 日"
-          content={`入圍的專案是由 BuilderDAO、合作夥伴和支持者選出的評審委員會根據預設的評分標準，從已註冊的專案中選出。\n\n專案將根據多項標準進行評估，包括概念、技術實施、產品設計、創新使用特性等。`}
+          title="TRADER"
+          date=""
+          content={`在這個活動中，Trader 涉及市場分析、量化策略或高頻策略。如果他們的策略被認為具有實現價值，並且在大會上獲得了好評，他們可以獲得獎勵且可能獲得孵化的機會。`}
         />
         <ViewCard
-          title="Demo day"
-          date="8 月 31 日"
-          content={`入圍的團隊可以親自參加在 Taiwan Builder House 的展示日，或是透過視訊會議線上參加。\n\n每個團隊將被給予 10 - 15 分鐘的展示時間。團隊可以自由分配時間，但建議留出一兩分鐘供觀眾和評審團提問。\n\n結果將在線上和親自展示環節結束後的同一天公布。`}
+          title="GEM HUNTER"
+          date=""
+          content={`在這個活動中 Gem Hunter 是與會者也是社群基石，Gem Hunter 必須尋找和收集"寶石"（或許是活動中的線索，代幣或其他象徵物）。這些 Gem Hunter 完成挑戰和任務，搜集一定數量的寶石，可以獲得大會的特殊權益。這些權益包括：\n\nAfter Party 門票：集滿特定數量的寶石，Gem Hunter 可以獲得進入專屬的 After Party 的門票。\n\n獨家活動參與：完成某些任務的 Gem Hunter 可能被邀請參加限定的獨家活動或工作坊。\n\n紀念品或商品：集滿寶石的 Gem Hunter 可能獲得大會的限定紀念品或者商品。`}
         />
       </div>
     </Section>

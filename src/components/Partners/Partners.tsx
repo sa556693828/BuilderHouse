@@ -1,5 +1,4 @@
 import React from "react";
-import kryptocamp from "@/assets/Partners/kryptocamp.svg";
 
 import title from "@/assets/Partners/partner.svg";
 import style from "@/assets/Partners/partnerStyle.svg";

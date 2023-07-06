@@ -7,6 +7,7 @@ import Prizes from "@/components/Prizes/Prizes";
 import Activity from "@/components/Activity/Activity";
 import TimeLine from "@/components/TimeLine/TimeLine";
 import GemHunter from "@/components/GemHunter/GemHunter";
+import TotalPrize from "@/components/TotalPrize/TotalPrize";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Main />
       <TimeLine />
       <OverView />
-      {/* <TotalPrize/> */}
+      <TotalPrize />
       <Prizes />
       <GemHunter />
       <Activity />

@@ -9,7 +9,7 @@ export default function Desktop(props: any) {
   const { goPage } = props;
 
   const buttonStyle =
-    "text-xs lg:w-16 xl:w-20 xl:text-md 2xl:w-28 2xl:text-xl flex items-center justify-center hover:opacity-80";
+    "text-xs lg:w-16 xl:w-20 xl:text-md 2xl:w-28 2xl:text-xl flex items-center justify-center hover:opacity-80 uppercase";
 
   return (
     <>

@@ -9,7 +9,7 @@ export default function Section(props: {
 }) {
   return (
     <div
-      className="flex h-full w-full flex-col items-center gap-16 px-5 py-28 transition-all duration-300 lg:px-32"
+      className="flex h-full w-full flex-col items-center gap-16 px-5 pb-12 pt-24 transition-all duration-300 lg:px-32"
       id={props.id}
     >
       <div className="flex w-full flex-col justify-start lg:items-center lg:justify-between">

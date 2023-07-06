@@ -12,24 +12,24 @@ export default function Activity() {
       id="Activity"
       style={{ pic: style.src, w: "90" }}
     >
-      <div className="w-full">
+      <div className="flex h-full w-full flex-col items-center justify-center gap-4 lg:flex-row lg:gap-12">
         <TaskCard
-          name="LeadUp The Night"
+          title="Odyssey"
+          content={`- 教育區域\n- NFT 展覽\n- DAO 區域\n- 黑客松 Demoday 區域\n- Panel 區域`}
+          date="8 月 31 日"
+          color="blue"
+        />
+        <TaskCard
+          title="LeadUp The Night"
           content={`- 介紹\n- 過往活動紀錄\n- 未來活動\n- 報名`}
           date="每週三晚上"
           color="green"
         />
         <TaskCard
-          name="BootCamp"
+          title="BootCamp"
           content={`- Blockchain 基礎知識\n- Dapp 開發\n- 量化交易策略開發\n- NFT 專案開發`}
           date="7 月 - 8 月"
           color="red"
-        />
-        <TaskCard
-          name="Carnival"
-          content={`- 教育區域\n- NFT 展覽\n- DAO 區域\n- 黑客松 Demoday 區域\n- Panel 區域`}
-          date="8 月 31 日"
-          color="blue"
         />
       </div>
     </Section>

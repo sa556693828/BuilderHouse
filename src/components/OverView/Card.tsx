@@ -10,8 +10,8 @@ import LinearButton from "../LinearButton/LinearButton";
 
 export default function ViewCard(props: {
   title: string;
-  color: "green" | "blue" | "red";
   content: string;
+  color: "green" | "blue" | "red";
 }) {
   return (
     <div

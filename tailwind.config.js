@@ -1,3 +1,5 @@
+const { m } = require("framer-motion");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
@@ -20,13 +22,15 @@ module.exports = {
         redT: "#FBBC05",
         blueF: "#4285F4",
         blueT: "#9747FF",
+        yellowF: "#CF9500",
+        yellowT: "#FFDC81",
       },
       backgroundImage: {
         greenLi: "linear-gradient(to right, #00FFB0, #CCFF00)",
       },
       boxShadow: {
         blueLi: "0px 0px 10px rgba(33, 122, 255, 0.25)",
-        yellowLi: "0px 0px 10px rgba(239, 184, 41, 0.25)",
+        yellowLi: "0px 0px 30px 1px rgba(207, 149, 0, 0.5)",
         greenLi: "0px 0px 10px 0px rgba(0, 255, 176, 0.25)",
       },
     },

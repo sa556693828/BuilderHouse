@@ -45,8 +45,8 @@ export default function MainDesktop() {
           <div className="flex h-3/5 w-full items-center">
             <div className="flex w-[48%] flex-col items-start gap-2 px-6">
               <div className="text-sm font-normal uppercase xl:text-lg">
-                Taiwan Builder House
-                是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過參與我們的
+                Taiwan Builder House (TBH)
+                是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過
                 Taiwan Builder
                 House，你將有機會在Web3領域中開創出自己獨特的道路。
               </div>

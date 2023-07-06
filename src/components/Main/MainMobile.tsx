@@ -46,8 +46,8 @@ export default function MainMobile() {
           <div className="flex h-1/2 w-full items-center">
             <div className="flex h-full w-full flex-col items-start justify-center gap-5 px-6 py-4">
               <div className="text-sm font-normal uppercase md:text-base">
-                Taiwan Builder House
-                是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過參與我們的
+                Taiwan Builder House (TBH)
+                是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過
                 Taiwan Builder
                 House，你將有機會在Web3領域中開創出自己獨特的道路。
               </div>

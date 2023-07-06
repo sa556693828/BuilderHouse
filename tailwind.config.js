@@ -11,7 +11,7 @@ module.exports = {
         iconBlack: "#191A23",
         footer: "#474859",
         black: "#191A23",
-        bg: "#030303",
+        bg: "#181818",
         line: "#D4D4D4",
         text: "#D4D4D4",
         greenF: "#00FFB0",

@@ -27,7 +27,7 @@ export default function Judges() {
   ];
   return (
     <Section
-      title={{ pic: title.src, w: "450" }}
+      title={{ title: "judges", color: "red" }}
       subTitle="裁判群"
       id="Judges"
       style={{ pic: style.src, w: "80" }}

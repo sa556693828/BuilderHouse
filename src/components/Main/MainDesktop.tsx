@@ -45,11 +45,10 @@ export default function MainDesktop() {
           <div className="flex h-3/5 w-full items-center">
             <div className="flex w-[48%] flex-col items-start gap-2 px-6">
               <div className="text-sm font-normal uppercase xl:text-lg">
-                Taiwan Builder House 是由 BuilderDAO
-                主辦的黑客松嘉年華，集結學習、創新和社區建立於一身。在教育區域，將提供一系列的工作坊和講座。我們將邀請一些
-                Web3
-                行業的領先專家和思想領袖，進行深度的對話和分享。整個活動將是一場豐富多元的
-                Web3 探索之旅，我們期待你的參與！
+                Taiwan Builder House
+                是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過參與我們的
+                Taiwan Builder
+                House，你將有機會在Web3領域中開創出自己獨特的道路。
               </div>
               <div className="h-12">
                 <LinearButton color="green">報名</LinearButton>

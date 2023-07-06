@@ -53,11 +53,11 @@ export default function PrizesCard(props: {
 
   return (
     <div
-      className="h-full bg-gradient-to-r from-redF to-redT p-[2px] transition-all"
+      className="h-full rounded-xl bg-gradient-to-r from-redF to-redT p-[2px] transition-all"
       onClick={onOpen}
     >
       <div
-        className={`flex h-full w-full items-center gap-6 bg-bg p-4 md:gap-2`}
+        className={`flex h-full w-full items-center gap-6 rounded-xl bg-bg p-4 md:gap-2`}
       >
         <Image
           src={props.pic?.pic}

@@ -4,12 +4,12 @@ import TaskCard from "./Card";
 import title from "@/assets/Schedule.svg";
 import style from "@/assets/ScheduleStyle.svg";
 
-export default function Schedule() {
+export default function Activity() {
   return (
     <Section
-      title={{ pic: title.src, w: "590" }}
+      title={{ title: "Activity", color: "blue" }}
       subTitle="活動日程"
-      id="Schedule"
+      id="Activity"
       style={{ pic: style.src, w: "90" }}
     >
       <div className="w-full">

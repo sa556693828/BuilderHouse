@@ -15,7 +15,7 @@ import Orderly from "@/assets/Prizes/Orderly.svg";
 export default function Prizes() {
   return (
     <Section
-      title={{ pic: title.src, w: "405" }}
+      title={{ title: "Prizes", color: "red" }}
       subTitle="獎金"
       id="Prizes"
       style={{ pic: style.src, w: "90" }}

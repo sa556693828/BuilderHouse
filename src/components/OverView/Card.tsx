@@ -10,20 +10,23 @@ import LinearButton from "../LinearButton/LinearButton";
 
 export default function ViewCard(props: {
   title: string;
+  color: "green" | "blue" | "red";
   content: string;
-  date: string;
 }) {
   return (
-    <div className="h-full bg-gradient-to-r from-greenF to-greenT pb-[1px] transition-all">
+    <div
+      className={`h-full bg-gradient-to-r from-${props?.color}F to-${props?.color}T pb-[2px] transition-all`}
+    >
       <div className="flex h-full w-full flex-col gap-14 bg-[#1E1E1E] p-5 shadow-greenLi xl:p-10">
-        <div className="text-3xl">
+        <div
+          className={`bg-gradient-to-r from-${props?.color}F to-${props?.color}T bg-clip-text text-3xl font-bold text-transparent`}
+        >
           {props.title}
-          <div className="whitespace-pre-wrap pt-2 text-lg">{props.date}</div>
         </div>
 
         <div className="flex-1 whitespace-pre-wrap">{props.content}</div>
         <div className="">
-          <LinearButton color="green">詳情</LinearButton>
+          <LinearButton color={props?.color}>詳情</LinearButton>
         </div>
       </div>
     </div>

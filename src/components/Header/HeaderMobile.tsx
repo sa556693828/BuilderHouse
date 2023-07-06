@@ -100,16 +100,16 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
-            href="/#Schedule"
+            href="/#Activity"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
             <div className="flex h-12 items-center pl-6">
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
-                SCHEDULE
+                Activity
               </div>
-              <div className="pl-3 text-base font-black">活動日程</div>
+              <div className="pl-3 text-base font-black">活動</div>
             </div>
           </Link>
           <Link

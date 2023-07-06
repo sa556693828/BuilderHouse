@@ -20,8 +20,8 @@ export default function DesktopFooter(props: any) {
         <Link href="/#Prizes" passHref>
           <div className={buttonStyle}>PRIZES</div>
         </Link>
-        <Link href="/#Schedule" passHref>
-          <div className={buttonStyle}>SCHEDULE</div>
+        <Link href="/#Activity" passHref>
+          <div className={buttonStyle}>Activity</div>
         </Link>
         <Link href="/#Judges" passHref>
           <div className={buttonStyle}>JUDGES</div>

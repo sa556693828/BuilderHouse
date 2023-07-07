@@ -18,7 +18,7 @@ import Orderly from "@/assets/Partners/Orderly.svg";
 import IPFS from "@/assets/Partners/IPFS.png";
 import venture from "@/assets/Partners/venture.svg";
 import noneland from "@/assets/Partners/noneland.svg";
-import PAnews from "@/assets/Partners/PAnews.svg";
+import PAnews from "@/assets/Partners/PANews.svg";
 import followIn from "@/assets/Partners/followIn.svg";
 import ABM from "@/assets/Partners/ABM.svg";
 import buzhidao from "@/assets/Partners/buzhidao.png";

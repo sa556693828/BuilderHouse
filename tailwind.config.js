@@ -26,7 +26,8 @@ module.exports = {
         yellowT: "#FFDC81",
       },
       backgroundImage: {
-        greenLi: "linear-gradient(to right, #00FFB0, #CCFF00)",
+        partners:
+          "linear-gradient(180deg, rgba(32, 31, 61, 0.50) 0%, rgba(32, 31, 61, 0.00) 77.83%)",
       },
       boxShadow: {
         blueLi: "0px 0px 10px rgba(33, 122, 255, 0.25)",

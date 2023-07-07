@@ -12,10 +12,10 @@ export default function ProfileCard(props: {
   telegram?: string;
 }) {
   return (
-    <div className="h-full bg-gradient-to-r from-greenF to-greenT pb-[1px] transition-all">
-      <div className="flex flex-col items-center p-10 w-full shadow-greenLi h-full bg-bg">
+    <div className="h-full bg-gradient-to-r from-redF to-redT pb-[1px] transition-all">
+      <div className="flex h-full w-full flex-col items-center bg-bg p-10 shadow-greenLi">
         <Box
-          className="rounded-full w-32 h-32"
+          className="h-32 w-32 rounded-full"
           bgImg={props.avatar}
           bgSize="cover"
           bgRepeat="no-repeat"
@@ -23,7 +23,7 @@ export default function ProfileCard(props: {
         />
         <div className="mt-5 text-center text-lg">
           {props.name}
-          <div className="font-medium text-text whitespace-pre-wrap">
+          <div className="whitespace-pre-wrap font-medium text-text">
             {props.company}
           </div>
         </div>

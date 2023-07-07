@@ -14,7 +14,7 @@ export default function TotalPrize() {
             className={`flex h-full w-full items-center justify-center gap-6 rounded-2xl bg-bg p-4 md:gap-2`}
           >
             <div className="bg-gradient-to-r from-yellowF to-yellowT bg-clip-text text-5xl text-transparent">
-              To be Continue
+              Coming Soon...
             </div>
           </div>
         </div>

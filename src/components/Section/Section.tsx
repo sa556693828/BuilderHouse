@@ -12,14 +12,16 @@ export default function Section(props: {
       className="flex h-full w-full flex-col items-center gap-16 px-5 pb-12 pt-24 transition-all duration-300 lg:px-32"
       id={props.id}
     >
-      <div className="flex w-full flex-col justify-start lg:items-center lg:justify-between">
+      <div className="flex w-full flex-col items-center justify-start lg:items-center lg:justify-between">
         <div className="flex flex-col gap-6 lg:items-center lg:justify-center lg:gap-10">
           <div
             className={`bg-gradient-to-r from-${props?.title.color}F to-${props?.title.color}T bg-clip-text text-[4rem] font-bold uppercase text-transparent`}
           >
             {props.title.title}
           </div>
-          <div className="pl-2 text-4xl font-extrabold">{props.subTitle}</div>
+          <div className="pl-2 text-center text-4xl font-extrabold">
+            {props.subTitle}
+          </div>
         </div>
       </div>
       {props.children}

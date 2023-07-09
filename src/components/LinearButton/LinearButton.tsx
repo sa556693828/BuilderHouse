@@ -9,16 +9,29 @@ export default function LinearButton(props: {
   borderClass?: any;
   contentClass?: any;
   children: any;
+  href?: string;
 }) {
-  const { contentClass = "py-3", borderClass = "w-52" } = props;
+  const { contentClass = "py-3", borderClass = "w-52", href } = props;
+  const handleLinkClick = (event: any) => {
+    event.preventDefault();
+    window.open(href, "_blank");
+  };
+
   return (
     <div
       className={`h-full bg-gradient-to-r from-${props?.color}F to-${props?.color}T p-[3px] transition-all ${borderClass}`}
     >
       <button
-        className={`h-full w-full bg-bg text-base font-medium text-text flex items-center justify-center ${contentClass}`}
+        className={`flex h-full w-full items-center justify-center bg-bg text-base font-medium text-text ${contentClass}`}
       >
-        {props.children}
+        <a
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={href ? (e) => handleLinkClick(e) : () => {}}
+        >
+          {props.children}
+        </a>
       </button>
     </div>
   );

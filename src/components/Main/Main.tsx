@@ -13,13 +13,18 @@ export default function Main() {
     router.push(page);
   };
   return (
-    <Flex className="relative h-[100vh] flex-col items-center overflow-hidden">
-      <div className="absolute -right-10 top-64 transition-all lg:right-32 lg:top-44 xl:top-52">
-        <img src={Sphere.src} alt="" width="" height="100" />
-      </div>
+    <>
       <Header />
-      <Desktop />
-      <Mobile />
-    </Flex>
+      <Flex
+        className="relative flex-col items-center overflow-hidden"
+        h={"calc(100vh - 5rem)"}
+      >
+        <div className="absolute -right-10 top-32 transition-all lg:right-32 lg:top-44 xl:top-52">
+          <img src={Sphere.src} alt="" width="" height="100" />
+        </div>
+        <Desktop />
+        <Mobile />
+      </Flex>
+    </>
   );
 }

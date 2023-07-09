@@ -39,7 +39,11 @@ export default function Desktop(props: any) {
             </Link>
           </div>
           <div className="flex w-44 items-center">
-            <LinearButton color="green" contentClass="py-2">
+            <LinearButton
+              color="green"
+              contentClass="py-2"
+              href="https://www.surveycake.com/s/z7bvM"
+            >
               報名
             </LinearButton>
           </div>

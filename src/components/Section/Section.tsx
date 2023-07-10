@@ -4,12 +4,11 @@ export default function Section(props: {
   children: React.ReactNode;
   title: { title: string; color: "red" | "green" | "blue" };
   subTitle: string;
-  style: { pic: string; w: string };
   id?: string;
 }) {
   return (
     <div
-      className="flex h-full w-full flex-col items-center gap-16 px-5 pb-12 pt-24 transition-all duration-300 lg:px-32"
+      className="flex h-full w-full flex-col items-center gap-16 px-5 py-20 transition-all duration-300 lg:px-32"
       id={props.id}
     >
       <div className="flex w-full flex-col items-center justify-start lg:items-center lg:justify-between">

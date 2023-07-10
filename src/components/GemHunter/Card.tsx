@@ -3,7 +3,7 @@ import Image from "next/image";
 import { useDisclosure } from "@chakra-ui/react";
 import InputModal from "../InputModal/InputModal";
 
-export default function PrizesCard(props: {
+export default function HunterCard(props: {
   title: string;
   prize: string;
   pic: any;

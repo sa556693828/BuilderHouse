@@ -12,6 +12,7 @@ export default function ViewCard(props: {
   title: string;
   content: string;
   color: "green" | "blue" | "red";
+  detail: string;
 }) {
   return (
     <div

@@ -7,20 +7,23 @@ import Prizes from "@/components/Prizes/Prizes";
 import Activity from "@/components/Activity/Activity";
 import TimeLine from "@/components/TimeLine/TimeLine";
 import GemHunter from "@/components/GemHunter/GemHunter";
-import TotalPrize from "@/components/TotalPrize/TotalPrize";
+import prizeData from "@/components/Document/Prize";
+import OverViewData from "@/components/Document/OverView";
+import hunterData from "@/components/Document/GemHunter";
+import ActivityData from "@/components/Document/Activity";
+import partnersData from "@/components/Document/Partners";
 
 export default function Home() {
   return (
     <>
       <Main />
       <TimeLine />
-      <OverView />
-      <TotalPrize />
-      <Prizes />
-      <GemHunter />
-      <Activity />
+      <OverView data={OverViewData} />
+      <Prizes data={prizeData} />
+      <GemHunter data={hunterData} />
+      <Activity data={ActivityData} />
       <Judges />
-      <Partners />
+      <Partners data={partnersData} />
       <FAQ />
     </>
   );

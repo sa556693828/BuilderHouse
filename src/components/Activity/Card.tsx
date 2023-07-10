@@ -15,6 +15,7 @@ export default function TaskCard(props: {
   content: string;
   date: string;
   color: "green" | "blue" | "red";
+  detail: string;
 }) {
   const chooseColor = () => {
     switch (props?.color) {

@@ -3,8 +3,6 @@ import Section from "../Section/Section";
 import ProfileCard from "./ProfileCard";
 import henry from "@/assets/Judges/henry.jpeg";
 import michael from "@/assets/Judges/michael.jpg";
-import title from "@/assets/Judges.svg";
-import style from "@/assets/JudgesStyle.svg";
 
 export default function Judges() {
   const JudgesArray = [
@@ -30,7 +28,6 @@ export default function Judges() {
       title={{ title: "judges", color: "red" }}
       subTitle="裁判群"
       id="Judges"
-      style={{ pic: style.src, w: "80" }}
     >
       {/* <div className="grid w-full grid-cols-1 gap-5 px-10 lg:grid-cols-4 lg:px-0"> */}
       <div className="flex w-full flex-col justify-center gap-5 px-10 lg:flex-row lg:px-0">

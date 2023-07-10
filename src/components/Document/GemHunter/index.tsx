@@ -1,5 +1,5 @@
 import Filecoin from "@/assets/Prizes/Filecoin.svg";
-import Lead from "@/assets/Prizes/Lead.png";
+import Bla from "@/assets/Prizes/bla.svg";
 import Wormhole from "@/assets/Prizes/wormhole.png";
 import bingX from "@/assets/Prizes/bingX.png";
 import bingxVe from "@/assets/Prizes/bingxVe.png";
@@ -9,9 +9,9 @@ import Orderly from "@/assets/Prizes/Orderly.svg";
 
 const hunterArray = [
   {
-    title: "Orderly",
-    prize: "$10,000",
-    pic: Orderly.src,
+    title: "Blablablock",
+    prize: "-",
+    pic: Bla.src,
     content: {},
   },
   {

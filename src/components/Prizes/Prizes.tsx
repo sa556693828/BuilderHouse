@@ -61,11 +61,6 @@ export default function Prizes() {
           prize="$ -"
           pic={{ pic: chaintimes.src, w: "50" }}
         />
-        <PrizesCard
-          title="Chaintimes Ventures"
-          prize="$ -"
-          pic={{ pic: chaintimes.src, w: "50" }}
-        />
       </div>
     </Section>
   );

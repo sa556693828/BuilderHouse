@@ -1,11 +1,11 @@
-import Filecoin from "@/assets/Prizes/Filecoin.svg";
-import Bla from "@/assets/Prizes/bla.svg";
-import Wormhole from "@/assets/Prizes/wormhole.png";
-import bingX from "@/assets/Prizes/bingX.png";
-import bingxVe from "@/assets/Prizes/bingxVe.png";
-import huobi from "@/assets/Prizes/huobi.png";
-import chaintimes from "@/assets/Prizes/chaintimes.png";
-import Orderly from "@/assets/Prizes/Orderly.svg";
+import Filecoin from "@/assets/Hunter/Filecoin.svg";
+import Bla from "@/assets/Hunter/bla.svg";
+import Wormhole from "@/assets/Hunter/wormhole.png";
+import bingX from "@/assets/Hunter/bingX.png";
+import bingxVe from "@/assets/Hunter/bingxVe.png";
+import huobi from "@/assets/Hunter/huobi.png";
+import chaintimes from "@/assets/Hunter/chaintimes.png";
+import Orderly from "@/assets/Hunter/Orderly.svg";
 
 const hunterArray = [
   {

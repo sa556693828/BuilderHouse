@@ -1,8 +1,8 @@
 import Bla from "@/assets/Hunter/bla.svg";
-// import Filecoin from "@/assets/Hunter/Filecoin.svg";
-// import Wormhole from "@/assets/Hunter/wormhole.png";
-// import bingX from "@/assets/Hunter/bingX.png";
-// import bingxVe from "@/assets/Hunter/bingxVe.png";
+import CA from "@/assets/Hunter/ca.png";
+import Friends from "@/assets/Hunter/friends.png";
+import Rentii from "@/assets/Hunter/rentii.png";
+import Tikki from "@/assets/Hunter/tikki.png";
 // import huobi from "@/assets/Hunter/huobi.png";
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
@@ -14,11 +14,51 @@ const hunterArray = [
     pic: Bla.src,
     content: {
       title: "Blablablock",
-      prize: "Website：<a href='https://www.blablablock.com' target='_blank'>https://www.blablablock.com</a>",
+      prize: "https://www.blablablock.com",
       illustrate:
         "1. 至官網點擊「Get Started」\n2. 註冊帳號並進入使用介面\n3. 點擊右上角連結MetaMask錢包（BSC鏈）\n4. 於首頁購買10$USDT的$BLA代幣\n5. 完成任務！",
       //content: `1. 應用必須利用 Wormhole 實現跨鏈功能，並能在多個區塊鏈生態系統中運作。\n2. 應用可以是DeFi、NFT、遊戲或其他領域的應用，但必須具有實際的用途和潛在的市場價值。\n3. 應用的設計和實現必須優秀，包括但不限於用戶體驗、性能和安全性。\n4. 應用必須有完整的文檔和代碼註釋，以便評委和社區成員理解和評估。`,
       //source: `Wormhole社區和開發者論壇：https://wormhole.com/community`,
+    },
+  },
+  {
+    title: "Crypto Arsenal",
+    prize: "-",
+    pic: CA.src,
+    content: {
+      title: "Crypto Arsenal",
+      prize: "https://crypto-arsenal.io/",
+      //illustrate:
+    },
+  },
+  {
+    title: "Friends Protocal",
+    prize: "-",
+    pic: Friends.src,
+    content: {
+      title: "Friends Protocal",
+      prize: "https://4riends.org/",
+      illustrate:""
+    },
+  },
+  {
+    title: "Rentii",
+    prize: "-",
+    pic: Rentii.src,
+    content: {
+      title: "Rentii",
+      prize: "https://www.rentii.xyz/",
+      illustrate:""
+    },
+  },
+  {
+    title: "Tikki",
+    prize: "-",
+    pic: Tikki.src,
+    content: {
+      title: "Tikki",
+      prize: "https://www.tikki.app/",
+      illustrate:""
     },
   },
   // {

@@ -1,11 +1,16 @@
 import Filecoin from "@/assets/Prizes/Filecoin.svg";
-import Bla from "@/assets/Prizes/bla.svg";
+import Bla from "@/assets/GemHunter/bla.svg";
+import ca from "@/assets/GemHunter/ca.png";
+import friends from "@/assets/GemHunter/friends.png";
+import rentii from "@/assets/GemHunter/rentii.png";
+import tikki from "@/assets/GemHunter/tikki.png";
 import Wormhole from "@/assets/Prizes/wormhole.png";
 import bingX from "@/assets/Prizes/bingX.png";
 import bingxVe from "@/assets/Prizes/bingxVe.png";
 import huobi from "@/assets/Prizes/huobi.png";
 import chaintimes from "@/assets/Prizes/chaintimes.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
+import Lead from "@/assets/Prizes/Lead.png";
 
 const hunterArray = [
   {

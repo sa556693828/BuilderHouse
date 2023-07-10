@@ -1,16 +1,11 @@
-import Filecoin from "@/assets/Prizes/Filecoin.svg";
-import Bla from "@/assets/GemHunter/bla.svg";
-import ca from "@/assets/GemHunter/ca.png";
-import friends from "@/assets/GemHunter/friends.png";
-import rentii from "@/assets/GemHunter/rentii.png";
-import tikki from "@/assets/GemHunter/tikki.png";
-import Wormhole from "@/assets/Prizes/wormhole.png";
-import bingX from "@/assets/Prizes/bingX.png";
-import bingxVe from "@/assets/Prizes/bingxVe.png";
-import huobi from "@/assets/Prizes/huobi.png";
-import chaintimes from "@/assets/Prizes/chaintimes.png";
-import Orderly from "@/assets/Prizes/Orderly.svg";
-import Lead from "@/assets/Prizes/Lead.png";
+import Filecoin from "@/assets/Hunter/Filecoin.svg";
+import Bla from "@/assets/Hunter/bla.svg";
+import Wormhole from "@/assets/Hunter/wormhole.png";
+import bingX from "@/assets/Hunter/bingX.png";
+import bingxVe from "@/assets/Hunter/bingxVe.png";
+import huobi from "@/assets/Hunter/huobi.png";
+import chaintimes from "@/assets/Hunter/chaintimes.png";
+import Orderly from "@/assets/Hunter/Orderly.svg";
 
 const hunterArray = [
   {
@@ -18,23 +13,6 @@ const hunterArray = [
     prize: "-",
     pic: Bla.src,
     content: {},
-  },
-  {
-    title: "Lead Capital",
-    prize: "$5,000",
-    pic: Lead.src,
-    content: {
-      title: "針對市場波動進行預測分析",
-      prize: "獎金金額：$5000U",
-      illustrate: `『波動』，是金融市場中即具重要的一個元素，波動產生的套利空間使套利者願意承擔風險進行套利。相較於傳統金融，加密貨幣市場便具有波動大風險高的特性，即便如此，高風險所伴隨的高報酬仍然吸引眾多交易者進入市場進行交易。`,
-      content: `
-        1. 請針對市場波動進行預測分析，方法不限
-        - 若以『時間』作為採樣標準，請預測 3000ms 後市場狀態
-        - 若以『交易』作為採樣標準，請預測 300 ticks 後市場狀態
-        - 將依照准確度作為評分標準
-        2. 請使用分析結果建構一交易模型，回測結果須考慮手續費、滑價、成交與否等因素`,
-      source: ``,
-    },
   },
   {
     title: "Wormhole",

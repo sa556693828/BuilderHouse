@@ -34,7 +34,7 @@ const hunterArray = [
   {
     title: "Followin",
     prize: "-",
-    pic: Friends.src,
+    pic: Followin.src,
     content: {
       title: "Followin",
       prize: "https://followin.io/",

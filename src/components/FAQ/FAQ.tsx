@@ -21,8 +21,8 @@ export default function FAQ(props: { data: any }) {
             <div className="flex w-full justify-end lg:w-1/2">
               <div className="flex flex-col gap-2 lg:w-1/2">
                 <div className="text-4xl">General</div>
-                {data.general.map((item: any) => (
-                  <div className="flex flex-col gap-6">
+                {data.general.map((item: any, idx: any) => (
+                  <div className="flex flex-col gap-6" key={idx}>
                     <div className="text-base">{item.q}</div>
                     <div className="font-normal">{item.a}</div>
                   </div>
@@ -32,8 +32,8 @@ export default function FAQ(props: { data: any }) {
             <div className="flex justify-start lg:w-1/2">
               <div className="flex flex-col gap-2 lg:w-1/2">
                 <div className="text-4xl">Event</div>
-                {data.event.map((item: any) => (
-                  <div className="flex flex-col gap-6">
+                {data.event.map((item: any, idx: any) => (
+                  <div className="flex flex-col gap-6" key={idx}>
                     <div className="text-base">{item.q}</div>
                     <div className="font-normal">{item.a}</div>
                   </div>

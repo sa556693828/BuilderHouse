@@ -12,9 +12,8 @@ export default function PartnersM(props: {
         {props.type}
       </div>
       {props.logo.map((item: any, idx: any) => (
-        <div className="mt-8 flex w-full items-center justify-center">
+        <div className="mt-8 flex w-full items-center justify-center" key={idx}>
           <Image
-            key={idx}
             src={item.pic}
             width={item.w ? item.w : "250"}
             height="200"

@@ -2,21 +2,25 @@ import Image from "next/image";
 import React from "react";
 
 export default function PartnersM(props: {
-  avatar: any;
-  name?: string;
-  title?: string;
+  logo: { pic: string; w: any }[];
+  type: string;
+  grid?: string;
 }) {
   return (
-    <div className="flex h-full w-full flex-col items-center justify-center gap-20">
-      <div className="text-center text-5xl">{props.title}</div>
-      {props.avatar.map((item: any, idx: any) => (
-        <Image
-          key={idx}
-          src={item.pic}
-          width={item.w !== "" ? item.w : "250"}
-          height="200"
-          alt="avatar"
-        />
+    <div className="flex w-full flex-col items-center justify-center gap-12 rounded-[2rem] bg-partners px-12 py-16 shadow-greenLi">
+      <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-center text-2xl font-bold uppercase text-transparent">
+        {props.type}
+      </div>
+      {props.logo.map((item: any, idx: any) => (
+        <div className="mt-8 flex w-full items-center justify-center">
+          <Image
+            key={idx}
+            src={item.pic}
+            width={item.w ? item.w : "250"}
+            height="200"
+            alt="avatar"
+          />
+        </div>
       ))}
     </div>
   );

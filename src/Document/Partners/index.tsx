@@ -22,35 +22,35 @@ import rabbit from "@/assets/Partners/rabbit.png";
 import Mexc from "@/assets/Partners/mexc_global.png";
 import Grenade from "@/assets/Partners/grenadelogo.png";
 
-const hostArr = [{ pic: builder.src, w: "" }];
+const hostArr = [{ pic: builder.src }];
 const coHostArr = [
-  { pic: lead.src, w: "" },
+  { pic: lead.src },
   { pic: carry.src, w: "200" },
-  { pic: zombie.src, w: "" },
+  { pic: zombie.src },
 ];
 const strategicArr = [{ pic: TBW.src, w: "220" }];
 const partnersArr = [
-  { pic: wormhole.src, w: "" },
-  { pic: chain.src, w: "" },
+  { pic: wormhole.src },
+  { pic: chain.src },
   { pic: FileCoin.src, w: "250" },
-  { pic: Huobi.src, w: "" },
+  { pic: Huobi.src },
   { pic: BingX.src, w: "200" },
-  { pic: ikala.src, w: "" },
+  { pic: ikala.src },
   { pic: IPFS.src, w: "200" },
-  { pic: venture.src, w: "" },
+  { pic: venture.src },
   { pic: Orderly.src, w: "300" },
-  { pic: Mexc.src, w: "" },
+  { pic: Mexc.src, w: "100" },
 ];
 const mediaArr = [
-  { pic: followIn.src, w: "" },
-  { pic: noneland.src, w: "" },
-  { pic: ABM.src, w: "" },
-  { pic: PAnews.src, w: "" },
-  { pic: Grenade.src, w: "" },
+  { pic: followIn.src },
+  { pic: noneland.src },
+  { pic: ABM.src },
+  { pic: PAnews.src },
+  { pic: Grenade.src },
 ];
 const communityArr = [
-  { pic: buzhidao.src, w: "" },
-  { pic: Jclub.src, w: "" },
+  { pic: buzhidao.src },
+  { pic: Jclub.src },
   { pic: rabbit.src, w: "300" },
 ];
 

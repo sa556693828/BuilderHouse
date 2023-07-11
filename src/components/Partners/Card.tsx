@@ -7,7 +7,7 @@ import React, { useEffect } from "react";
 //grid-cols-4
 
 export default function PartnersCard(props: {
-  logo: { pic: string; w: string }[];
+  logo: { pic: string; w: any }[];
   type: string;
   grid?: string;
 }) {
@@ -43,8 +43,8 @@ export default function PartnersCard(props: {
                 <Image
                   alt="logo"
                   src={item.pic}
-                  width={item.w ? Number(item.w) : 280}
-                  height={item.w ? Number(item.w) : 280}
+                  width={item.w ? item.w : "280"}
+                  height={"280"}
                 />
               </div>
             );

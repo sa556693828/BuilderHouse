@@ -53,13 +53,13 @@ export default function Partners(props: { data: any }) {
           <PartnersCard logo={community} type="Community Partner" />
         </div>
         {/* Mobile  */}
-        <div className="mt-8 flex w-4/5 flex-col items-center gap-36 lg:hidden">
-          <PartnersM avatar={host} title="HOST" />
-          <PartnersM avatar={coHost} title="CO - HOST" />
-          <PartnersM avatar={strategic} title="Strategic Partner" />
-          <PartnersM avatar={partners} title="Partner" />
-          <PartnersM avatar={media} title="Media Partner" />
-          <PartnersM avatar={community} title="Community Partner" />
+        <div className="flex w-full flex-col items-center gap-12 px-6 lg:hidden">
+          <PartnersM logo={host} type="HOST" />
+          <PartnersM logo={coHost} type="CO - HOST" />
+          <PartnersM logo={strategic} type="Strategic Partner" />
+          <PartnersM logo={partners} type="Partner" />
+          <PartnersM logo={media} type="Media Partner" />
+          <PartnersM logo={community} type="Community Partner" />
         </div>
       </div>
       <Box

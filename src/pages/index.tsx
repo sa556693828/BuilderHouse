@@ -7,12 +7,12 @@ import Prizes from "@/components/Prizes/Prizes";
 import Activity from "@/components/Activity/Activity";
 import TimeLine from "@/components/TimeLine/TimeLine";
 import GemHunter from "@/components/GemHunter/GemHunter";
-import prizeData from "@/components/Document/Prize";
-import OverViewData from "@/components/Document/OverView";
-import hunterData from "@/components/Document/GemHunter";
-import ActivityData from "@/components/Document/Activity";
-import partnersData from "@/components/Document/Partners";
-import FAQData from "@/components/Document/FAQ";
+import prizeData from "@/Document/Prize";
+import OverViewData from "@/Document/OverView";
+import hunterData from "@/Document/GemHunter";
+import ActivityData from "@/Document/Activity";
+import partnersData from "@/Document/Partners";
+import FAQData from "@/Document/FAQ";
 
 export default function Home() {
   return (

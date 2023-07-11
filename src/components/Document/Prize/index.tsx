@@ -6,6 +6,8 @@ import bingxVe from "@/assets/Prizes/bingxVe.png";
 import huobi from "@/assets/Prizes/huobi.png";
 import chaintimes from "@/assets/Prizes/chaintimes.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
+import Mexc from "@/assets/Prizes/mexc.png";
+
 
 const prizeArray = [
   {
@@ -76,6 +78,11 @@ const prizeArray = [
     title: "Chaintimes Ventures",
     prize: "$ -",
     pic: chaintimes.src,
+  },
+  {
+    title: "MEXC Global",
+    prize: "$ -",
+    pic: Mexc.src,
   },
 ];
 const prizeData = {

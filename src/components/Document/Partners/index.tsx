@@ -19,6 +19,7 @@ import ABM from "@/assets/Partners/ABM.svg";
 import buzhidao from "@/assets/Partners/buzhidao.png";
 import Jclub from "@/assets/Partners/Jclub.png";
 import rabbit from "@/assets/Partners/rabbit.png";
+import Mexc from "@/assets/Partners/mexc.png";
 
 const hostArr = [{ pic: builder.src, w: "" }];
 const coHostArr = [
@@ -37,6 +38,7 @@ const partnersArr = [
   { pic: IPFS.src, w: "200" },
   { pic: venture.src, w: "" },
   { pic: Orderly.src, w: "300" },
+  { pic: Mexc.src, w: "" },
 ];
 const mediaArr = [
   { pic: noneland.src, w: "" },

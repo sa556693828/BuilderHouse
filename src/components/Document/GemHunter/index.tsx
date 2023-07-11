@@ -3,7 +3,7 @@ import CA from "@/assets/Hunter/ca.png";
 import Friends from "@/assets/Hunter/friends.png";
 import Rentii from "@/assets/Hunter/rentii.png";
 import Tikki from "@/assets/Hunter/tikki.png";
-// import huobi from "@/assets/Hunter/huobi.png";
+import Followin from "@/assets/Partners/followin.svg";
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
 
@@ -29,6 +29,16 @@ const hunterArray = [
       title: "Crypto Arsenal",
       prize: "https://crypto-arsenal.io/",
       //illustrate:
+    },
+  },
+  {
+    title: "Followin",
+    prize: "-",
+    pic: Friends.src,
+    content: {
+      title: "Followin",
+      prize: "https://followin.io/",
+      illustrate:""
     },
   },
   {

@@ -3,7 +3,7 @@ import CA from "@/assets/Hunter/ca.png";
 import Friends from "@/assets/Hunter/friends.png";
 import Rentii from "@/assets/Hunter/rentii.png";
 import Tikki from "@/assets/Hunter/tikki.png";
-import Followin from "@/assets/Partners/followin.svg";
+import Followin from "@/assets/Partners/followln.svg";
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
 

@@ -16,6 +16,7 @@ export default function TaskCard(props: {
   date: string;
   color: "green" | "blue" | "red";
   detail: string;
+  link?: string;
 }) {
   const chooseColor = () => {
     switch (props?.color) {
@@ -58,7 +59,9 @@ export default function TaskCard(props: {
           {props.content}
         </div>
         <div className="">
-          <LinearButton color={props?.color}>詳情</LinearButton>
+          <LinearButton color={props?.color} href={props?.link}>
+            詳情
+          </LinearButton>
         </div>
       </div>
     </div>

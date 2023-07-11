@@ -12,6 +12,7 @@ const ActivityContent = [
     content: `- 介紹\n- 過往活動紀錄\n- 未來活動\n- 報名`,
     date: "每週三晚上",
     detail: ``,
+    link: "https://linktr.ee/builder_dao",
   },
   {
     title: "BootCamp",

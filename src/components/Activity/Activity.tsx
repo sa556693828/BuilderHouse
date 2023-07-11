@@ -18,6 +18,7 @@ export default function Activity(props: { data: any }) {
             content={item.content}
             date={item.date}
             detail={item.detail}
+            link={item.link}
             key={index}
           />
         ))}

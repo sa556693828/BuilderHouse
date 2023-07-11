@@ -29,13 +29,28 @@ export default function ProfileCard(props: {
         </div>
         <div className="flex w-2/3 justify-center gap-6 py-10">
           <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">
-            <SvgIcon width={30} height={30} iconName="icon-twitter" />
+            <SvgIcon
+              width={30}
+              height={30}
+              iconName="icon-twitter"
+              className="fill-[#949494]"
+            />
           </div>
           <div className="rounded-full p-3">
-            <SvgIcon width={30} height={30} iconName="icon-discord" />
+            <SvgIcon
+              width={30}
+              height={30}
+              iconName="icon-discord"
+              className="fill-[#949494]"
+            />
           </div>
           <div className="rounded-full p-3">
-            <SvgIcon width={30} height={30} iconName="icon-telegram" />
+            <SvgIcon
+              width={30}
+              height={30}
+              iconName="icon-telegram"
+              className="fill-[#949494]"
+            />
           </div>
         </div>
       </div>

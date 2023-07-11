@@ -1,18 +1,30 @@
 import React from "react";
-import Logo from "@/assets/LogoWhite.svg";
+import Logo from "@/assets/LogoBlack.svg";
 import Link from "next/link";
 import Image from "next/image";
+import SvgIcon from "../SvgIcon/SvgIcon";
 
 export default function FooterMobile(props: any) {
   const { goPage } = props;
-  const buttonStyle = "hover:opacity-80 text-text";
+  const buttonStyle = "hover:opacity-80 text-black font-medium p-2 uppercase";
 
   return (
-    <footer className="flex w-full flex-col items-start bg-bg px-5 py-10 lg:hidden">
+    <footer className="flex w-full flex-col items-start gap-8 border-t-[1px] border-white bg-transparent px-8 py-10 lg:hidden">
       <div className="cursor-pointer" onClick={() => goPage("/")}>
         <Image src={Logo.src} alt="logo" width="250" height="100" />
       </div>
-      <div className="my-10 grid grid-cols-2 gap-x-10 gap-y-5 text-base font-medium">
+      <div className="-ml-3 flex justify-start">
+        <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">
+          <SvgIcon width={30} height={30} iconName="icon-twitter" />
+        </div>
+        <div className="rounded-full p-3">
+          <SvgIcon width={30} height={30} iconName="icon-telegram" />
+        </div>
+        <div className="rounded-full p-3">
+          <SvgIcon width={30} height={30} iconName="icon-discord" />
+        </div>
+      </div>
+      <div className="-ml-1 grid grid-cols-2 gap-x-10 gap-y-5 text-base font-medium">
         <Link href="/#OverView" passHref>
           <div className={buttonStyle}>OVERVIEW</div>
         </Link>
@@ -32,7 +44,7 @@ export default function FooterMobile(props: any) {
           <div className={buttonStyle}>FAQ</div>
         </Link>
       </div>
-      <div className="font-medium text-white">© TAIWAN BUILDER HOUSE.</div>
+      <div className="font-medium text-black">© TAIWAN BUILDER HOUSE.</div>
     </footer>
   );
 }

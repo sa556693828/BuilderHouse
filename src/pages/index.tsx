@@ -12,6 +12,7 @@ import OverViewData from "@/components/Document/OverView";
 import hunterData from "@/components/Document/GemHunter";
 import ActivityData from "@/components/Document/Activity";
 import partnersData from "@/components/Document/Partners";
+import FAQData from "@/components/Document/FAQ";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
       <Activity data={ActivityData} />
       <Judges />
       <Partners data={partnersData} />
-      <FAQ />
+      <FAQ data={FAQData} />
     </>
   );
 }

@@ -20,6 +20,7 @@ import buzhidao from "@/assets/Partners/buzhidao.png";
 import Jclub from "@/assets/Partners/Jclub.png";
 import rabbit from "@/assets/Partners/rabbit.png";
 import Mexc from "@/assets/Partners/mexc_global.png";
+import Grenade from "@/assets/Partners/grenadelogo.png";
 
 const hostArr = [{ pic: builder.src, w: "" }];
 const coHostArr = [
@@ -41,10 +42,11 @@ const partnersArr = [
   { pic: Mexc.src, w: "" },
 ];
 const mediaArr = [
+  { pic: followIn.src, w: "" },
   { pic: noneland.src, w: "" },
   { pic: ABM.src, w: "" },
   { pic: PAnews.src, w: "" },
-  { pic: followIn.src, w: "" },
+  { pic: Grenade.src, w: "" },
 ];
 const communityArr = [
   { pic: buzhidao.src, w: "" },

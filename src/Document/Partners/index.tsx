@@ -22,36 +22,43 @@ import rabbit from "@/assets/Partners/rabbit.png";
 import Mexc from "@/assets/Partners/mexc_global.png";
 import Grenade from "@/assets/Partners/grenadelogo.png";
 
-const hostArr = [{ pic: builder.src }];
-const coHostArr = [
-  { pic: lead.src },
-  { pic: carry.src, w: "200" },
-  { pic: zombie.src },
+//連結放上去就可以點了
+const hostArr = [
+  { pic: builder.src, link: "https://stripe.com/docs/payments/elements" },
 ];
-const strategicArr = [{ pic: TBW.src, w: "220" }];
+const coHostArr = [
+  { pic: lead.src, link: "" },
+  { pic: carry.src, link: "", w: "200" },
+  { pic: zombie.src, link: "" },
+];
+const strategicArr = [{ pic: TBW.src, link: "", w: "220" }];
 const partnersArr = [
-  { pic: wormhole.src },
-  { pic: chain.src },
-  { pic: FileCoin.src, w: "250" },
-  { pic: Huobi.src },
-  { pic: BingX.src, w: "200" },
-  { pic: ikala.src },
-  { pic: IPFS.src, w: "200" },
-  { pic: venture.src },
-  { pic: Orderly.src, w: "300" },
-  { pic: Mexc.src, w: "100" },
+  { pic: wormhole.src, link: "" },
+  { pic: chain.src, link: "" },
+  { pic: FileCoin.src, link: "", w: "250" },
+  { pic: Huobi.src, link: "" },
+  { pic: BingX.src, link: "", w: "200" },
+  { pic: ikala.src, link: "" },
+  { pic: IPFS.src, link: "", w: "200" },
+  { pic: venture.src, link: "" },
+  { pic: Orderly.src, link: "", w: "300" },
+  { pic: Mexc.src, link: "", w: "100" },
 ];
 const mediaArr = [
-  { pic: followIn.src },
-  { pic: noneland.src },
-  { pic: ABM.src },
-  { pic: PAnews.src },
-  { pic: Grenade.src },
+  { pic: followIn.src, link: "" },
+  { pic: noneland.src, link: "" },
+  { pic: ABM.src, link: "" },
+  { pic: PAnews.src, link: "" },
+  { pic: Grenade.src, link: "" },
 ];
 const communityArr = [
-  { pic: buzhidao.src },
-  { pic: Jclub.src },
-  { pic: rabbit.src, w: "300" },
+  { pic: buzhidao.src, link: "" },
+  { pic: Jclub.src, link: "" },
+  {
+    pic: rabbit.src,
+    link: "",
+    w: "300",
+  },
 ];
 
 const partnersData = {

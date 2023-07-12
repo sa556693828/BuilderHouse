@@ -13,8 +13,14 @@ export default function Partners(props: { data: any }) {
   return (
     <>
       <div className="relative">
-        <div className="absolute w-full">
-          <img src={BG.src} alt="" width="100%" height="100%" />
+        <div className="absolute z-10 w-full">
+          <img
+            src={BG.src}
+            alt=""
+            width="100%"
+            height="100%"
+            className="pointer-events-none -z-10"
+          />
         </div>
         <div className="flex w-full justify-center gap-14 pb-36 pt-72">
           <img
@@ -43,7 +49,7 @@ export default function Partners(props: { data: any }) {
           />
         </div>
       </div>
-      <div className="my-10 flex h-full items-center justify-center">
+      <div className="z-50 my-10 flex h-full items-center justify-center">
         <div className="hidden w-full flex-col items-center gap-16 lg:flex">
           <PartnersCard logo={host} type="HOST" />
           <PartnersCard logo={coHost} type="CO - HOST" />

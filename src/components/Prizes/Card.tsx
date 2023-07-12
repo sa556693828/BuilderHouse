@@ -7,19 +7,19 @@ export default function PrizesCard(props: {
   title: string;
   prize: string;
   pic: any;
-  content: any;
+  data: any;
 }) {
   const { isOpen, onClose, onOpen } = useDisclosure();
-  const [content, setContent] = useState({
+  const [data, setData] = useState({
     title: "",
     prize: "",
     illustrate: "",
-    content: "",
+    content: [],
     source: "",
   });
   useEffect(() => {
-    setContent(props.content);
-  }, [props.content]);
+    setData(props.data);
+  }, [props.data]);
 
   return (
     <div
@@ -40,7 +40,7 @@ export default function PrizesCard(props: {
           <div className="text-md font-normal">{props.prize}</div>
         </div>
       </div>
-      <InputModal isOpen={isOpen} onClose={onClose} content={content} />
+      <InputModal isOpen={isOpen} onClose={onClose} data={data} />
     </div>
   );
 }

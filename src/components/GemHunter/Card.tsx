@@ -1,16 +1,16 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { useDisclosure } from "@chakra-ui/react";
-import InputModal from "../InputModal/InputModal";
+import InputHunter from "../InputModal/InputHunter";
 
 export default function HunterCard(props: {
   title: string;
   prize: string;
   pic: any;
-  content: any;
+  data: any;
 }) {
   const { isOpen, onClose, onOpen } = useDisclosure();
-  const [content, setContent] = useState({
+  const [data, setData] = useState({
     title: "",
     prize: "",
     illustrate: "",
@@ -18,8 +18,8 @@ export default function HunterCard(props: {
     source: "",
   });
   useEffect(() => {
-    setContent(props.content);
-  }, [props.content]);
+    setData(props.data);
+  }, [props.data]);
 
   return (
     <div
@@ -40,7 +40,7 @@ export default function HunterCard(props: {
           <div className="text-md font-normal">{props.prize}</div>
         </div>
       </div>
-      <InputModal isOpen={isOpen} onClose={onClose} content={content} />
+      <InputHunter isOpen={isOpen} onClose={onClose} data={data} />
     </div>
   );
 }

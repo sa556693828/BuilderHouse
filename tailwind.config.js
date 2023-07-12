@@ -24,8 +24,11 @@ module.exports = {
         blueT: "#9747FF",
         yellowF: "#CF9500",
         yellowT: "#FFDC81",
+        icon: "#949494",
       },
       backgroundImage: {
+        rainbow:
+          "linear-gradient(90deg, #00FFB0, #CCFF00, #FBBC05, #E92126, #9747FF, #4285F4)",
         partners:
           "linear-gradient(180deg, rgba(32, 31, 61, 0.50) 0%, rgba(32, 31, 61, 0.00) 77.83%)",
       },

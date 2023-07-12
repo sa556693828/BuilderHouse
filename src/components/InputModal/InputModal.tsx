@@ -4,68 +4,67 @@ import {
   ModalOverlay,
   ModalContent,
   ModalHeader,
-  ModalFooter,
   ModalBody,
   ModalCloseButton,
+  ListItem,
+  UnorderedList,
 } from "@chakra-ui/react";
 
-export default function InputModal(props: any) {
-  const { isOpen, onClose } = props;
-  const [member, setMember] = React.useState([
-    { name: "", telegram: "", email: "" },
-  ]);
-  const data = {
-    groupName: "",
-    groupMember: member,
-  };
-  const cleanData = () => {
-    setMember([{ name: "", telegram: "", email: "" }]);
-    onClose();
-  };
+export default function InputModal(props: {
+  data: any;
+  isOpen: boolean;
+  onClose: any;
+}) {
+  const { isOpen, onClose, data } = props;
 
   return (
     <Modal
       isOpen={isOpen}
-      onClose={cleanData}
+      onClose={onClose}
       size={{ lg: "3xl", xl: "6xl" }}
       isCentered
     >
       <ModalOverlay />
-      <ModalContent className="overflow-hidden whitespace-pre-wrap border border-redF bg-bg px-20 py-6">
-        <ModalHeader className="flex justify-center text-center text-2xl">
-          {props?.content?.title}
-        </ModalHeader>
-        <ModalCloseButton />
-        <ModalBody className="flex flex-col text-center">
-          <p className="mb-8 text-xl">{props?.content?.prize}</p>
-          <p className="mb-8 text-left text-xl">{props?.content?.illustrate}</p>
-          <p className="mb-8 text-left text-lg">{props?.content?.content}</p>
-          <p className="mb-8 text-left text-base">{props?.content?.source}</p>
-          {/* {member.map((item, index) => (
-            <InputFormat key={index} index={index} />
-          ))} */}
-        </ModalBody>
+      <ModalContent className="overflow-hidden whitespace-pre-wrap rounded-sm bg-rainbow p-[1px] transition-all">
+        <div className="flex h-full w-full flex-col rounded-sm bg-bg p-5 shadow-greenLi xl:p-10">
+          <ModalHeader className="flex justify-center text-center text-2xl">
+            {data?.title}
+          </ModalHeader>
+          <ModalCloseButton />
+          <ModalBody className="flex flex-col gap-5 text-center">
+            <p className="font-medium text-text">{data?.prize}</p>
+            <p className="text-left font-normal">{data?.illustrate}</p>
+            {data?.content ? (
+              <div className="my-6 rounded-xl bg-gradient-to-r from-greenF to-greenT p-[1px] transition-all">
+                <div className="flex h-full w-full flex-col rounded-xl bg-bg px-10 py-6">
+                  {data?.content?.map((item: any, idx: any) => (
+                    <React.Fragment key={idx}>
+                      <div className="text-left text-lg">{item.title}</div>
+                      <UnorderedList spacing={3} my="4">
+                        {item.detail.map((item: any, idx: any) => (
+                          <ListItem
+                            key={idx}
+                            className="text-left text-sm font-normal text-text"
+                          >
+                            {item}
+                          </ListItem>
+                        ))}
+                      </UnorderedList>
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <div className="my-6 rounded-xl bg-gradient-to-r from-greenF to-greenT p-[1px] transition-all">
+                <div className="flex h-full w-full flex-col rounded-xl bg-bg px-10 py-6">
+                  <div className="text-xl">Coming Soon ...</div>
+                </div>
+              </div>
+            )}
 
-        <ModalFooter className="flex w-full">
-          {/* <Button
-            variant="ghost"
-            className="-ml-3 flex items-center justify-start gap-2"
-            onClick={() => {
-              setMember([...member, { name: "", telegram: "", email: "" }]);
-            }}
-          >
-            <IoMdAddCircle className="h-6 w-6" />
-            新增組員
-          </Button>
-          <button
-            className="w-60 rounded-full bg-white p-3 text-lg font-semibold text-black transition-all hover:bg-gray-300"
-            onClick={() => {
-              console.log(member);
-            }}
-          >
-            送出報名
-          </button> */}
-        </ModalFooter>
+            <p className="text-left text-xs">{data?.source}</p>
+          </ModalBody>
+        </div>
       </ModalContent>
     </Modal>
   );

@@ -33,7 +33,7 @@ export default function ProfileCard(props: {
               width={30}
               height={30}
               iconName="icon-twitter"
-              className="fill-[#949494]"
+              className="fill-icon"
             />
           </div>
           <div className="rounded-full p-3">
@@ -41,7 +41,7 @@ export default function ProfileCard(props: {
               width={30}
               height={30}
               iconName="icon-discord"
-              className="fill-[#949494]"
+              className="fill-icon"
             />
           </div>
           <div className="rounded-full p-3">
@@ -49,7 +49,7 @@ export default function ProfileCard(props: {
               width={30}
               height={30}
               iconName="icon-telegram"
-              className="fill-[#949494]"
+              className="fill-icon"
             />
           </div>
         </div>

@@ -72,11 +72,7 @@ export default function TimeLine() {
             </div>
           </div>
         </div>
-        {/* <img
-          src={timeLine.src}
-          alt="TimeLine"
-          className="hidden w-full lg:block 2xl:w-4/5"
-        /> */}
+
         <div className="flex h-full w-full flex-col items-center justify-center gap-10 lg:hidden">
           <div className="h-full bg-gradient-to-r from-greenF to-greenT pb-[1px] transition-all lg:hidden">
             <div className="flex h-full w-full flex-col gap-14 bg-[#1E1E1E] p-5 shadow-greenLi xl:p-10">

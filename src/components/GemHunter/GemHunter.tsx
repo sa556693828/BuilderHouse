@@ -19,7 +19,7 @@ export default function GemHunter(props: { data: any }) {
               title={item.title}
               prize={item.prize}
               pic={{ pic: item.pic, w: "50" }}
-              content={item.content}
+              data={item.data}
             />
           ))}
         </div>

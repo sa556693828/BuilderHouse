@@ -38,6 +38,7 @@ export default function InputHunter(props: {
               {data?.linkArr?.map((item: any, index: any) => {
                 return (
                   <div
+                    key={index}
                     className={`${
                       item.link
                         ? "cursor-pointer fill-icon"

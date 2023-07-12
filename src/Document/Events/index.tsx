@@ -1,10 +1,35 @@
+import eventPic from "@/assets/events1.svg";
+
 const EventsContent = [
   {
-    title: "Odyssey",
-    color: "green",
-    content: `- 教育區域\n- NFT 展覽\n- DAO 區域\n- 黑客松 Demoday 區域\n- Panel 區域`,
-    date: "8 月 31 日",
-    detail: ``,
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
+  },
+  {
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
+  },
+  {
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
+  },
+  {
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
+  },
+  {
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
   },
 ];
 

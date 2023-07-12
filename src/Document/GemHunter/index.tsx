@@ -38,7 +38,7 @@ const hunterArray = [
     content: {
       title: "Followin",
       prize: "https://followin.io/",
-      illustrate:""
+      illustrate: "",
     },
   },
   {
@@ -48,7 +48,7 @@ const hunterArray = [
     content: {
       title: "Friends Protocal",
       prize: "https://4riends.org/",
-      illustrate:""
+      illustrate: "",
     },
   },
   {
@@ -58,7 +58,7 @@ const hunterArray = [
     content: {
       title: "Rentii",
       prize: "https://www.rentii.xyz/",
-      illustrate:""
+      illustrate: "",
     },
   },
   {
@@ -68,7 +68,7 @@ const hunterArray = [
     content: {
       title: "Tikki",
       prize: "https://www.tikki.app/",
-      illustrate:""
+      illustrate: "",
     },
   },
   // {
@@ -86,7 +86,7 @@ const hunterArray = [
   // },
 ];
 const hunterData = {
-  title: { name: "Gen Hunter", color: "red" },
+  title: { name: "Gem Hunter", color: "red" },
   subTitle: "獎金",
   id: "GenHunter",
   data: hunterArray,

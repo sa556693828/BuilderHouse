@@ -17,7 +17,27 @@ const EventsContent = [
     content: `Depin 的基礎設施革命`,
     link: "https://www.youtube.com/watch?v=C4SJnfuVWgM&ab_channel=BuilderDAO",
   },
-  
+  {
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
+    link: "",
+  },
+  {
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
+    link: "",
+  },
+  {
+    pic: eventPic.src,
+    date: `JULY 11,2023`,
+    title: "將代幣激勵引入實體世界",
+    content: `Depin 的基礎設施革命`,
+    link: "",
+  },
 ];
 
 const EventsData = {

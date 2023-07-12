@@ -1,4 +1,4 @@
-import eventPic01 from "@/assets/events01.png";
+import eventPic from "@/assets/events1.svg";
 import eventPic0 from "@/assets/events0.png";
 
 //新增link即可點擊
@@ -11,33 +11,13 @@ const EventsContent = [
     link: "https://www.youtube.com/live/5zbqx8QOc2Y?feature=share",
   },
   {
-    pic: eventPic01.src,
+    pic: eventPic.src,
     date: `JULY 11,2023`,
     title: "將代幣激勵引入實體世界",
     content: `Depin 的基礎設施革命`,
     link: "https://www.youtube.com/watch?v=C4SJnfuVWgM&ab_channel=BuilderDAO",
   },
-  {
-    pic: eventPic.src,
-    date: `JULY 11,2023`,
-    title: "將代幣激勵引入實體世界",
-    content: `Depin 的基礎設施革命`,
-    link: "",
-  },
-  {
-    pic: eventPic.src,
-    date: `JULY 11,2023`,
-    title: "將代幣激勵引入實體世界",
-    content: `Depin 的基礎設施革命`,
-    link: "",
-  },
-  {
-    pic: eventPic.src,
-    date: `JULY 11,2023`,
-    title: "將代幣激勵引入實體世界",
-    content: `Depin 的基礎設施革命`,
-    link: "",
-  },
+
 ];
 
 const EventsData = {

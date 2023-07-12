@@ -1,5 +1,5 @@
 import eventPic from "@/assets/events1.svg";
-import eventPic0 from "@/assets/events0.svg";
+import eventPic0 from "@/assets/events0.png";
 
 //新增link即可點擊
 const EventsContent = [

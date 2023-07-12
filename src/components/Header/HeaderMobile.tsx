@@ -6,7 +6,6 @@ import {
   Drawer,
   useDisclosure,
   Button,
-  Divider,
 } from "@chakra-ui/react";
 import { HamburgerIcon, SmallCloseIcon } from "@chakra-ui/icons";
 import Logo from "@/assets/Logo.svg";
@@ -72,7 +71,6 @@ export default function Mobile(props: any) {
               </Button>
             </div>
           </Flex>
-          {/* <Divider w="100%" /> */}
           <Link
             href="/#OverView"
             passHref
@@ -100,13 +98,26 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
+            href="/#GemHunter"
+            passHref
+            className="w-full"
+            onClick={() => onClose()}
+          >
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold uppercase text-transparent">
+                Hunter
+              </div>
+              <div className="pl-3 text-base font-black">賞金獵人</div>
+            </div>
+          </Link>
+          <Link
             href="/#Activity"
             passHref
             className="w-full"
             onClick={() => onClose()}
           >
             <div className="flex h-12 items-center pl-6">
-              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold uppercase text-transparent">
                 Activity
               </div>
               <div className="pl-3 text-base font-black">活動</div>
@@ -126,6 +137,19 @@ export default function Mobile(props: any) {
             </div>
           </Link>
           <Link
+            href="/#Events"
+            passHref
+            className="w-full"
+            onClick={() => onClose()}
+          >
+            <div className="flex h-12 items-center pl-6">
+              <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold uppercase text-transparent">
+                EVENTS
+              </div>
+              <div className="pl-3 text-base font-black">近期活動</div>
+            </div>
+          </Link>
+          <Link
             href="/#Partners"
             passHref
             className="w-full"
@@ -135,7 +159,7 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
                 PARTNERS
               </div>
-              <div className="pl-3 text-base font-black">夥伴</div>
+              <div className="pl-3 text-base font-black">合作夥伴</div>
             </div>
           </Link>
           <Link

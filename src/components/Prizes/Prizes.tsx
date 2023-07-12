@@ -9,7 +9,10 @@ export default function Prizes(props: { data: any }) {
   return (
     <>
       <img src={sideBgT.src} alt="TimeLine" className="w-full" />
-      <div className="flex w-full flex-col items-center justify-center gap-10 pt-32">
+      <div
+        className="flex w-full flex-col items-center justify-center gap-10 pt-32"
+        id={data.id}
+      >
         <div className="text-[2rem] uppercase">Total Prize</div>
         <div className="h-32 w-4/5 rounded-2xl bg-gradient-to-r from-yellowF to-yellowT p-[2px] shadow-yellowLi transition-all">
           <div
@@ -24,7 +27,7 @@ export default function Prizes(props: { data: any }) {
       <Section
         title={{ title: data.title.name, color: data.title.color }}
         subTitle={data.subTitle}
-        id={data.id}
+        // id={data.id}
       >
         <div className="grid w-full grid-cols-1 gap-5 px-4 md:grid-cols-3">
           {data?.data.map((item: any, idx: any) => (

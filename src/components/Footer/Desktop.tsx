@@ -6,7 +6,7 @@ import SvgIcon from "../SvgIcon/SvgIcon";
 
 export default function DesktopFooter(props: any) {
   const { goPage } = props;
-  const buttonStyle = "font-medium hover:opacity-80 text-black p-2 uppercase";
+  const buttonStyle = "font-medium hover:opacity-80 text-black p-1 uppercase";
 
   return (
     <footer className="hidden w-full flex-col items-center justify-center gap-5 border-t-[1px] border-white bg-transparent px-24 py-6 lg:flex">
@@ -14,18 +14,24 @@ export default function DesktopFooter(props: any) {
         <div className="cursor-pointer" onClick={() => goPage("/")}>
           <Image src={Logo.src} alt="logo" width="260" height="100" />
         </div>
-        <div className="flex items-center justify-center gap-12 text-sm xl:text-base">
+        <div className="flex items-center justify-center gap-6 pl-6 text-sm xl:text-base">
           <Link href="/#OverView" passHref>
             <div className={buttonStyle}>OVERVIEW</div>
           </Link>
           <Link href="/#Prizes" passHref>
             <div className={buttonStyle}>PRIZES</div>
           </Link>
+          <Link href="/#GemHunter" passHref>
+            <div className={buttonStyle}>Hunter</div>
+          </Link>
           <Link href="/#Activity" passHref>
             <div className={buttonStyle}>Activity</div>
           </Link>
           <Link href="/#Judges" passHref>
             <div className={buttonStyle}>JUDGES</div>
+          </Link>
+          <Link href="/#Events" passHref>
+            <div className={buttonStyle}>EVENTS</div>
           </Link>
           <Link href="/#Partners" passHref>
             <div className={buttonStyle}>PARTNERS</div>

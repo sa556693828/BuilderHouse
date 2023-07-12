@@ -1,4 +1,4 @@
-import React, { use, useEffect } from "react";
+import React from "react";
 import Section from "../Section/Section";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -11,6 +11,9 @@ import { Pagination } from "swiper/modules";
 export default function Events(props) {
   const { data } = props;
   const isMobile = useBreakpointValue({ base: true, lg: false });
+  const openExternalLink = (link) => {
+    window.open(link, "_blank");
+  };
 
   return (
     <Section
@@ -31,7 +34,14 @@ export default function Events(props) {
           {data.data.map((item, index) => {
             return (
               <SwiperSlide key={index}>
-                <div className="flex h-full w-full flex-col items-center justify-start px-10 lg:px-0">
+                <div
+                  className="flex h-full w-full flex-col items-center justify-start px-10 lg:px-0"
+                  onClick={
+                    item.link !== ""
+                      ? () => openExternalLink(item.link)
+                      : () => {}
+                  }
+                >
                   <img src={item.pic} alt="event" width="1000" />
                   <div className="mt-4 flex w-full flex-col gap-2 text-left">
                     <div className="text-xs text-text">{item.date}</div>

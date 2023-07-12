@@ -31,11 +31,17 @@ export default function FooterMobile(props: any) {
         <Link href="/#Prizes" passHref>
           <div className={buttonStyle}>PRIZES</div>
         </Link>
+        <Link href="/#GemHunter" passHref>
+          <div className={buttonStyle}>Hunter</div>
+        </Link>
         <Link href="/#Activity" passHref>
           <div className={buttonStyle}>Activity</div>
         </Link>
         <Link href="/#Judges" passHref>
           <div className={buttonStyle}>JUDGES</div>
+        </Link>
+        <Link href="/#Events" passHref>
+          <div className={buttonStyle}>EVENTS</div>
         </Link>
         <Link href="/#Partners" passHref>
           <div className={buttonStyle}>PARTNERS</div>

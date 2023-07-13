@@ -8,12 +8,12 @@ import sideBgT from "@/assets/sideBgT.svg";
 export default function TimeLine() {
   const first = {
     title: `報名 / 初始提案`,
-    date: `2023-07-01 至 2023-08-15`,
+    date: `2023-07-01 至 2023-08-25`,
     content: `請填寫 Taiwan Builder House 報名表格，並透過報名確認郵件中的邀請，加入 TBH 的工作區，以進行比賽協調以及相關的溝通和更新。\n\n參與者可以以專案或尋找團隊的個人身分註冊，但只有專案才有資格被列入入圍團隊。尋找團隊的個人可以在組建或加入團隊後，更新他們現有的註冊或創建新的團隊註冊。\n\n選擇心儀題目，並根據要求於 8 月 1 日前繳交初始提案，提案模式可以是 Deck、Prototype、MVP。`,
   };
   const second = {
-    title: `入圍`,
-    date: `2023-08-01 至 2023-08-15`,
+    title: `評審及導師時間`,
+    date: `2023-08-01 至 2023-08-25`,
     content: `請填寫 Taiwan Builder House 報名表入圍的專案是由 BuilderDAO、合作夥伴和支持者選出的評審委員會根據預設的評分標準，從已註冊的專案中選出。\n\n專案將根據多項標準進行評估，包括概念、技術實施、產品設計、創新使用特性等。`,
   };
   const third = {

@@ -40,16 +40,10 @@ export default function MainMobile() {
             </div>
             <div className="flex w-full items-start justify-between gap-2">
               <div className="flex h-5/6 flex-col gap-6">
-                <LinearButton
-                  color="red"
-                  href="https://www.surveycake.com/s/z7bvM"
-                >
+                <LinearButton color="red" href="https://bit.ly/3DgPiy0">
                   Hacker/Trader 報名
                 </LinearButton>
-                <LinearButton
-                  color="blue"
-                  href="https://www.surveycake.com/s/z7bvM"
-                >
+                <LinearButton color="blue" href="https://bit.ly/3pPWH4r">
                   Hunter 報名
                 </LinearButton>
               </div>

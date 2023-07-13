@@ -44,13 +44,10 @@ export default function MainDesktop() {
             Taiwan Builder House，你將有機會在Web3領域中開創出自己獨特的道路。
           </div>
           <div className="flex h-12 gap-6">
-            <LinearButton color="red" href="https://www.surveycake.com/s/z7bvM">
+            <LinearButton color="red" href="https://bit.ly/3DgPiy0">
               Hacker/Trader 報名
             </LinearButton>
-            <LinearButton
-              color="blue"
-              href="https://www.surveycake.com/s/z7bvM"
-            >
+            <LinearButton color="blue" href="https://bit.ly/3pPWH4r">
               Hunter 報名
             </LinearButton>
           </div>

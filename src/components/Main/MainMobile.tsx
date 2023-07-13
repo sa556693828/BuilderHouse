@@ -38,13 +38,19 @@ export default function MainMobile() {
               是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過
               Taiwan Builder House，你將有機會在Web3領域中開創出自己獨特的道路。
             </div>
-            <div className="flex w-full items-center justify-between">
-              <div className="h-5/6">
+            <div className="flex w-full items-start justify-between gap-2">
+              <div className="flex h-5/6 flex-col gap-6">
                 <LinearButton
-                  color="green"
+                  color="red"
                   href="https://www.surveycake.com/s/z7bvM"
                 >
-                  報名
+                  Hacker/Trader 報名
+                </LinearButton>
+                <LinearButton
+                  color="blue"
+                  href="https://www.surveycake.com/s/z7bvM"
+                >
+                  Hunter 報名
                 </LinearButton>
               </div>
               <img src={dotT.src} alt="" width="50" height="50" />

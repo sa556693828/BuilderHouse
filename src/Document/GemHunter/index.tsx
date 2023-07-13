@@ -24,9 +24,29 @@ const hunterArray = [
         { icon: "icon-telegram", link: "" },
         { icon: "icon-discord", link: "" },
       ],
-      illustrate:
-        "1. 至官網點擊「Get Started」\n2. 註冊帳號並進入使用介面\n3. 點擊右上角連結MetaMask錢包（BSC鏈）\n4. 於首頁購買10$USDT的$BLA代幣\n5. 完成任務！",
-      //content: ``,
+      illustrate: "",
+      content: [
+        {
+          title: `1. 至官網點擊「Get Started」`,
+          detail: [],
+        },
+        {
+          title: `2. 註冊帳號並進入使用介面`,
+          detail: [],
+        },
+        {
+          title: `3. 點擊右上角連結MetaMask錢包（BSC鏈）`,
+          detail: [],
+        },
+        {
+          title: `4. 於首頁購買10$USDT的$BLA代幣`,
+          detail: [],
+        },
+        {
+          title: `5. 完成任務！`,
+          detail: [],
+        },
+      ],
       //source: ``,
     },
   },
@@ -110,5 +130,6 @@ const hunterData = {
   subTitle: "獎金",
   id: "GemHunter",
   data: hunterArray,
+  totalPrize: "$ 3,000",
 };
 export default hunterData;

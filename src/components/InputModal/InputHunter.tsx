@@ -6,6 +6,8 @@ import {
   ModalHeader,
   ModalBody,
   ModalCloseButton,
+  ListItem,
+  UnorderedList,
 } from "@chakra-ui/react";
 import SvgIcon from "../SvgIcon/SvgIcon";
 import line from "@/assets/lineFill.svg";
@@ -33,7 +35,7 @@ export default function InputHunter(props: {
             {data?.title}
           </ModalHeader>
           <ModalCloseButton />
-          <ModalBody className="flex flex-col gap-12 text-center">
+          <ModalBody className="flex flex-col gap-6 text-center">
             <div className="flex w-full justify-center gap-6">
               {data?.linkArr?.map((item: any, index: any) => {
                 return (
@@ -51,8 +53,36 @@ export default function InputHunter(props: {
                 );
               })}
             </div>
+            <p className="text-left font-normal">{data?.illustrate}</p>
+            {data?.content ? (
+              <div className="my-6 rounded-xl bg-gradient-to-r from-greenF to-greenT p-[1px] transition-all">
+                <div className="flex h-full w-full flex-col rounded-xl bg-bg px-10 py-6">
+                  {data?.content?.map((item: any, idx: any) => (
+                    <React.Fragment key={idx}>
+                      <div className="text-left text-lg">{item.title}</div>
+                      <UnorderedList spacing={3} my="4">
+                        {item.detail.map((item: any, idx: any) => (
+                          <ListItem
+                            key={idx}
+                            className="text-left text-sm font-normal text-text"
+                          >
+                            {item}
+                          </ListItem>
+                        ))}
+                      </UnorderedList>
+                    </React.Fragment>
+                  ))}
+                </div>
+              </div>
+            ) : (
+              <div className="my-6 rounded-xl bg-gradient-to-r from-greenF to-greenT p-[1px] transition-all">
+                <div className="flex h-full w-full flex-col rounded-xl bg-bg px-10 py-6">
+                  <div className="text-xl">Coming Soon ...</div>
+                </div>
+              </div>
+            )}
 
-            <div className="line relative flex w-full">
+            {/* <div className="line relative flex w-full">
               <div className="z-10 flex w-1/3 justify-center">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-r from-greenF to-greenT text-2xl font-bold text-black">
                   1
@@ -82,7 +112,7 @@ export default function InputHunter(props: {
               <div className="flex w-1/3 justify-center">
                 <div className=" max-w-xs">{`third`}</div>
               </div>
-            </div>
+            </div> */}
 
             <p className="text-left text-xs">{data?.source}</p>
           </ModalBody>

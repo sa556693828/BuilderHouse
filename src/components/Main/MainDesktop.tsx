@@ -43,12 +43,15 @@ export default function MainDesktop() {
             是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過
             Taiwan Builder House，你將有機會在Web3領域中開創出自己獨特的道路。
           </div>
-          <div className="h-12">
+          <div className="flex h-12 gap-6">
+            <LinearButton color="red" href="https://www.surveycake.com/s/z7bvM">
+              Hacker/Trader 報名
+            </LinearButton>
             <LinearButton
-              color="green"
+              color="blue"
               href="https://www.surveycake.com/s/z7bvM"
             >
-              報名
+              Hunter 報名
             </LinearButton>
           </div>
         </div>

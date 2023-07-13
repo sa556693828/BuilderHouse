@@ -16,7 +16,7 @@ export default function OverView(props: { data: any }) {
             title={item.title}
             color={item.color}
             content={item.content}
-            detail={item.detail}
+            data={item.data}
             key={index}
           />
         ))}

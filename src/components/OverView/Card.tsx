@@ -1,4 +1,6 @@
+import { useDisclosure } from "@chakra-ui/react";
 import React from "react";
+import InputModal from "../InputModal/InputModal";
 import LinearButton from "../LinearButton/LinearButton";
 
 //border-green
@@ -12,8 +14,10 @@ export default function ViewCard(props: {
   title: string;
   content: string;
   color: "green" | "blue" | "red";
-  detail: string;
+  data: any;
 }) {
+  const { isOpen, onClose, onOpen } = useDisclosure();
+
   return (
     <div
       className={`h-full bg-gradient-to-r from-${props?.color}F to-${props?.color}T pb-[2px] transition-all`}
@@ -27,9 +31,12 @@ export default function ViewCard(props: {
 
         <div className="flex-1 whitespace-pre-wrap">{props.content}</div>
         <div className="">
-          <LinearButton color={props?.color}>詳情</LinearButton>
+          <LinearButton color={props?.color} onClick={onOpen}>
+            詳情
+          </LinearButton>
         </div>
       </div>
+      <InputModal isOpen={isOpen} onClose={onClose} data={props?.data} />
     </div>
   );
 }

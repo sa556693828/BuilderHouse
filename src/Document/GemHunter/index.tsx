@@ -81,7 +81,7 @@ const hunterArray = [
   },
   {
     title: "Friends Protocal",
-    prize: "-",
+    prize: "Mint 所花費用將會返一半還給原地址",
     pic: Friends.src,
     data: {
       title: "Friends Protocal",
@@ -92,6 +92,20 @@ const hunterArray = [
         { icon: "icon-discord", link: "" },
       ],
       illustrate: "",
+      content: [
+        {
+          title: `1. 到 Telegram 上搜尋 “@FriendsProtocol_Bot”`,
+          detail: [],
+        },
+        {
+          title: `2. 使用bot Mint 一張 Friends NFT (15 TON)`,
+          detail: [],
+        },
+        {
+          title: `3. 完成任務`,
+          detail: [],
+        },
+      ],
     },
   },
   {

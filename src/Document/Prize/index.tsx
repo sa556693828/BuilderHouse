@@ -17,7 +17,7 @@ const prizeArray = [
   },
   {
     title: "Lead Capital",
-    prize: "$5,000U",
+    prize: "$5,000",
     pic: Lead.src,
     data: {
       title: "針對市場波動進行預測分析",
@@ -107,8 +107,8 @@ const prizeArray = [
   },
   {
     title: "Huobi Ventures",
-    prize: "$2,000U",
-    pic: Lead.src,
+    prize: "$2,000",
+    pic: huobi.src,
     data: {
       title: "搭建圍繞胖協議（Fat protocol）的創新功能",
       prize: "獎金金額：$2,000U",

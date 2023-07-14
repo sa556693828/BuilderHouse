@@ -106,6 +106,18 @@ const prizeArray = [
     },
   },
   {
+    title: "Huobi Ventures",
+    prize: "$2,000",
+    pic: huobi.src,
+    data: {
+      title: "搭建圍繞胖協議（Fat protocol）的創新功能",
+      prize: "獎金金額：$2,000U",
+      illustrate: "Fat Protocol Thesis由Joel Monegro在2016年給出。它提到基礎層區塊鏈增持的價值始終大於其後續應用層。 本質上，基礎層的市值總是會超過建立在同一基礎層上的所有應用程序價值的市值。      ",
+      content: [`請利用頭部協議的可組合性功能，搭建圍繞胖協議（Fat protocol）的創新功能，例如：利用Uniswap的hook機制，引發交易可編程化的想象，圍繞uniswap生態研發，最大益處來自於其強大的流動性深度。`],
+      source: ``,
+    },
+  },
+  {
     title: "BingX Ventures",
     prize: "$ -",
     pic: bingxVe.src,
@@ -114,18 +126,6 @@ const prizeArray = [
     title: "BingX",
     prize: "$ -",
     pic: bingX.src,
-  },
-  {
-    title: "Huobi Ventures",
-    prize: "$2,000",
-    pic: huobi.src,
-    data: {
-      title: "搭建圍繞胖協議（Fat protocol）的創新功能",
-      prize: "獎金金額：$2,000U",
-      illustrate: `請利用頭部協議的可組合性功能，搭建圍繞胖協議（Fat protocol）的創新功能，例如：利用Uniswap的hook機制，引發交易可編程化的想象，圍繞uniswap生態研發，最大益處來自於其強大的流動性深度。`,
-      content: [],
-      source: ``,
-    },
   },
   {
     title: "Chaintimes Ventures",

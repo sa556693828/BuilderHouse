@@ -87,9 +87,8 @@ const hunterArray = [
       title: "Friends Protocal",
       linkArr: [
         { icon: "icon-website", link: "https://4riends.org/" },
-        { icon: "icon-twitter", link: "" },
-        { icon: "icon-telegram", link: "" },
-        { icon: "icon-discord", link: "" },
+        { icon: "icon-twitter", link: "https://twitter.com/FriendsProtocol" },
+        { icon: "icon-telegram", link: "https://t.me/Friends_Protocol" },
       ],
       illustrate: "",
       content: [

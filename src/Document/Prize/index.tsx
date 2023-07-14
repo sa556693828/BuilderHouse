@@ -17,7 +17,7 @@ const prizeArray = [
   },
   {
     title: "Lead Capital",
-    prize: "$5,000",
+    prize: "$5,000U",
     pic: Lead.src,
     data: {
       title: "針對市場波動進行預測分析",
@@ -47,7 +47,7 @@ const prizeArray = [
     pic: Wormhole.src,
     data: {
       title: "利用 Wormhole 實現跨鏈功能的創新應用開發競賽",
-      prize: "獎金金額：$2000U",
+      prize: "獎金金額：$2,000U",
       illustrate:
         "獎金將根據參賽團隊提出的創新程度、實用性、用戶體驗和技術實施等各方面的優秀性來分配。每個獎金級別的獲得者將由專業評審團決定。",
       content: [
@@ -77,7 +77,7 @@ const prizeArray = [
     pic: Filecoin.src,
     data: {
       title: `使用 Filecoin 和 IPFS 創建創新的去中心化應用\n包括各種領域，如媒體共享、社交媒體、去中心化金融（DeFi）等`,
-      prize: "獎金金額：$2000U",
+      prize: "獎金金額：$2,000U",
       illustrate:
         "獎金將根據參賽團隊提出的創新程度、實用性、用戶體驗和技術實施等各方面的優秀性來分配。每個獎金級別的獲得者將由專業評審團決定。",
       content: [
@@ -117,8 +117,13 @@ const prizeArray = [
   },
   {
     title: "Huobi Ventures",
-    prize: "$ -",
+    prize: "$2,000",
     pic: huobi.src,
+    data: {
+      title: "搭建圍繞胖協議（Fat protocol）的創新功能",
+      prize: "獎金金額：$2,000U",
+      illustrate: `請利用頭部協議的可組合性功能，搭建圍繞胖協議（Fat protocol）的創新功能，例如：利用Uniswap的hook機制，引發交易可編程化的想象，圍繞uniswap生態研發，最大益處來自於其強大的流動性深度。`,
+    },
   },
   {
     title: "Chaintimes Ventures",

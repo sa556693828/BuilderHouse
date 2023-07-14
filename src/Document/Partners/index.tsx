@@ -24,31 +24,31 @@ import Grenade from "@/assets/Partners/grenadelogo.png";
 
 //連結放上去就可以點了
 const hostArr = [
-  { pic: builder.src, link: "https://stripe.com/docs/payments/elements" },
+  { pic: builder.src, link: "https://twitter.com/_BuilderDAO" },
 ];
 const coHostArr = [
-  { pic: lead.src, link: "" },
-  { pic: carry.src, link: "", w: "200" },
-  { pic: zombie.src, link: "" },
+  { pic: lead.src, link: "https://lead-capital.com/" },
+  { pic: carry.src, link: "https://www.carry.live/", w: "200" },
+  { pic: zombie.src, link: "https://zombit.info/" },
 ];
 const strategicArr = [{ pic: TBW.src, link: "", w: "220" }];
 const partnersArr = [
-  { pic: wormhole.src, link: "" },
-  { pic: chain.src, link: "" },
-  { pic: FileCoin.src, link: "", w: "250" },
-  { pic: Huobi.src, link: "" },
-  { pic: BingX.src, link: "", w: "200" },
+  { pic: wormhole.src, link: "https://wormhole.com/" },
+  { pic: chain.src, link: "https://ctcap.io/" },
+  { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
+  { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
+  { pic: BingX.src, link: "https://bingx.com/", w: "200" },
   { pic: ikala.src, link: "" },
-  { pic: IPFS.src, link: "", w: "200" },
+  { pic: IPFS.src, link: "https://ipfs.tech/", w: "200" },
   { pic: venture.src, link: "" },
-  { pic: Orderly.src, link: "", w: "300" },
-  { pic: Mexc.src, link: "", w: "100" },
+  { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
+  { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
 ];
 const mediaArr = [
-  { pic: followIn.src, link: "" },
-  { pic: noneland.src, link: "" },
-  { pic: ABM.src, link: "" },
-  { pic: PAnews.src, link: "" },
+  { pic: followIn.src, link: "https://followin.io/zh-Hant" },
+  { pic: noneland.src, link: "https://none.land/" },
+  { pic: ABM.src, link: "https://abmedia.io/" },
+  { pic: PAnews.src, link: "https://www.panewslab.com/" },
   { pic: Grenade.src, link: "" },
 ];
 const communityArr = [

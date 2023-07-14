@@ -123,6 +123,8 @@ const prizeArray = [
       title: "搭建圍繞胖協議（Fat protocol）的創新功能",
       prize: "獎金金額：$2,000U",
       illustrate: `請利用頭部協議的可組合性功能，搭建圍繞胖協議（Fat protocol）的創新功能，例如：利用Uniswap的hook機制，引發交易可編程化的想象，圍繞uniswap生態研發，最大益處來自於其強大的流動性深度。`,
+      content: [],
+      source: ``,
     },
   },
   {

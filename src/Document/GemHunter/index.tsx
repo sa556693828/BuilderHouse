@@ -58,9 +58,9 @@ const hunterArray = [
       title: "Crypto Arsenal",
       linkArr: [
         { icon: "icon-website", link: "https://crypto-arsenal.io/" },
-        { icon: "icon-twitter", link: "" },
-        { icon: "icon-telegram", link: "" },
-        { icon: "icon-discord", link: "" },
+        { icon: "icon-twitter", link: "https://twitter.com/CryptoArsena1" },
+        { icon: "icon-telegram", link: "https://t.me/TG_Crypto_Arsenal" },
+        { icon: "icon-discord", link: "https://discord.com/invite/DfVSwYprvK" },
       ],
     },
   },

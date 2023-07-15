@@ -6,13 +6,13 @@ import trader0719 from "@/assets/trader0719.png";
 //新增link即可點擊
 const EventsContent = [
   {
-    pic: eventPic.src,
+    pic: lead0719.src,
     date: `JULY 19,2023`,
     title: "LeadUp The Night: 區塊鏈與 AI",
     content: `重塑資產管理的未來`,
     link: "https://lu.ma/LeadUpTheNight_9",
   },  {
-    pic: eventPic.src,
+    pic: trader0719.src,
     date: `JULY 19,2023`,
     title: "Trader House",
     content: `量化101，策略交易只有 CTA？`,

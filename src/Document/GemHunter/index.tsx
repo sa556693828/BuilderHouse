@@ -21,11 +21,10 @@ const hunterArray = [
       title: "Blablablock",
       linkArr: [
         { icon: "icon-website", link: "https://www.blablablock.com" },
-        { icon: "icon-twitter", link: "" },
-        { icon: "icon-telegram", link: "" },
-        { icon: "icon-discord", link: "" },
+        { icon: "icon-twitter", link: "https://twitter.com/__BlablaBlock__" },
+        { icon: "icon-discord", link: "https://discord.com/invite/C82wRDecbS" },
       ],
-      illustrate: "",
+      illustrate: "購買$BLA；更聰明地交易加密貨幣！",
       content: [
         {
           title: `1. 至官網點擊「Get Started」`,

@@ -4,6 +4,7 @@ import Friends from "@/assets/Hunter/friends.png";
 import Rentii from "@/assets/Hunter/rentii.png";
 import Tikki from "@/assets/Hunter/tikki.png";
 import Followin from "@/assets/Partners/followIn.svg";
+import Bucket from "@/assets/Hunter/bucket.png";
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
 
@@ -48,6 +49,31 @@ const hunterArray = [
         },
       ],
       //source: ``,
+    },
+  },
+  {
+    title: "Bucket Protocol",
+    prize: "Task",
+    pic: Bucket.src,
+    data: {
+      title: "Bucket Protocol",
+      linkArr: [
+        { icon: "icon-website", link: "https://app.bucketprotocol.io/" },
+        { icon: "icon-twitter", link: "https://twitter.com/bucket_protocol" },
+        { icon: "icon-telegram", link: "https://t.me/bucketprotocol" },
+        { icon: "icon-discord", link: "https://discord.com/invite/nYCnNJE6Tr" },
+      ],
+      illustrate: "完成建立倉位和質押$BUCK至協議",
+      content: [
+        {
+          title: `1. 建立一個倉位Position (最小金額10 $BUCK, 建立CR%: 150%以上, 15鎂等值的SUI, 以目前SUI價格是0.7, 需存入約21.4顆SUI)”`,
+          detail: [],
+        },
+        {
+          title: `2. 將任意數量的$BUCK質押到Tank中`,
+          detail: [],
+        },
+      ],
     },
   },
   {

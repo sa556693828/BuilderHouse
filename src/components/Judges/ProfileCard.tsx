@@ -40,7 +40,7 @@ export default function ProfileCard(props: {
             <SvgIcon
               width={30}
               height={30}
-              iconName="icon-discord"
+              iconName="icon-linkin"
               className="fill-icon"
             />
           </div>

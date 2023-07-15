@@ -8,7 +8,8 @@ export default function ProfileCard(props: {
   name?: string;
   company?: string;
   twitter?: string;
-  discord?: string;
+  //discord?: string;
+  linkin?: string;
   telegram?: string;
 }) {
   return (

@@ -99,17 +99,17 @@ const hunterArray = [
         { icon: "icon-discord", link: "https://discord.com/invite/5HH4R5KTA3" },
       ],
       illustrate: "購買NFT域名",
+      content: [
+        {
+          title: `1. 使用任意钱包登录Dmail`,
+          detail: ['https://mail.dmail.ai/setting/account/100006'],
+        },
+        {
+          title: `2. 参与Presale，购买任意NFT域名账号`,
+          detail: ['https://mail.dmail.ai/presale/100006'],
+        },
+      ],
     },
-    content: [
-      {
-        title: `1. 使用任意钱包登录Dmail`,
-        detail: ['https://mail.dmail.ai/setting/account/100006'],
-      },
-      {
-        title: `2. 参与Presale，购买任意NFT域名账号`,
-        detail: ['https://mail.dmail.ai/presale/100006'],
-      },
-    ],
   },
   {
     title: "Followin",
@@ -124,21 +124,21 @@ const hunterArray = [
         { icon: "icon-discord", link: "https://discord.com/invite/vPdAfjZ7ja" },
       ],
       illustrate: "完成新手任務",
+      content: [
+        {
+          title: `1. 成功綁定錢包”`,
+          detail: [],
+        },
+        {
+          title: `2. 關注一個項目`,
+          detail: [],
+        },
+        {
+          title: `3. 綁定Twitter`,
+          detail: [],
+        },
+      ],
     },
-    content: [
-      {
-        title: `1. 成功綁定錢包”`,
-        detail: [],
-      },
-      {
-        title: `2. 關注一個項目`,
-        detail: [],
-      },
-      {
-        title: `3. 綁定Twitter`,
-        detail: [],
-      },
-    ],
   },
   {
     title: "Friends Protocal",

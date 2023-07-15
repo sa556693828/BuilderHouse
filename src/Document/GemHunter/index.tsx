@@ -6,6 +6,10 @@ import Tikki from "@/assets/Hunter/tikki.png";
 import Followin from "@/assets/Partners/followIn.svg";
 import Bucket from "@/assets/Hunter/bucket.png";
 import Dmail from "@/assets/Hunter/dmail.png";
+import Pawnfi from "@/assets/Hunter/pawnfi_logo.png";
+import Bonk from "@/assets/Hunter/bonk.png";
+import Genopets from "@/assets/Hunter/genopets.png";
+
 
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
@@ -46,6 +50,18 @@ const hunterArray = [
         },
       ],
       //source: ``,
+    },
+  },
+  {
+    title: "Bonk",
+    prize: "-",
+    pic: Bonk.src,
+    data: {
+      title: "Bonk",
+      linkArr: [
+        { icon: "icon-website", link: "https://www.bonkcoin.com/" },
+        { icon: "icon-twitter", link: "https://twitter.com/bonk_inu" },
+      ],
     },
   },
   {
@@ -126,7 +142,7 @@ const hunterArray = [
       illustrate: "完成新手任務",
       content: [
         {
-          title: `1. 成功綁定錢包”`,
+          title: `1. 成功綁定錢包`,
           detail: [],
         },
         {
@@ -165,6 +181,33 @@ const hunterArray = [
           title: `3. 完成任務`,
           detail: [],
         },
+      ],
+    },
+  },
+  {
+    title: "Genopets",
+    prize: "-",
+    pic: Genopets.src,
+    data: {
+      title: "Genopets",
+      linkArr: [
+        { icon: "icon-website", link: "https://www.genopets.me/" },
+        { icon: "icon-twitter", link: "https://twitter.com/genopets" },
+        { icon: "icon-discord", link: "https://discord.com/invite/genopets" },
+      ],
+    },
+  },
+  {
+    title: "PwanFi",
+    prize: "-",
+    pic: Pawnfi.src,
+    data: {
+      title: "PawnFi",
+      linkArr: [
+        { icon: "icon-website", link: "https://pawnfi.com/" },
+        { icon: "icon-twitter", link: "https://twitter.com/pawnfiofficial" },
+        { icon: "icon-telegram", link: "https://t.me/pawnfiprotocol" },
+        { icon: "icon-discord", link: "https://discord.com/invite/pawnfi" },
       ],
     },
   },

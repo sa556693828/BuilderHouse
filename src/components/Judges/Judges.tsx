@@ -26,7 +26,7 @@ export default function Judges() {
     {
       name: "Damien",
       company: "Binance\nGlobal Partnerships",
-      avatar: michael.src,
+      avatar: damien.src,
       twitter: "https://twitter.com/protocollabs",
       discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",

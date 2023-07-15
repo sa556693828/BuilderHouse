@@ -5,6 +5,8 @@ import Rentii from "@/assets/Hunter/rentii.png";
 import Tikki from "@/assets/Hunter/tikki.png";
 import Followin from "@/assets/Partners/followIn.svg";
 import Bucket from "@/assets/Hunter/bucket.png";
+import Dmail from "@/assets/Hunter/dmail.png";
+
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
 
@@ -15,7 +17,7 @@ import Bucket from "@/assets/Hunter/bucket.png";
 const hunterArray = [
   {
     title: "Blablablock",
-    prize: "-",
+    prize: "Task",
     pic: Bla.src,
     data: {
       title: "Blablablock",
@@ -40,10 +42,6 @@ const hunterArray = [
         },
         {
           title: `4. 於首頁購買10$USDT的$BLA代幣`,
-          detail: [],
-        },
-        {
-          title: `5. 完成任務！`,
           detail: [],
         },
       ],
@@ -90,23 +88,61 @@ const hunterArray = [
     },
   },
   {
+    title: "Dmail",
+    prize: "Task",
+    pic: Dmail.src,
+    data: {
+      title: "Dmail",
+      linkArr: [
+        { icon: "icon-website", link: "https://dmail.ai/" },
+        { icon: "icon-twitter", link: "https://twitter.com/Dmailofficial" },
+        { icon: "icon-discord", link: "https://discord.com/invite/5HH4R5KTA3" },
+      ],
+      illustrate: "購買NFT域名",
+    },
+    content: [
+      {
+        title: `1. 使用任意钱包登录Dmail`,
+        detail: ['https://mail.dmail.ai/setting/account/100006'],
+      },
+      {
+        title: `2. 参与Presale，购买任意NFT域名账号`,
+        detail: ['https://mail.dmail.ai/presale/100006'],
+      },
+    ],
+  },
+  {
     title: "Followin",
-    prize: "-",
+    prize: "Task",
     pic: Followin.src,
     data: {
       title: "Followin",
       linkArr: [
         { icon: "icon-website", link: "https://followin.io/" },
-        { icon: "icon-twitter", link: "" },
-        { icon: "icon-telegram", link: "" },
-        { icon: "icon-discord", link: "" },
+        { icon: "icon-twitter", link: "https://twitter.com/followin_io" },
+        { icon: "icon-telegram", link: "https://t.me/followin_io" },
+        { icon: "icon-discord", link: "https://discord.com/invite/vPdAfjZ7ja" },
       ],
-      illustrate: "",
+      illustrate: "完成新手任務",
     },
+    content: [
+      {
+        title: `1. 成功綁定錢包”`,
+        detail: [],
+      },
+      {
+        title: `2. 關注一個項目`,
+        detail: [],
+      },
+      {
+        title: `3. 綁定Twitter`,
+        detail: [],
+      },
+    ],
   },
   {
     title: "Friends Protocal",
-    prize: "Mint 所花費用將會返一半還給原地址",
+    prize: "Mint 50%OFF",
     pic: Friends.src,
     data: {
       title: "Friends Protocal",

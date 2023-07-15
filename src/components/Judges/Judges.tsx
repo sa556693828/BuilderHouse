@@ -23,6 +23,14 @@ export default function Judges() {
       discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",
     },
+    {
+      name: "Damien",
+      company: "Binance\nGlobal Partnerships",
+      avatar: michael.src,
+      twitter: "https://twitter.com/protocollabs",
+      discord: "https://discord.com/invite/protocol",
+      telegram: "https://t.me/protocol_labs",
+    },
   ];
   return (
     <Section

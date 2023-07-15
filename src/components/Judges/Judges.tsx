@@ -12,16 +12,16 @@ export default function Judges() {
       company: "Meta\nGSR Sales Director",
       avatar: henry.src,
       twitter: "https://twitter.com/protocollabs",
-      //discord: "https://discord.com/invite/protocol",
-      //telegram: "https://t.me/protocol_labs",
+      discord: "https://discord.com/invite/protocol",
+      telegram: "https://t.me/protocol_labs",
     },
     {
       name: "Michael",
       company: "Lead Capital\nCo-Founder",
       avatar: michael.src,
       twitter: "https://twitter.com/protocollabs",
-      //discord: "https://discord.com/invite/protocol",
-      //telegram: "https://t.me/protocol_labs",
+      discord: "https://discord.com/invite/protocol",
+      telegram: "https://t.me/protocol_labs",
     },
   ];
   return (

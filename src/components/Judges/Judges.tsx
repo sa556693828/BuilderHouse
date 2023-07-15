@@ -3,10 +3,18 @@ import Section from "../Section/Section";
 import ProfileCard from "./ProfileCard";
 import henry from "@/assets/Judges/henry.jpeg";
 import michael from "@/assets/Judges/michael.jpg";
-import damien from "@/assets/Judges/damien.jpg";
+import damien from "@/assets/Judges/damien.jpeg";
 
 export default function Judges() {
   const JudgesArray = [
+    {
+      name: "Damien",
+      company: "Binance\nGlobal Partnerships",
+      avatar: damien.src,
+      twitter: "https://twitter.com/protocollabs",
+      discord: "https://discord.com/invite/protocol",
+      telegram: "https://t.me/protocol_labs",
+    },
     {
       name: "Henry",
       company: "Meta\nGSR Sales Director",
@@ -19,14 +27,6 @@ export default function Judges() {
       name: "Michael",
       company: "Lead Capital\nCo-Founder",
       avatar: michael.src,
-      twitter: "https://twitter.com/protocollabs",
-      discord: "https://discord.com/invite/protocol",
-      telegram: "https://t.me/protocol_labs",
-    },
-    {
-      name: "Damien",
-      company: "Binance\nGlobal Partnerships",
-      avatar: damien.src,
       twitter: "https://twitter.com/protocollabs",
       discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",

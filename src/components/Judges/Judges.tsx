@@ -12,7 +12,7 @@ export default function Judges() {
       company: "Binance\nGlobal Partnerships",
       avatar: damien.src,
       twitter: "https://twitter.com/protocollabs",
-      discord: "https://discord.com/invite/protocol",
+      //discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",
     },
     {
@@ -20,7 +20,7 @@ export default function Judges() {
       company: "Meta\nGSR Sales Director",
       avatar: henry.src,
       twitter: "https://twitter.com/protocollabs",
-      discord: "https://discord.com/invite/protocol",
+      //discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",
     },
     {
@@ -28,7 +28,7 @@ export default function Judges() {
       company: "Lead Capital\nCo-Founder",
       avatar: michael.src,
       twitter: "https://twitter.com/protocollabs",
-      discord: "https://discord.com/invite/protocol",
+      //discord: "https://discord.com/invite/protocol",
       telegram: "https://t.me/protocol_labs",
     },
   ];
@@ -46,7 +46,7 @@ export default function Judges() {
             name={item.name}
             company={item.company}
             twitter={item.twitter}
-            discord={item.discord}
+            //discord={item.discord}
             telegram={item.telegram}
             key={idx}
           />

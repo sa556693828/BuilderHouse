@@ -7,7 +7,7 @@ import huobi from "@/assets/Prizes/huobi.png";
 import chaintimes from "@/assets/Prizes/chaintimes.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
 import Mexc from "@/assets/Prizes/mexc.png";
-import ACE from "@/assets/Partners/acelogo.png";
+import Ace from "@/assets/Partners/acelogo.png";
 
 const prizeArray = [
   {
@@ -127,7 +127,7 @@ const prizeArray = [
   {
     title: "ACE Exchange",
     prize: "Maker優惠費率",
-    pic: huobi.src,
+    pic: Ace.src,
     data: {
       title: "TWD Maker 徵集令",
       prize: "TWD Maker優惠費率",

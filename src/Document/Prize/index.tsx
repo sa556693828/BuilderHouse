@@ -7,6 +7,7 @@ import huobi from "@/assets/Prizes/huobi.png";
 import chaintimes from "@/assets/Prizes/chaintimes.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
 import Mexc from "@/assets/Prizes/mexc.png";
+import ACE from "@/assets/Partners/acelogo.png";
 
 const prizeArray = [
   {
@@ -117,6 +118,36 @@ const prizeArray = [
         {
           title: `請利用頭部協議的可組合性功能，搭建圍繞胖協議（Fat protocol）的創新功能，例如：利用Uniswap的hook機制，引發交易可編程化的想象，圍繞uniswap生態研發，最大益處來自於其強大的流動性深度。`,
           detail: [],
+        },
+      ],
+
+      //source: ``,
+    },
+  },
+  {
+    title: "ACE Exchange",
+    prize: "Maker優惠費率",
+    pic: huobi.src,
+    data: {
+      title: "TWD Maker 徵集令",
+      prize: "TWD Maker優惠費率",
+      illustrate: `在期間內，申請並審核後，將可享有Maker優惠費率`,
+      content: [
+        {
+          title: `期間 Maker 成交量滿 10,000,000TWD`,
+          detail: ["Maker手續費 -0.02%"],
+        },
+        {
+          title: `期間 Maker 成交量滿 20,000,000TWD`,
+          detail: ["Maker手續費 -0.03%"],
+        },
+        {
+          title: `注意事項`,
+          detail: [
+            "成交量只計算台幣交易對，成交形式為Maker",
+            "手續費返還將以「週」為單位返還",
+            "Taker將依照原有手續費計算",
+          ],
         },
       ],
 

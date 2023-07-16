@@ -21,6 +21,8 @@ import Jclub from "@/assets/Partners/Jclub.png";
 import rabbit from "@/assets/Partners/rabbit.png";
 import Mexc from "@/assets/Partners/mexc_global.png";
 import Grenade from "@/assets/Partners/grenadelogo.png";
+import ACE from "@/assets/Partners/acelogo.png";
+
 
 //連結放上去就可以點了
 const hostArr = [
@@ -43,6 +45,7 @@ const partnersArr = [
   { pic: venture.src, link: "" },
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
+  { pic: ACE.src, link: "https://ace.io/", w: "100" },
 ];
 const mediaArr = [
   { pic: followIn.src, link: "https://followin.io/zh-Hant" },

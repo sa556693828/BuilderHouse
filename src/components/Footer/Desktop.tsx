@@ -57,9 +57,6 @@ export default function DesktopFooter(props: any) {
           >
             <SvgIcon width={30} height={30} iconName="icon-telegram" />
           </div>
-          <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">
-            <SvgIcon width={30} height={30} iconName="icon-discord" />
-          </div>
         </div>
         <div className="flex max-w-sm justify-end text-xs font-medium text-black xl:text-base">
           © TAIWAN BUILDER HOUSE.

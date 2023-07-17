@@ -28,9 +28,6 @@ export default function FooterMobile(props: any) {
         >
           <SvgIcon width={30} height={30} iconName="icon-telegram" />
         </div>
-        <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">
-          <SvgIcon width={30} height={30} iconName="icon-discord" />
-        </div>
       </div>
       <div className="-ml-1 grid grid-cols-2 gap-x-10 gap-y-5 text-base font-medium">
         <Link href="/#OverView" passHref>

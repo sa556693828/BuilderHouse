@@ -7,20 +7,28 @@ import SvgIcon from "../SvgIcon/SvgIcon";
 export default function FooterMobile(props: any) {
   const { goPage } = props;
   const buttonStyle = "hover:opacity-80 text-black font-medium p-2 uppercase";
-
+  const openLink = (link: string) => {
+    window.open(link, "_blank");
+  };
   return (
     <footer className="flex w-full flex-col items-start gap-8 border-t-[1px] border-white bg-transparent px-8 py-10 lg:hidden">
       <div className="cursor-pointer" onClick={() => goPage("/")}>
         <Image src={Logo.src} alt="logo" width="250" height="100" />
       </div>
       <div className="-ml-3 flex justify-start">
-        <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">
+        <div
+          className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20"
+          onClick={() => openLink("https://bit.ly/TBH_twitter")}
+        >
           <SvgIcon width={30} height={30} iconName="icon-twitter" />
         </div>
-        <div className="rounded-full p-3">
+        <div
+          className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20"
+          onClick={() => openLink("https://bit.ly/3MRkvxF")}
+        >
           <SvgIcon width={30} height={30} iconName="icon-telegram" />
         </div>
-        <div className="rounded-full p-3">
+        <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">
           <SvgIcon width={30} height={30} iconName="icon-discord" />
         </div>
       </div>

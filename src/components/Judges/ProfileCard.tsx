@@ -8,12 +8,15 @@ export default function ProfileCard(props: {
   name?: string;
   company?: string;
   twitter?: string;
-  //discord?: string;
-  linkin?: string;
+  discord?: string;
   telegram?: string;
+  linkin?: string;
 }) {
+  const openLink = (link: string | undefined) => {
+    window.open(link, "_blank");
+  };
   return (
-    <div className="h-full bg-gradient-to-r from-redF to-redT pb-[1px] transition-all">
+    <div className="h-full w-full bg-gradient-to-r from-redF to-redT pb-[1px] transition-all">
       <div className="flex h-full w-full flex-col items-center bg-bg p-10 shadow-greenLi">
         <Box
           className="h-32 w-32 rounded-full"
@@ -24,32 +27,25 @@ export default function ProfileCard(props: {
         />
         <div className="mt-5 text-center text-lg">
           {props.name}
-          <div className="whitespace-pre-wrap font-medium text-text">
+          <div className="mt-4 whitespace-pre-wrap text-sm font-medium text-text">
             {props.company}
           </div>
         </div>
         <div className="flex w-2/3 justify-center gap-6 py-10">
-          <div className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20">
+          <div
+            className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20"
+            onClick={
+              props.linkin
+                ? () => {
+                    openLink(props?.linkin);
+                  }
+                : () => {}
+            }
+          >
             <SvgIcon
               width={30}
               height={30}
-              iconName="icon-twitter"
-              className="fill-icon"
-            />
-          </div>
-          <div className="rounded-full p-3">
-            <SvgIcon
-              width={30}
-              height={30}
-              iconName="icon-linkin"
-              className="fill-icon"
-            />
-          </div>
-          <div className="rounded-full p-3">
-            <SvgIcon
-              width={30}
-              height={30}
-              iconName="icon-telegram"
+              iconName="icon-link"
               className="fill-icon"
             />
           </div>

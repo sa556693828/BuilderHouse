@@ -18,7 +18,7 @@ export default function Prizes(props: { data: any }) {
           <div
             className={`flex h-full w-full items-center justify-center gap-6 rounded-2xl bg-bg p-4 md:gap-2`}
           >
-            <div className="bg-gradient-to-r from-yellowF to-yellowT bg-clip-text p-2 text-5xl text-transparent">
+            <div className="bg-gradient-to-r from-yellowF to-yellowT bg-clip-text p-2 text-[2.5rem] text-transparent">
               {data.totalPrize}
             </div>
           </div>

@@ -21,17 +21,17 @@ export default function InputModal(props: {
     <Modal
       isOpen={isOpen}
       onClose={onClose}
-      size={{ lg: "3xl", xl: "6xl" }}
+      size={{ base: "xs", md: "xl", lg: "3xl", xl: "6xl" }}
       isCentered
     >
       <ModalOverlay />
-      <ModalContent className="overflow-hidden whitespace-pre-wrap rounded-sm bg-rainbow p-[1px] transition-all">
-        <div className="flex h-full w-full flex-col rounded-sm bg-bg p-5 shadow-greenLi xl:p-10">
+      <ModalContent className="whitespace-pre-wrap rounded-sm bg-rainbow p-[1px] transition-all">
+        <div className="flex h-[90vh] w-full flex-col overflow-auto rounded-sm bg-bg p-5 shadow-greenLi xl:p-10">
           <ModalHeader className="flex justify-center text-center text-2xl">
             {data?.title}
           </ModalHeader>
           <ModalCloseButton />
-          <ModalBody className="flex flex-col gap-5 text-center">
+          <ModalBody className="flex flex-col gap-5 px-2 text-center">
             <p className="font-medium text-text">{data?.prize}</p>
             <p className="text-left font-normal">{data?.illustrate}</p>
             {data?.content ? (

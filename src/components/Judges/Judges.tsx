@@ -11,25 +11,19 @@ export default function Judges() {
       name: "Damien",
       company: "Binance\nGlobal Partnerships",
       avatar: damien.src,
-      twitter: "https://twitter.com/protocollabs",
-      linkin: "https://discord.com/invite/protocol",
-      telegram: "https://t.me/protocol_labs",
+      linkin: "https://twitter.com/protocollabs",
     },
     {
       name: "Henry",
       company: "Meta\nGSR Sales Director",
       avatar: henry.src,
-      twitter: "https://twitter.com/protocollabs",
-      linkin: "https://discord.com/invite/protocol",
-      telegram: "https://t.me/protocol_labs",
+      linkin: "https://twitter.com/protocollabs",
     },
     {
       name: "Michael",
       company: "Lead Capital\nCo-Founder",
       avatar: michael.src,
-      twitter: "https://twitter.com/protocollabs",
-      linkin: "https://discord.com/invite/protocol",
-      telegram: "https://t.me/protocol_labs",
+      linkin: "https://twitter.com/protocollabs",
     },
   ];
   return (
@@ -39,15 +33,13 @@ export default function Judges() {
       id="Judges"
     >
       {/* <div className="grid w-full grid-cols-1 gap-5 px-10 lg:grid-cols-4 lg:px-0"> */}
-      <div className="flex w-full flex-col justify-center gap-5 px-10 lg:flex-row lg:px-0">
+      <div className="flex w-full flex-col justify-center gap-5 px-0 lg:flex-row">
         {JudgesArray.map((item, idx) => (
           <ProfileCard
             avatar={item.avatar}
             name={item.name}
             company={item.company}
-            twitter={item.twitter}
             linkin={item.linkin}
-            telegram={item.telegram}
             key={idx}
           />
         ))}

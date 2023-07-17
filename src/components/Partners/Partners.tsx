@@ -22,7 +22,7 @@ export default function Partners(props: { data: any }) {
             className="pointer-events-none -z-10"
           />
         </div>
-        <div className="flex w-full justify-center gap-14 pb-36 pt-72">
+        <div className="flex w-full justify-center gap-14 pb-36 pt-36 lg:pt-72">
           <img
             src={style.src}
             alt=""

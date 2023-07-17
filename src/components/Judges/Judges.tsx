@@ -11,19 +11,19 @@ export default function Judges() {
       name: "Damien",
       company: "Binance\nGlobal Partnerships",
       avatar: damien.src,
-      linkin: "https://twitter.com/protocollabs",
+      linkin: "https://www.linkedin.com/in/damien-ho-70339935/",
     },
     {
       name: "Henry",
       company: "Meta\nGSR Sales Director",
       avatar: henry.src,
-      linkin: "https://twitter.com/protocollabs",
+      linkin: "",
     },
     {
       name: "Michael",
       company: "Lead Capital\nCo-Founder",
       avatar: michael.src,
-      linkin: "https://twitter.com/protocollabs",
+      linkin: "https://www.linkedin.com/in/michae1chen/",
     },
   ];
   return (

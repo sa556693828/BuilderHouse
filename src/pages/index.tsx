@@ -15,12 +15,13 @@ import partnersData from "@/Document/Partners";
 import FAQData from "@/Document/FAQ";
 import Events from "@/components/Events/Events";
 import EventsData from "@/Document/Events";
+import timeLineData from "@/Document/TimeLine";
 
 export default function Home() {
   return (
     <>
       <Main />
-      <TimeLine />
+      <TimeLine data={timeLineData} />
       <OverView data={OverViewData} />
       <Prizes data={prizeData} />
       <GemHunter data={hunterData} />

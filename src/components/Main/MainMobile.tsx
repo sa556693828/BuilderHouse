@@ -32,7 +32,7 @@ export default function MainMobile() {
           <div className="absolute -bottom-[16px] right-24">
             <img src={Vector.src} alt="" width="30" height="50" />
           </div>
-          <div className="flex w-full flex-col items-start justify-between gap-2 px-2">
+          <div className="flex w-full flex-col items-start justify-between gap-2 overflow-x-hidden overflow-y-scroll px-2">
             <div className="text-base font-normal uppercase sm:text-lg">
               Taiwan Builder House (TBH)
               是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過

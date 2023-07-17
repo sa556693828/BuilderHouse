@@ -2,15 +2,23 @@ import React from "react";
 import Section from "../Section/Section";
 import PrizesCard from "./Card";
 import sideBgT from "@/assets/sideBgT.svg";
+import sideBgTM from "@/assets/sideBgTM.svg";
 import sideBg from "@/assets/sideBg.svg";
+import sideBgM from "@/assets/sideBgM.svg";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 export default function Prizes(props: { data: any }) {
   const { data } = props;
+  const isMobile = useBreakpointValue({ base: true, lg: false });
   return (
     <>
-      <img src={sideBgT.src} alt="TimeLine" className="w-full" />
+      <img
+        src={isMobile ? sideBgTM.src : sideBgT.src}
+        alt="TimeLine"
+        className="w-full"
+      />
       <div
-        className="flex w-full flex-col items-center justify-center gap-10 pt-32"
+        className="flex w-full flex-col items-center justify-center gap-10 pt-24 lg:pt-32"
         id={data.id}
       >
         <div className="text-[2rem] uppercase">Total Prize</div>
@@ -41,7 +49,11 @@ export default function Prizes(props: { data: any }) {
           ))}
         </div>
       </Section>
-      <img src={sideBg.src} alt="TimeLine" className="w-full" />
+      <img
+        src={isMobile ? sideBgM.src : sideBg.src}
+        alt="TimeLine"
+        className="w-full"
+      />
     </>
   );
 }

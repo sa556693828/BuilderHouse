@@ -2,9 +2,13 @@ import React from "react";
 import sideBgT from "@/assets/sideBgT.svg";
 import Section from "../Section/Section";
 import HunterCard from "./Card";
+import sideBgTM from "@/assets/sideBgTM.svg";
+import { useBreakpointValue } from "@chakra-ui/react";
 
 export default function GemHunter(props: { data: any }) {
   const { data } = props;
+  const isMobile = useBreakpointValue({ base: true, lg: false });
+
   return (
     <>
       <Section
@@ -36,7 +40,11 @@ export default function GemHunter(props: { data: any }) {
         </div>
       </Section>
 
-      <img src={sideBgT.src} alt="TimeLine" className="w-full" />
+      <img
+        src={isMobile ? sideBgTM.src : sideBgT.src}
+        alt="TimeLine"
+        className="w-full"
+      />
     </>
   );
 }

@@ -10,7 +10,7 @@ import Mexc from "@/assets/Prizes/mexc.png";
 import Ace from "@/assets/Partners/acelogo.png";
 import TBH1 from "@/assets/Prizes/TBH_Tiffany_1.png";
 import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
-import TBH3 from "@/assets/Prizes/TBH_White_1.png";
+import TBH3 from "@/assets/Prizes/TBH_White_3.png";
 
 
 const prizeArray = [
@@ -18,6 +18,18 @@ const prizeArray = [
     title: "Taiwan Builder House",
     prize: "$10,000",
     pic: TBH1.src,
+    data: {},
+  },
+  {
+    title: "Taiwan Builder House",
+    prize: "$10,000",
+    pic: TBH2.src,
+    data: {},
+  },
+  {
+    title: "Taiwan Builder House",
+    prize: "$10,000",
+    pic: TBH3.src,
     data: {},
   },
   {

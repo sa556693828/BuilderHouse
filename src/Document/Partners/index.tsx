@@ -47,7 +47,7 @@ const partnersArr = [
   { pic: venture.src, link: "" },
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
-  { pic: ACE.src, link: "https://ace.io/", w: "100" },
+  { pic: ACE.src, link: "https://ace.io/", w: "200" },
 ];
 const mediaArr = [
   { pic: followIn.src, link: "https://followin.io/zh-Hant" },

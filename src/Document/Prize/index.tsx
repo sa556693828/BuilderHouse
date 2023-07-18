@@ -125,6 +125,42 @@ const prizeArray = [
     },
   },
   {
+    title: "Chaintimes Ventures",
+    prize: "$1,000",
+    pic: chaintimes.src,
+    data: {
+      title: "當社交進入了 Web3 世界會是什麼？發揮你的創意，提交有趣的 Web3 Social Idea!」",
+      prize: "$1,000U",
+      illustrate: `設計創新且有趣的Web3社交應用，演示產品如何讓用戶透過任何web3技術(錢包登入, 去中心匿名, 激勵機制等....)來實現社交互動的行為，並思考如何使用戶持續性使用。`,
+      content: [
+        {
+          title: `要求和限制`,
+          detail: [
+          "1. 使用Web3技術實現平台的運作和激勵機制。",
+          "2. 提供有效的激勵方法吸引用戶參與。",
+          "3. 設計驗證機制以確保激勵與用戶交互真實性。",
+          "4. 以 conpect 或 demo 尤佳演示社交應用場景。",
+          ],
+        },
+        {
+          title: `期間 Maker 成交量滿 20,000,000TWD`,
+          detail: ["Maker手續費 -0.03%"],
+        },
+        {
+          title: `評估標準`,
+          detail: [
+            "1. 解決方案創新性和技術可行性。",
+            "2. 激勵機制的有效性。",
+            "3. 用戶體驗和界面設計。",
+            "4. 用戶黏著度思考。",
+          ],
+        },
+      ],
+
+      //source: ``,
+    },
+  },
+  {
     title: "ACE Exchange",
     prize: "Maker優惠費率",
     pic: Ace.src,
@@ -163,11 +199,6 @@ const prizeArray = [
     title: "BingX",
     prize: "$ -",
     pic: bingX.src,
-  },
-  {
-    title: "Chaintimes Ventures",
-    prize: "$ -",
-    pic: chaintimes.src,
   },
   {
     title: "MEXC Global",

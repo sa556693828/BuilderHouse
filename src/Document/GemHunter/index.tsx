@@ -9,6 +9,8 @@ import Dmail from "@/assets/Hunter/dmail.png";
 import Pawnfi from "@/assets/Hunter/pawnfi_logo.png";
 import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
+import Paraspace from "@/assets/Hunter/paraspace_logo.png";
+
 
 
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
@@ -91,7 +93,7 @@ const hunterArray = [
   },
   {
     title: "Crypto Arsenal",
-    prize: "-",
+    prize: "Task，免費一個月使用",
     pic: CA.src,
     data: {
       title: "Crypto Arsenal",
@@ -100,6 +102,24 @@ const hunterArray = [
         { icon: "icon-twitter", link: "https://twitter.com/CryptoArsena1" },
         { icon: "icon-telegram", link: "https://t.me/TG_Crypto_Arsenal" },
         { icon: "icon-discord", link: "https://discord.com/invite/DfVSwYprvK" },
+      ],
+      illustrate: "完成任務者，提供平台 Starter 方案一個月 (價值 29 USDT)",
+      content: [
+        {
+          title: `1. 註冊 Crypto-Arsenal ”`,
+          detail: [],
+        },
+        {
+          title: `2. 創建 API Key : 連結一個交易所 `,
+          detail: [],
+        },
+        {
+          title: `3. 根據自己的角色，做到其中一點 (至少要有一筆交易)`,
+          detail: [
+          'Trader: 在 Arena 或是 Trading Club 選一支策略後，跑回測 (Backtest) 和跟單一個實單 (Live trade)',
+          'Quant: 創建自己的策略後，進行模擬以及實單 (Live trade)'
+          ],
+        },
       ],
     },
   },
@@ -194,6 +214,36 @@ const hunterArray = [
         { icon: "icon-website", link: "https://www.genopets.me/" },
         { icon: "icon-twitter", link: "https://twitter.com/genopets" },
         { icon: "icon-discord", link: "https://discord.com/invite/genopets" },
+      ],
+    },
+  },
+  {
+    title: "Paraspace",
+    prize: "Task",
+    pic: Paraspace.src,
+    data: {
+      title: "PawnFi",
+      linkArr: [
+        { icon: "icon-website", link: "https://para.space/" },
+        { icon: "icon-twitter", link: "https://twitter.com/ParaSpace_NFT" },
+        { icon: "icon-discord", link: "https://discord.com/invite/paraspace" },
+      ],
+      illustrate: "",
+      content: [
+        {
+          title: `1. Supplying ERC-20/ERC-721”`,
+          detail: [],
+        },
+        {
+          title: `2. Borrowing ERC-20`,
+          detail: [],
+        },
+        {
+          title: `3. Follow Social Media`,
+          detail: ['Twitter：@ParaSpace_NFT @ParaSpace_CN',
+          'Join Discord'
+          ],
+        },
       ],
     },
   },

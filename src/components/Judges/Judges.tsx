@@ -17,7 +17,7 @@ export default function Judges() {
       name: "Henry",
       company: "Meta\nGSR Sales Director",
       avatar: henry.src,
-      linkin: "",
+      linkin: "https://www.linkedin.com/in/lin-heng-07607988/",
     },
     {
       name: "Michael",

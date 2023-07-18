@@ -22,6 +22,7 @@ import rabbit from "@/assets/Partners/rabbit.png";
 import Mexc from "@/assets/Partners/mexc_global.png";
 import Grenade from "@/assets/Partners/grenadelogo.png";
 import ACE from "@/assets/Partners/acelogo.png";
+import Gash from "@/assets/Partners/GASH.png";
 
 
 //連結放上去就可以點了
@@ -38,6 +39,7 @@ const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: chain.src, link: "https://ctcap.io/" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
+  { pic: Gash.src, link: "https://twitter.com/GASH_tw" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: BingX.src, link: "https://bingx.com/", w: "200" },
   { pic: ikala.src, link: "" },

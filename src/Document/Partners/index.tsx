@@ -39,7 +39,7 @@ const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: chain.src, link: "https://ctcap.io/" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
-  { pic: Gash.src, link: "https://twitter.com/GASH_tw" },
+  { pic: Gash.src, link: "https://twitter.com/GASH_tw" , w: "150"},
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: BingX.src, link: "https://bingx.com/", w: "200" },
   { pic: ikala.src, link: "" },

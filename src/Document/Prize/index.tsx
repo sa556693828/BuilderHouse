@@ -18,7 +18,23 @@ const prizeArray = [
     title: "TBH：Best Overall",
     prize: "$6,000",
     pic: TBH1.src,
-    data: {},
+    data: {
+      title: "Taiwan Builder House：Best Overall",
+      prize: "獎金金額：$6000U",
+      illustrate: `評審團將選出整體最佳項目`,
+      content: [
+        {
+          title: `名次及獎金`,
+          detail: [
+            `一等獎：3,000U`,
+            `二等獎：2,000U`,
+            `三等獎：1,000U`,
+          ],
+        },
+      ],
+
+      source: ``,
+    },
   },
   {
     title: "TBH：Most Potential",

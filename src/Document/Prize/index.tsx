@@ -8,9 +8,9 @@ import chaintimes from "@/assets/Prizes/chaintimes.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
 import Mexc from "@/assets/Prizes/mexc.png";
 import Ace from "@/assets/Partners/acelogo.png";
-import TBH1 from "@/assets/Partners/TBH_Tiffany_1.png";
-import TBH2 from "@/assets/Partners/TBH_Tiffany_3.png";
-import TBH3 from "@/assets/Partners/TBH_White_1.png";
+import TBH1 from "@/assets/Prizes/TBH_Tiffany_1.png";
+import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
+import TBH3 from "@/assets/Prizes/TBH_White_1.png";
 
 
 const prizeArray = [

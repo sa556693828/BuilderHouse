@@ -15,21 +15,21 @@ import TBH3 from "@/assets/Prizes/TBH_White_3.png";
 
 const prizeArray = [
   {
-    title: "Taiwan Builder House",
-    prize: "$10,000",
+    title: "TBH：Best Overall",
+    prize: "$6,000",
     pic: TBH1.src,
     data: {},
   },
   {
-    title: "Taiwan Builder House",
-    prize: "$10,000",
-    pic: TBH2.src,
+    title: "TBH：Most Potential",
+    prize: "$3,000",
+    pic: TBH1.src,
     data: {},
   },
   {
-    title: "Taiwan Builder House",
-    prize: "$10,000",
-    pic: TBH3.src,
+    title: "TBH：Community Favorites",
+    prize: "$1,000",
+    pic: TBH1.src,
     data: {},
   },
   {
@@ -233,6 +233,6 @@ const prizeData = {
   subTitle: "獎金",
   id: "Prizes",
   data: prizeArray,
-  totalPrize: "$ 22,000",
+  totalPrize: "$ 32,000",
 };
 export default prizeData;

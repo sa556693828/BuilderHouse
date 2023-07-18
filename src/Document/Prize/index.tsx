@@ -15,24 +15,6 @@ import TBH3 from "@/assets/Prizes/TBH_White_1.png";
 
 const prizeArray = [
   {
-    title: "Taiwan Builder House",
-    prize: "$10,000",
-    pic: TBH1.src,
-    data: {},
-  },
-  {
-    title: "Taiwan Builder House",
-    prize: "$10,000",
-    pic: TBH2.src,
-    data: {},
-  },
-  {
-    title: "Taiwan Builder House",
-    prize: "$10,000",
-    pic: TBH3.src,
-    data: {},
-  },
-  {
     title: "Orderly",
     prize: "$10,000",
     pic: Orderly.src,

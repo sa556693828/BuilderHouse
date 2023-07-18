@@ -8,8 +8,30 @@ import chaintimes from "@/assets/Prizes/chaintimes.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
 import Mexc from "@/assets/Prizes/mexc.png";
 import Ace from "@/assets/Partners/acelogo.png";
+import TBH1 from "@/assets/Partners/TBH_Tiffany_1.png";
+import TBH2 from "@/assets/Partners/TBH_Tiffany_3.png";
+import TBH3 from "@/assets/Partners/TBH_White_1.png";
+
 
 const prizeArray = [
+  {
+    title: "Taiwan Builder House",
+    prize: "$10,000",
+    pic: TBH1.src,
+    data: {},
+  },
+  {
+    title: "Taiwan Builder House",
+    prize: "$10,000",
+    pic: TBH2.src,
+    data: {},
+  },
+  {
+    title: "Taiwan Builder House",
+    prize: "$10,000",
+    pic: TBH3.src,
+    data: {},
+  },
   {
     title: "Orderly",
     prize: "$10,000",
@@ -130,7 +152,7 @@ const prizeArray = [
     pic: chaintimes.src,
     data: {
       title: "當社交進入了 Web3 世界會是什麼？發揮你的創意，提交有趣的 Web3 Social Idea!」",
-      prize: "$1,000U",
+      prize: "獎金金額：$1,000U",
       illustrate: `設計創新且有趣的Web3社交應用，演示產品如何讓用戶透過任何web3技術(錢包登入, 去中心匿名, 激勵機制等....)來實現社交互動的行為，並思考如何使用戶持續性使用。`,
       content: [
         {
@@ -211,6 +233,6 @@ const prizeData = {
   subTitle: "獎金",
   id: "Prizes",
   data: prizeArray,
-  totalPrize: "$ 19,000",
+  totalPrize: "$ 22,000",
 };
 export default prizeData;

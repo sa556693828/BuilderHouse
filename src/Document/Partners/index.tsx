@@ -25,12 +25,8 @@ import ACE from "@/assets/Partners/acelogo.png";
 import Gash from "@/assets/Partners/GASH.png";
 import Binance from "@/assets/Partners/Binance.png";
 
-
-
 //連結放上去就可以點了
-const hostArr = [
-  { pic: builder.src, link: "https://twitter.com/_BuilderDAO" },
-];
+const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
 const coHostArr = [
   { pic: lead.src, link: "https://lead-capital.com/" },
   { pic: carry.src, link: "https://www.carry.live/", w: "200" },
@@ -40,18 +36,19 @@ const strategicArr = [{ pic: TBW.src, link: "", w: "220" }];
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
-  { pic: chain.src, link: "https://ctcap.io/" , w: "150"},
+  { pic: chain.src, link: "https://ctcap.io/", w: "150" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
-  { pic: Gash.src, link: "https://twitter.com/GASH_tw" , w: "150"},
+  { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: BingX.src, link: "https://bingx.com/", w: "150" },
   { pic: ikala.src, link: "" },
   { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
-  { pic: venture.src, link: "" , w: "150"},
+  { pic: venture.src, link: "", w: "150" },
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
 ];
+const gemArr = [{ pic: followIn.src, link: "https://followin.io/zh-Hant" }];
 const mediaArr = [
   { pic: followIn.src, link: "https://followin.io/zh-Hant" },
   { pic: noneland.src, link: "https://none.land/" },
@@ -67,6 +64,8 @@ const communityArr = [
     link: "",
     w: "300",
   },
+  { pic: Jclub.src, link: "" },
+  { pic: Jclub.src, link: "" },
 ];
 
 const partnersData = {
@@ -77,6 +76,7 @@ const partnersData = {
   coHost: coHostArr,
   strategic: strategicArr,
   partners: partnersArr,
+  gem: gemArr,
   media: mediaArr,
   community: communityArr,
   totalPrize: "$ 19,000",

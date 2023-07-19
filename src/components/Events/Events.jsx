@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useRef } from "react";
 import Section from "../Section/Section";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { useBreakpointValue } from "@chakra-ui/react";
+import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 
 // import required modules
 import { Pagination } from "swiper/modules";
 
 export default function Events(props) {
   const { data } = props;
+  const swiperRef = useRef(null);
   const isMobile = useBreakpointValue({ base: true, lg: false });
   const openExternalLink = (link) => {
     window.open(link, "_blank");
@@ -21,15 +23,23 @@ export default function Events(props) {
       subTitle={data.subTitle}
       id={data.id}
     >
-      <div className="h-full w-full text-white">
+      <div className="relative h-full w-full pt-10 text-white">
+        <div className="absolute right-10 top-0 z-30 flex w-full justify-end gap-6 lg:right-0">
+          <div onClick={() => swiperRef.current.slidePrev()}>
+            <BsArrowLeft />
+          </div>
+          <div onClick={() => swiperRef.current.slideNext()}>
+            <BsArrowRight />
+          </div>
+        </div>
         <Swiper
           className="h-full"
           slidesPerView={isMobile ? 1 : 3}
           spaceBetween={70}
-          // pagination={{
-          //   clickable: true,
-          // }}
           modules={[Pagination]}
+          onSwiper={(swiper) => {
+            swiperRef.current = swiper;
+          }}
         >
           {data.data.map((item, index) => {
             return (

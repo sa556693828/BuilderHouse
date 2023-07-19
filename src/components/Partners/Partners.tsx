@@ -8,7 +8,7 @@ import PartnersM from "./MobileCard";
 
 export default function Partners(props: { data: any }) {
   const { data } = props;
-  const { host, coHost, strategic, partners, media, community } = data;
+  const { host, coHost, strategic, partners, gem, media, community } = data;
 
   return (
     <>
@@ -55,6 +55,7 @@ export default function Partners(props: { data: any }) {
           <PartnersCard logo={coHost} type="CO - HOST" />
           <PartnersCard logo={strategic} type="Strategic Partner" />
           <PartnersCard logo={partners} grid="4" type="Partner" />
+          <PartnersCard logo={gem} type="Gem" />
           <PartnersCard logo={media} type="Media Partner" />
           <PartnersCard logo={community} type="Community Partner" />
         </div>
@@ -64,6 +65,7 @@ export default function Partners(props: { data: any }) {
           <PartnersM logo={coHost} type="CO - HOST" />
           <PartnersM logo={strategic} type="Strategic Partner" />
           <PartnersM logo={partners} type="Partner" />
+          <PartnersM logo={gem} type="Gem" />
           <PartnersM logo={media} type="Media Partner" />
           <PartnersM logo={community} type="Community Partner" />
         </div>

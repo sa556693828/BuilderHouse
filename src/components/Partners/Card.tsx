@@ -37,6 +37,43 @@ export default function PartnersCard(props: {
             );
           })}
         </div>
+      ) : props.type === "Community Partner" ? (
+        <div className="flex flex-col gap-10">
+          {/* 前三個元素的映射 */}
+          <div className="z-50 flex w-full items-center justify-center gap-10">
+            {props.logo.slice(0, 3).map((item, index) => (
+              <div
+                className="flex w-full items-center justify-center"
+                key={index}
+              >
+                <Image
+                  alt="logo"
+                  src={item.pic}
+                  width={item.w ? item.w : "280"}
+                  height={"280"}
+                  onClick={item.link ? () => openLink(item.link) : () => {}}
+                />
+              </div>
+            ))}
+          </div>
+          {/* 後面的元素的映射 */}
+          <div className={`grid grid-cols-5 gap-10`}>
+            {props.logo.slice(3).map((item, index) => (
+              <div
+                key={index}
+                className="other-elements flex w-full items-center justify-center"
+              >
+                <img
+                  alt="logo"
+                  src={item.pic}
+                  width={item.w ? item.w : "280"}
+                  height={"280"}
+                  onClick={item.link ? () => openLink(item.link) : () => {}}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
       ) : (
         <div className="z-50 flex w-full items-center justify-center gap-10">
           {props.logo.map((item, index) => {

@@ -181,10 +181,6 @@ const prizeArray = [
           ],
         },
         {
-          title: `期間 Maker 成交量滿 20,000,000TWD`,
-          detail: ["Maker手續費 -0.03%"],
-        },
-        {
           title: `評估標準`,
           detail: [
             "1. 解決方案創新性和技術可行性。",

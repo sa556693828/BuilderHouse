@@ -40,17 +40,17 @@ const strategicArr = [{ pic: TBW.src, link: "", w: "220" }];
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
-  { pic: chain.src, link: "https://ctcap.io/" },
+  { pic: chain.src, link: "https://ctcap.io/" , w: "150"},
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw" , w: "150"},
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
-  { pic: BingX.src, link: "https://bingx.com/", w: "200" },
+  { pic: BingX.src, link: "https://bingx.com/", w: "150" },
   { pic: ikala.src, link: "" },
-  { pic: IPFS.src, link: "https://ipfs.tech/", w: "200" },
-  { pic: venture.src, link: "" },
+  { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
+  { pic: venture.src, link: "" , w: "150"},
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
-  { pic: ACE.src, link: "https://ace.io/", w: "200" },
+  { pic: ACE.src, link: "https://ace.io/", w: "150" },
 ];
 const mediaArr = [
   { pic: followIn.src, link: "https://followin.io/zh-Hant" },

@@ -23,6 +23,8 @@ import Mexc from "@/assets/Partners/mexc_global.png";
 import Grenade from "@/assets/Partners/grenadelogo.png";
 import ACE from "@/assets/Partners/acelogo.png";
 import Gash from "@/assets/Partners/GASH.png";
+import Binance from "@/assets/Partners/Binance.png";
+
 
 
 //連結放上去就可以點了
@@ -37,6 +39,7 @@ const coHostArr = [
 const strategicArr = [{ pic: TBW.src, link: "", w: "220" }];
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
+  { pic: Binance.src, link: "https://binance.com/" },
   { pic: chain.src, link: "https://ctcap.io/" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw" , w: "150"},

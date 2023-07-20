@@ -24,6 +24,12 @@ import Grenade from "@/assets/Partners/grenadelogo.png";
 import ACE from "@/assets/Partners/acelogo.png";
 import Gash from "@/assets/Partners/GASH.png";
 import Binance from "@/assets/Partners/Binance.png";
+import Abga from "@/assets/Partners/abga.png";
+import Gen3 from "@/assets/Partners/gen3.png";
+import Han from "@/assets/Partners/han.png";
+import Cardano from "@/assets/Partners/Cardano_logo.png";
+
+
 
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
@@ -32,11 +38,15 @@ const coHostArr = [
   { pic: carry.src, link: "https://www.carry.live/", w: "200" },
   { pic: zombie.src, link: "https://zombit.info/" },
 ];
-const strategicArr = [{ pic: TBW.src, link: "", w: "220" }];
+const strategicArr = [
+  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
+  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
+  { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
+];
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
-  { pic: chain.src, link: "https://ctcap.io/", w: "150" },
+  { pic: chain.src, link: "https://ctcap.io/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
@@ -64,8 +74,8 @@ const communityArr = [
     link: "",
     w: "300",
   },
-  { pic: Jclub.src, link: "" },
-  { pic: Jclub.src, link: "" },
+  { pic: Han.src, link: "" },
+  { pic: Cardano.src, link: "" },
 ];
 
 const partnersData = {

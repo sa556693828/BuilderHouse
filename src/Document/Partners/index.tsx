@@ -28,6 +28,8 @@ import Abga from "@/assets/Partners/abga.png";
 import Gen3 from "@/assets/Partners/gen3.png";
 import Han from "@/assets/Partners/han.png";
 import Cardano from "@/assets/Partners/Cardano_logo.png";
+import Tezos from "@/assets/Partners/tezos_logo.svg";
+import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 
 
 
@@ -46,6 +48,9 @@ const strategicArr = [
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
+  { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
+  { pic: Tezos.src, link: "https://tezos.com/", w: "300" },
+  { pic: Tzapac.src, link: "hhttps://www.tzapac.com/", w: "300" },
   { pic: chain.src, link: "https://ctcap.io/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },

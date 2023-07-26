@@ -11,6 +11,7 @@ import Ace from "@/assets/Partners/acelogo.png";
 import TBH1 from "@/assets/Prizes/TBH_Tiffany_1.png";
 import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
 import TBH3 from "@/assets/Prizes/TBH_White_3.png";
+import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 
 
 const prizeArray = [
@@ -20,7 +21,7 @@ const prizeArray = [
     pic: TBH1.src,
     data: {
       title: "Taiwan Builder House：Best Overall",
-      prize: "獎金金額：$6000U",
+      prize: "獎金金額：$6,000U",
       illustrate: `評審團將選出整體最佳項目`,
       content: [
         {
@@ -55,12 +56,32 @@ const prizeArray = [
     data: {},
   },
   {
+    title: "TZ APAC",
+    prize: "$10,000",
+    pic: Lead.src,
+    data: {
+      title: "AI x Blockchain",
+      prize: "獎金金額：$10,000U",
+      illustrate: ``,
+      content: [
+        {
+          title: `1. AI 與 Blockchain 的結合，方法不限`,
+          detail: [
+            `Need to integrate with Tezos`,
+          ],
+        },
+      ],
+
+      source: ``,
+    },
+  },
+  {
     title: "Lead Capital",
     prize: "$5,000",
     pic: Lead.src,
     data: {
       title: "針對市場波動進行預測分析",
-      prize: "獎金金額：$5000U",
+      prize: "獎金金額：$5,000U",
       illustrate: `『波動』，是金融市場中即具重要的一個元素，波動產生的套利空間使套利者願意承擔風險進行套利。相較於傳統金融，加密貨幣市場便具有波動大風險高的特性，即便如此，高風險所伴隨的高報酬仍然吸引眾多交易者進入市場進行交易。`,
       content: [
         {
@@ -245,6 +266,6 @@ const prizeData = {
   subTitle: "獎金",
   id: "Prizes",
   data: prizeArray,
-  totalPrize: "$ 32,000",
+  totalPrize: "$ 42,000",
 };
 export default prizeData;

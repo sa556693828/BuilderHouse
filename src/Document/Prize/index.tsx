@@ -58,7 +58,7 @@ const prizeArray = [
   {
     title: "TZ APAC",
     prize: "$10,000",
-    pic: Lead.src,
+    pic: Tzapac.src,
     data: {
       title: "AI x Blockchain",
       prize: "獎金金額：$10,000U",

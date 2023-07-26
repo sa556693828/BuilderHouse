@@ -50,7 +50,7 @@ const partnersArr = [
   { pic: Binance.src, link: "https://binance.com/" },
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: Tezos.src, link: "https://tezos.com/", w: "300" },
-  { pic: Tzapac.src, link: "hhttps://www.tzapac.com/", w: "300" },
+  { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "300" },
   { pic: chain.src, link: "https://ctcap.io/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "250" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },

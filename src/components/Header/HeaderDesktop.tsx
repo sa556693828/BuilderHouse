@@ -47,7 +47,7 @@ export default function Desktop(props: any) {
             <LinearButton
               color="green"
               contentClass="py-2"
-              href="https://www.surveycake.com/s/z7bvM"
+              href="https://bit.ly/3pPWH4r"
             >
               報名
             </LinearButton>

@@ -11,8 +11,6 @@ import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 
-
-
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
 
@@ -116,8 +114,8 @@ const hunterArray = [
         {
           title: `3. 根據自己的角色，做到其中一點 (至少要有一筆交易)`,
           detail: [
-          'Trader: 在 Arena 或是 Trading Club 選一支策略後，跑回測 (Backtest) 和跟單一個實單 (Live trade)',
-          'Quant: 創建自己的策略後，進行模擬以及實單 (Live trade)'
+            "Trader: 在 Arena 或是 Trading Club 選一支策略後，跑回測 (Backtest) 和跟單一個實單 (Live trade)",
+            "Quant: 創建自己的策略後，進行模擬以及實單 (Live trade)",
           ],
         },
       ],
@@ -138,11 +136,11 @@ const hunterArray = [
       content: [
         {
           title: `1. 使用任意钱包登录Dmail`,
-          detail: ['https://mail.dmail.ai/setting/account/100006'],
+          detail: ["https://mail.dmail.ai/setting/account/100006"],
         },
         {
           title: `2. 参与Presale，购买任意NFT域名账号`,
-          detail: ['https://mail.dmail.ai/presale/100006'],
+          detail: ["https://mail.dmail.ai/presale/100006"],
         },
       ],
     },
@@ -240,9 +238,7 @@ const hunterArray = [
         },
         {
           title: `3. Follow Social Media`,
-          detail: ['Twitter：@ParaSpace_NFT @ParaSpace_CN',
-          'Join Discord'
-          ],
+          detail: ["Twitter：@ParaSpace_NFT @ParaSpace_CN", "Join Discord"],
         },
       ],
     },
@@ -297,6 +293,6 @@ const hunterData = {
   subTitle: "獎金",
   id: "GemHunter",
   data: hunterArray,
-  totalPrize: "$ 3,000",
+  totalPrize: 3000,
 };
 export default hunterData;

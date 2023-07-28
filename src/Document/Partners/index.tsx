@@ -31,8 +31,6 @@ import Cardano from "@/assets/Partners/Cardano_logo.png";
 import Tezos from "@/assets/Partners/tezos_logo.svg";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 
-
-
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
 const coHostArr = [
@@ -94,6 +92,5 @@ const partnersData = {
   gem: gemArr,
   media: mediaArr,
   community: communityArr,
-  totalPrize: "$ 19,000",
 };
 export default partnersData;

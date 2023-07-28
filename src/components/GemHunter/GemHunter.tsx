@@ -1,13 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import sideBgT from "@/assets/sideBgT.svg";
 import Section from "../Section/Section";
 import HunterCard from "./Card";
 import sideBgTM from "@/assets/sideBgTM.svg";
 import { useBreakpointValue } from "@chakra-ui/react";
+import dynamic from "next/dynamic";
+import { useInView, animated } from "@react-spring/web";
+
+const Odometer = dynamic(import("react-odometerjs"), {
+  ssr: false,
+  loading: () => null,
+});
 
 export default function GemHunter(props: { data: any }) {
   const { data } = props;
+  const [ref, inView] = useInView();
   const isMobile = useBreakpointValue({ base: true, lg: false });
+  const [value, setValue] = useState<number>(0);
+
+  useEffect(() => {
+    if (inView) {
+      const timeoutId = setTimeout(() => setValue(data.totalPrize), 100);
+      return () => {
+        clearTimeout(timeoutId);
+      };
+    } else {
+      setValue(0);
+    }
+  }, [data.totalPrize, inView]);
 
   return (
     <>
@@ -21,9 +41,21 @@ export default function GemHunter(props: { data: any }) {
             <div
               className={`flex h-full w-full items-center justify-center gap-6 rounded-2xl bg-bg p-4 md:gap-2`}
             >
-              <div className="bg-gradient-to-r from-yellowF to-yellowT bg-clip-text p-2 text-[2.5rem] text-transparent">
-                {data.totalPrize}
-              </div>
+              <animated.div
+                className="flex items-center gap-4 text-[2.5rem]"
+                ref={ref}
+              >
+                <div className="bg-gradient-to-r from-yellowF to-yellowT bg-clip-text text-transparent">
+                  $
+                </div>
+                <Odometer
+                  value={value}
+                  format=",ddd"
+                  animation="count"
+                  theme="minimal"
+                  className="text-yellowT"
+                />
+              </animated.div>
             </div>
           </div>
         </div>

@@ -13,7 +13,6 @@ import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
 import TBH3 from "@/assets/Prizes/TBH_White_3.png";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 
-
 const prizeArray = [
   {
     title: "TBH：Best Overall",
@@ -26,11 +25,7 @@ const prizeArray = [
       content: [
         {
           title: `名次及獎金`,
-          detail: [
-            `一等獎：3,000U`,
-            `二等獎：2,000U`,
-            `三等獎：1,000U`,
-          ],
+          detail: [`一等獎：3,000U`, `二等獎：2,000U`, `三等獎：1,000U`],
         },
       ],
 
@@ -66,9 +61,7 @@ const prizeArray = [
       content: [
         {
           title: `1. AI 與 Blockchain 的結合，方法不限`,
-          detail: [
-            `Need to integrate with Tezos`,
-          ],
+          detail: [`Need to integrate with Tezos`],
         },
       ],
 
@@ -188,17 +181,18 @@ const prizeArray = [
     prize: "$1,000",
     pic: chaintimes.src,
     data: {
-      title: "當社交進入了 Web3 世界會是什麼？發揮你的創意，提交有趣的 Web3 Social Idea!」",
+      title:
+        "當社交進入了 Web3 世界會是什麼？發揮你的創意，提交有趣的 Web3 Social Idea!」",
       prize: "獎金金額：$1,000U",
       illustrate: `設計創新且有趣的Web3社交應用，演示產品如何讓用戶透過任何web3技術(錢包登入, 去中心匿名, 激勵機制等....)來實現社交互動的行為，並思考如何使用戶持續性使用。`,
       content: [
         {
           title: `要求和限制`,
           detail: [
-          "1. 使用Web3技術實現平台的運作和激勵機制。",
-          "2. 提供有效的激勵方法吸引用戶參與。",
-          "3. 設計驗證機制以確保激勵與用戶交互真實性。",
-          "4. 以 conpect 或 demo 尤佳演示社交應用場景。",
+            "1. 使用Web3技術實現平台的運作和激勵機制。",
+            "2. 提供有效的激勵方法吸引用戶參與。",
+            "3. 設計驗證機制以確保激勵與用戶交互真實性。",
+            "4. 以 conpect 或 demo 尤佳演示社交應用場景。",
           ],
         },
         {
@@ -266,6 +260,6 @@ const prizeData = {
   subTitle: "獎金",
   id: "Prizes",
   data: prizeArray,
-  totalPrize: "$ 42,000",
+  totalPrize: 42000,
 };
 export default prizeData;

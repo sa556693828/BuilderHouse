@@ -1,4 +1,6 @@
 import "@/styles/globals.scss";
+import "@/styles/odometer.css";
+import "@/styles/odometerM.css";
 import { ChakraProvider } from "@chakra-ui/react";
 import type { AppProps } from "next/app";
 import Head from "next/head";
@@ -19,6 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Head>
         <title>Builder House</title>
         <link rel="icon" href={Logo.src} />
+        <link rel="stylesheet" href="odometer-theme-default.css" />
       </Head>
       <CacheProvider value={emotionCache}>
         <ChakraProvider theme={theme}>

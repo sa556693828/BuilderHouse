@@ -30,6 +30,8 @@ import Han from "@/assets/Partners/han.png";
 import Cardano from "@/assets/Partners/Cardano_logo.png";
 import Tezos from "@/assets/Partners/tezos_logo.svg";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
+import Ntufintech from "@/assets/Partners/NTU_Fintech_Club_logo.png";
+import Xdao from "@/assets/Partners/X_DAO.png";
 
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
@@ -79,6 +81,8 @@ const communityArr = [
   },
   { pic: Han.src, link: "" },
   { pic: Cardano.src, link: "" },
+  { pic: Ntufintech.src, link: "" },
+  { pic: Xdao.src, link: "" },
 ];
 
 const partnersData = {

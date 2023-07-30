@@ -81,10 +81,10 @@ const communityArr = [
     w: "300",
   },
   { pic: Han.src, link: "" },
-  { pic: Cardano.src, link: "" },
+  { pic: Cardano.src, link: "" , w: "200"},
   { pic: Ntufintech.src, link: "" , w: "200"},
   { pic: Xdao.src, link: "" , w: "200"},
-  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/" , w: "200"},
+  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/" },
 ];
 
 const partnersData = {

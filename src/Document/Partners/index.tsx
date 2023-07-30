@@ -59,7 +59,6 @@ const partnersArr = [
   { pic: ikala.src, link: "" },
   { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
   { pic: venture.src, link: "", w: "150" },
-  { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
 ];
@@ -81,8 +80,8 @@ const communityArr = [
   },
   { pic: Han.src, link: "" },
   { pic: Cardano.src, link: "" },
-  { pic: Ntufintech.src, link: "" },
-  { pic: Xdao.src, link: "" },
+  { pic: Ntufintech.src, link: "" , w: "200"},
+  { pic: Xdao.src, link: "" , w: "200"},
 ];
 
 const partnersData = {

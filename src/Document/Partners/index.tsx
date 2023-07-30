@@ -32,6 +32,8 @@ import Tezos from "@/assets/Partners/tezos_logo.svg";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 import Ntufintech from "@/assets/Partners/NTU_Fintech_Club_logo.png";
 import Xdao from "@/assets/Partners/X_DAO.png";
+import mrbq from "@/assets/Partners/Mr_BQ.svg";
+
 
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
@@ -71,17 +73,18 @@ const mediaArr = [
   { pic: Grenade.src, link: "" },
 ];
 const communityArr = [
-  { pic: buzhidao.src, link: "" },
+  { pic: buzhidao.src, link: "https://buzhidao.tw/zh" },
   { pic: Jclub.src, link: "" },
   {
     pic: rabbit.src,
-    link: "",
+    link: "https://bt-hare.com/",
     w: "300",
   },
   { pic: Han.src, link: "" },
   { pic: Cardano.src, link: "" },
   { pic: Ntufintech.src, link: "" , w: "200"},
   { pic: Xdao.src, link: "" , w: "200"},
+  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/" , w: "200"},
 ];
 
 const partnersData = {

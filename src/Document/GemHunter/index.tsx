@@ -220,7 +220,7 @@ const hunterArray = [
     prize: "Task",
     pic: Paraspace.src,
     data: {
-      title: "PawnFi",
+      title: "Paraspace",
       linkArr: [
         { icon: "icon-website", link: "https://para.space/" },
         { icon: "icon-twitter", link: "https://twitter.com/ParaSpace_NFT" },

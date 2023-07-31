@@ -5,11 +5,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { useBreakpointValue } from "@chakra-ui/react";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
+import { SlArrowDown, SlArrowUp } from "react-icons/sl";
 
 // import required modules
 import { Pagination } from "swiper/modules";
 
 export default function Events(props) {
+  const [loading, setLoading] = React.useState(false);
+  const [expend, setExpend] = React.useState(false);
   const { data } = props;
   const swiperRef = useRef(null);
   const isMobile = useBreakpointValue({ base: true, lg: false });
@@ -24,28 +27,25 @@ export default function Events(props) {
       id={data.id}
     >
       <div className="relative h-full w-full pt-10 text-white">
-        <div className="absolute right-10 top-0 z-30 flex w-full justify-end gap-6 lg:right-0">
-          <div onClick={() => swiperRef.current.slidePrev()}>
-            <BsArrowLeft />
+        {!expend && (
+          <div className="absolute right-10 top-0 z-30 flex w-full justify-end gap-6 lg:right-0">
+            <div onClick={() => swiperRef.current.slidePrev()}>
+              <BsArrowLeft />
+            </div>
+            <div onClick={() => swiperRef.current.slideNext()}>
+              <BsArrowRight />
+            </div>
           </div>
-          <div onClick={() => swiperRef.current.slideNext()}>
-            <BsArrowRight />
-          </div>
-        </div>
-        <Swiper
-          className="h-full"
-          slidesPerView={isMobile ? 1 : 3}
-          spaceBetween={70}
-          modules={[Pagination]}
-          onSwiper={(swiper) => {
-            swiperRef.current = swiper;
-          }}
-        >
-          {data.data.map((item, index) => {
-            return (
-              <SwiperSlide key={index}>
+        )}
+
+        {loading ? (
+          <>Loading</>
+        ) : expend ? (
+          <div className="grid grid-cols-3 gap-x-[70px] gap-y-12">
+            {data.data.map((item, index) => {
+              return (
                 <div
-                  className="flex h-full w-full flex-col items-center justify-start px-10 lg:px-0"
+                  className="flex h-full w-full cursor-pointer flex-col items-center justify-start px-10 lg:px-0"
                   onClick={
                     item.link !== ""
                       ? () => openExternalLink(item.link)
@@ -59,10 +59,57 @@ export default function Events(props) {
                     <div className="text-text">{item.content}</div>
                   </div>
                 </div>
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
+              );
+            })}
+          </div>
+        ) : (
+          <Swiper
+            className="h-full"
+            slidesPerView={isMobile ? 1 : 3}
+            spaceBetween={70}
+            modules={[Pagination]}
+            onSwiper={(swiper) => {
+              swiperRef.current = swiper;
+            }}
+          >
+            {data.data.map((item, index) => {
+              return (
+                <SwiperSlide key={index}>
+                  <div
+                    className="flex h-full w-full cursor-pointer flex-col items-center justify-start px-10 lg:px-0"
+                    onClick={
+                      item.link !== ""
+                        ? () => openExternalLink(item.link)
+                        : () => {}
+                    }
+                  >
+                    <img src={item.pic} alt="event" width="1000" />
+                    <div className="mt-4 flex w-full flex-col gap-2 text-left">
+                      <div className="text-xs text-text">{item.date}</div>
+                      <div className="text-lg font-bold">{item.title}</div>
+                      <div className="text-text">{item.content}</div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
+        )}
+        <div className="flex w-full justify-center">
+          {expend ? (
+            <SlArrowUp
+              size="25"
+              className="cursor-pointer"
+              onClick={() => setExpend(!expend)}
+            />
+          ) : (
+            <SlArrowDown
+              size="25"
+              className="cursor-pointer"
+              onClick={() => setExpend(!expend)}
+            />
+          )}
+        </div>
       </div>
     </Section>
   );

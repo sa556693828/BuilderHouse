@@ -45,6 +45,7 @@ export default function Events(props) {
             {data.data.map((item, index) => {
               return (
                 <div
+                  key={index}
                   className="flex h-full w-full cursor-pointer flex-col items-center justify-start px-10 lg:px-0"
                   onClick={
                     item.link !== ""

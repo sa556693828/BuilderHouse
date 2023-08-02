@@ -33,6 +33,9 @@ import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 import Ntufintech from "@/assets/Partners/NTU_Fintech_Club_logo.png";
 import Xdao from "@/assets/Partners/X_DAO.png";
 import mrbq from "@/assets/Partners/Mr_BQ.svg";
+import Okx from "@/assets/Partners/OKX_Logo_white.png";
+import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
+
 
 
 //連結放上去就可以點了
@@ -63,6 +66,9 @@ const partnersArr = [
   { pic: venture.src, link: "", w: "150" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
+  { pic: Okx.src, link: "https://okx.com/" },
+  { pic: Okxventures.src, link: "" },
+
 ];
 const gemArr = [{ pic: followIn.src, link: "https://followin.io/zh-Hant" }];
 const mediaArr = [
@@ -84,7 +90,7 @@ const communityArr = [
   { pic: Cardano.src, link: "" , w: "400"},
   { pic: Ntufintech.src, link: "" , w: "200"},
   { pic: Xdao.src, link: "" , w: "200"},
-  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/" },
+  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/" , w: "100"},
 ];
 
 const partnersData = {

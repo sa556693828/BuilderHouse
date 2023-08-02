@@ -66,8 +66,7 @@ const partnersArr = [
   { pic: venture.src, link: "", w: "150" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
-  { pic: Okx.src, link: "https://okx.com/" },
-  { pic: Okxventures.src, link: "" },
+
 
 ];
 const gemArr = [{ pic: followIn.src, link: "https://followin.io/zh-Hant" }];

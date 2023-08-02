@@ -35,6 +35,7 @@ import Xdao from "@/assets/Partners/X_DAO.png";
 import mrbq from "@/assets/Partners/Mr_BQ.svg";
 import Okx from "@/assets/Partners/OKX_Logo_white.png";
 import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
+import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
 
 
 
@@ -66,7 +67,9 @@ const partnersArr = [
   { pic: venture.src, link: "", w: "150" },
   { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
-
+  { pic: Okx.src, link: "https://www.okx.com/" },
+  { pic: Okxventures.src, link: "" },
+  { pic: Ngc.src, link: "https://ngc.fund" },
 
 ];
 const gemArr = [{ pic: followIn.src, link: "https://followin.io/zh-Hant" }];

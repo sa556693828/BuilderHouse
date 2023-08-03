@@ -37,6 +37,19 @@ import Okx from "@/assets/Partners/OKX_Logo_white.png";
 import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
 import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
 
+//Gem
+import Bla from "@/assets/Hunter/bla.svg";
+import CA from "@/assets/Hunter/ca.png";
+import Friends from "@/assets/Hunter/friends.png";
+import Rentii from "@/assets/Hunter/rentii.png";
+import Tikki from "@/assets/Hunter/tikki.png";
+import Bucket from "@/assets/Hunter/bucket.png";
+import Dmail from "@/assets/Hunter/dmail.png";
+import Pawnfi from "@/assets/Hunter/pawnfi_logo.png";
+import Bonk from "@/assets/Hunter/bonk.png";
+import Genopets from "@/assets/Hunter/genopets.png";
+import Paraspace from "@/assets/Hunter/paraspace_logo.png";
+
 
 
 //連結放上去就可以點了
@@ -58,13 +71,12 @@ const partnersArr = [
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: venture.src, link: "", w: "150" },
   { pic: Okxventures.src, link: "" , w: "150"},
-  { pic: Ngc.src, link: "https://ngc.fund", w: "200" },
+  { pic: Ngc.src, link: "https://ngc.fund", w: "250" },
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
   { pic: Okx.src, link: "https://www.okx.com/" },
-  { pic: Mexc.src, link: "https://www.mexc.com/zh-TW", w: "100" },
   { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
@@ -72,7 +84,18 @@ const partnersArr = [
   { pic: ikala.src, link: "" },
 
 ];
-const gemArr = [{ pic: followIn.src, link: "https://followin.io/zh-Hant" }];
+const gemArr = [
+  { pic: Mexc.src, link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-12mrG", w: "100" },
+  { pic: Bla.src, link: "" },
+  { pic: CA.src, link: "" },
+  { pic: Pawnfi.src, link: "" },
+  { pic: Tikki.src, link: "" },
+  { pic: Rentii.src, link: "" },
+  { pic: Friends.src, link: "" },
+  { pic: Dmail.src, link: "" },
+  { pic: Bucket.src, link: "" },
+  { pic: Paraspace.src, link: "" },
+];
 const mediaArr = [
   { pic: followIn.src, link: "https://followin.io/zh-Hant" },
   { pic: noneland.src, link: "https://none.land/" },
@@ -88,9 +111,9 @@ const communityArr = [
     link: "https://bt-hare.com/",
     w: "300",
   },
-  { pic: Han.src, link: "" },
+  { pic: Han.src, link: "", w: "150" },
   { pic: Cardano.src, link: "" , w: "400"},
-  { pic: Ntufintech.src, link: "" , w: "200"},
+  { pic: Ntufintech.src, link: "" , w: "250"},
   { pic: Xdao.src, link: "" , w: "200"},
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/" , w: "100"},
 ];

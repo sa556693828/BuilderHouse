@@ -36,6 +36,8 @@ import mrbq from "@/assets/Partners/Mr_BQ.svg";
 import Okx from "@/assets/Partners/OKX_Logo_white.png";
 import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
 import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
+import Lbank from "@/assets/Partners/lbank_gold.png";
+
 
 //Gem
 import Bla from "@/assets/Hunter/bla.svg";
@@ -75,6 +77,7 @@ const partnersArr = [
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
+  { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
   { pic: Okx.src, link: "https://www.okx.com/" },
   { pic: Tezos.src, link: "https://tezos.com/", w: "200" },

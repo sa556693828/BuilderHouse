@@ -16,7 +16,7 @@ export default function DesktopFooter(props: any) {
         <div className="cursor-pointer" onClick={() => goPage("/")}>
           <Image src={Logo.src} alt="logo" width="260" height="100" />
         </div>
-        <div className="flex items-center justify-center gap-6 pl-6 text-sm xl:text-base">
+        <div className="flex items-center justify-center gap-5 pl-6 text-sm xl:text-base">
           <Link href="/#OverView" passHref>
             <div className={buttonStyle}>OVERVIEW</div>
           </Link>

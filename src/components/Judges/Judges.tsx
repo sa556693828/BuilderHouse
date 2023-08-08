@@ -28,7 +28,7 @@ export default function Judges() {
     },
     {
       name: "Josh",
-      company: "BingX",
+      company: "BingX\n ",
       avatar: Josh.src,
       linkin: "",
     },

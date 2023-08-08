@@ -37,6 +37,8 @@ import Okx from "@/assets/Partners/OKX_Logo_white.png";
 import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
 import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
 import Lbank from "@/assets/Partners/lbank_gold.png";
+import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
+import BCI from "@/assets/Partners/BCI.png";
 
 
 //Gem
@@ -84,6 +86,7 @@ const partnersArr = [
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
   { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
+  { pic: Onekey.src, link: "https://www.onekey.so/", w: "150" },
   { pic: ikala.src, link: "" },
 
 ];
@@ -114,6 +117,7 @@ const communityArr = [
     link: "https://bt-hare.com/",
     w: "300",
   },
+  { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
   { pic: Han.src, link: "", w: "150" },
   { pic: Cardano.src, link: "" , w: "400"},
   { pic: Ntufintech.src, link: "" , w: "250"},

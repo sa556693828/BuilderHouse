@@ -6,7 +6,6 @@ import bingxVe from "@/assets/Prizes/bingxVe.png";
 import huobi from "@/assets/Prizes/huobi.png";
 import chaintimes from "@/assets/Prizes/chaintimes.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
-import Mexc from "@/assets/Prizes/mexc.png";
 import Ace from "@/assets/Partners/acelogo.png";
 import TBH1 from "@/assets/Prizes/TBH_Tiffany_1.png";
 import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
@@ -248,11 +247,6 @@ const prizeArray = [
     title: "BingX",
     prize: "$ -",
     pic: bingX.src,
-  },
-  {
-    title: "MEXC Global",
-    prize: "$ -",
-    pic: Mexc.src,
   },
 ];
 const prizeData = {

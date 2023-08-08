@@ -10,6 +10,7 @@ import Pawnfi from "@/assets/Hunter/pawnfi_logo.png";
 import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
+import Mexc from "@/assets/Prizes/mexc.png";
 
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
@@ -19,6 +20,24 @@ import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 //icon-discord
 //icon-telegram
 const hunterArray = [
+  {
+    title: "MEXC",
+    prize: "Task",
+    pic: Mexc.src,
+    data: {
+      title: "Paraspace",
+      linkArr: [
+        { icon: "icon-website", link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-TBH" },
+      ],
+      illustrate: "註冊任務",
+      content: [
+        {
+          title: `點選上方網站連結進行註冊`,
+          detail: [],
+        },
+      ],
+    },
+  },
   {
     title: "Blablablock",
     prize: "Task",

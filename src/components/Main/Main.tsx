@@ -1,6 +1,6 @@
 import React from "react";
 // import Image from 'next/dist/client/image';
-import { Button, Divider, Flex } from "@chakra-ui/react";
+import { Button, Divider, Flex, useBreakpointValue } from "@chakra-ui/react";
 import { useRouter } from "next/router";
 import Desktop from "./MainDesktop";
 import Mobile from "./MainMobile";
@@ -8,6 +8,7 @@ import Sphere from "@/assets/Sphere.png";
 import Header from "../Header/Header";
 
 export default function Main() {
+  const isMobile = useBreakpointValue({ base: true, lg: false });
   const router = useRouter();
   const goPage = (page: string) => {
     router.push(page);
@@ -17,7 +18,8 @@ export default function Main() {
       <Header />
       <Flex
         className="relative flex-col items-center overflow-hidden"
-        h={"calc(100vh - 5rem)"}
+        minH={isMobile ? "full" : ""}
+        h={isMobile ? "" : "calc(100vh - 5rem)"}
       >
         <div className="absolute -right-10 top-32 transition-all lg:right-32 lg:top-44 xl:top-52">
           <img src={Sphere.src} alt="" width="" height="100" />

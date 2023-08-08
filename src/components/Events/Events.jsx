@@ -41,7 +41,7 @@ export default function Events(props) {
         {loading ? (
           <>Loading</>
         ) : expend ? (
-          <div className="grid grid-cols-3 gap-x-[70px] gap-y-12">
+          <div className="grid grid-cols-1 gap-x-[70px] gap-y-12 lg:grid-cols-3">
             {data.data.map((item, index) => {
               return (
                 <div

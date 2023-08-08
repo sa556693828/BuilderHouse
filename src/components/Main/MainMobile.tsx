@@ -32,7 +32,7 @@ export default function MainMobile() {
           <div className="absolute -bottom-[16px] right-24">
             <img src={Vector.src} alt="" width="30" height="50" />
           </div>
-          <div className="flex w-full flex-col items-start justify-between gap-2 overflow-x-hidden overflow-y-scroll px-2">
+          <div className="flex w-full flex-col items-start justify-between gap-2 overflow-x-hidden  px-2">
             <div className="text-base font-normal uppercase sm:text-lg">
               Taiwan Builder House (TBH)
               是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過
@@ -40,11 +40,11 @@ export default function MainMobile() {
             </div>
             <div className="flex w-full items-start justify-between gap-2">
               <div className="flex h-5/6 flex-col gap-6">
+                <LinearButton color="blue" href="https://bit.ly/3pPWH4r">
+                  FREE TICKET
+                </LinearButton>
                 <LinearButton color="red" href="https://bit.ly/3DgPiy0">
                   Hacker/Trader 報名
-                </LinearButton>
-                <LinearButton color="blue" href="https://bit.ly/3pPWH4r">
-                  Hunter 報名
                 </LinearButton>
               </div>
               <img src={dotT.src} alt="" width="50" height="50" />
@@ -52,12 +52,6 @@ export default function MainMobile() {
           </div>
         </div>
       </Flex>
-      {/* <div className="relative my-9 flex w-4/5 flex-col items-center justify-center gap-2 rounded-3xl border-2 border-yellow p-6 pb-10 text-center  text-lg">
- 
-        <button className="absolute -bottom-10 w-52 rounded-full border-8 border-bg bg-white p-3 text-lg font-semibold text-black transition-all hover:bg-gray-300">
-          報名
-        </button>
-      </div> */}
     </>
   );
 }

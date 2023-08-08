@@ -46,10 +46,10 @@ export default function Desktop(props: any) {
           <div className="flex w-36 items-center transition-all xl:w-44 2xl:w-56">
             <LinearButton
               color="green"
-              contentClass="py-2"
+              contentClass="py-2 uppercase"
               href="https://bit.ly/3pPWH4r"
             >
-              報名
+              FREE TICKET
             </LinearButton>
           </div>
         </header>

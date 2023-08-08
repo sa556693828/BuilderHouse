@@ -48,7 +48,7 @@ export default function MainDesktop() {
               Hacker/Trader 報名
             </LinearButton>
             <LinearButton color="blue" href="https://bit.ly/3pPWH4r">
-              Hunter 報名
+              FREE TICKET
             </LinearButton>
           </div>
         </div>

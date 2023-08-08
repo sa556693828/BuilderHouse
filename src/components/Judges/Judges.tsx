@@ -4,6 +4,7 @@ import ProfileCard from "./ProfileCard";
 import henry from "@/assets/Judges/henry.jpeg";
 import michael from "@/assets/Judges/michael.jpg";
 import damien from "@/assets/Judges/damien.jpeg";
+import Josh from "@/assets/Judges/Josh.jpeg";
 
 export default function Judges() {
   const JudgesArray = [
@@ -24,6 +25,12 @@ export default function Judges() {
       company: "Lead Capital\nCo-Founder",
       avatar: michael.src,
       linkin: "https://www.linkedin.com/in/michae1chen/",
+    },
+    {
+      name: "Josh",
+      company: "BingX",
+      avatar: Josh.src,
+      linkin: "",
     },
   ];
   return (

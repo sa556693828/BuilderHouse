@@ -11,6 +11,7 @@ import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 import Mexc from "@/assets/Prizes/mexc.png";
+import Orderly from "@/assets/Prizes/Orderly.svg";
 
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
@@ -25,7 +26,7 @@ const hunterArray = [
     prize: "Task",
     pic: Mexc.src,
     data: {
-      title: "Paraspace",
+      title: "MEXC",
       linkArr: [
         { icon: "icon-website", link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-TBH" },
       ],
@@ -35,6 +36,19 @@ const hunterArray = [
           title: `點選上方網站連結進行註冊`,
           detail: [],
         },
+      ],
+    },
+  },
+  {
+    title: "Orderly",
+    prize: "Task",
+    pic: Orderly.src,
+    data: {
+      title: "Orderly",
+      linkArr: [
+        { icon: "icon-website", link: "https://orderly.network/" },
+        { icon: "icon-twitter", link: "https://twitter.com/OrderlyNetwork" },
+        { icon: "icon-discord", link: "https://discord.com/invite/orderlynetwork" },
       ],
     },
   },

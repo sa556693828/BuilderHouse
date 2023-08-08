@@ -86,7 +86,7 @@ const partnersArr = [
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
   { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
-  { pic: Onekey.src, link: "https://www.onekey.so/", w: "150" },
+  { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
   { pic: ikala.src, link: "" },
 
 ];

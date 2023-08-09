@@ -40,7 +40,6 @@ import Lbank from "@/assets/Partners/lbank_gold.png";
 import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
 import BCI from "@/assets/Partners/BCI.png";
 
-
 //Gem
 import Bla from "@/assets/Hunter/bla.svg";
 import CA from "@/assets/Hunter/ca.png";
@@ -53,8 +52,6 @@ import Pawnfi from "@/assets/Hunter/pawnfi_logo.png";
 import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
-
-
 
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
@@ -74,7 +71,7 @@ const partnersArr = [
   { pic: Binance.src, link: "https://binance.com/" },
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: venture.src, link: "", w: "150" },
-  { pic: Okxventures.src, link: "" , w: "150"},
+  { pic: Okxventures.src, link: "", w: "150" },
   { pic: Ngc.src, link: "https://ngc.fund", w: "250" },
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
@@ -88,10 +85,14 @@ const partnersArr = [
   { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
   { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
   { pic: ikala.src, link: "" },
-
 ];
+const vcArr = [{ pic: BingX.src, link: "https://bingx.com/", w: "150" }];
 const gemArr = [
-  { pic: Mexc.src, link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-12mrG", w: "100" },
+  {
+    pic: Mexc.src,
+    link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-12mrG",
+    w: "100",
+  },
   { pic: Bla.src, link: "" },
   { pic: CA.src, link: "" },
   { pic: Pawnfi.src, link: "" },
@@ -119,10 +120,10 @@ const communityArr = [
   },
   { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
   { pic: Han.src, link: "", w: "150" },
-  { pic: Cardano.src, link: "" , w: "400"},
-  { pic: Ntufintech.src, link: "" , w: "250"},
-  { pic: Xdao.src, link: "" , w: "200"},
-  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/" , w: "100"},
+  { pic: Cardano.src, link: "", w: "400" },
+  { pic: Ntufintech.src, link: "", w: "250" },
+  { pic: Xdao.src, link: "", w: "200" },
+  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
 ];
 
 const partnersData = {
@@ -133,6 +134,7 @@ const partnersData = {
   coHost: coHostArr,
   strategic: strategicArr,
   partners: partnersArr,
+  vc: vcArr,
   gem: gemArr,
   media: mediaArr,
   community: communityArr,

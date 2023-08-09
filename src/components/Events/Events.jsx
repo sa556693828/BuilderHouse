@@ -3,12 +3,12 @@ import Section from "../Section/Section";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
-import { useBreakpointValue } from "@chakra-ui/react";
+import { CircularProgress, useBreakpointValue } from "@chakra-ui/react";
 import { BsArrowLeft, BsArrowRight } from "react-icons/bs";
 import { SlArrowDown, SlArrowUp } from "react-icons/sl";
 
 // import required modules
-import { Pagination } from "swiper/modules";
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
 export default function Events(props) {
   const [loading, setLoading] = React.useState(false);
@@ -39,7 +39,9 @@ export default function Events(props) {
         )}
 
         {loading ? (
-          <>Loading</>
+          <div className="flex h-36 w-full justify-center">
+            <CircularProgress isIndeterminate size="100%" thickness="4px" />
+          </div>
         ) : expend ? (
           <div className="grid grid-cols-1 gap-x-[70px] gap-y-12 lg:grid-cols-3">
             {data.data.map((item, index) => {
@@ -68,9 +70,14 @@ export default function Events(props) {
             className="h-full"
             slidesPerView={isMobile ? 1 : 3}
             spaceBetween={70}
-            modules={[Pagination]}
+            modules={[Pagination, Autoplay, Navigation]}
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
+            }}
+            // loop={true}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
             }}
           >
             {data.data.map((item, index) => {
@@ -96,19 +103,33 @@ export default function Events(props) {
             })}
           </Swiper>
         )}
-        <div className="flex w-full justify-center">
+        <div className="flex w-full justify-center pt-10">
           {expend ? (
             <SlArrowUp
               size="25"
               className="cursor-pointer"
-              onClick={() => setExpend(!expend)}
+              onClick={() => {
+                setLoading(true);
+                setTimeout(() => {
+                  setExpend(!expend);
+                  setLoading(false);
+                }, 500);
+              }}
             />
           ) : (
-            <SlArrowDown
-              size="25"
-              className="cursor-pointer"
-              onClick={() => setExpend(!expend)}
-            />
+            <div
+              className="flex cursor-pointer items-center gap-3 pt-2 text-base text-text"
+              onClick={() => {
+                setLoading(true);
+                setTimeout(() => {
+                  setExpend(!expend);
+                  setLoading(false);
+                }, 500);
+              }}
+            >
+              <a>FULL EVENT</a>
+              <SlArrowDown size="18" />
+            </div>
           )}
         </div>
       </div>

@@ -74,9 +74,8 @@ export default function Events(props) {
             onSwiper={(swiper) => {
               swiperRef.current = swiper;
             }}
-            // loop={true}
             autoplay={{
-              delay: 3000,
+              delay: 5000,
               disableOnInteraction: false,
             }}
           >
@@ -118,17 +117,14 @@ export default function Events(props) {
             />
           ) : (
             <div
-              className="flex cursor-pointer items-center gap-3 pt-2 text-base text-text"
+              className="flex cursor-pointer items-center gap-3 rounded-md border p-2 text-base text-text"
               onClick={() => {
-                setLoading(true);
-                setTimeout(() => {
-                  setExpend(!expend);
-                  setLoading(false);
-                }, 500);
+                openExternalLink(
+                  "https://docs.google.com/spreadsheets/d/1NmAOhrCagu2qJPy-6gZCQVtg5mzYg7Mwa0rTp560_mo/edit#gid=1263175052"
+                );
               }}
             >
               <a>FULL EVENT</a>
-              <SlArrowDown size="18" />
             </div>
           )}
         </div>

@@ -55,9 +55,9 @@ export default function Partners(props: { data: any }) {
           <PartnersCard logo={coHost} type="CO - HOST" />
           <PartnersCard logo={strategic} type="Strategic Partner" />
           <PartnersCard logo={partners} grid="4" type="Partner" />
-          <PartnersCard logo={vc} type="VC" />
-          <PartnersCard logo={gem} type="Gem" />
-          <PartnersCard logo={media} type="Media Partner" />
+          <PartnersCard logo={vc} grid="4" type="VC" />
+          <PartnersCard logo={gem} grid="4" type="Gem" />
+          <PartnersCard logo={media} grid="4" type="Media Partner" />
           <PartnersCard logo={community} type="Community Partner" />
         </div>
         {/* Mobile  */}

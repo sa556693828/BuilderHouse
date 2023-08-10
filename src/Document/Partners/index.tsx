@@ -40,6 +40,11 @@ import Lbank from "@/assets/Partners/lbank_gold.png";
 import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
 import BCI from "@/assets/Partners/BCI.png";
 
+//VC
+import Ld from "@/assets/Partners/LD.png";
+import Ac from "@/assets/Partners/AC_Capital.svg";
+
+
 //Gem
 import Bla from "@/assets/Hunter/bla.svg";
 import CA from "@/assets/Hunter/ca.png";
@@ -70,11 +75,6 @@ const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
-  { pic: venture.src, link: "", w: "150" },
-  { pic: Okxventures.src, link: "", w: "150" },
-  { pic: Ngc.src, link: "https://ngc.fund", w: "250" },
-  { pic: chain.src, link: "https://ctcap.io/", w: "175" },
-  { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
   { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
@@ -86,7 +86,17 @@ const partnersArr = [
   { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
   { pic: ikala.src, link: "" },
 ];
-const vcArr = [{ pic: BingX.src, link: "https://bingx.com/", w: "150" }];
+const vcArr = [  
+  { pic: lead.src, link: "https://lead-capital.com/" },
+  { pic: Ngc.src, link: "https://ngc.fund", },
+  { pic: Ld.src, link: "https://ldcap.com/" },
+  { pic: Ac.src, link: "https://accapital.io/" },
+  { pic: Okxventures.src, link: "https://www.okx.com/hk/ventures", w: "150" },
+  { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
+  { pic: venture.src, link: "https://www.bing-ventures.com/", w: "150" },
+  { pic: chain.src, link: "https://ctcap.io/", w: "175" },
+
+];
 const gemArr = [
   {
     pic: Mexc.src,

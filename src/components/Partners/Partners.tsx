@@ -66,8 +66,8 @@ export default function Partners(props: { data: any }) {
           <PartnersM logo={coHost} type="CO - HOST" />
           <PartnersM logo={strategic} type="Strategic Partner" />
           <PartnersM logo={partners} type="Partner" />
-          <PartnersM logo={vc} type="VC" />
-          <PartnersM logo={gem} type="Gem" />
+          <PartnersM logo={vc} type="VC Partner" />
+          <PartnersM logo={gem} type="Gem Partner" />
           <PartnersM logo={media} type="Media Partner" />
           <PartnersM logo={community} type="Community Partner" />
         </div>

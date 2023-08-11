@@ -92,10 +92,10 @@ const vcArr = [
   { pic: Ngc.src, link: "https://ngc.fund", },
   { pic: Ld.src, link: "https://ldcap.com/" },
   { pic: Ac.src, link: "https://accapital.io/" },
-  { pic: Mexcvc.src, link: "https://m-ventures.io/", w: "175" },
+  { pic: Mexcvc.src, link: "https://m-ventures.io/" },
   { pic: Okxventures.src, link: "https://www.okx.com/hk/ventures", w: "150" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
-  { pic: venture.src, link: "https://www.bing-ventures.com/", w: "150" },
+  { pic: venture.src, link: "https://www.bing-ventures.com/", w: "175" },
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
   
 

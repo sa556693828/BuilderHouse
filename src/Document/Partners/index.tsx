@@ -42,7 +42,8 @@ import BCI from "@/assets/Partners/BCI.png";
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
-import Ac from "@/assets/Partners/AC_Capital.svg";
+import Ac from "@/assets/Partners/ac_capital.png";
+import Mexcvc from "@/assets/Partners/mexc_vc.png";
 
 
 //Gem
@@ -91,10 +92,12 @@ const vcArr = [
   { pic: Ngc.src, link: "https://ngc.fund", },
   { pic: Ld.src, link: "https://ldcap.com/" },
   { pic: Ac.src, link: "https://accapital.io/" },
+  { pic: Mexcvc.src, link: "https://m-ventures.io/", w: "175" },
   { pic: Okxventures.src, link: "https://www.okx.com/hk/ventures", w: "150" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: venture.src, link: "https://www.bing-ventures.com/", w: "150" },
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
+  
 
 ];
 const gemArr = [

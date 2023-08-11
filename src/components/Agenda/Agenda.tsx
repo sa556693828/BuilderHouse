@@ -38,7 +38,7 @@ export default function Agenda(props: { data: any }) {
                 {data.topic}
               </div>
             </div>
-            <div className="w-2/5">
+            <div className="flex w-2/5 flex-col justify-center">
               {data.subTitle &&
                 data.subTitle.map((sub: any, index: any) => (
                   <div

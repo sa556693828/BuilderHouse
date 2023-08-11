@@ -59,6 +59,16 @@ import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 
+//communtity
+import C1 from "@/assets/Partners/c1.png";
+import C2 from "@/assets/Partners/c2.png";
+import C3 from "@/assets/Partners/c3.png";
+import C4 from "@/assets/Partners/c4.png";
+import C5 from "@/assets/Partners/c5.png";
+import C6 from "@/assets/Partners/c6.png";
+import C7 from "@/assets/Partners/c7.png";
+
+
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
 const coHostArr = [
@@ -137,6 +147,14 @@ const communityArr = [
   { pic: Ntufintech.src, link: "", w: "250" },
   { pic: Xdao.src, link: "", w: "200" },
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
+  { pic: C1.src, link: "", w: "200" },
+  { pic: C2.src, link: "", w: "200" },
+  { pic: C3.src, link: "", w: "200" },
+  { pic: C4.src, link: "", w: "200" },
+  { pic: C5.src, link: "", w: "200" },
+  { pic: C6.src, link: "", w: "200" },
+  { pic: C7.src, link: "", w: "200" },
+
 ];
 
 const partnersData = {

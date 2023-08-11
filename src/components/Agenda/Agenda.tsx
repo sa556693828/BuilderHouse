@@ -13,7 +13,7 @@ export default function Agenda(props: { data: any }) {
     >
       <div className="flex w-4/5 flex-col">
         <div className="h-full w-full bg-gradient-to-r from-blueF to-blueT pb-[2px] transition-all">
-          <div className="flex w-full bg-bg pb-10">
+          <div className="flex w-full bg-bg pb-10 text-2xl">
             <div className="w-1/5">
               <div className="text-center">TIME</div>
             </div>

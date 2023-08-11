@@ -36,7 +36,7 @@ const agendaData = [
   },
   { time: "14:15", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
   { time: "16:30  ", topic: "TBD" , subTitle: ["TBD"]},
-  { time: "14:15", topic: "Taiwan Builder House Result", subTitle: ["Teams"] },
+  { time: "17:00", topic: "Taiwan Builder House Result", subTitle: ["Teams"] },
 ];
 const AgendaData = {
   title: { name: "Agenda", color: "blue" },

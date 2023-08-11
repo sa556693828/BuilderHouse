@@ -147,13 +147,13 @@ const communityArr = [
   { pic: Ntufintech.src, link: "", w: "250" },
   { pic: Xdao.src, link: "", w: "200" },
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
-  { pic: C1.src, link: "", w: "200" },
-  { pic: C2.src, link: "", w: "200" },
-  { pic: C3.src, link: "", w: "200" },
-  { pic: C4.src, link: "", w: "200" },
-  { pic: C5.src, link: "", w: "200" },
-  { pic: C6.src, link: "", w: "200" },
-  { pic: C7.src, link: "", w: "200" },
+  { pic: C1.src, link: "", w: "100" },
+  { pic: C2.src, link: "", w: "100" },
+  { pic: C3.src, link: "", w: "100" },
+  { pic: C4.src, link: "", w: "100" },
+  { pic: C5.src, link: "", w: "100" },
+  { pic: C6.src, link: "", w: "100" },
+  { pic: C7.src, link: "", w: "100" },
 
 ];
 

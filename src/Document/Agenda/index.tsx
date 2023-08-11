@@ -10,7 +10,7 @@ const agendaData = [
     topic: "Decentralization in Community Management：\nHow Web3 Changes the Landscape",
     subTitle: [
       "Host : Audrey, Orderly CGO",
-      "Bonnie, Bonnie Blockchain Founder\nJustin, JClub Foubder",
+      "Bonnie, Bonnie Blockchain Founder\nJustin, JClub Founder",
     ],
   },
   {

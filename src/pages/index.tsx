@@ -17,6 +17,7 @@ import Events from "@/components/Events/Events";
 import EventsData from "@/Document/Events";
 import timeLineData from "@/Document/TimeLine";
 import Agenda from "@/components/Agenda/Agenda";
+import AgendaData from "@/Document/Agenda";
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
       <GemHunter data={hunterData} />
       <Activity data={ActivityData} />
       <Judges />
-      <Agenda />
+      <Agenda data={AgendaData} />
       <Events data={EventsData} />
       <Partners data={partnersData} />
       <FAQ data={FAQData} />

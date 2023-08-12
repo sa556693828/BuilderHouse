@@ -35,15 +35,17 @@ import Xdao from "@/assets/Partners/X_DAO.png";
 import mrbq from "@/assets/Partners/Mr_BQ.svg";
 import Okx from "@/assets/Partners/OKX_Logo_white.png";
 import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
-import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
 import Lbank from "@/assets/Partners/lbank_gold.png";
 import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
 import BCI from "@/assets/Partners/BCI.png";
+import Sei from "@/assets/Partners/Sei_Logo.png";
+
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
 import Ac from "@/assets/Partners/ac_capital.png";
 import Mexcvc from "@/assets/Partners/mexc_vc.png";
+import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
 
 
 //Gem

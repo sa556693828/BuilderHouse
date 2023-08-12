@@ -2,7 +2,7 @@ import eventPic from "@/assets/events1.svg";
 import eventPic0 from "@/assets/events0.png";
 import lead0719 from "@/assets/Activity/lead0719.png";
 import trader0719 from "@/assets/Activity/trader0719.png";
-import After_party from "@/assets/Activity/After_party.jpeg";
+import After_party from "@/assets/Activity/After_party.png";
 
 
 //新增link即可點擊

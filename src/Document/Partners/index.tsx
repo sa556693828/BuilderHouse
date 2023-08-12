@@ -66,7 +66,7 @@ import C3 from "@/assets/Partners/c3.png";
 import C4 from "@/assets/Partners/c4.png";
 import C5 from "@/assets/Partners/c5.png";
 import C6 from "@/assets/Partners/c6.png";
-import C7 from "@/assets/Partners/c7.png";
+import C7 from "@/assets/Partners/c7_w.png";
 
 
 //連結放上去就可以點了
@@ -149,8 +149,8 @@ const communityArr = [
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
   { pic: C1.src, link: "", w: "100" },
   { pic: C2.src, link: "", w: "100" },
-  { pic: C3.src, link: "", w: "100" },
-  { pic: C4.src, link: "", w: "100" },
+  { pic: C3.src, link: "", w: "200" },
+  { pic: C4.src, link: "", w: "150" },
   { pic: C5.src, link: "", w: "100" },
   { pic: C6.src, link: "", w: "100" },
   { pic: C7.src, link: "", w: "100" },

@@ -30,7 +30,7 @@ import Han from "@/assets/Partners/han.png";
 import Cardano from "@/assets/Partners/Cardano_logo.png";
 import Tezos from "@/assets/Partners/tezos_logo.svg";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
-import Ntufintech from "@/assets/Partners/NTU_Fintech_Club_logo.png";
+import Ntufintech from "@/assets/Partners/NTU_Fintech_Club_logo_n.png";
 import Xdao from "@/assets/Partners/X_DAO.png";
 import mrbq from "@/assets/Partners/Mr_BQ.svg";
 import Okx from "@/assets/Partners/OKX_Logo_white.png";
@@ -144,7 +144,7 @@ const communityArr = [
   { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
   { pic: Han.src, link: "", w: "150" },
   { pic: Cardano.src, link: "", w: "400" },
-  { pic: Ntufintech.src, link: "", w: "300" },
+  { pic: Ntufintech.src, link: ""},
   { pic: Xdao.src, link: "", w: "200" },
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
   { pic: C1.src, link: "", w: "100" },

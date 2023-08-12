@@ -147,13 +147,13 @@ const communityArr = [
   { pic: Ntufintech.src, link: ""},
   { pic: Xdao.src, link: "", w: "200" },
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
-  { pic: C1.src, link: "", w: "100" },
-  { pic: C2.src, link: "", w: "100" },
-  { pic: C3.src, link: "", w: "200" },
-  { pic: C4.src, link: "", w: "150" },
-  { pic: C5.src, link: "", w: "100" },
-  { pic: C6.src, link: "", w: "100" },
-  { pic: C7.src, link: "", w: "200" },
+  { pic: C1.src, link: "https://m.youtube.com/@LiuliangCool", w: "100" },
+  { pic: C2.src, link: "https://discord.gg/JYazfmtbNE", w: "100" },
+  { pic: C3.src, link: "https://discord.gg/xpgnft", w: "200" },
+  { pic: C4.src, link: "https://twitter.com/cryptowilson_", w: "150" },
+  { pic: C5.src, link: "https://link3.to/snapfingersdao", w: "100" },
+  { pic: C6.src, link: "https://www.paraland.world/", w: "100" },
+  { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
 
 ];
 

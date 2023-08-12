@@ -62,7 +62,7 @@ import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 //communtity
 import C1 from "@/assets/Partners/c1.png";
 import C2 from "@/assets/Partners/c2_w.png";
-import C3 from "@/assets/Partners/c3.png";
+import C3 from "@/assets/Partners/c3_n.png";
 import C4 from "@/assets/Partners/c4.png";
 import C5 from "@/assets/Partners/c5.png";
 import C6 from "@/assets/Partners/c6.png";
@@ -153,7 +153,7 @@ const communityArr = [
   { pic: C4.src, link: "", w: "150" },
   { pic: C5.src, link: "", w: "100" },
   { pic: C6.src, link: "", w: "100" },
-  { pic: C7.src, link: "", w: "100" },
+  { pic: C7.src, link: "", w: "200" },
 
 ];
 

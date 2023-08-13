@@ -1,20 +1,19 @@
 import eventPic from "@/assets/events1.svg";
-import eventPic0 from "@/assets/events0.png";
-import lead0719 from "@/assets/Activity/lead0719.png";
+import eventPic0 from "@/assets/LeadUptheNight_0802_1000X500.png";
+import lead0816 from "@/assets/Activity/LeadUpTheNight_0816_1000X500.png";
 import trader0719 from "@/assets/Activity/trader0719.png";
 import After_party from "@/assets/Activity/After_party.png";
 import NTUFC from "@/assets/Activity/NTUFC.png";
 
 
-
 //新增link即可點擊
 const EventsContent = [  
   {
-    pic: lead0719.src,
-    date: `JULY 19,2023`,
-    title: "LeadUp The Night: 區塊鏈與 AI",
-    content: `重塑資產管理的未來`,
-    link: "https://lu.ma/LeadUpTheNight_9",
+    pic: lead0816.src,
+    date: `August 16,2023`,
+    title: "LeadUp The Night: 開啟可能性",
+    content: `Chainlink 預言機的潜力以及挑戰`,
+    link: "https://lu.ma/LeadUpTheNight_13",
   },  
   {
     pic: NTUFC.src,
@@ -32,10 +31,10 @@ const EventsContent = [
   },
   {
     pic: eventPic0.src,
-    date: `JUNE 14,2023`,
-    title: "Wormhole來了！",
-    content: `多鏈時代不可不知的 Bridge; 如何獲得生態基金？`,
-    link: "https://www.youtube.com/live/5zbqx8QOc2Y?feature=share",
+    date: `August 12,2023`,
+    title: "Build on Tezos",
+    content: `資深公鏈看 Ai 的可能性`,
+    link: "https://www.youtube.com/watch?v=YKv_R09_pgY",
   },
   {
     pic: trader0719.src,

@@ -24,30 +24,85 @@ const prizeArray = [
       content: [
         {
           title: `名次及獎金`,
-          detail: [`一等獎：3,000U`, `二等獎：2,000U`, `三等獎：1,000U`],
+          detail: [`一等獎：3,000U , Onekey mini * 1`, `二等獎：2,000U`, `三等獎：1,000U`],
         },
       ],
 
-      source: ``,
+      source: `整體最佳獎與最具潛力項目只可擇一獲得`,
     },
   },
   {
     title: "TBH：Most Potential",
     prize: "$3,000",
     pic: TBH1.src,
-    data: {},
+    data: {
+      title: "Taiwan Builder House：Best Overall",
+      prize: "獎金金額：$3,000U",
+      illustrate: `評審團將選出最具潛力項目`,
+      content: [
+        {
+          title: `名次及獎金`,
+          detail: [`一等獎：1,500U , Onekey mini * 1`, `二等獎：1,000U`, `三等獎：500U`],
+        },
+      ],
+
+      source: `整體最佳獎與最具潛力項目只可擇一獲得`,
+    },
   },
   {
     title: "TBH：Community Favorites",
     prize: "$1,000",
     pic: TBH1.src,
-    data: {},
+    data: {      
+      title: "Taiwan Builder House：Best Overall",
+      prize: "獎金金額：$6,000U",
+      illustrate: `觀眾票選獎`,
+      content: [
+        {
+          title: `名次及獎金`,
+          detail: [`一等獎：500U , Onekey mini * 1`, `二等獎：300U`, `三等獎：200U`],
+        },
+    ],
+
+    source: ``,},
   },
   {
     title: "Orderly",
     prize: "$10,000",
     pic: Orderly.src,
-    data: {},
+    data: {
+      title: "Orderly's growth and boost",
+      prize: "獎金金額：$10,000U",
+      illustrate: ``,
+      content: [
+        {
+          title: `Innovative Product Challenge tailored for Orderly V2 SDK：5,000U`,
+          detail: [
+            `Your task is to utilize the Orderly V2 SDK and create an innovative product that will redefine the decentralized exchange landscape. It could be a product or tool that brings efficiency, enhances user experience, or introduces a brand new feature to our platform. The successful development and implementation of an innovative solution can win you a prize of $5000. Be the architect of the future, and make your mark in the evolution of DEXs.`,
+          ],
+        },
+        {
+          title: `Retail Bounty Program Challenge tailored for Orderly V2 SDK：3,000U`,
+          detail: [
+            `We are inviting you to design a compelling retail bounty program to attract retail traders to our platform. This bounty program should incentivize participation, encourage engagement, and ultimately, increase our platform's user base. A well-structured, attractive, and impactful retail bounty program can bag you a reward of $3000. Remember, our goal is to create an inclusive, dynamic, and engaging trading environment.`,
+          ],
+        },
+        {
+          title: `Lottery Tool Challenge tailored for Orderly V2 SDK：1,000U`,
+          detail: [
+            `We're inviting you to make trading on our platform an exhilarating experience by designing a Lottery Tool. The tool should allow our users to enter a lottery funded by us each time they trade. The aim is to enhance the user experience by introducing an element of thrill, where each transaction made on our platform could potentially result in significant lottery winnings. The most innovative and user-friendly lottery tool stands a chance to win $1000.`,
+          ],
+        },
+        {
+          title: `Creating a compelling Referral System Tool：1,000U`,
+          detail: [
+            `We invite you to contribute to our community's growth and boost our platform's trading volume by creating a compelling Referral System Tool. This tool should facilitate our users to share unique promotional links and in return, earn affiliate rewards when their referrals join and trade on our platform. By motivating widespread sharing and expanding our user base, this tool is aimed at driving higher trading volumes. Craft a referral system tool that not only promotes our platform but also significantly ramps up our trading activity. You could earn a reward of $1000 for a well-executed design that aligns with these goals.`,
+          ],
+        },
+      ],
+
+      source: ``,
+    },
   },
   {
     title: "TZ APAC",

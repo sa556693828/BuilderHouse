@@ -1,32 +1,42 @@
 const agendaData = [
-  { time: "09:00", topic: "Opening", subTitle: ["TBD"] },
-  { time: "09:30", topic: "Panel" },
+  { time: "09:00", topic: "Opening" },
+  { time: "09:15", topic: "Panel", subTitle: ["TBD"]},
   {
-    time: "09:40",
+    time: "10:15",
     topic: "TBD",
-    subTitle: ["Host:Carlos, ACE Exchange", "Community TBD"],
-  },
-  { time: "09:50", topic: "Panel" },
-  {
-    time: "10:00",
-    topic: "Taiwan Builder House Trader Demos",
-    subTitle: ["Team"],
   },
   {
-    time: "10:10",
-    topic: "Panel",
+    time: "10:30",
+    topic: "Decentralization in Community Management：\nHow Web3 Changes the Landscape",
     subTitle: [
-      "Host:TBD",
-      "Damien, Binance\nJosh, BingX\nMichael, Lead Capital\nHenry, Meta",
+      "Host : Audrey, Orderly CGO",
+      "Bonnie, Bonnie Blockchain Founder\nJustin, JClub Founder",
     ],
   },
   {
-    time: "10:00",
-    topic: "Taiwan Builder House Trader Demos",
-    subTitle: ["Team"],
+    time: "11:30",
+    topic: "How Communities Boost Trading: \nInitiative and Impact",
+    subTitle: [
+      "Host : Carlos, ACE Exchange",
+      "TBD",
+    ],
   },
-  { time: "10:10", topic: "Panel", subTitle: ["TBD"] },
-  { time: "10:10", topic: "Taiwan Builder House Result" },
+  {
+    time: "13:00",
+    topic: "Panel",
+    subTitle: [
+      "Host : Jeff, Zombit Co - Founder ",
+      "Damien Binance Global Partnership\nJosh, Bingx \nMichael, Lead Capital Co-Founder\nHenry, Meta GSR Sales Director",
+    ],
+  },
+  {
+    time: "14:00",
+    topic: "TBD",
+    subTitle: ["Jim, Gen3、Demo3 Founder"],
+  },
+  { time: "14:15", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
+  { time: "16:30  ", topic: "TBD" , subTitle: ["TBD"]},
+  { time: "17:00", topic: "Taiwan Builder House Result", subTitle: ["Teams"] },
 ];
 const AgendaData = {
   title: { name: "Agenda", color: "blue" },

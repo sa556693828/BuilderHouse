@@ -312,12 +312,25 @@ const hunterArray = [
     data: {
       title: "Tikki",
       linkArr: [
-        { icon: "icon-website", link: "https://www.tikki.app/" },
-        { icon: "icon-twitter", link: "" },
-        { icon: "icon-telegram", link: "" },
-        { icon: "icon-discord", link: "" },
+        { icon: "icon-website", link: "https://app.tikki.app/explore" },
+        { icon: "icon-twitter", link: "https://twitter.com/Tikki_NFT" },
+        { icon: "icon-discord", link: "https://discord.gg/edMrxhjn" },
       ],
-      illustrate: "",
+      illustrate: "對於早期交互用戶們，放心我們都懂Web3的規矩",
+      content: [
+        {
+          title: `1. 註冊登入Tikki`,
+          detail: ["https://app.tikki.app/explore"],
+        },
+        {
+          title: `2. 驗證任意錢包至自己的UID上`,
+          detail: ["進入Tikki - 點擊Wallets - Add Wallets"],
+        },
+        {
+          title: `3. 關注@Tikki_NFT 並轉推至頂貼文`,
+          detail: ["Twitter：@ParaSpace_NFT @ParaSpace_CN", "Join Discord"],
+        },
+      ],
     },
   },
 ];

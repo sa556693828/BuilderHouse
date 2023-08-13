@@ -30,19 +30,22 @@ import Han from "@/assets/Partners/han.png";
 import Cardano from "@/assets/Partners/Cardano_logo.png";
 import Tezos from "@/assets/Partners/tezos_logo.svg";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
-import Ntufintech from "@/assets/Partners/NTU_Fintech_Club_logo.png";
+import Ntufintech from "@/assets/Partners/NTU_Fintech_Club_logo_n.png";
 import Xdao from "@/assets/Partners/X_DAO.png";
 import mrbq from "@/assets/Partners/Mr_BQ.svg";
 import Okx from "@/assets/Partners/OKX_Logo_white.png";
 import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
-import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
 import Lbank from "@/assets/Partners/lbank_gold.png";
 import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
 import BCI from "@/assets/Partners/BCI.png";
+import Sei from "@/assets/Partners/Sei_Logo.png";
+
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
-import Ac from "@/assets/Partners/AC_Capital.svg";
+import Ac from "@/assets/Partners/ac_capital.png";
+import Mexcvc from "@/assets/Partners/mexc_vc.png";
+import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
 
 
 //Gem
@@ -57,6 +60,16 @@ import Pawnfi from "@/assets/Hunter/pawnfi_logo.png";
 import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
+
+//communtity
+import C1 from "@/assets/Partners/c1.png";
+import C2 from "@/assets/Partners/c2_w.png";
+import C3 from "@/assets/Partners/c3_n.png";
+import C4 from "@/assets/Partners/c4.png";
+import C5 from "@/assets/Partners/c5.png";
+import C6 from "@/assets/Partners/c6.png";
+import C7 from "@/assets/Partners/c7_w.png";
+
 
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
@@ -79,6 +92,7 @@ const partnersArr = [
   { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
   { pic: Okx.src, link: "https://www.okx.com/" },
+  { pic: Sei.src, link: "https://www.sei.io/" , w: "150"},
   { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
@@ -91,10 +105,12 @@ const vcArr = [
   { pic: Ngc.src, link: "https://ngc.fund", },
   { pic: Ld.src, link: "https://ldcap.com/" },
   { pic: Ac.src, link: "https://accapital.io/" },
+  { pic: Mexcvc.src, link: "https://m-ventures.io/" },
   { pic: Okxventures.src, link: "https://www.okx.com/hk/ventures", w: "150" },
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
-  { pic: venture.src, link: "https://www.bing-ventures.com/", w: "150" },
+  { pic: venture.src, link: "https://www.bing-ventures.com/", w: "175" },
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
+  
 
 ];
 const gemArr = [
@@ -103,15 +119,15 @@ const gemArr = [
     link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-12mrG",
     w: "100",
   },
-  { pic: Bla.src, link: "" },
-  { pic: CA.src, link: "" },
-  { pic: Pawnfi.src, link: "" },
-  { pic: Tikki.src, link: "" },
-  { pic: Rentii.src, link: "" },
-  { pic: Friends.src, link: "" },
-  { pic: Dmail.src, link: "" },
-  { pic: Bucket.src, link: "" },
-  { pic: Paraspace.src, link: "" },
+  { pic: Bla.src, link: "", w: "200" },
+  { pic: CA.src, link: "" , w: "200" },
+  { pic: Pawnfi.src, link: "", w: "100"  },
+  { pic: Tikki.src, link: "", w: "100"  },
+  { pic: Rentii.src, link: "", w: "100"  },
+  { pic: Friends.src, link: "", w: "200"  },
+  { pic: Dmail.src, link: "", w: "100"  },
+  { pic: Bucket.src, link: "", w: "100"  },
+  { pic: Paraspace.src, link: "", w: "100"  },
 ];
 const mediaArr = [
   { pic: followIn.src, link: "https://followin.io/zh-Hant" },
@@ -131,9 +147,17 @@ const communityArr = [
   { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
   { pic: Han.src, link: "", w: "150" },
   { pic: Cardano.src, link: "", w: "400" },
-  { pic: Ntufintech.src, link: "", w: "250" },
+  { pic: Ntufintech.src, link: ""},
   { pic: Xdao.src, link: "", w: "200" },
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
+  { pic: C1.src, link: "https://m.youtube.com/@LiuliangCool", w: "100" },
+  { pic: C2.src, link: "https://discord.gg/JYazfmtbNE", w: "100" },
+  { pic: C3.src, link: "https://discord.gg/xpgnft", w: "200" },
+  { pic: C4.src, link: "https://twitter.com/cryptowilson_", w: "150" },
+  { pic: C5.src, link: "https://link3.to/snapfingersdao", w: "100" },
+  { pic: C6.src, link: "https://www.paraland.world/", w: "100" },
+  { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
+
 ];
 
 const partnersData = {

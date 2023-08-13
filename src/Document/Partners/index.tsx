@@ -39,6 +39,8 @@ import Lbank from "@/assets/Partners/lbank_gold.png";
 import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
 import BCI from "@/assets/Partners/BCI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
+import Solana from "@/assets/Partners/solanaLogo.svg";
+
 
 
 //VC
@@ -92,6 +94,7 @@ const partnersArr = [
   { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
   { pic: Okx.src, link: "https://www.okx.com/" },
+  { pic: Solana.src, link: "https://solana.com/zh"},
   { pic: Sei.src, link: "https://www.sei.io/" , w: "150"},
   { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },

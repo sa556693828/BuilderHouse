@@ -22,6 +22,14 @@ const agendaData = [
     ],
   },
   {
+    time: "12:20",
+    topic: "Cloud Cybersecurity Strategy for Startups: Safeguarding Innovation, Cost Optimization",
+    subTitle: [
+      "Host : TBD",
+      "Fngi Shiu, GDG Taipei Organizer (Security)\nRay Lin, (ISC)² Taipei Chapter, AWS Security Hero\nHenry Hu, OWASP Taiwan Chapter",
+    ],
+  },
+  {
     time: "13:00",
     topic: "Panel",
     subTitle: [
@@ -31,7 +39,7 @@ const agendaData = [
   },
   {
     time: "14:00",
-    topic: "TBD",
+    topic: "How to Increase Your Chances to Get Funded through Demo3",
     subTitle: ["Jim, Gen3、Demo3 Founder"],
   },
   { time: "14:15", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },

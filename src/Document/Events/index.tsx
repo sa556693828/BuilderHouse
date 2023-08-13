@@ -1,5 +1,5 @@
 import eventPic from "@/assets/events1.svg";
-import eventPic0 from "@/assets/LeadUptheNight_0802_1000X500.png";
+import eventPic0 from "@/assets/Activity/LeadUptheNight_0802_1000X500.png";
 import lead0816 from "@/assets/Activity/LeadUpTheNight_0816_1000X500.png";
 import trader0719 from "@/assets/Activity/trader0719.png";
 import After_party from "@/assets/Activity/After_party.png";

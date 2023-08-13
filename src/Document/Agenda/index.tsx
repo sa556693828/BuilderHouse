@@ -2,11 +2,11 @@ const agendaData = [
   { time: "09:00", topic: "Opening" },
   { time: "09:15", topic: "Panel", subTitle: ["TBD"]},
   {
-    time: "10:15",
+    time: "10:00",
     topic: "TBD",
   },
   {
-    time: "10:30",
+    time: "10:20",
     topic: "Decentralization in Community Management：\nHow Web3 Changes the Landscape",
     subTitle: [
       "Host : Audrey, Orderly CGO",
@@ -14,7 +14,7 @@ const agendaData = [
     ],
   },
   {
-    time: "11:30",
+    time: "11:20",
     topic: "How Communities Boost Trading: \nInitiative and Impact",
     subTitle: [
       "Host : Carlos, ACE Exchange",

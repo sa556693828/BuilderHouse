@@ -92,7 +92,7 @@ const goldArr = [
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
 ];
 const silverArr = [
-  { pic: ACE.src, link: "https://ace.io/"},
+  { pic: ACE.src, link: "https://ace.io/", w: "200"},
 ];
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
@@ -121,8 +121,8 @@ const vcArr = [
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
 ];
 const technicalArr = [
-  { pic: Tikki.src, link: "https://www.tikki.app/" },
-  { pic: Hong.src, link: "https://www.hongwangtec.com/  " },
+  { pic: Tikki.src, link: "https://www.tikki.app/" , w: "200"},
+  { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
   // { pic: Ngc.src, link: "https://ngc.fund", },
   // { pic: Ld.src, link: "https://ldcap.com/" },
 ];

@@ -83,8 +83,8 @@ const coHostArr = [
   { pic: zombie.src, link: "https://zombit.info/" },
 ];
 const strategicArr = [
-  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
-  { pic: Gcp.src, link: "", w: "220" },
+  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "180" },
+  { pic: Gcp.src, link: ""},
   { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
   { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
 ];

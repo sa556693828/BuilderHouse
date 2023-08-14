@@ -41,7 +41,7 @@ import BCI from "@/assets/Partners/BCI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
 import Gcp from "@/assets/Partners/lockup_GoogleCloud_Reverse_rgb_544x96px.svg";
-import Hong from "@/assets/Partners/Hong.png";
+import Hong from "@/assets/Partners/Hong1.png";
 
 
 //VC
@@ -121,7 +121,7 @@ const vcArr = [
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
 ];
 const technicalArr = [
-  { pic: Tikki.src, link: "https://www.tikki.app/" , w: "200"},
+  { pic: Tikki.src, link: "https://www.tikki.app/" , w: "150"},
   { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
   // { pic: Ngc.src, link: "https://ngc.fund", },
   // { pic: Ld.src, link: "https://ldcap.com/" },

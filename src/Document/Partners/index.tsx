@@ -42,7 +42,6 @@ import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
 import Gcp from "@/assets/Partners/lockup_GoogleCloud_Reverse_rgb_544x96px.svg";
 
-
 //VC
 import Ld from "@/assets/Partners/LD.png";
 import Ac from "@/assets/Partners/ac_capital.png";
@@ -85,6 +84,11 @@ const strategicArr = [
   { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
 ];
 const diamondArr = [
+  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
+  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
+  { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
+];
+const goldArr = [
   { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
   { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
   { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
@@ -182,6 +186,7 @@ const partnersData = {
   coHost: coHostArr,
   strategic: strategicArr,
   diamond: diamondArr,
+  gold: goldArr,
   silver: silverArr,
   partners: partnersArr,
   vc: vcArr,

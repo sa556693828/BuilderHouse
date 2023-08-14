@@ -13,6 +13,7 @@ export default function Partners(props: { data: any }) {
     coHost,
     strategic,
     diamond,
+    gold,
     silver,
     partners,
     vc,
@@ -67,10 +68,11 @@ export default function Partners(props: { data: any }) {
           <PartnersCard logo={coHost} type="CO - HOST" />
           <PartnersCard logo={strategic} type="Strategic Partner" />
           <PartnersCard logo={diamond} type="Diamond Sponsor" />
+          <PartnersCard logo={gold} type="Gold Sponsor" />
           <PartnersCard logo={silver} type="Silver partner" />
           <PartnersCard logo={partners} grid="4" type="Partner" />
           <PartnersCard logo={vc} grid="4" type="VC Partner" />
-          <PartnersCard logo={technical} grid="4" type="Technical Support" />
+          <PartnersCard logo={technical} type="Technical Support" />
           <PartnersCard logo={gem} grid="4" type="Gem Partner" />
           <PartnersCard logo={media} grid="4" type="Media Partner" />
           <PartnersCard logo={community} type="Community Partner" />
@@ -80,6 +82,9 @@ export default function Partners(props: { data: any }) {
           <PartnersM logo={host} type="HOST" />
           <PartnersM logo={coHost} type="CO - HOST" />
           <PartnersM logo={strategic} type="Strategic Partner" />
+          <PartnersM logo={diamond} type="Diamond Sponsor" />
+          <PartnersM logo={gold} type="Gold Sponsor" />
+          <PartnersM logo={silver} type="Silver partner" />
           <PartnersM logo={partners} type="Partner" />
           <PartnersM logo={vc} type="VC Partner" />
           <PartnersM logo={technical} type="Technical Support" />

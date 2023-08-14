@@ -40,7 +40,7 @@ import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
 import BCI from "@/assets/Partners/BCI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
-import Gcp from "@/assets/Partners/Google_Cloud_Platform_Logo.wine.svg";
+import Gcp from "@/assets/Partners/lockup_GoogleCloud_Reverse_rgb_544x96px.svg";
 
 
 
@@ -83,6 +83,7 @@ const coHostArr = [
   { pic: zombie.src, link: "https://zombit.info/" },
 ];
 const strategicArr = [
+  { pic: Gcp.src, link: "" },
   { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "200" },
   { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
   { pic: Gen3.src, link: "https://gen3.network/", w: "180" },

@@ -41,14 +41,11 @@ import BCI from "@/assets/Partners/BCI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
 
-
-
 //VC
 import Ld from "@/assets/Partners/LD.png";
 import Ac from "@/assets/Partners/ac_capital.png";
 import Mexcvc from "@/assets/Partners/mexc_vc.png";
 import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
-
 
 //Gem
 import Bla from "@/assets/Hunter/bla.svg";
@@ -72,7 +69,6 @@ import C5 from "@/assets/Partners/c5.png";
 import C6 from "@/assets/Partners/c6.png";
 import C7 from "@/assets/Partners/c7_w.png";
 
-
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
 const coHostArr = [
@@ -81,6 +77,16 @@ const coHostArr = [
   { pic: zombie.src, link: "https://zombit.info/" },
 ];
 const strategicArr = [
+  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
+  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
+  { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
+];
+const diamondArr = [
+  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
+  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
+  { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
+];
+const silverArr = [
   { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
   { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
   { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
@@ -94,8 +100,8 @@ const partnersArr = [
   { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
   { pic: ACE.src, link: "https://ace.io/", w: "150" },
   { pic: Okx.src, link: "https://www.okx.com/" },
-  { pic: Solana.src, link: "https://solana.com/zh"},
-  { pic: Sei.src, link: "https://www.sei.io/" , w: "150"},
+  { pic: Solana.src, link: "https://solana.com/zh" },
+  { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
   { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
@@ -103,9 +109,9 @@ const partnersArr = [
   { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
   { pic: ikala.src, link: "" },
 ];
-const vcArr = [  
+const vcArr = [
   { pic: lead.src, link: "https://lead-capital.com/" },
-  { pic: Ngc.src, link: "https://ngc.fund", },
+  { pic: Ngc.src, link: "https://ngc.fund" },
   { pic: Ld.src, link: "https://ldcap.com/" },
   { pic: Ac.src, link: "https://accapital.io/" },
   { pic: Mexcvc.src, link: "https://m-ventures.io/" },
@@ -113,8 +119,11 @@ const vcArr = [
   { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
   { pic: venture.src, link: "https://www.bing-ventures.com/", w: "175" },
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
-  
-
+];
+const technicalArr = [
+  { pic: lead.src, link: "https://lead-capital.com/" },
+  // { pic: Ngc.src, link: "https://ngc.fund", },
+  // { pic: Ld.src, link: "https://ldcap.com/" },
 ];
 const gemArr = [
   {
@@ -123,14 +132,14 @@ const gemArr = [
     w: "100",
   },
   { pic: Bla.src, link: "", w: "200" },
-  { pic: CA.src, link: "" , w: "200" },
-  { pic: Pawnfi.src, link: "", w: "100"  },
-  { pic: Tikki.src, link: "", w: "100"  },
-  { pic: Rentii.src, link: "", w: "100"  },
-  { pic: Friends.src, link: "", w: "200"  },
-  { pic: Dmail.src, link: "", w: "100"  },
-  { pic: Bucket.src, link: "", w: "100"  },
-  { pic: Paraspace.src, link: "", w: "100"  },
+  { pic: CA.src, link: "", w: "200" },
+  { pic: Pawnfi.src, link: "", w: "100" },
+  { pic: Tikki.src, link: "", w: "100" },
+  { pic: Rentii.src, link: "", w: "100" },
+  { pic: Friends.src, link: "", w: "200" },
+  { pic: Dmail.src, link: "", w: "100" },
+  { pic: Bucket.src, link: "", w: "100" },
+  { pic: Paraspace.src, link: "", w: "100" },
 ];
 const mediaArr = [
   { pic: followIn.src, link: "https://followin.io/zh-Hant" },
@@ -150,7 +159,7 @@ const communityArr = [
   { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
   { pic: Han.src, link: "", w: "150" },
   { pic: Cardano.src, link: "", w: "400" },
-  { pic: Ntufintech.src, link: ""},
+  { pic: Ntufintech.src, link: "" },
   { pic: Xdao.src, link: "", w: "200" },
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
   { pic: C1.src, link: "https://m.youtube.com/@LiuliangCool", w: "100" },
@@ -160,7 +169,6 @@ const communityArr = [
   { pic: C5.src, link: "https://link3.to/snapfingersdao", w: "100" },
   { pic: C6.src, link: "https://www.paraland.world/", w: "100" },
   { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
-
 ];
 
 const partnersData = {
@@ -170,8 +178,11 @@ const partnersData = {
   host: hostArr,
   coHost: coHostArr,
   strategic: strategicArr,
+  diamond: diamondArr,
+  silver: silverArr,
   partners: partnersArr,
   vc: vcArr,
+  technical: technicalArr,
   gem: gemArr,
   media: mediaArr,
   community: communityArr,

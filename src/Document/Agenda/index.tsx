@@ -1,40 +1,47 @@
 const agendaData = [
   { time: "09:00", topic: "Opening" },
-  { time: "09:15", topic: "Panel", subTitle: ["TBD"]},
+  { time: "09:15", topic: "Panel", subTitle: ["TBD"] },
   {
     time: "10:00",
     topic: "TBD",
   },
   {
     time: "10:20",
-    topic: "Decentralization in Community Management：\nHow Web3 Changes the Landscape",
+    topic:
+      "Decentralization in Community Management：\nHow Web3 Changes the Landscape",
     subTitle: [
-      "Host : Audrey, Orderly CGO",
-      "Bonnie, Bonnie Blockchain Founder\nJustin, JClub Founder",
+      "Host :",
+      "Audrey, Orderly CGO\n",
+      "Bonnie, Bonnie Blockchain Founder\n",
+      "Justin, JClub Founder\n",
     ],
   },
   {
     time: "11:20",
     topic: "How Communities Boost Trading: \nInitiative and Impact",
-    subTitle: [
-      "Host : Carlos, ACE Exchange",
-      "TBD",
-    ],
+    subTitle: ["Host : ", "Carlos, ACE Exchange", "TBD"],
   },
   {
     time: "12:20",
-    topic: "Cloud Cybersecurity Strategy for Startups: Safeguarding Innovation, Cost Optimization",
+    topic:
+      "Cloud Cybersecurity Strategy for Startups: Safeguarding Innovation, Cost Optimization",
     subTitle: [
       "Host : TBD",
-      "Fngi Shiu, GDG Taipei Organizer (Security)\nRay Lin, (ISC)² Taipei Chapter, AWS Security Hero\nHenry Hu, OWASP Taiwan Chapter",
+      "Fngi Shiu, GDG Taipei Organizer (Security)\n",
+      "Ray Lin, (ISC)² Taipei Chapter, AWS Security Hero\n",
+      "Henry Hu, OWASP Taiwan Chapter\n",
     ],
   },
   {
     time: "13:00",
     topic: "Panel",
     subTitle: [
-      "Host : Jeff, Zombit Co - Founder ",
-      "Damien Binance Global Partnership\nJosh, Bingx \nMichael, Lead Capital Co-Founder\nHenry, Meta GSR Sales Director",
+      "Host :",
+      "Jeff, Zombit Co - Founder\n",
+      "Damien Binance Global Partnership\n",
+      "Josh, Bingx\n",
+      "Michael, Lead Capital Co-Founder\n",
+      "Henry, Meta GSR Sales Director\n",
     ],
   },
   {
@@ -43,7 +50,7 @@ const agendaData = [
     subTitle: ["Jim, Gen3、Demo3 Founder"],
   },
   { time: "14:15", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
-  { time: "16:30  ", topic: "TBD" , subTitle: ["TBD"]},
+  { time: "16:30  ", topic: "TBD", subTitle: ["TBD"] },
   { time: "17:00", topic: "Taiwan Builder House Result", subTitle: ["Teams"] },
 ];
 const AgendaData = {

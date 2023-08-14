@@ -41,6 +41,8 @@ import BCI from "@/assets/Partners/BCI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
 import Gcp from "@/assets/Partners/lockup_GoogleCloud_Reverse_rgb_544x96px.svg";
+import Hong from "@/assets/Partners/Hong.png";
+
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
@@ -84,28 +86,19 @@ const strategicArr = [
   { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
 ];
 const diamondArr = [
-  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
-  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
-  { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
+  { pic: BingX.src, link: "https://bingx.com/"},
 ];
 const goldArr = [
-  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
-  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
-  { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
+  { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
 ];
 const silverArr = [
-  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "220" },
-  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
-  { pic: Gen3.src, link: "https://gen3.network/", w: "220" },
+  { pic: ACE.src, link: "https://ace.io/"},
 ];
 const partnersArr = [
-  { pic: BingX.src, link: "https://bingx.com/", w: "150" },
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
-  { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
   { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
-  { pic: ACE.src, link: "https://ace.io/", w: "150" },
   { pic: Okx.src, link: "https://www.okx.com/" },
   { pic: Solana.src, link: "https://solana.com/zh" },
   { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
@@ -128,7 +121,8 @@ const vcArr = [
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
 ];
 const technicalArr = [
-  { pic: lead.src, link: "https://lead-capital.com/" },
+  { pic: Tikki.src, link: "https://www.tikki.app/" },
+  { pic: Hong.src, link: "https://www.hongwangtec.com/  " },
   // { pic: Ngc.src, link: "https://ngc.fund", },
   // { pic: Ld.src, link: "https://ldcap.com/" },
 ];
@@ -141,7 +135,6 @@ const gemArr = [
   { pic: Bla.src, link: "", w: "200" },
   { pic: CA.src, link: "", w: "200" },
   { pic: Pawnfi.src, link: "", w: "100" },
-  { pic: Tikki.src, link: "", w: "100" },
   { pic: Rentii.src, link: "", w: "100" },
   { pic: Friends.src, link: "", w: "200" },
   { pic: Dmail.src, link: "", w: "100" },

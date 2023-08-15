@@ -41,7 +41,12 @@ import BCI from "@/assets/Partners/BCI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
 import Gcp from "@/assets/Partners/lockup_GoogleCloud_Reverse_rgb_544x96px.svg";
-import Hong from "@/assets/Partners/Hong1.png";
+import Hong from "@/assets/Partners/Hong_new.png";
+import C2_venture from "@/assets/Partners/c2_venture.png";
+import Hong from "@/assets/Partners/Hong_new.png";
+import Ref from "@/assets/Partners/ref_finance.png";
+import Chainlink from "@/assets/Partners/Chainlink.svg";
+
 
 
 //VC
@@ -98,21 +103,24 @@ const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
   { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
-  { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
-  { pic: Okx.src, link: "https://www.okx.com/" },
+  { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
   { pic: Solana.src, link: "https://solana.com/zh" },
   { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
   { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
+  { pic: Chainlink.src, link: "https://tezos.com/", w: "200" },
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
   { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
-  { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
+  { pic: Ref.src, link: "https://www.ref.finance/" },
+  { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
+  { pic: Okx.src, link: "https://www.okx.com/" },
   { pic: ikala.src, link: "" },
 ];
 const vcArr = [
   { pic: lead.src, link: "https://lead-capital.com/" },
   { pic: Ngc.src, link: "https://ngc.fund" },
   { pic: Ld.src, link: "https://ldcap.com/" },
+  { pic: C2_venture.src, link: "https://www.csquared.vc/" },
   { pic: Ac.src, link: "https://accapital.io/" },
   { pic: Mexcvc.src, link: "https://m-ventures.io/" },
   { pic: Okxventures.src, link: "https://www.okx.com/hk/ventures", w: "150" },

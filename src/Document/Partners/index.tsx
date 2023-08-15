@@ -41,13 +41,10 @@ import BCI from "@/assets/Partners/BCI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
 import Gcp from "@/assets/Partners/lockup_GoogleCloud_Reverse_rgb_544x96px.svg";
-import Hong from "@/assets/Partners/Hong_new.png";
 import C2_venture from "@/assets/Partners/c2_venture.png";
 import Hong from "@/assets/Partners/Hong_new.png";
 import Ref from "@/assets/Partners/ref_finance.png";
 import Chainlink from "@/assets/Partners/Chainlink.svg";
-
-
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
@@ -90,15 +87,11 @@ const strategicArr = [
   { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
   { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
 ];
-const diamondArr = [
-  { pic: BingX.src, link: "https://bingx.com/"},
-];
+const diamondArr = [{ pic: BingX.src, link: "https://bingx.com/" }];
 const goldArr = [
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
 ];
-const silverArr = [
-  { pic: ACE.src, link: "https://ace.io/", w: "200"},
-];
+const silverArr = [{ pic: ACE.src, link: "https://ace.io/", w: "200" }];
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
@@ -129,7 +122,7 @@ const vcArr = [
   { pic: chain.src, link: "https://ctcap.io/", w: "175" },
 ];
 const technicalArr = [
-  { pic: Tikki.src, link: "https://www.tikki.app/" , w: "150"},
+  { pic: Tikki.src, link: "https://www.tikki.app/", w: "150" },
   { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
   // { pic: Ngc.src, link: "https://ngc.fund", },
   // { pic: Ld.src, link: "https://ldcap.com/" },

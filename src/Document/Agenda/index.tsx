@@ -26,7 +26,7 @@ const agendaData = [
     topic:
       "Cloud Cybersecurity Strategy for Startups: Safeguarding Innovation, Cost Optimization",
     subTitle: [
-      "Host : TBD",
+      "Host : Josephine, BuilderDAO Core Contributor",
       "Fngi Shiu, GDG Taipei Organizer (Security)\n",
       "Ray Lin, (ISC)² Taipei Chapter, AWS Security Hero\n",
       "Henry Hu, OWASP Taiwan Chapter\n",

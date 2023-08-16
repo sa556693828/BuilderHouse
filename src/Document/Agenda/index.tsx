@@ -1,8 +1,6 @@
 const agendaData = [
   { time: "09:00", topic: "Opening" },
   { time: "09:15", topic: "TBD", subTitle: ["TBD"] },
-  { time: "09:30", topic: "TBD", subTitle: ["TBD"] },
-  { time: "09:45", topic: "TBD", subTitle: ["TBD"] },
   {
     time: "10:00",
     topic:

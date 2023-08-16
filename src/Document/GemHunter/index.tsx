@@ -34,7 +34,7 @@ const hunterArray = [
       content: [
         {
           title: `點選上方網站連結進行註冊`,
-          detail: [],
+          detail: ['前100名註冊每位將額外活得10USDT'],
         },
       ],
     },

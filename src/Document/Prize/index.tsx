@@ -132,7 +132,7 @@ const prizeArray = [
       illustrate: `『波動』，是金融市場中即具重要的一個元素，波動產生的套利空間使套利者願意承擔風險進行套利。相較於傳統金融，加密貨幣市場便具有波動大風險高的特性，即便如此，高風險所伴隨的高報酬仍然吸引眾多交易者進入市場進行交易。`,
       content: [
         {
-          title: `1. 請針對市場波動進行預測分析，方法不限`,
+          title: `1. 請針對市場波動進行預測分析，方法不限：4,000U`,
           detail: [
             `若以『時間』作為採樣標準，請預測 3000ms 後市場狀態`,
             `若以『交易』作為採樣標準，請預測 300 ticks 後市場狀態`,
@@ -140,8 +140,18 @@ const prizeArray = [
           ],
         },
         {
-          title: `2. 請使用分析結果建構一交易模型，回測結果須考慮手續費、滑價、成交與否等因素`,
-          detail: [],
+          title: `2. CTA競賽：1,000U`,
+          detail: [
+            `將依照下列條件進行策略評比`,
+            `1. alpha ratio(higher better)`,
+            `2. sortino ratio(higher better)`,
+            `3. correlation with market(lower better)`,
+            `4. robustness on other market`,
+            `5. latency senstive`,
+            `6. trade volume capacity`,
+            `7. maximum drawdown`,
+            `8. fee tier reliability(profit margin)`,
+          ],
         },
       ],
 

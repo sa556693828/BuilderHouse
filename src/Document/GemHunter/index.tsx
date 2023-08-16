@@ -307,7 +307,7 @@ const hunterArray = [
   },
   {
     title: "Rentii",
-    prize: "-",
+    prize: "Task",
     pic: Rentii.src,
     data: {
       title: "Rentii",
@@ -336,7 +336,7 @@ const hunterArray = [
   },
   {
     title: "Tikki",
-    prize: "-",
+    prize: "Task",
     pic: Tikki.src,
     data: {
       title: "Tikki",

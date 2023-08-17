@@ -1,6 +1,7 @@
 const agendaData = [
   { time: "09:00", topic: "Opening" },
   { time: "09:15", topic: "TBD", subTitle: ["TBD"] },
+  { time: "09:45", topic: "TBD", subTitle: ["Blues, Google Cloud Field Sales Representative"] },
   {
     time: "10:00",
     topic:
@@ -26,7 +27,7 @@ const agendaData = [
   {
     time: "12:30",
     topic: "How Communities Boost Trading: \nInitiative and Impact",
-    subTitle: ["Host : ", "Carlos, ACE Exchange", "TBD"],
+    subTitle: ["Host : Carlos, ACE Exchange", "TBD"],
   },
   {
     time: "13:00",

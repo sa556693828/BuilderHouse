@@ -14,9 +14,9 @@ const agendaData = [
   },
   { time: "11:00", topic: "Taiwan Builder House Demos", 
     subTitle: [
-      "11:00 Reyield Finance",
-      "11:15 Blablablcok",
-      "11:30 Crypto Arsenal",
+      "Reyield Finance",
+      "Blablablcok",
+      "Crypto Arsenal",
     ],
   },
   {

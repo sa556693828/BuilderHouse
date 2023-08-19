@@ -12,7 +12,13 @@ const agendaData = [
       "Justin, JClub Founder\n",
     ],
   },
-  { time: "11:00", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
+  { time: "11:00", topic: "Taiwan Builder House Demos", 
+    subTitle: [
+      "11:00 Reyield Finance",
+      "11:15 Blablablcok",
+      "11:30 Crypto Arsenal",
+    ],
+  },
   {
     time: "11:45",
     topic:

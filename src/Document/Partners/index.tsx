@@ -68,6 +68,7 @@ import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 
 //communtity
+import Web3ass from "@/assets/Partners/web3_ass.png";
 import C1 from "@/assets/Partners/c1.png";
 import C2 from "@/assets/Partners/c2_w.png";
 import C3 from "@/assets/Partners/c3_n.png";
@@ -162,6 +163,7 @@ const communityArr = [
     link: "https://bt-hare.com/",
     w: "300",
   },
+  { pic: Web3ass.src, link: "" },
   { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
   { pic: Han.src, link: "", w: "150" },
   { pic: Cardano.src, link: "", w: "400" },

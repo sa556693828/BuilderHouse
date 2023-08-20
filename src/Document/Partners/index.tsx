@@ -45,6 +45,8 @@ import C2_venture from "@/assets/Partners/c2_venture.png";
 import Hong from "@/assets/Partners/Hong_new.png";
 import Ref from "@/assets/Partners/ref_finance.png";
 import Chainlink from "@/assets/Partners/Chainlink.svg";
+import Eos from "@/assets/Partners/eos.svg";
+
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
@@ -66,6 +68,7 @@ import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 
 //communtity
+import Web3ass from "@/assets/Partners/web3_ass.png";
 import C1 from "@/assets/Partners/c1.png";
 import C2 from "@/assets/Partners/c2_w.png";
 import C3 from "@/assets/Partners/c3_n.png";
@@ -91,7 +94,10 @@ const diamondArr = [{ pic: BingX.src, link: "https://bingx.com/" }];
 const goldArr = [
   { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
 ];
-const silverArr = [{ pic: ACE.src, link: "https://ace.io/", w: "200" }];
+const silverArr = [
+  { pic: ACE.src, link: "https://ace.io/", w: "200" },
+  { pic: Ref.src, link: "https://www.ref.finance/" },
+];
 const partnersArr = [
   { pic: wormhole.src, link: "https://wormhole.com/" },
   { pic: Binance.src, link: "https://binance.com/" },
@@ -100,11 +106,11 @@ const partnersArr = [
   { pic: Solana.src, link: "https://solana.com/zh" },
   { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
   { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
+  { pic: Eos.src, link: "https://eosnetwork.com/", w: "200" },
   { pic: Chainlink.src, link: "https://tezos.com/", w: "200" },
   { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
   { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
   { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
-  { pic: Ref.src, link: "https://www.ref.finance/" },
   { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
   { pic: Okx.src, link: "https://www.okx.com/" },
   { pic: ikala.src, link: "" },
@@ -157,6 +163,7 @@ const communityArr = [
     link: "https://bt-hare.com/",
     w: "300",
   },
+  { pic: Web3ass.src, link: "" },
   { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
   { pic: Han.src, link: "", w: "150" },
   { pic: Cardano.src, link: "", w: "400" },

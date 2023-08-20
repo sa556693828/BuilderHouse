@@ -12,6 +12,8 @@ import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 import Mexc from "@/assets/Prizes/mexc.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
+import noneland from "@/assets/Partners/noneland.svg";
+
 
 // import chaintimes from "@/assets/Hunter/chaintimes.png";
 // import Orderly from "@/assets/Hunter/Orderly.svg";
@@ -23,7 +25,7 @@ import Orderly from "@/assets/Prizes/Orderly.svg";
 const hunterArray = [
   {
     title: "MEXC",
-    prize: "Task",
+    prize: "1,000USDT",
     pic: Mexc.src,
     data: {
       title: "MEXC",
@@ -34,21 +36,63 @@ const hunterArray = [
       content: [
         {
           title: `點選上方網站連結進行註冊`,
+          detail: ['前100名註冊每位將額外活得10USDT'],
+        },
+      ],
+    },
+  },
+  {
+    title: "Followin",
+    prize: "Task",
+    pic: Followin.src,
+    data: {
+      title: "Followin",
+      linkArr: [
+        { icon: "icon-website", link: "https://followin.io/" },
+        { icon: "icon-twitter", link: "https://twitter.com/followin_io" },
+        { icon: "icon-telegram", link: "https://t.me/followin_io" },
+        { icon: "icon-discord", link: "https://discord.com/invite/vPdAfjZ7ja" },
+      ],
+      illustrate: "完成新手任務",
+      content: [
+        {
+          title: `1. 成功綁定錢包`,
+          detail: [],
+        },
+        {
+          title: `2. 關注一個項目`,
+          detail: [],
+        },
+        {
+          title: `3. 綁定Twitter`,
           detail: [],
         },
       ],
     },
   },
   {
-    title: "Orderly",
+    title: "NONE LAND",
     prize: "Task",
-    pic: Orderly.src,
+    pic: noneland.src,
     data: {
-      title: "Orderly",
+      title: "NONE LAND",
       linkArr: [
-        { icon: "icon-website", link: "https://orderly.network/" },
-        { icon: "icon-twitter", link: "https://twitter.com/OrderlyNetwork" },
-        { icon: "icon-discord", link: "https://discord.com/invite/orderlynetwork" },
+        { icon: "icon-website", link: "https://none.land" },
+      ],
+      illustrate: "NONE LAND aims to bring Web3 to a broader audience, reaching beyond blockchain enthusiasts and connecting with everyone.By transforming intricate Web3 topics into entertaining and comprehensible content, NONE LAND has become the most approachable Web3 media brand. Together, let's forge a future of limitless possibilities",
+      content: [
+        {
+          title: `1. 追蹤 NONE LAND Instagram`,
+          detail: [],
+        },
+        {
+          title: `2. 訂閱 NONE LAND Youtube`,
+          detail: [],
+        },
+        {
+          title: `3. 加入 NONE LAND 官方 Line 社群`,
+          detail: [],
+        },
       ],
     },
   },
@@ -179,35 +223,6 @@ const hunterArray = [
     },
   },
   {
-    title: "Followin",
-    prize: "Task",
-    pic: Followin.src,
-    data: {
-      title: "Followin",
-      linkArr: [
-        { icon: "icon-website", link: "https://followin.io/" },
-        { icon: "icon-twitter", link: "https://twitter.com/followin_io" },
-        { icon: "icon-telegram", link: "https://t.me/followin_io" },
-        { icon: "icon-discord", link: "https://discord.com/invite/vPdAfjZ7ja" },
-      ],
-      illustrate: "完成新手任務",
-      content: [
-        {
-          title: `1. 成功綁定錢包`,
-          detail: [],
-        },
-        {
-          title: `2. 關注一個項目`,
-          detail: [],
-        },
-        {
-          title: `3. 綁定Twitter`,
-          detail: [],
-        },
-      ],
-    },
-  },
-  {
     title: "Friends Protocal",
     prize: "Mint 50%OFF",
     pic: Friends.src,
@@ -292,7 +307,7 @@ const hunterArray = [
   },
   {
     title: "Rentii",
-    prize: "-",
+    prize: "Task",
     pic: Rentii.src,
     data: {
       title: "Rentii",
@@ -303,11 +318,25 @@ const hunterArray = [
         { icon: "icon-discord", link: "" },
       ],
       illustrate: "",
+      content: [
+        {
+          title: `1. 至官網點擊connect wallet`,
+          detail: [],
+        },
+        {
+          title: `2. 連接Solana錢包`,
+          detail: [],
+        },
+        {
+          title: `3. 點擊出租或是租入一張NFT`,
+          detail: [],
+        },
+      ],
     },
   },
   {
     title: "Tikki",
-    prize: "-",
+    prize: "Task",
     pic: Tikki.src,
     data: {
       title: "Tikki",

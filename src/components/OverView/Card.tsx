@@ -1,4 +1,5 @@
 import { useDisclosure } from "@chakra-ui/react";
+import { useTranslation } from "next-i18next";
 import React from "react";
 import InputModal from "../InputModal/InputModal";
 import LinearButton from "../LinearButton/LinearButton";
@@ -17,6 +18,7 @@ export default function ViewCard(props: {
   data: any;
 }) {
   const { isOpen, onClose, onOpen } = useDisclosure();
+  const { t } = useTranslation("overView");
 
   return (
     <div
@@ -32,7 +34,7 @@ export default function ViewCard(props: {
         <div className="flex-1 whitespace-pre-wrap">{props.content}</div>
         <div className="">
           <LinearButton color={props?.color} onClick={onOpen}>
-            詳情
+            {t("detail")}
           </LinearButton>
         </div>
       </div>

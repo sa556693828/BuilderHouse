@@ -109,15 +109,6 @@ export default function TimeLine(props: { data: any }) {
               <div className="max-w-xs text-text">{data?.data[2].content}</div>
             </div>
           </div>
-          {/* 
-            <div className="w-1/3 text-2xl">
-              {data?.data[1].title}
-              <div className="pt-2 text-base text-text">{data?.data[1].date}</div>
-            </div>
-            <div className="w-1/3 text-2xl">
-              {data?.data[2].title}
-              <div className="pt-2 text-base text-text">{data?.data[2].date}</div>
-            </div> */}
         </div>
       </div>
       <img

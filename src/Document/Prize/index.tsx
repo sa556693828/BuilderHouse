@@ -12,303 +12,294 @@ import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
 import TBH3 from "@/assets/Prizes/TBH_White_3.png";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 
-const prizeArray = [
-  {
-    title: "TBH：Best Overall",
-    prize: "$6,000",
-    pic: TBH1.src,
-    data: {
-      title: "Taiwan Builder House：Best Overall",
-      prize: "獎金金額：$6,000U",
-      illustrate: `評審團將選出整體最佳項目`,
-      content: [
-        {
-          title: `名次及獎金`,
-          detail: [`一等獎：3,000U , Onekey mini * 1`, `二等獎：2,000U`, `三等獎：1,000U`],
-        },
-      ],
+import { useTranslation } from "next-i18next";
 
-      source: `整體最佳獎與最具潛力項目只可擇一獲得`,
-    },
-  },
-  {
-    title: "TBH：Most Potential",
-    prize: "$3,000",
-    pic: TBH1.src,
-    data: {
-      title: "Taiwan Builder House：Best Overall",
-      prize: "獎金金額：$3,000U",
-      illustrate: `評審團將選出最具潛力項目`,
-      content: [
-        {
-          title: `名次及獎金`,
-          detail: [`一等獎：1,500U , Onekey mini * 1`, `二等獎：1,000U`, `三等獎：500U`],
-        },
-      ],
+function prizeDoc() {
+  const { t } = useTranslation("prize");
 
-      source: `整體最佳獎與最具潛力項目只可擇一獲得`,
-    },
-  },
-  {
-    title: "TBH：Community Favorites",
-    prize: "$1,000",
-    pic: TBH1.src,
-    data: {      
-      title: "Taiwan Builder House：Best Overall",
-      prize: "獎金金額：$6,000U",
-      illustrate: `觀眾票選獎`,
-      content: [
-        {
-          title: `名次及獎金`,
-          detail: [`一等獎：500U , Onekey mini * 1`, `二等獎：300U`, `三等獎：200U`],
-        },
-    ],
+  const prizeArray = [
+    {
+      title: "TBH：Best Overall",
+      prize: "$6,000",
+      pic: TBH1.src,
+      data: {
+        title: "Taiwan Builder House：Best Overall",
+        prize: `${t("pA")}：$6,000U`,
+        illustrate: t("1T"),
+        content: [
+          {
+            title: t("pT"),
+            detail: [
+              `${t("pf")}3,000U , Onekey mini * 1`,
+              `${t("ps")}2,000U`,
+              `${t("pt")}1,000U`,
+            ],
+          },
+        ],
 
-    source: ``,},
-  },
-  {
-    title: "Orderly",
-    prize: "$10,000",
-    pic: Orderly.src,
-    data: {
-      title: "Orderly's growth and boost",
-      prize: "獎金金額：$10,000U",
-      illustrate: ``,
-      content: [
-        {
-          title: `Innovative Product Challenge tailored for Orderly V2 SDK：5,000U`,
-          detail: [
-            `Your task is to utilize the Orderly V2 SDK and create an innovative product that will redefine the decentralized exchange landscape. It could be a product or tool that brings efficiency, enhances user experience, or introduces a brand new feature to our platform. The successful development and implementation of an innovative solution can win you a prize of $5000. Be the architect of the future, and make your mark in the evolution of DEXs.`,
-          ],
-        },
-        {
-          title: `Retail Bounty Program Challenge tailored for Orderly V2 SDK：3,000U`,
-          detail: [
-            `We are inviting you to design a compelling retail bounty program to attract retail traders to our platform. This bounty program should incentivize participation, encourage engagement, and ultimately, increase our platform's user base. A well-structured, attractive, and impactful retail bounty program can bag you a reward of $3000. Remember, our goal is to create an inclusive, dynamic, and engaging trading environment.`,
-          ],
-        },
-        {
-          title: `Lottery Tool Challenge tailored for Orderly V2 SDK：1,000U`,
-          detail: [
-            `We're inviting you to make trading on our platform an exhilarating experience by designing a Lottery Tool. The tool should allow our users to enter a lottery funded by us each time they trade. The aim is to enhance the user experience by introducing an element of thrill, where each transaction made on our platform could potentially result in significant lottery winnings. The most innovative and user-friendly lottery tool stands a chance to win $1000.`,
-          ],
-        },
-        {
-          title: `Creating a compelling Referral System Tool：1,000U`,
-          detail: [
-            `We invite you to contribute to our community's growth and boost our platform's trading volume by creating a compelling Referral System Tool. This tool should facilitate our users to share unique promotional links and in return, earn affiliate rewards when their referrals join and trade on our platform. By motivating widespread sharing and expanding our user base, this tool is aimed at driving higher trading volumes. Craft a referral system tool that not only promotes our platform but also significantly ramps up our trading activity. You could earn a reward of $1000 for a well-executed design that aligns with these goals.`,
-          ],
-        },
-      ],
+        source: t("1S"),
+      },
+    },
+    {
+      title: "TBH：Most Potential",
+      prize: "$3,000",
+      pic: TBH1.src,
+      data: {
+        title: "Taiwan Builder House：Best Overall",
+        prize: `${t("pA")}：$3,000U`,
+        illustrate: t("2T"),
+        content: [
+          {
+            title: t("pT"),
+            detail: [
+              `${t("pf")}1,500U , Onekey mini * 1`,
+              `${t("ps")}1,000U`,
+              `${t("pt")}500U`,
+            ],
+          },
+        ],
 
-      source: ``,
+        source: t("2S"),
+      },
     },
-  },
-  {
-    title: "TZ APAC",
-    prize: "$10,000",
-    pic: Tzapac.src,
-    data: {
-      title: "AI x Blockchain",
-      prize: "獎金金額：$10,000U",
-      illustrate: ``,
-      content: [
-        {
-          title: `1. AI 與 Blockchain 的結合，方法不限`,
-          detail: [`Need to integrate with Tezos`],
-        },
-      ],
+    {
+      title: "TBH：Community Favorites",
+      prize: "$1,000",
+      pic: TBH1.src,
+      data: {
+        title: "Taiwan Builder House：Best Overall",
+        prize: `${t("pA")}：$6,000U`,
+        illustrate: t("3T"),
+        content: [
+          {
+            title: t("pT"),
+            detail: [
+              `${t("pf")}500U , Onekey mini * 1`,
+              `${t("ps")}300U`,
+              `${t("pt")}200U`,
+            ],
+          },
+        ],
+      },
+    },
+    {
+      title: "Orderly",
+      prize: "$10,000",
+      pic: Orderly.src,
+      data: {
+        title: "Orderly's growth and boost",
+        prize: `${t("pA")}：$10,000U`,
+        illustrate: ``,
+        content: [
+          {
+            title: `Innovative Product Challenge tailored for Orderly V2 SDK：5,000U`,
+            detail: [
+              `Your task is to utilize the Orderly V2 SDK and create an innovative product that will redefine the decentralized exchange landscape. It could be a product or tool that brings efficiency, enhances user experience, or introduces a brand new feature to our platform. The successful development and implementation of an innovative solution can win you a prize of $5000. Be the architect of the future, and make your mark in the evolution of DEXs.`,
+            ],
+          },
+          {
+            title: `Retail Bounty Program Challenge tailored for Orderly V2 SDK：3,000U`,
+            detail: [
+              `We are inviting you to design a compelling retail bounty program to attract retail traders to our platform. This bounty program should incentivize participation, encourage engagement, and ultimately, increase our platform's user base. A well-structured, attractive, and impactful retail bounty program can bag you a reward of $3000. Remember, our goal is to create an inclusive, dynamic, and engaging trading environment.`,
+            ],
+          },
+          {
+            title: `Lottery Tool Challenge tailored for Orderly V2 SDK：1,000U`,
+            detail: [
+              `We're inviting you to make trading on our platform an exhilarating experience by designing a Lottery Tool. The tool should allow our users to enter a lottery funded by us each time they trade. The aim is to enhance the user experience by introducing an element of thrill, where each transaction made on our platform could potentially result in significant lottery winnings. The most innovative and user-friendly lottery tool stands a chance to win $1000.`,
+            ],
+          },
+          {
+            title: `Creating a compelling Referral System Tool：1,000U`,
+            detail: [
+              `We invite you to contribute to our community's growth and boost our platform's trading volume by creating a compelling Referral System Tool. This tool should facilitate our users to share unique promotional links and in return, earn affiliate rewards when their referrals join and trade on our platform. By motivating widespread sharing and expanding our user base, this tool is aimed at driving higher trading volumes. Craft a referral system tool that not only promotes our platform but also significantly ramps up our trading activity. You could earn a reward of $1000 for a well-executed design that aligns with these goals.`,
+            ],
+          },
+        ],
 
-      source: ``,
+        source: ``,
+      },
     },
-  },
-  {
-    title: "Lead Capital",
-    prize: "$5,000",
-    pic: Lead.src,
-    data: {
-      title: "針對市場波動進行預測分析",
-      prize: "獎金金額：$5,000U",
-      illustrate: `『波動』，是金融市場中即具重要的一個元素，波動產生的套利空間使套利者願意承擔風險進行套利。相較於傳統金融，加密貨幣市場便具有波動大風險高的特性，即便如此，高風險所伴隨的高報酬仍然吸引眾多交易者進入市場進行交易。`,
-      content: [
-        {
-          title: `1. 請針對市場波動進行預測分析，方法不限`,
-          detail: [
-            `若以『時間』作為採樣標準，請預測 3000ms 後市場狀態`,
-            `若以『交易』作為採樣標準，請預測 300 ticks 後市場狀態`,
-            `將依照准確度作為評分標準`,
-          ],
-        },
-        {
-          title: `2. 請使用分析結果建構一交易模型，回測結果須考慮手續費、滑價、成交與否等因素`,
-          detail: [],
-        },
-      ],
+    {
+      title: "TZ APAC",
+      prize: "$10,000",
+      pic: Tzapac.src,
+      data: {
+        title: "AI x Blockchain",
+        prize: `${t("pA")}：$10,000U`,
+        illustrate: ``,
+        content: [
+          {
+            title: t("TZ"),
+            detail: [`Need to integrate with Tezos`],
+          },
+        ],
+      },
+    },
+    {
+      title: "Lead Capital",
+      prize: "$5,000",
+      pic: Lead.src,
+      data: {
+        title: t("LCT"),
+        prize: `${t("pA")}：$5,000U`,
+        illustrate: t("LCC"),
+        content: [
+          {
+            title: t("LC1T"),
+            detail: [t("LC1C1"), t("LC1C2"), t("LC1C3")],
+          },
+          {
+            title: t("LC2T"),
+            detail: [],
+          },
+        ],
+      },
+    },
+    {
+      title: "Wormhole",
+      prize: "$2,000",
+      pic: Wormhole.src,
+      data: {
+        title: t("WHT"),
+        prize: `${t("pA")}：$2,000U`,
+        illustrate: t("WHC"),
+        content: [
+          {
+            title: t("WH1T"),
+            detail: [],
+          },
+          {
+            title: t("WH2T"),
+            detail: [],
+          },
+          {
+            title: t("WH3T"),
+            detail: [],
+          },
+          {
+            title: t("WH4T"),
+            detail: [],
+          },
+        ],
+        source: t("WHS"),
+      },
+    },
+    {
+      title: "FileCoin",
+      prize: "$2,000",
+      pic: Filecoin.src,
+      data: {
+        title: t("FCT"),
+        prize: `${t("pA")}：$2,000U`,
+        illustrate: t("FCC"),
+        content: [
+          {
+            title: t("FC1T"),
+            detail: [],
+          },
+          {
+            title: t("FC2T"),
+            detail: [],
+          },
+          {
+            title: t("FC3T"),
+            detail: [],
+          },
+          {
+            title: t("FC4T"),
+            detail: [],
+          },
+          {
+            title: t("FC5T"),
+            detail: [],
+          },
+        ],
+        source: t("FCS"),
+      },
+    },
+    {
+      title: "Huobi Ventures",
+      prize: "$2,000",
+      pic: huobi.src,
+      data: {
+        title: t("HVT"),
+        prize: `${t("pA")}：$2,000U`,
+        illustrate: t("HVC"),
+        content: [
+          {
+            title: t("HV1T"),
+            detail: [],
+          },
+        ],
 
-      source: ``,
+        //source: ``,
+      },
     },
-  },
-  {
-    title: "Wormhole",
-    prize: "$2,000",
-    pic: Wormhole.src,
-    data: {
-      title: "利用 Wormhole 實現跨鏈功能的創新應用開發競賽",
-      prize: "獎金金額：$2,000U",
-      illustrate:
-        "獎金將根據參賽團隊提出的創新程度、實用性、用戶體驗和技術實施等各方面的優秀性來分配。每個獎金級別的獲得者將由專業評審團決定。",
-      content: [
-        {
-          title: `1. 應用必須利用 Wormhole 實現跨鏈功能，並能在多個區塊鏈生態系統中運作。`,
-          detail: [],
-        },
-        {
-          title: `2. 應用可以是DeFi、NFT、遊戲或其他領域的應用，但必須具有實際的用途和潛在的市場價值。`,
-          detail: [],
-        },
-        {
-          title: `3. 應用的設計和實現必須優秀，包括但不限於用戶體驗、性能和安全性。`,
-          detail: [],
-        },
-        {
-          title: `4. 應用必須有完整的文檔和代碼註釋，以便評委和社區成員理解和評估。`,
-          detail: [],
-        },
-      ],
-      source: `Wormhole社區和開發者論壇：https://wormhole.com/community`,
+    {
+      title: "Chaintimes Ventures",
+      prize: "$1,000",
+      pic: chaintimes.src,
+      data: {
+        title: t("CTT"),
+        prize: `${t("pA")}：$1,000U`,
+        illustrate: t("CTC"),
+        content: [
+          {
+            title: t("CT1T"),
+            detail: [t("CT1C1"), t("CT1C2"), t("CT1C3"), t("CT1C4")],
+          },
+          {
+            title: t("CT2T"),
+            detail: [t("CT2C1"), t("CT2C2"), t("CT2C3"), t("CT2C4")],
+          },
+        ],
+      },
     },
-  },
-  {
-    title: "FileCoin",
-    prize: "$2,000",
-    pic: Filecoin.src,
-    data: {
-      title: `使用 Filecoin 和 IPFS 創建創新的去中心化應用\n包括各種領域，如媒體共享、社交媒體、去中心化金融（DeFi）等`,
-      prize: "獎金金額：$2,000U",
-      illustrate:
-        "獎金將根據參賽團隊提出的創新程度、實用性、用戶體驗和技術實施等各方面的優秀性來分配。每個獎金級別的獲得者將由專業評審團決定。",
-      content: [
-        {
-          title: `1. 應用必須是全新的，不能是從已存在的應用中簡單地修改或增強。`,
-          detail: [],
-        },
-        {
-          title: `2. 必須有實際的用途和價值，並且應能夠解釋它如何解決問題。`,
-          detail: [],
-        },
-        {
-          title: `3. 應用的設計和實現必須優秀，包括但不限於用戶體驗、性能和安全性。`,
-          detail: [],
-        },
-        {
-          title: `4. 提交的項目必須是開源的，許可證需為 MIT 和 APACHE2。`,
-          detail: [],
-        },
-        {
-          title: `5.產品的技術實現必須穩固，並且在黑客松期間必須展示工作的原型或演示。`,
-          detail: [],
-        },
-      ],
-      source: `Filecoin 官方文檔和開發者工具：https://docs.filecoin.io/\nFilecoin Grants 提案模板和指南：https://github.com/filecoin-project/devgrants\nFilecoin 社區和開發者論壇：https://docs.filecoin.io/basics/project-and-community/chat-and-discussion-forums/\nFilecoin Dev Grants GitHub 倉庫：https://github.com/filecoin-project/devgrants\nIPFS官方文檔：https://docs.ipfs.io/\n\n提案時，你需要包含以下內容：\n項目名稱：你的項目或提案的名稱。\n項目描述：一個關於你的項目是什麼，它做什麼，以及為什麼它是重要的簡短概述。\n團隊信息：你和你的團隊成員的信息，包括你們的技能和經驗，以及你們為什麼適合執行這個項目。\n詳細設計：你打算如何實現你的項目的詳細計劃，包括技術細節和你打算使用的工具。\n時間表：你打算在多長時間內完成這個項目，包括任何重要的里程碑。\n預算和資金用途：你需要多少資金，以及你打算如何使用這些資金。\n許可證：你的項目將會在哪種開源許可證下發布。\n支持和參與：你打算如何讓社區參與到你的項目中，以及你打算如何支持和維護你的項目。\n附加信息：任何你認為評審團需要知道的其他信息。`,
-    },
-  },
-  {
-    title: "Huobi Ventures",
-    prize: "$2,000",
-    pic: huobi.src,
-    data: {
-      title: "搭建圍繞胖協議（Fat protocol）的創新功能",
-      prize: "獎金金額：$2,000U",
-      illustrate: `Fat Protocol Thesis由Joel Monegro在2016年給出。它提到基礎層區塊鏈增持的價值始終大於其後續應用層。 本質上，基礎層的市值總是會超過建立在同一基礎層上的所有應用程序價值的市值。`,
-      content: [
-        {
-          title: `請利用頭部協議的可組合性功能，搭建圍繞胖協議（Fat protocol）的創新功能，例如：利用Uniswap的hook機制，引發交易可編程化的想象，圍繞uniswap生態研發，最大益處來自於其強大的流動性深度。`,
-          detail: [],
-        },
-      ],
+    {
+      title: "ACE Exchange",
+      prize: t("ACE"),
+      pic: Ace.src,
+      data: {
+        title: t("ACET"),
+        prize: t("ACEP"),
+        illustrate: t("ACEC"),
+        content: [
+          {
+            title: t("ACE1T"),
+            detail: [t("ACE1C1")],
+          },
+          {
+            title: t("ACE2T"),
+            detail: [t("ACE2C1")],
+          },
+          {
+            title: t("ACE3T"),
+            detail: [t("ACE3C1"), t("ACE3C2"), t("ACE3C3")],
+          },
+        ],
 
-      //source: ``,
+        //source: ``,
+      },
     },
-  },
-  {
-    title: "Chaintimes Ventures",
-    prize: "$1,000",
-    pic: chaintimes.src,
-    data: {
-      title:
-        "當社交進入了 Web3 世界會是什麼？發揮你的創意，提交有趣的 Web3 Social Idea!」",
-      prize: "獎金金額：$1,000U",
-      illustrate: `設計創新且有趣的Web3社交應用，演示產品如何讓用戶透過任何web3技術(錢包登入, 去中心匿名, 激勵機制等....)來實現社交互動的行為，並思考如何使用戶持續性使用。`,
-      content: [
-        {
-          title: `要求和限制`,
-          detail: [
-            "1. 使用Web3技術實現平台的運作和激勵機制。",
-            "2. 提供有效的激勵方法吸引用戶參與。",
-            "3. 設計驗證機制以確保激勵與用戶交互真實性。",
-            "4. 以 conpect 或 demo 尤佳演示社交應用場景。",
-          ],
-        },
-        {
-          title: `評估標準`,
-          detail: [
-            "1. 解決方案創新性和技術可行性。",
-            "2. 激勵機制的有效性。",
-            "3. 用戶體驗和界面設計。",
-            "4. 用戶黏著度思考。",
-          ],
-        },
-      ],
-
-      //source: ``,
+    {
+      title: "BingX Ventures",
+      prize: "$ -",
+      pic: bingxVe.src,
     },
-  },
-  {
-    title: "ACE Exchange",
-    prize: "Maker優惠費率",
-    pic: Ace.src,
-    data: {
-      title: "TWD Maker 徵集令",
-      prize: "TWD Maker優惠費率",
-      illustrate: `在期間內，申請並審核後，將可享有Maker優惠費率`,
-      content: [
-        {
-          title: `期間 Maker 成交量滿 10,000,000TWD`,
-          detail: ["Maker手續費 -0.02%"],
-        },
-        {
-          title: `期間 Maker 成交量滿 20,000,000TWD`,
-          detail: ["Maker手續費 -0.03%"],
-        },
-        {
-          title: `注意事項`,
-          detail: [
-            "成交量只計算台幣交易對，成交形式為Maker",
-            "手續費返還將以「週」為單位返還",
-            "Taker將依照原有手續費計算",
-          ],
-        },
-      ],
-
-      //source: ``,
+    {
+      title: "BingX",
+      prize: "$ -",
+      pic: bingX.src,
     },
-  },
-  {
-    title: "BingX Ventures",
-    prize: "$ -",
-    pic: bingxVe.src,
-  },
-  {
-    title: "BingX",
-    prize: "$ -",
-    pic: bingX.src,
-  },
-];
-const prizeData = {
-  title: { name: "PRIZES", color: "red" },
-  subTitle: "獎金",
-  id: "Prizes",
-  data: prizeArray,
-  totalPrize: 42000,
-};
-export default prizeData;
+  ];
+  const prizeData = {
+    title: { name: "PRIZES", color: "red" },
+    subTitle: "獎金",
+    id: "Prizes",
+    data: prizeArray,
+    totalPrize: 42000,
+  };
+  return prizeData;
+}
+export default prizeDoc;

@@ -5,8 +5,10 @@ import dotT from "@/assets/dotT.svg";
 import dotThree from "@/assets/dotThree.svg";
 import Vector from "@/assets/Vector.svg";
 import LinearButton from "../LinearButton/LinearButton";
+import { useTranslation } from "next-i18next";
 // -top-[26px]
 export default function MainMobile() {
+  const { t } = useTranslation("main");
   return (
     <>
       <Flex
@@ -19,7 +21,7 @@ export default function MainMobile() {
           </div>
           <img src={Taiwan.src} alt="" className="z-20 h-2/3" />
           <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text p-2 text-2xl font-medium text-transparent">
-            The Odyssey
+            {t("subTitle")}
           </div>
         </div>
         <div className="relative flex h-1/2 justify-center border-y-2 border-line py-6">
@@ -34,17 +36,15 @@ export default function MainMobile() {
           </div>
           <div className="flex w-full flex-col items-start justify-between gap-2 overflow-x-hidden  px-2">
             <div className="text-base font-normal uppercase sm:text-lg">
-              Taiwan Builder House (TBH)
-              是一個匯集了各種Web3元素的創新社群。在這裡，你不僅可以認識來自不同領域的創建者，還可以找到志同道合的夥伴。通過
-              Taiwan Builder House，你將有機會在Web3領域中開創出自己獨特的道路。
+              {t("content")}
             </div>
             <div className="flex w-full items-start justify-between gap-2">
               <div className="flex h-5/6 flex-col gap-6">
-                <LinearButton color="blue" href="https://bit.ly/3pPWH4r">
-                  FREE TICKET
-                </LinearButton>
                 <LinearButton color="red" href="https://bit.ly/3DgPiy0">
-                  Hacker/Trader 報名
+                  {t("joinL")}
+                </LinearButton>
+                <LinearButton color="blue" href="https://bit.ly/3pPWH4r">
+                  {t("joinR")}
                 </LinearButton>
               </div>
               <img src={dotT.src} alt="" width="50" height="50" />

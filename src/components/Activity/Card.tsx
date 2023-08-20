@@ -6,6 +6,7 @@ import BgG from "@/assets/Activity/BgG.svg";
 import MaskG from "@/assets/Activity/MaskG.svg";
 import MaskR from "@/assets/Activity/MaskR.svg";
 import MaskB from "@/assets/Activity/MaskB.svg";
+import { useTranslation } from "next-i18next";
 
 //border-green
 //border-blue
@@ -18,6 +19,7 @@ export default function TaskCard(props: {
   detail: string;
   link?: string;
 }) {
+  const { t } = useTranslation("activity");
   const chooseColor = () => {
     switch (props?.color) {
       case "green":
@@ -60,7 +62,7 @@ export default function TaskCard(props: {
         </div>
         <div className="">
           <LinearButton color={props?.color} href={props?.link}>
-            詳情
+            {t("detail")}
           </LinearButton>
         </div>
       </div>

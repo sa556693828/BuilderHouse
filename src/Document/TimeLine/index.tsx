@@ -1,22 +1,28 @@
-//只允許三個
-const timeLineArray = [
-  {
-    title: `報名 / 初始提案`,
-    date: `2023-07-01 至 2023-08-25`,
-    content: `請填寫 TBH 報名表格，並透過報名確認郵件中的邀請，加入 TBH 的工作區，以進行比賽協調以及相關的溝通和更新。\n\n參與者可以以專案或尋找團隊的個人身分註冊，但只有專案才有資格被列入入圍團隊。尋找團隊的個人可以在組建或加入團隊後，更新他們現有的註冊或創建新的團隊註冊。\n\n選擇心儀題目，並根據要求於 8 月 25 日前繳交初始提案，提案模式可以是 Deck、Prototype、MVP。`,
-  },
-  {
-    title: `評審及導師時間`,
-    date: `2023-08-01 至 2023-08-25`,
-    content: `選擇導師出題之團隊，越早投稿將可享有越完整的導師時間，若無心儀題目亦可直接投稿。 TBH 的評審委員會根據預設的評分標準，從已註冊的專案中選出。\n\n專案將根據多項標準進行評估，包括概念、技術實施、產品設計、創新使用特性等。`,
-  },
-  {
-    title: `DEMO DAY`,
-    date: `2023-08-31`,
-    content: `入圍的團隊需親自參加 TBH 的展示日。\n\n每個團隊將被給予 10 - 15 分鐘的展示時間。團隊可以自由分配時間，但建議留出五分鐘供評審團提問。\n\n結果將在線上和親自展示環節結束後的同一天公布。`,
-  },
-];
-const timeLineData = {
-  data: timeLineArray,
-};
-export default timeLineData;
+import { useTranslation } from "next-i18next";
+
+function timeLineDoc() {
+  const { t } = useTranslation("timeLine");
+  //只允許三個
+  const timeLineArray = [
+    {
+      title: t("title1"),
+      date: t("date1"),
+      content: t("content1"),
+    },
+    {
+      title: t("title2"),
+      date: t("date2"),
+      content: t("content2"),
+    },
+    {
+      title: t("title3"),
+      date: t("date3"),
+      content: t("content3"),
+    },
+  ];
+  const timeLineData = {
+    data: timeLineArray,
+  };
+  return timeLineData;
+}
+export default timeLineDoc;

@@ -1,149 +1,104 @@
-const OverViewContent = [
-  {
-    title: "HACKER",
-    color: "green",
-    content: `通過提交優秀的項目來展現自己的技術才華和創新思維。如果項目在活動中獲得了好評，並且被認為有潛力，Hacker 將可以獲得獎金和孵化的機會，以進一步發展並完善項目。`,
-    data: {
-      title: "HACKER",
-      illustrate: `提交項目展現技術和創新思維，爭取 VC 及頂級 Mentor協助。`,
-      content: [
-        {
-          title: `一、參賽資格`,
-          detail: [
-            `參賽項目需未完成 Seed Round 融資。`,
-            `Hacker 需自行組成隊伍參賽。`,
-            `Hacker 需加入 Telegram 群組，已獲得最新消息。`,
-          ],
-        },
-        {
-          title: `二、開發規則`,
-          detail: [
-            `Hacker 無需在活動開始後才開始開發，但最晚必須在 8/25 前提交作品。`,
-            `越早選擇題目並提交提案將越有獲得與導師交流的機會，若超出比賽時間提案概不受理。`,
-            `Hacker 可以使用任何開源程式碼或公開可用的 API，但必須在提交作品時，明確列出其使用的所有外部資源**並對其使用途徑做出說明**。`,
-            `作品需為原創，不得抄襲他人作品。`,
-          ],
-        },
-        {
-          title: `三、評審標準`,
-          detail: [
-            `創新性：作品是否具有創新思維和解決問題的新方法。`,
-            `技術實現：作品在技術層面的完成度及難易度。`,
-            `實用性：作品是否能夠解決實際問題，或者有實際應用的價值和潛力轉化為實際產品或服務。`,
-            `用戶體驗：作品在設計和用戶體驗方面的表現。`,
-          ],
-        },
-        {
-          title: `四、作品提交`,
-          detail: [
-            `Hunter 建議優先選擇 Bounty 題目，以獲得Bounty 以及 Mentor 資源。若作品無題目匹配仍可報名，將直接進入大會評選環節。`,
-            `Hunter 需在規定的時間內提交作品，超時將無法接受。`,
-            `作品提交需包含完整的源碼、使用說明及簡短的開發報告，報告需要說明該作品如何解決問題以及其創新點。`,
-          ],
-        },
-        {
-          title: `五、版權規定`,
-          detail: [
-            `參賽作品的版權屬於開發者，但 TBH 有權在非商業目的下分享和展示這些作品**，以及在活動宣傳中引用這些作品**。`,
-            `如果參賽作品涉及侵犯他人版權，由開發者自行負責。`,
-          ],
-        },
-      ],
-      source: ``,
-    },
-  },
-  {
-    title: "TRADER",
-    color: "red",
-    content: `包含但不限於交易工具、量化策略或高頻策略等。TBH 將提供交易比賽、量化交易工作坊、交易相關題目等機會。如果 Trader 的策略被認為具有實現價值，參賽者可以獲得獎金以及更多合作機會。`,
-    data: {
-      title: "TRADER",
-      illustrate: `激盪良好策略，發展交易潛能，獲得高額賞金及合作機會。`,
-      content: [
-        {
-          title: `一、參賽資格`,
-          detail: [
-            `Trader 需對金融市場和交易策略有基本的理解`,
-            `Trader 可以以個人身分或是以隊伍形式參賽。`,
-          ],
-        },
-        {
-          title: `二、開發規則`,
-          detail: [
-            `參加者無需在活動開始後才開始開發交易策略，但需在 8/25 前提交完整的策略及其回測結果。**請確保所有策略和結果都清晰明瞭，方便評審了解和評價**。`,
-            `參加者可以使用任何開源程式碼或公開可用的 API，但必須在提交作品時，明確列出其使用的所有外部資源**並對其使用途徑做出說明**。`,
-            `參加者可以使用任何開源程式碼或公開可用的金融數據 API。`,
-          ],
-        },
-        {
-          title: `三、評審標準`,
-          detail: [
-            `策略創新：策略是否具有創新的想法和方法。`,
-            `風險控制：策略是否有考慮到風險控制和抗市場波動的能力。`,
-          ],
-        },
-        {
-          title: `四、作品提交`,
-          detail: [
-            `參加者需在規定時間內提交策略，超時將無法接受。`,
-            `策略提交需包含策略說明及詳細的回測報告。`,
-          ],
-        },
-      ],
+import { useTranslation } from "next-i18next";
 
-      source: ``,
-    },
-  },
-  {
-    title: "GEM HUNTER",
-    color: "blue",
-    content: `Gem Hunters 是社群基石，必須透過尋找和收集 "寶石"（或許是活動中的線索，NFT或其他象徵物）來完成挑戰和任務。Hunter 搜集一定數量的寶石，可以獲得大會的特殊權益。`,
-    data: {
-      title: "GEM HUNTER",
-      illustrate: `搜集項目任務寶石，兌換NFT，擁有大會頂級權益`,
-      content: [
-        {
-          title: `一、參加資格`,
-          detail: [
-            `參加者必須在活動開始前註冊並加入 Gem Hunter Group。`,
-            `Hunter 必須完整提交所需地址。`,
+function OverViewDoc() {
+  const { t } = useTranslation("overView");
+  //只允許三個
+  const OverViewContent = [
+    {
+      title: t("title1"),
+      color: "green",
+      content: t("content1"),
+      data: {
+        title: t("title1"),
+        illustrate: t("subTitle1"),
+        content: [
+          {
+            title: t("FT1"),
+            detail: [t("F1-1"), t("F1-2"), t("F1-3")],
+          },
+          {
+            title: t("FT2"),
+            detail: [t("F2-1"), t("F2-2"), t("F2-3"), t("F2-4")],
+          },
+          {
+            title: t("FT3"),
+            detail: [t("F3-1"), t("F3-2"), t("F3-3"), t("F3-4")],
+          },
+          {
+            title: t("FT4"),
+            detail: [t("F4-1"), t("F4-2"), t("F4-3")],
+          },
+          {
+            title: t("FT5"),
+            detail: [t("F5-1"), t("F5-2")],
+          },
         ],
-        },
-        {
-          title: `二、權益及獎項`,
-          detail: [
-            `完成20%蒐集進度：TBH2023 SilveryNFT 、 Silvery Prize。`,
-            `完成50%蒐集進度：TBH2023 GoldenNFT 、 Golden Prize。`,
-            `完成100%蒐集進度：獲得After Party門票、TBH2023 DiamondNFT 、Diamond Prize。`,
-          ],
-        },
-        {
-          title: `三、規則`,
-          detail: [
-            `Hunter 必須遵守活動規則並按照指定的挑戰和任務蒐集寶石。`,
-            `完成任務獲得的寶石數量依任務難度和要求有所不同。`,
-            `若發現任何試圖作弊或違規行為，組織方有權取消該參加者的所有權益並移出Gem Hunter Group。`,
-            `Hunter 需使用同一個地址進行任務，若因為地址提供不正確，以致無法驗證是否完成任務，將視為未完成。`,
-            `若Hunter 無法到場導致於法獲得部分權益，TBH 將不進行任何替代補償。`,
-          ],
-        },
-        {
-          title: `四、注意事項`,
-          detail: [
-            `活動日期、任務與獎品內容可能會有所變動，請密切關注 Gem Hunter Group 的公告。`,
-            `Hunter 需確保聯絡方式準確無誤，及若不克到場導致無法獲得部分權益，TBH 將不進行任何替代補償。`,
-            `若發現任何試圖作弊或違規行為，組織方有權取消該參加者的所有權益並移出Gem Hunter Group。`,],
-        },
-      ],
-
-      source: ``,
+        source: ``,
+      },
     },
-  },
-];
-const OverViewData = {
-  title: { name: "OVERVIEW", color: "green" },
-  subTitle: "總覽",
-  id: "OverView",
-  data: OverViewContent,
-};
-export default OverViewData;
+    {
+      title: t("title2"),
+      color: "red",
+      content: t("content2"),
+      data: {
+        title: t("title2"),
+        illustrate: t("subTitle2"),
+        content: [
+          {
+            title: t("ST1"),
+            detail: [t("S1-1"), t("S1-2")],
+          },
+          {
+            title: t("ST2"),
+            detail: [t("S2-1"), t("S2-2"), t("S2-3")],
+          },
+          {
+            title: t("ST3"),
+            detail: [t("S3-1"), t("S3-2")],
+          },
+          {
+            title: t("ST4"),
+            detail: [t("S4-1"), t("S4-2")],
+          },
+        ],
+        source: ``,
+      },
+    },
+    {
+      title: t("title3"),
+      color: "blue",
+      content: t("content3"),
+      data: {
+        title: t("title3"),
+        illustrate: t("subTitle3"),
+        content: [
+          {
+            title: t("TT1"),
+            detail: [t("T1-1"), t("T1-2")],
+          },
+          {
+            title: t("TT2"),
+            detail: [t("T2-1"), t("T2-2"), t("T2-3")],
+          },
+          {
+            title: t("TT3"),
+            detail: [t("T3-1"), t("T3-2"), t("T3-3"), t("T3-4"), t("T3-5")],
+          },
+          {
+            title: t("TT4"),
+            detail: [t("T4-1"), t("T4-2"), t("T4-3")],
+          },
+        ],
+        source: ``,
+      },
+    },
+  ];
+  const OverViewData = {
+    title: { name: t("title"), color: "green" },
+    subTitle: t("subTitle"),
+    id: "OverView",
+    data: OverViewContent,
+  };
+  return OverViewData;
+}
+export default OverViewDoc;

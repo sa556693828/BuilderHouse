@@ -7,19 +7,43 @@ import Prizes from "@/components/Prizes/Prizes";
 import Activity from "@/components/Activity/Activity";
 import TimeLine from "@/components/TimeLine/TimeLine";
 import GemHunter from "@/components/GemHunter/GemHunter";
-import prizeData from "@/Document/Prize";
-import OverViewData from "@/Document/OverView";
+import prizeDoc from "@/Document/Prize";
+import OverViewDoc from "@/Document/OverView";
 import hunterData from "@/Document/GemHunter";
-import ActivityData from "@/Document/Activity";
+import ActivityDoc from "@/Document/Activity";
 import partnersData from "@/Document/Partners";
 import FAQData from "@/Document/FAQ";
 import Events from "@/components/Events/Events";
 import EventsData from "@/Document/Events";
-import timeLineData from "@/Document/TimeLine";
+import timeLineDoc from "@/Document/TimeLine";
 import Agenda from "@/components/Agenda/Agenda";
 import AgendaData from "@/Document/Agenda";
+import { GetStaticProps } from "next";
+import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useTranslation, Trans } from "next-i18next";
+
+export const getStaticProps: GetStaticProps = async ({ locale }) => ({
+  props: {
+    ...(await serverSideTranslations(locale ?? "en", [
+      "home",
+      "common",
+      "main",
+      "activity",
+      "timeLine",
+      "overView",
+      "prize",
+    ])),
+  },
+});
 
 export default function Home() {
+  const timeLineData = timeLineDoc();
+  const OverViewData = OverViewDoc();
+  const ActivityData = ActivityDoc();
+  const prizeData = prizeDoc();
+  // const ActivityData = ActivityDoc();
+  // const ActivityData = ActivityDoc();
+
   return (
     <>
       <Main />

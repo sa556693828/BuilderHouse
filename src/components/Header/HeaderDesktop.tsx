@@ -6,7 +6,8 @@ import Image from "next/image";
 import LinearButton from "../LinearButton/LinearButton";
 
 export default function Desktop(props: any) {
-  const { goPage } = props;
+  const { goPage, locale } = props;
+  const changeToEn = locale === "en" ? "tw" : "en";
 
   const buttonStyle =
     "text-sm w-16 xl:w-20 xl:text-md flex items-center justify-center hover:opacity-80 uppercase";
@@ -43,14 +44,29 @@ export default function Desktop(props: any) {
               <div className={buttonStyle}>FAQ</div>
             </Link>
           </div>
-          <div className="flex w-36 items-center transition-all xl:w-44 2xl:w-56">
-            <LinearButton
-              color="green"
-              contentClass="py-2 uppercase"
-              href="https://bit.ly/3pPWH4r"
-            >
-              FREE TICKET
-            </LinearButton>
+          <div className="flex gap-6">
+            <div className="flex w-36 items-center transition-all xl:w-44 2xl:w-56">
+              <LinearButton
+                color="green"
+                contentClass="py-2 uppercase"
+                href="https://bit.ly/3pPWH4r"
+              >
+                FREE TICKET
+              </LinearButton>
+            </div>
+            <div className="h-12 w-[1px] bg-greenF" />
+            <div>
+              <div className="h-full rounded-full bg-gradient-to-r from-greenF to-greenT p-[2px] transition-all">
+                <Link href={"/"} locale={changeToEn}>
+                  <button className="flex h-full w-full items-center justify-center rounded-full bg-bg text-base font-medium text-text">
+                    {/* <Button
+                  onClick={onClose}
+                > */}
+                    EN 中
+                  </button>
+                </Link>
+              </div>
+            </div>
           </div>
         </header>
       </Box>

@@ -7,6 +7,7 @@ import Mobile from "./HeaderMobile";
 
 export default function Header() {
   const router = useRouter();
+  const locale = router.locale;
   const goPage = (page: string) => {
     router.push(page);
   };
@@ -19,8 +20,8 @@ export default function Header() {
         overflow="hidden"
         className="divider z-50 h-20 w-full bg-transparent text-text transition-all"
       >
-        <Desktop goPage={goPage} />
-        <Mobile goPage={goPage} />
+        <Desktop goPage={goPage} locale={locale} />
+        <Mobile goPage={goPage} locale={locale} />
       </Flex>
     </>
   );

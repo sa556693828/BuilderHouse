@@ -9,13 +9,14 @@ import { CacheProvider } from "@emotion/react";
 import theme from "@/components/theme";
 import Icons from "@/components/Icons/Icons";
 import Logo from "../../public/Favicon.png";
+import { appWithTranslation } from "next-i18next";
 
 const emotionCache = createCache({
   key: "style",
   prepend: true, // ensures styles are prepended to the <head>, instead of appended
 });
 
-export default function App({ Component, pageProps }: AppProps) {
+export function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
@@ -32,3 +33,4 @@ export default function App({ Component, pageProps }: AppProps) {
     </>
   );
 }
+export default appWithTranslation(MyApp);

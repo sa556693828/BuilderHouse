@@ -6,6 +6,8 @@ import Desktop from "./MainDesktop";
 import Mobile from "./MainMobile";
 import Sphere from "@/assets/Sphere.png";
 import Header from "../Header/Header";
+import { GetStaticProps } from "next";
+import { useTranslation } from "next-i18next";
 
 export default function Main() {
   const isMobile = useBreakpointValue({ base: true, lg: false });

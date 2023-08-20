@@ -14,7 +14,7 @@ import Tzapac from "@/assets/Partners/tzapac_logo.svg";
 
 import { useTranslation } from "next-i18next";
 
-function prizeDoc() {
+function PrizeDoc() {
   const { t } = useTranslation("prize");
 
   const prizeArray = [
@@ -302,4 +302,4 @@ function prizeDoc() {
   };
   return prizeData;
 }
-export default prizeDoc;
+export default PrizeDoc;

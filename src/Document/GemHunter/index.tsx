@@ -20,7 +20,7 @@ import noneland from "@/assets/Partners/noneland.svg";
 //icon-telegram
 import { useTranslation } from "next-i18next";
 
-function hunterDoc() {
+function HunterDoc() {
   const { t } = useTranslation("hunter");
 
   const hunterArray = [
@@ -315,4 +315,4 @@ function hunterDoc() {
   };
   return hunterData;
 }
-export default hunterDoc;
+export default HunterDoc;

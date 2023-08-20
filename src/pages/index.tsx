@@ -7,15 +7,15 @@ import Prizes from "@/components/Prizes/Prizes";
 import Activity from "@/components/Activity/Activity";
 import TimeLine from "@/components/TimeLine/TimeLine";
 import GemHunter from "@/components/GemHunter/GemHunter";
-import prizeDoc from "@/Document/Prize";
+import PrizeDoc from "@/Document/Prize";
 import OverViewDoc from "@/Document/OverView";
-import hunterDoc from "@/Document/GemHunter";
+import HunterDoc from "@/Document/GemHunter";
 import ActivityDoc from "@/Document/Activity";
 import partnersData from "@/Document/Partners";
 import FAQDoc from "@/Document/FAQ";
 import Events from "@/components/Events/Events";
 import EventsData from "@/Document/Events";
-import timeLineDoc from "@/Document/TimeLine";
+import TimeLineDoc from "@/Document/TimeLine";
 import Agenda from "@/components/Agenda/Agenda";
 import AgendaData from "@/Document/Agenda";
 import { GetStaticProps } from "next";
@@ -38,11 +38,11 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
 });
 
 export default function Home() {
-  const timeLineData = timeLineDoc();
+  const timeLineData = TimeLineDoc();
   const OverViewData = OverViewDoc();
   const ActivityData = ActivityDoc();
-  const prizeData = prizeDoc();
-  const hunterData = hunterDoc();
+  const prizeData = PrizeDoc();
+  const hunterData = HunterDoc();
   const FAQData = FAQDoc();
 
   return (

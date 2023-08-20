@@ -1,6 +1,6 @@
 import { useTranslation } from "next-i18next";
 
-function timeLineDoc() {
+function TimeLineDoc() {
   const { t } = useTranslation("timeLine");
   //只允許三個
   const timeLineArray = [
@@ -25,4 +25,4 @@ function timeLineDoc() {
   };
   return timeLineData;
 }
-export default timeLineDoc;
+export default TimeLineDoc;

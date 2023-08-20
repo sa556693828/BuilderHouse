@@ -56,14 +56,15 @@ export default function Desktop(props: any) {
             </div>
             <div className="h-12 w-[1px] bg-greenF" />
             <div>
-              <div className="h-full rounded-full bg-gradient-to-r from-greenF to-greenT p-[2px] transition-all">
+              <div className="h-full w-[75px] rounded-full bg-gradient-to-r from-greenF to-greenT p-[2px] transition-all">
                 <Link href={"/"} locale={changeToEn}>
-                  <button className="flex h-full w-full items-center justify-center rounded-full bg-bg text-base font-medium text-text">
+                  <button className="relative flex h-full w-full items-center justify-center rounded-full bg-bg text-base font-medium leading-normal text-text">
                     {/* <Button
                   onClick={onClose}
                 > */}
-                    EN 中
+                    中 EN
                   </button>
+                  <div className="absolute top-0 h-full w-[30px]">ss</div>
                 </Link>
               </div>
             </div>

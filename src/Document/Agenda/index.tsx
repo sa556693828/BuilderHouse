@@ -31,17 +31,27 @@ const agendaData = [
     ],
   },
   {
-    time: "12:30",
+    time: "12:15",
     topic: "How Communities Boost Trading: \nInitiative and Impact",
     subTitle: ["Host : Carlos, ACE Exchange", "TBD"],
   },
   {
-    time: "13:00",
+    time: "12:45",
     topic: "TBD",
     subTitle: ["Albert, Genopets Founder"],
   },
   {
-    time: "13:15",
+    time: "13:00",
+    topic: "Non-EVM Panel",
+    subTitle: [
+      "Host : TBD",
+      "Bucket, Sui\n",
+      "Bonk, Solana\n",
+      "Howard, Ton\n",
+    ],
+  },
+  {
+    time: "13:30",
     topic: "Panel",
     subTitle: [
       "Host : Jeff, Zombit Co - Founder",
@@ -52,11 +62,11 @@ const agendaData = [
     ],
   },
   {
-    time: "14:15",
+    time: "14:30",
     topic: "How to Increase Your Chances to Get Funded through Demo3",
     subTitle: ["Jim, Gen3、Demo3 Founder"],
   },
-  { time: "14:30", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
+  { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
   {
     time: "17:30",
     topic: "Panel",

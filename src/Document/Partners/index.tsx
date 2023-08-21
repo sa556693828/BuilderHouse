@@ -76,6 +76,10 @@ import C4 from "@/assets/Partners/c4.png";
 import C5 from "@/assets/Partners/c5.png";
 import C6 from "@/assets/Partners/c6.png";
 import C7 from "@/assets/Partners/c7_w.png";
+import ISC2 from "@/assets/Partners/ISC2.png";
+import OWASP from "@/assets/Partners/OWASP.png";
+import GDG from "@/assets/Partners/GDG_Taipei.png";
+
 
 //連結放上去就可以點了
 const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
@@ -169,6 +173,9 @@ const communityArr = [
   { pic: Cardano.src, link: "", w: "400" },
   { pic: Ntufintech.src, link: "" },
   { pic: Xdao.src, link: "", w: "200" },
+  { pic: ISC2.src, link: "https://www.isc2.org/", w: "150" },
+  { pic: OWASP.src, link: "https://owasp.org/Top10/zh_TW/", w: "150" },
+  { pic: GDG.src, link: "https://gdg.community.dev/gdg-taipei/"},
   { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
   { pic: C1.src, link: "https://m.youtube.com/@LiuliangCool", w: "100" },
   { pic: C2.src, link: "https://discord.gg/JYazfmtbNE", w: "100" },

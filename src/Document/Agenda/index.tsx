@@ -45,9 +45,9 @@ const agendaData = [
     topic: "Non-EVM Panel",
     subTitle: [
       "Host : TBD",
-      "Bucket, Sui\n",
+      "Greg, Bucket, Sui\n",
       "Bonk, Solana\n",
-      "Howard, Ton\n",
+      "Howard, Ton Foundation, Ton\n",
     ],
   },
   {

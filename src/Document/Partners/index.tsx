@@ -52,6 +52,7 @@ import term from "@/assets/Partners/Term_Structure.png";
 import Appworks from "@/assets/Partners/AppWorks_logo_white.png";
 import Web3 from "@/assets/Partners/WEB3.png";
 import Stockfeel from "@/assets/Partners/stockfeel.png";
+import Pionex from "@/assets/Partners/pionex.png";
 
 
 //VC
@@ -134,6 +135,7 @@ function PartnersDoc() {
     { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
     { pic: Okx.src, link: "https://www.okx.com/" },
     { pic: term.src, link: "https://termstructure.com/" },
+    { pic: Pionex.src, link: "https://www.pionex.com/" },
     { pic: ikala.src, link: "" },
   ];
   const vcArr = [

@@ -6,9 +6,14 @@ function AgendaDoc() {
     { time: "09:00", topic: "Opening" },
     { time: "09:15", topic: "TBD", subTitle: ["TBD"] },
     {
-      time: "09:45",
+      time: "09:30",
       topic: "TBD",
       subTitle: ["Blues, Google Cloud Field Sales Representative"],
+    },
+    {
+      time: "09:45",
+      topic: "TBD",
+      subTitle: ["Johnny, Appworks Analyst"],
     },
     {
       time: "10:00",
@@ -18,6 +23,8 @@ function AgendaDoc() {
         "Host : Audrey, Orderly CGO",
         "Bonnie, Bonnie Blockchain Founder\n",
         "Justin, JClub Founder\n",
+        "Alvin, CryptoWesearch Co - Founder\n",
+        "JZ, JZ Invest Founder\n",
       ],
     },
     {
@@ -39,11 +46,16 @@ function AgendaDoc() {
     {
       time: "12:15",
       topic: "How Communities Boost Trading: \nInitiative and Impact",
-      subTitle: ["Host : Carlos, ACE Exchange", "TBD"],
+      subTitle: [
+        "Host : Carlos, ACE Exchange",
+        "Murmurcats, GDG Taipei Organizer (Security)\n",
+        "Datatw, DA Capital\n",
+        "Crypto Paul, Full-time crypto trader \n",
+      ],
     },
     {
       time: "12:45",
-      topic: "TBD",
+      topic: "Play, Earn, Innovate: Genopets' Vision of the GameFi Landscap",
       subTitle: ["Albert, Genopets Founder"],
     },
     {
@@ -58,7 +70,7 @@ function AgendaDoc() {
     },
     {
       time: "13:30",
-      topic: "Panel",
+      topic: "The Advantages and Challenges of Taiwan's Startups",
       subTitle: [
         "Host : Jeff, Zombit Co - Founder",
         "Damien, Binance Global Partnership\n",

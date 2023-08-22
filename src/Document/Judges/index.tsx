@@ -3,6 +3,8 @@ import henry from "@/assets/Judges/henry.jpeg";
 import michael from "@/assets/Judges/michael.jpg";
 import damien from "@/assets/Judges/damien.jpeg";
 import Josh from "@/assets/Judges/Josh.jpeg";
+import Albert from "@/assets/Judges/albert.jpeg";
+
 
 //icon-website
 //icon-twitter
@@ -35,6 +37,12 @@ function JudgesDoc() {
       name: "Josh",
       company: "BingX\n ",
       avatar: Josh.src,
+      linkin: "",
+    },
+    {
+      name: "Albert",
+      company: "Genopets Founder\n ",
+      avatar: Albert.src,
       linkin: "",
     },
   ];

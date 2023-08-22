@@ -46,12 +46,21 @@ import Hong from "@/assets/Partners/Hong_new.png";
 import Ref from "@/assets/Partners/ref_finance.png";
 import Chainlink from "@/assets/Partners/Chainlink.svg";
 import Eos from "@/assets/Partners/eos.svg";
+import Cathy from "@/assets/Partners/Cathay_white.png";
+import BN from "@/assets/Partners/BN.png";
+import term from "@/assets/Partners/Term_Structure.png";
+import Appworks from "@/assets/Partners/AppWorks_logo_white.png";
+import Web3 from "@/assets/Partners/WEB3.png";
+import Stockfeel from "@/assets/Partners/stockfeel.png";
+
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
 import Ac from "@/assets/Partners/ac_capital.png";
 import Mexcvc from "@/assets/Partners/mexc_vc.png";
 import Ngc from "@/assets/Partners/NGC_Ventures_white.png";
+import Jz from "@/assets/Partners/JZ_INVEST_LOGO_white.png";
+
 
 //Gem
 import Bla from "@/assets/Hunter/bla.svg";
@@ -109,9 +118,11 @@ function PartnersDoc() {
     { pic: Ref.src, link: "https://www.ref.finance/" },
   ];
   const partnersArr = [
+    { pic: Cathy.src, link: "" },
     { pic: wormhole.src, link: "https://wormhole.com/" },
     { pic: Binance.src, link: "https://binance.com/" },
     { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
+    { pic: Appworks.src, link: "https://appworks.tw/" },
     { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
     { pic: Solana.src, link: "https://solana.com/zh" },
     { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
@@ -121,8 +132,8 @@ function PartnersDoc() {
     { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
     { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
     { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
-    { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
     { pic: Okx.src, link: "https://www.okx.com/" },
+    { pic: term.src, link: "https://termstructure.com/" },
     { pic: ikala.src, link: "" },
   ];
   const vcArr = [
@@ -136,6 +147,7 @@ function PartnersDoc() {
     { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
     { pic: venture.src, link: "https://www.bing-ventures.com/", w: "175" },
     { pic: chain.src, link: "https://ctcap.io/", w: "175" },
+    { pic: Jz.src, link: "https://twitter.com/jzinvest_xyz"},
   ];
   const technicalArr = [
     { pic: Tikki.src, link: "https://www.tikki.app/", w: "150" },
@@ -164,6 +176,9 @@ function PartnersDoc() {
     { pic: ABM.src, link: "https://abmedia.io/" },
     { pic: PAnews.src, link: "https://www.panewslab.com/" },
     { pic: Grenade.src, link: "" },
+    { pic: BN.src, link: "https://www.bnext.com.tw/" },
+    { pic: Web3.src, link: "https://web3plus.bnext.com.tw/" },
+    { pic: Stockfeel.src, link: "https://www.stockfeel.com.tw/" },
   ];
   const communityArr = [
     { pic: buzhidao.src, link: "https://buzhidao.tw/zh" },

@@ -47,7 +47,6 @@ import Ref from "@/assets/Partners/ref_finance.png";
 import Chainlink from "@/assets/Partners/Chainlink.svg";
 import Eos from "@/assets/Partners/eos.svg";
 
-
 //VC
 import Ld from "@/assets/Partners/LD.png";
 import Ac from "@/assets/Partners/ac_capital.png";
@@ -76,124 +75,138 @@ import C4 from "@/assets/Partners/c4.png";
 import C5 from "@/assets/Partners/c5.png";
 import C6 from "@/assets/Partners/c6.png";
 import C7 from "@/assets/Partners/c7_w.png";
+import { useTranslation } from "next-i18next";
 
 //連結放上去就可以點了
-const hostArr = [{ pic: builder.src, link: "https://twitter.com/_BuilderDAO" }];
-const coHostArr = [
-  { pic: lead.src, link: "https://lead-capital.com/" },
-  { pic: carry.src, link: "https://www.carry.live/", w: "200" },
-  { pic: zombie.src, link: "https://zombit.info/" },
-];
-const strategicArr = [
-  //{ pic: Gcp.src, link: "" },
-  { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "200" },
-  { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
-  { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
-];
-const diamondArr = [{ pic: BingX.src, link: "https://bingx.com/" }];
-const goldArr = [
-  { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
-];
-const silverArr = [
-  { pic: ACE.src, link: "https://ace.io/", w: "200" },
-  { pic: Ref.src, link: "https://www.ref.finance/" },
-];
-const partnersArr = [
-  { pic: wormhole.src, link: "https://wormhole.com/" },
-  { pic: Binance.src, link: "https://binance.com/" },
-  { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
-  { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
-  { pic: Solana.src, link: "https://solana.com/zh" },
-  { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
-  { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
-  { pic: Eos.src, link: "https://eosnetwork.com/", w: "200" },
-  { pic: Chainlink.src, link: "https://tezos.com/", w: "200" },
-  { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
-  { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
-  { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
-  { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
-  { pic: Okx.src, link: "https://www.okx.com/" },
-  { pic: ikala.src, link: "" },
-];
-const vcArr = [
-  { pic: lead.src, link: "https://lead-capital.com/" },
-  { pic: Ngc.src, link: "https://ngc.fund" },
-  { pic: Ld.src, link: "https://ldcap.com/" },
-  { pic: C2_venture.src, link: "https://www.csquared.vc/" },
-  { pic: Ac.src, link: "https://accapital.io/" },
-  { pic: Mexcvc.src, link: "https://m-ventures.io/" },
-  { pic: Okxventures.src, link: "https://www.okx.com/hk/ventures", w: "150" },
-  { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
-  { pic: venture.src, link: "https://www.bing-ventures.com/", w: "175" },
-  { pic: chain.src, link: "https://ctcap.io/", w: "175" },
-];
-const technicalArr = [
-  { pic: Tikki.src, link: "https://www.tikki.app/", w: "150" },
-  { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
-  // { pic: Ngc.src, link: "https://ngc.fund", },
-  // { pic: Ld.src, link: "https://ldcap.com/" },
-];
-const gemArr = [
-  {
-    pic: Mexc.src,
-    link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-12mrG",
-    w: "100",
-  },
-  { pic: Bla.src, link: "", w: "200" },
-  { pic: CA.src, link: "", w: "200" },
-  { pic: Pawnfi.src, link: "", w: "100" },
-  { pic: Rentii.src, link: "", w: "100" },
-  { pic: Friends.src, link: "", w: "200" },
-  { pic: Dmail.src, link: "", w: "100" },
-  { pic: Bucket.src, link: "", w: "100" },
-  { pic: Paraspace.src, link: "", w: "100" },
-];
-const mediaArr = [
-  { pic: followIn.src, link: "https://followin.io/zh-Hant" },
-  { pic: noneland.src, link: "https://none.land/" },
-  { pic: ABM.src, link: "https://abmedia.io/" },
-  { pic: PAnews.src, link: "https://www.panewslab.com/" },
-  { pic: Grenade.src, link: "" },
-];
-const communityArr = [
-  { pic: buzhidao.src, link: "https://buzhidao.tw/zh" },
-  { pic: Jclub.src, link: "" },
-  {
-    pic: rabbit.src,
-    link: "https://bt-hare.com/",
-    w: "300",
-  },
-  { pic: Web3ass.src, link: "" },
-  { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
-  { pic: Han.src, link: "", w: "150" },
-  { pic: Cardano.src, link: "", w: "400" },
-  { pic: Ntufintech.src, link: "" },
-  { pic: Xdao.src, link: "", w: "200" },
-  { pic: mrbq.src, link: "https://www.instagram.com/mr.bq_invest/", w: "100" },
-  { pic: C1.src, link: "https://m.youtube.com/@LiuliangCool", w: "100" },
-  { pic: C2.src, link: "https://discord.gg/JYazfmtbNE", w: "100" },
-  { pic: C3.src, link: "https://discord.gg/xpgnft", w: "200" },
-  { pic: C4.src, link: "https://twitter.com/cryptowilson_", w: "150" },
-  { pic: C5.src, link: "https://link3.to/snapfingersdao", w: "100" },
-  { pic: C6.src, link: "https://www.paraland.world/", w: "100" },
-  { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
-];
+//新增link即可點擊
 
-const partnersData = {
-  title: "partners",
-  subTitle: "合作夥伴",
-  id: "Partners",
-  host: hostArr,
-  coHost: coHostArr,
-  strategic: strategicArr,
-  diamond: diamondArr,
-  gold: goldArr,
-  silver: silverArr,
-  partners: partnersArr,
-  vc: vcArr,
-  technical: technicalArr,
-  gem: gemArr,
-  media: mediaArr,
-  community: communityArr,
-};
-export default partnersData;
+function PartnersDoc() {
+  const { t } = useTranslation("partners");
+  const hostArr = [
+    { pic: builder.src, link: "https://twitter.com/_BuilderDAO" },
+  ];
+  const coHostArr = [
+    { pic: lead.src, link: "https://lead-capital.com/" },
+    { pic: carry.src, link: "https://www.carry.live/", w: "200" },
+    { pic: zombie.src, link: "https://zombit.info/" },
+  ];
+  const strategicArr = [
+    //{ pic: Gcp.src, link: "" },
+    { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "200" },
+    { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
+    { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
+  ];
+  const diamondArr = [{ pic: BingX.src, link: "https://bingx.com/" }];
+  const goldArr = [
+    { pic: Orderly.src, link: "https://orderly.network/", w: "300" },
+  ];
+  const silverArr = [
+    { pic: ACE.src, link: "https://ace.io/", w: "200" },
+    { pic: Ref.src, link: "https://www.ref.finance/" },
+  ];
+  const partnersArr = [
+    { pic: wormhole.src, link: "https://wormhole.com/" },
+    { pic: Binance.src, link: "https://binance.com/" },
+    { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
+    { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
+    { pic: Solana.src, link: "https://solana.com/zh" },
+    { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
+    { pic: Tezos.src, link: "https://tezos.com/", w: "200" },
+    { pic: Eos.src, link: "https://eosnetwork.com/", w: "200" },
+    { pic: Chainlink.src, link: "https://tezos.com/", w: "200" },
+    { pic: Tzapac.src, link: "https://www.tzapac.com/", w: "200" },
+    { pic: FileCoin.src, link: "https://filecoin.io/zh-cn/", w: "200" },
+    { pic: IPFS.src, link: "https://ipfs.tech/", w: "150" },
+    { pic: Lbank.src, link: "https://www.lbank.com/", w: "150" },
+    { pic: Okx.src, link: "https://www.okx.com/" },
+    { pic: ikala.src, link: "" },
+  ];
+  const vcArr = [
+    { pic: lead.src, link: "https://lead-capital.com/" },
+    { pic: Ngc.src, link: "https://ngc.fund" },
+    { pic: Ld.src, link: "https://ldcap.com/" },
+    { pic: C2_venture.src, link: "https://www.csquared.vc/" },
+    { pic: Ac.src, link: "https://accapital.io/" },
+    { pic: Mexcvc.src, link: "https://m-ventures.io/" },
+    { pic: Okxventures.src, link: "https://www.okx.com/hk/ventures", w: "150" },
+    { pic: Huobi.src, link: "https://www.huobi.com/en-us/huobiventures" },
+    { pic: venture.src, link: "https://www.bing-ventures.com/", w: "175" },
+    { pic: chain.src, link: "https://ctcap.io/", w: "175" },
+  ];
+  const technicalArr = [
+    { pic: Tikki.src, link: "https://www.tikki.app/", w: "150" },
+    { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
+    // { pic: Ngc.src, link: "https://ngc.fund", },
+    // { pic: Ld.src, link: "https://ldcap.com/" },
+  ];
+  const gemArr = [
+    {
+      pic: Mexc.src,
+      link: "https://www.mexc.com/zh-TW/register?inviteCode=mexc-12mrG",
+      w: "100",
+    },
+    { pic: Bla.src, link: "", w: "200" },
+    { pic: CA.src, link: "", w: "200" },
+    { pic: Pawnfi.src, link: "", w: "100" },
+    { pic: Rentii.src, link: "", w: "100" },
+    { pic: Friends.src, link: "", w: "200" },
+    { pic: Dmail.src, link: "", w: "100" },
+    { pic: Bucket.src, link: "", w: "100" },
+    { pic: Paraspace.src, link: "", w: "100" },
+  ];
+  const mediaArr = [
+    { pic: followIn.src, link: "https://followin.io/zh-Hant" },
+    { pic: noneland.src, link: "https://none.land/" },
+    { pic: ABM.src, link: "https://abmedia.io/" },
+    { pic: PAnews.src, link: "https://www.panewslab.com/" },
+    { pic: Grenade.src, link: "" },
+  ];
+  const communityArr = [
+    { pic: buzhidao.src, link: "https://buzhidao.tw/zh" },
+    { pic: Jclub.src, link: "" },
+    {
+      pic: rabbit.src,
+      link: "https://bt-hare.com/",
+      w: "300",
+    },
+    { pic: Web3ass.src, link: "" },
+    { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
+    { pic: Han.src, link: "", w: "150" },
+    { pic: Cardano.src, link: "", w: "400" },
+    { pic: Ntufintech.src, link: "" },
+    { pic: Xdao.src, link: "", w: "200" },
+    {
+      pic: mrbq.src,
+      link: "https://www.instagram.com/mr.bq_invest/",
+      w: "100",
+    },
+    { pic: C1.src, link: "https://m.youtube.com/@LiuliangCool", w: "100" },
+    { pic: C2.src, link: "https://discord.gg/JYazfmtbNE", w: "100" },
+    { pic: C3.src, link: "https://discord.gg/xpgnft", w: "200" },
+    { pic: C4.src, link: "https://twitter.com/cryptowilson_", w: "150" },
+    { pic: C5.src, link: "https://link3.to/snapfingersdao", w: "100" },
+    { pic: C6.src, link: "https://www.paraland.world/", w: "100" },
+    { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
+  ];
+
+  const partnersData = {
+    title: t("title"),
+    subTitle: t("subTitle"),
+    id: "Partners",
+    host: hostArr,
+    coHost: coHostArr,
+    strategic: strategicArr,
+    diamond: diamondArr,
+    gold: goldArr,
+    silver: silverArr,
+    partners: partnersArr,
+    vc: vcArr,
+    technical: technicalArr,
+    gem: gemArr,
+    media: mediaArr,
+    community: communityArr,
+  };
+
+  return partnersData;
+}
+export default PartnersDoc;

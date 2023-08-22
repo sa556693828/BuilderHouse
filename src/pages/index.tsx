@@ -17,9 +17,12 @@ import Events from "@/components/Events/Events";
 import EventsData from "@/Document/Events";
 import TimeLineDoc from "@/Document/TimeLine";
 import Agenda from "@/components/Agenda/Agenda";
-import AgendaData from "@/Document/Agenda";
+import AgendaDoc from "@/Document/Agenda";
 import { GetStaticProps } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import JudgesDoc from "@/Document/Judges";
+import EventsDoc from "@/Document/Events";
+import PartnersDoc from "@/Document/Partners";
 
 export const getStaticProps: GetStaticProps = async ({ locale }) => ({
   props: {
@@ -33,30 +36,38 @@ export const getStaticProps: GetStaticProps = async ({ locale }) => ({
       "prize",
       "hunter",
       "FAQ",
+      "agenda",
+      "judges",
+      "events",
+      "partners",
     ])),
   },
 });
 
 export default function Home() {
-  const timeLineData = TimeLineDoc();
+  const TimeLineData = TimeLineDoc();
   const OverViewData = OverViewDoc();
   const ActivityData = ActivityDoc();
   const prizeData = PrizeDoc();
   const hunterData = HunterDoc();
   const FAQData = FAQDoc();
+  const AgendaData = AgendaDoc();
+  const JudgesData = JudgesDoc();
+  const EventsData = EventsDoc();
+  const PartnersData = PartnersDoc();
 
   return (
     <>
       <Main />
-      <TimeLine data={timeLineData} />
+      <TimeLine data={TimeLineData} />
       <OverView data={OverViewData} />
       <Prizes data={prizeData} />
       <GemHunter data={hunterData} />
       <Activity data={ActivityData} />
-      <Judges />
+      <Judges data={JudgesData} />
       <Agenda data={AgendaData} />
       <Events data={EventsData} />
-      <Partners data={partnersData} />
+      <Partners data={PartnersData} />
       <FAQ data={FAQData} />
     </>
   );

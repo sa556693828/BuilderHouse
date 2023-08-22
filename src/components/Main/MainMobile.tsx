@@ -35,7 +35,7 @@ export default function MainMobile() {
             <img src={Vector.src} alt="" width="30" height="50" />
           </div>
           <div className="flex w-full flex-col items-start justify-between gap-2 overflow-x-hidden  px-2">
-            <div className="text-base font-normal uppercase sm:text-lg">
+            <div className="text-base font-normal sm:text-lg">
               {t("content")}
             </div>
             <div className="flex w-full items-start justify-between gap-2">

@@ -295,7 +295,7 @@ function PrizeDoc() {
   ];
   const prizeData = {
     title: { name: "PRIZES", color: "red" },
-    subTitle: "獎金",
+    subTitle: t("subTitle"),
     id: "Prizes",
     data: prizeArray,
     totalPrize: 42000,

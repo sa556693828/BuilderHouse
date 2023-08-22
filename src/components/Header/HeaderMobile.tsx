@@ -14,8 +14,9 @@ import Link from "next/link";
 
 export default function Mobile(props: any) {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const { goPage } = props;
+  const { goPage, locale } = props;
   const [hover, setHover] = useState(false);
+  const changeToEn = locale === "en" ? "tw" : "en";
 
   return (
     <>
@@ -81,7 +82,13 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
                 OVERVIEW
               </div>
-              <div className="pl-3 text-base font-black">總覽</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                總覽
+              </div>
             </div>
           </Link>
           <Link
@@ -94,7 +101,13 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
                 PRIZES
               </div>
-              <div className="pl-3 text-base font-black">總獎金</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                總獎金
+              </div>
             </div>
           </Link>
           <Link
@@ -107,7 +120,13 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold uppercase text-transparent">
                 Hunter
               </div>
-              <div className="pl-3 text-base font-black">賞金獵人</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                賞金獵人
+              </div>
             </div>
           </Link>
           <Link
@@ -120,7 +139,13 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold uppercase text-transparent">
                 Activity
               </div>
-              <div className="pl-3 text-base font-black">活動</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                活動
+              </div>
             </div>
           </Link>
           <Link
@@ -133,7 +158,13 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
                 JUDGES
               </div>
-              <div className="pl-3 text-base font-black">裁判群</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                裁判群
+              </div>
             </div>
           </Link>
           <Link
@@ -146,7 +177,13 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold uppercase text-transparent">
                 EVENTS
               </div>
-              <div className="pl-3 text-base font-black">近期活動</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                近期活動
+              </div>
             </div>
           </Link>
           <Link
@@ -159,7 +196,13 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
                 PARTNERS
               </div>
-              <div className="pl-3 text-base font-black">合作夥伴</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                合作夥伴
+              </div>
             </div>
           </Link>
           <Link
@@ -172,9 +215,45 @@ export default function Mobile(props: any) {
               <div className="bg-gradient-to-r from-greenF to-greenT bg-clip-text text-xl font-bold text-transparent">
                 FAQ
               </div>
-              <div className="pl-3 text-base font-black">相關問題</div>
+              <div
+                className={`pl-3 text-base font-black ${
+                  locale === "en" ? "hidden" : "flex"
+                }`}
+              >
+                相關問題
+              </div>
             </div>
           </Link>
+          <div className="w-full px-6">
+            <div className="h-[1px] w-full bg-gradient-to-r from-greenF to-greenT" />
+          </div>
+          <div className="flex w-full justify-start pl-6">
+            <div className="h-[40px] w-[70px] rounded-full bg-gradient-to-r from-greenF to-greenT p-[2px] transition-all">
+              <Link href={"/"} locale={changeToEn}>
+                <button className="relative flex h-full w-full items-center justify-between rounded-full bg-bg px-[10px] text-base font-medium leading-normal text-text">
+                  <div
+                    className={`${
+                      locale === "en" ? "text-test" : "text-bg"
+                    } z-20`}
+                  >
+                    中
+                  </div>
+                  <div
+                    className={`${
+                      locale !== "en" ? "text-test" : "text-bg"
+                    } z-20`}
+                  >
+                    EN
+                  </div>
+                  <div
+                    className={`absolute left-[4px] top-[3px] h-[30px] w-[30px] rounded-full bg-gradient-to-r from-greenF to-greenT transition-all ${
+                      locale === "en" ? "translate-x-[27px]" : ""
+                    }`}
+                  />
+                </button>
+              </Link>
+            </div>
+          </div>
         </DrawerContent>
       </Drawer>
     </>

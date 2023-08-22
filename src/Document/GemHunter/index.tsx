@@ -308,7 +308,7 @@ function HunterDoc() {
   ];
   const hunterData = {
     title: { name: "Gem Hunter", color: "red" },
-    subTitle: "獎金",
+    subTitle: t("subTitle"),
     id: "GemHunter",
     data: hunterArray,
     totalPrize: 3000,

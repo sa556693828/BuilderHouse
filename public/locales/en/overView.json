@@ -1,7 +1,7 @@
 {
   "title": "OVERVIEW",
-  "subTitle": "總覽",
-  "detail": "詳情",
+  "subTitle": "",
+  "detail": "Detail",
   "title1": "HACKER",
   "content1": "Demonstrate your technical skill and innovative thinking by submitting exceptional projects. Suppose your project receives positive feedback during the event and is deemed promising. In that case, Hackers can secure prizes and incubation opportunities to develop further and enhance the projects.",
   "subTitle1": "Submit your projects to showcase your technical skills and innovative thinking, aiming to attract VC funding and mentorship.",
@@ -26,7 +26,7 @@
   "FT5": "5. Copyright Regulations :",
   "F5-1": "The copyright of the participating works belongs to the developers, but TBH has the right to share and showcase these works for non-commercial purposes and quote these works in event promotions.",
   "F5-2": "If any submission involves copyright infringement, the responsibility falls on the developers.",
-  "title2": "HACKER",
+  "title2": "TRADER",
   "content2": "Traders include but are not limited to trading tools, quantitative strategies, or high-frequency strategies. TBH will provide opportunities such as trading competitions, quantitative trading workshops, and trading-related topics. If a Trader's strategy has implementation value, participants can earn prizes and gain more collaboration opportunities.",
   "subTitle2": "Develop excellent strategies, unlock trading potential, and seize substantial rewards and collaboration opportunities.",
   "ST1": "1. Eligibility :",

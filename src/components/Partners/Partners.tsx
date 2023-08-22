@@ -69,7 +69,7 @@ export default function Partners(props: { data: any }) {
           <PartnersCard logo={strategic} type="Strategic Partner" />
           <PartnersCard logo={diamond} type="Diamond Sponsor" />
           <PartnersCard logo={gold} type="Gold Sponsor" />
-          <PartnersCard logo={silver} type="Silver partner" />
+          <PartnersCard logo={silver} type="Silver Partner" />
           <PartnersCard logo={partners} grid="4" type="Partner" />
           <PartnersCard logo={vc} grid="4" type="VC Partner" />
           <PartnersCard logo={technical} type="Technical Support" />

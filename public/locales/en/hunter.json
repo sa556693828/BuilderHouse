@@ -1,7 +1,6 @@
 {
   "title": "Prize",
-  "subTitle": "獎金",
-
+  "subTitle": "",
   "MEXCC": "Register",
   "MEXC1T": "Click on the website link above to proceed with registration.",
   "MEXC1C1": "The first 100 registrants will each receive an additional 10 USDT as a bonus.",
@@ -36,9 +35,9 @@
   "FP1T": "1. Search \"@FriendsProtocol_Bot\" on Telegram",
   "FP2T": "2. Use the bot to mint a Friends NFT (15 TON)",
   "FP3T": "3. Complete the task",
-  "RE1T": "1. 至官網點擊connect wallet",
-  "RE2T": "2. 連接Solana錢包",
-  "RE3T": "3. 點擊出租或是租入一張NFT",
+  "RE1T": "1. \"Connect Wallet\" on the official website",
+  "RE2T": "2. Connect your Solana wallet",
+  "RE3T": "3. Click to rent or lease an NFT",
   "TIS": "對於早期交互用戶們，放心我們都懂Web3的規矩",
   "TI1T": "1. Register and log in to Tikki :",
   "TI1C1": "https://app.tikki.app/explore",

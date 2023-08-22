@@ -54,7 +54,7 @@ export default function Desktop(props: any) {
                 FREE TICKET
               </LinearButton>
             </div>
-            <div className="h-12 w-[1px] bg-greenF" />
+            <div className="h-12 w-[1px] bg-gradient-to-r from-greenF to-greenT" />
             <div>
               <div className="h-full w-[85px] rounded-full bg-gradient-to-r from-greenF to-greenT p-[2px] transition-all">
                 <Link href={"/"} locale={changeToEn}>

@@ -41,7 +41,7 @@ function JudgesDoc() {
     },
     {
       name: "Albert",
-      company: "Genopets Founder\n ",
+      company: "Genopets\nFounder ",
       avatar: Albert.src,
       linkin: "",
     },

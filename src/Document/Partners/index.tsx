@@ -71,7 +71,7 @@ import Rentii from "@/assets/Hunter/rentii.png";
 import Tikki from "@/assets/Hunter/tikki.png";
 import Bucket from "@/assets/Hunter/bucket.png";
 import Dmail from "@/assets/Hunter/dmail.png";
-import Pawnfi from "@/assets/Hunter/pawnfi_logo.png";
+import Pawnfi_gem from "@/assets/Hunter/pawnfi_logo_purple.svg";
 import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
@@ -165,7 +165,7 @@ function PartnersDoc() {
     },
     { pic: Bla.src, link: "", w: "200" },
     { pic: CA.src, link: "", w: "200" },
-    { pic: Pawnfi.src, link: "", w: "100" },
+    { pic: Pawnfi_gem.src, link: "", w: "100" },
     { pic: Rentii.src, link: "", w: "100" },
     { pic: Friends.src, link: "", w: "200" },
     { pic: Dmail.src, link: "", w: "100" },

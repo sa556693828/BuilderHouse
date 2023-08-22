@@ -253,8 +253,8 @@ function HunterDoc() {
       },
     },
     {
-      title: "PwanFi",
-      prize: "-",
+      title: "Pawnfi",
+      prize: "Task",
       pic: Pawnfi.src,
       data: {
         title: "PawnFi",
@@ -263,6 +263,21 @@ function HunterDoc() {
           { icon: "icon-twitter", link: "https://twitter.com/pawnfiofficial" },
           { icon: "icon-telegram", link: "https://t.me/pawnfiprotocol" },
           { icon: "icon-discord", link: "https://discord.com/invite/pawnfi" },
+        ],
+        illustrate: "Backed by Digital Currency Group, Coinbase, Crypto.com and so forth, Pawnfi is a pioneering NFT liquidity initiator that supports NFT trading, lending and earning in one go.",
+        content: [
+          {
+            title: `1. Successfully connect with a wallet. (Signature only, no further interaction required)”`,
+            detail: [],
+          },
+          {
+            title: `2. Follow Social Media`,
+            detail: ['Twitter：@PawnfiOfficial + Join Discord'],
+          },
+          {
+            title: `3. Retweet their pinned post`,
+            detail: [],
+          },
         ],
       },
     },

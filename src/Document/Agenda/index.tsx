@@ -3,7 +3,7 @@ import { useTranslation } from "next-i18next";
 function AgendaDoc() {
   const { t } = useTranslation("agenda");
   const agendaData = [
-    { time: "09:00", topic: "Opening" },
+    { time: "09:00", topic: "Opening", subTitle: ["Mei-Ling Chen, General Convener of Taiwan Blockchain Alliance Former Minister of National Development Council"] },
     { time: "09:15", topic: "TBD", subTitle: ["TBD"] },
     {
       time: "09:30",
@@ -85,7 +85,7 @@ function AgendaDoc() {
       topic: "How to Increase Your Chances to Get Funded through Demo3",
       subTitle: ["Jim, Gen3、Demo3 Founder"],
     },
-    { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
+    { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["SuiDouBashi\nScallop\nDyson Finance\nZkafi\nFriends Protocol\Followin\nTikki\Fansi\nBOXTradEx"] },
     {
       time: "17:30",
       topic: "From Campus to Crypto: Empowering Young Minds in the Web3 Startup Ecosystem",

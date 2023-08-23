@@ -120,6 +120,7 @@ function PartnersDoc() {
   ];
   const partnersArr = [
     { pic: Cathy.src, link: "" },
+    { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
     { pic: wormhole.src, link: "https://wormhole.com/" },
     { pic: Binance.src, link: "https://binance.com/" },
     { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
@@ -193,7 +194,6 @@ function PartnersDoc() {
       w: "300",
     },
     { pic: Web3ass.src, link: "" },
-    { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
     { pic: Han.src, link: "", w: "150" },
     { pic: Cardano.src, link: "", w: "400" },
     { pic: Ntufintech.src, link: "" },

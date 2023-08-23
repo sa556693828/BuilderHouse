@@ -20,19 +20,19 @@ function PrizeDoc() {
   const prizeArray = [
     {
       title: "TBH：Best Overall",
-      prize: "$6,000",
+      prize: "$6,000 + $3,000 Google Cloud Credit",
       pic: TBH1.src,
       data: {
         title: "Taiwan Builder House：Best Overall",
-        prize: `${t("pA")}：$6,000U`,
+        prize: `${t("pA")}：$6,000U + $3,000 Google Cloud Credit`,
         illustrate: t("1T"),
         content: [
           {
             title: t("pT"),
             detail: [
               `${t("pf")}`,
-              `${t("ps")}2,000U, $1000 Google Cloud Credit + Technical mentorship`,
-              `${t("pt")}1,000U, $1000 Google Cloud Credit + Technical mentorship`,
+              `${t("ps")}`,
+              `${t("pt")}`,
             ],
           },
         ],
@@ -42,19 +42,19 @@ function PrizeDoc() {
     },
     {
       title: "TBH：Most Potential",
-      prize: "$3,000",
+      prize: "$3,000 + $1,500 Google Cloud Credit",
       pic: TBH1.src,
       data: {
-        title: "Taiwan Builder House：Best Overall",
-        prize: `${t("pA")}：$3,000U`,
+        title: "Taiwan Builder House：Most Potential",
+        prize: `${t("pA")}：$3,000U + $1,500 Google Cloud Credit`,
         illustrate: t("2T"),
         content: [
           {
             title: t("pT"),
             detail: [
-              `${t("pf")}1,500U , Onekey mini * 1, $500 Google Cloud Credit + Technical mentorship`,
-              `${t("ps")}1,000U, $500 Google Cloud Credit + Technical mentorship`,
-              `${t("pt")}500U, $500 Google Cloud Credit + Technical mentorship`,
+              `${t("pf1")}`,
+              `${t("ps1")}`,
+              `${t("pt1")}`,
             ],
           },
         ],

@@ -105,7 +105,7 @@ function PartnersDoc() {
     { pic: zombie.src, link: "https://zombit.info/" },
   ];
   const strategicArr = [
-    //{ pic: Gcp.src, link: "" },
+    { pic: Gcp.src, link: "" },
     { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "200" },
     { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
     { pic: Gen3.src, link: "https://gen3.network/", w: "180" },

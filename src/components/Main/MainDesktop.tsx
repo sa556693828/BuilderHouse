@@ -40,7 +40,9 @@ export default function MainDesktop() {
         </div>
         <div className="absolute right-[312px] top-0 h-full w-[2px] bg-text" />
         <div className="flex w-full flex-col items-start justify-between gap-2 pl-10 pr-[340px]">
-          <div className="text-lg font-normal xl:text-xl">{t("content")}</div>
+          <div className="max-w-xl text-lg font-normal xl:max-w-4xl xl:text-xl">
+            {t("content")}
+          </div>
           <div className="flex h-12 gap-6">
             <LinearButton color="red" href="https://bit.ly/3DgPiy0">
               {t("joinL")}

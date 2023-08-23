@@ -18,6 +18,7 @@ export default function Partners(props: { data: any }) {
     partners,
     vc,
     technical,
+    adviser,
     gem,
     media,
     community,
@@ -73,6 +74,7 @@ export default function Partners(props: { data: any }) {
           <PartnersCard logo={partners} grid="4" type="Partner" />
           <PartnersCard logo={vc} grid="4" type="VC Partner" />
           <PartnersCard logo={technical} type="Technical Support" />
+          <PartnersCard logo={adviser} type="Advised by" />
           <PartnersCard logo={gem} grid="4" type="Gem Partner" />
           <PartnersCard logo={media} grid="4" type="Media Partner" />
           <PartnersCard logo={community} type="Community Partner" />
@@ -88,6 +90,7 @@ export default function Partners(props: { data: any }) {
           <PartnersM logo={partners} type="Partner" />
           <PartnersM logo={vc} type="VC Partner" />
           <PartnersM logo={technical} type="Technical Support" />
+          <PartnersM logo={adviser} type="Advised by" />
           <PartnersM logo={gem} type="Gem Partner" />
           <PartnersM logo={media} type="Media Partner" />
           <PartnersM logo={community} type="Community Partner" />

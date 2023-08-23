@@ -12,7 +12,7 @@ function AgendaDoc() {
     },
     {
       time: "09:45",
-      topic: "TBD",
+      topic: "Empowing Web3 Startups: AppWorks",
       subTitle: ["Johnny, Appworks Analyst"],
     },
     {
@@ -39,7 +39,7 @@ function AgendaDoc() {
       subTitle: [
         "Host : Josephine, BuilderDAO Core Contributor",
         "Fngi Shiu, GDG Taipei Organizer (Security)\n",
-        "Ray Lin, (ISC)² Taipei Chapter, AWS Security Hero\n",
+        "Ray Lin, (ISC)² Taipei Chapter\n",
         "Henry Hu, OWASP Taiwan Chapter\n",
       ],
     },
@@ -47,10 +47,11 @@ function AgendaDoc() {
       time: "12:15",
       topic: "How Communities Boost Trading: \nInitiative and Impact",
       subTitle: [
-        "Host : Carlos, ACE Exchange",
-        "Murmurcats, GDG Taipei Organizer (Security)\n",
-        "Datatw, DA Capital\n",
+        "Host : Carlos, ACE Exchange MKT Deputy Director",
+        "Tony, Murmurcats Operations Manager\n",
+        "Ang.eth, Datatw Co-Funder\n",
         "Crypto Paul, Full-time crypto trader \n",
+        "Mr Wang, Full-time crypto trader \n",
       ],
     },
     {

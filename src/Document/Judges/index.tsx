@@ -35,7 +35,7 @@ function JudgesDoc() {
     },
     {
       name: "Josh",
-      company: "BingX\n ",
+      company: "BingX\nAPAC Business Director ",
       avatar: Josh.src,
       linkin: "",
     },

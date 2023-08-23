@@ -53,6 +53,8 @@ import Appworks from "@/assets/Partners/AppWorks_logo_white.png";
 import Web3 from "@/assets/Partners/WEB3.png";
 import Stockfeel from "@/assets/Partners/stockfeel.png";
 import Pionex from "@/assets/Partners/pionex.png";
+import TBA from "@/assets/Partners/TBA.png";
+
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
@@ -153,14 +155,9 @@ function PartnersDoc() {
   const technicalArr = [
     { pic: Tikki.src, link: "https://www.tikki.app/", w: "150" },
     { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
-    // { pic: Ngc.src, link: "https://ngc.fund", },
-    // { pic: Ld.src, link: "https://ldcap.com/" },
   ];
   const advisedArr = [
-    { pic: Tikki.src, link: "https://www.tikki.app/", w: "150" },
-    { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
-    // { pic: Ngc.src, link: "https://ngc.fund", },
-    // { pic: Ld.src, link: "https://ldcap.com/" },
+    { pic: TBA.src, link: "https://tballiance.org.tw/" },
   ];
   const gemArr = [
     {

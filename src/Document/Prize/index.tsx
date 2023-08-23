@@ -30,9 +30,9 @@ function PrizeDoc() {
           {
             title: t("pT"),
             detail: [
-              `${t("pf")}3,000U , Onekey mini * 1`,
-              `${t("ps")}2,000U`,
-              `${t("pt")}1,000U`,
+              `${t("pf")}`,
+              `${t("ps")}2,000U, $1000 Google Cloud Credit + Technical mentorship`,
+              `${t("pt")}1,000U, $1000 Google Cloud Credit + Technical mentorship`,
             ],
           },
         ],
@@ -52,9 +52,9 @@ function PrizeDoc() {
           {
             title: t("pT"),
             detail: [
-              `${t("pf")}1,500U , Onekey mini * 1`,
-              `${t("ps")}1,000U`,
-              `${t("pt")}500U`,
+              `${t("pf")}1,500U , Onekey mini * 1, $500 Google Cloud Credit + Technical mentorship`,
+              `${t("ps")}1,000U, $500 Google Cloud Credit + Technical mentorship`,
+              `${t("pt")}500U, $500 Google Cloud Credit + Technical mentorship`,
             ],
           },
         ],
@@ -282,16 +282,11 @@ function PrizeDoc() {
         //source: ``,
       },
     },
-    {
-      title: "BingX Ventures",
-      prize: "$ -",
-      pic: bingxVe.src,
-    },
-    {
-      title: "BingX",
-      prize: "$ -",
-      pic: bingX.src,
-    },
+    //{
+    //  title: "BingX",
+    //  prize: "$ -",
+    //  pic: bingX.src,
+    //},
   ];
   const prizeData = {
     title: { name: "PRIZES", color: "red" },

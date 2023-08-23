@@ -87,7 +87,7 @@ function AgendaDoc() {
     { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["Teams"] },
     {
       time: "17:30",
-      topic: "Panel",
+      topic: "From Campus to Crypto: Empowering Young Minds in the Web3 Startup Ecosystem",
       subTitle: [
         "Host : TBD",
         "Henry, NTUST.CS, Cryptoeducate CTO\n",

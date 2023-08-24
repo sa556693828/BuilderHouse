@@ -67,7 +67,7 @@ export default function Partners(props: { data: any }) {
         <div className="hidden w-full flex-col items-center gap-16 lg:flex">
           <PartnersCard logo={host} type="HOST" />
           <PartnersCard logo={coHost} type="CO - HOST" />
-          <PartnersCard logo={strategic} type="Strategic Partner" />
+          <PartnersCard logo={strategic} grid="4" type="Strategic Partner" />
           <PartnersCard logo={diamond} type="Diamond Sponsor" />
           <PartnersCard logo={gold} type="Gold Sponsor" />
           <PartnersCard logo={silver} type="Silver Partner" />

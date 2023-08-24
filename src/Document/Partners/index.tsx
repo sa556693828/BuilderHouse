@@ -54,6 +54,9 @@ import Web3 from "@/assets/Partners/WEB3.png";
 import Stockfeel from "@/assets/Partners/stockfeel.png";
 import Pionex from "@/assets/Partners/pionex.png";
 import TBA from "@/assets/Partners/TBA.png";
+import Tst from "@/assets/Partners/Tst.png";
+import Gosmart from "@/assets/Partners/gosmart.png";
+import Typus from "@/assets/Partners/Typus logo_horizontal_white.png";
 
 
 //VC
@@ -109,6 +112,8 @@ function PartnersDoc() {
     { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "200" },
     { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
     { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
+    { pic: Tst.src, link: "https://www.startupterrace.tw/"},
+    { pic: Gosmart.src, link: "https://www.citiesgosmart.org/"},
   ];
   const diamondArr = [{ pic: BingX.src, link: "https://bingx.com/" }];
   const goldArr = [
@@ -137,6 +142,7 @@ function PartnersDoc() {
     { pic: Okx.src, link: "https://www.okx.com/" },
     { pic: term.src, link: "https://termstructure.com/" },
     { pic: Pionex.src, link: "https://www.pionex.com/" },
+    { pic: Typus.src, link: "https://typus.finance/" },
     { pic: ikala.src, link: "" },
   ];
   const vcArr = [

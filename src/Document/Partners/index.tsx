@@ -37,7 +37,7 @@ import Okx from "@/assets/Partners/OKX_Logo_white.png";
 import Okxventures from "@/assets/Partners/OKX_Ventures_White.png";
 import Lbank from "@/assets/Partners/lbank_gold.png";
 import Onekey from "@/assets/Partners/onekey_logotype_mono_white.png";
-import BCI from "@/assets/Partners/BCI.png";
+import BCI from "@/assets/Partners/TABEI.png";
 import Sei from "@/assets/Partners/Sei_Logo.png";
 import Solana from "@/assets/Partners/solanaLogo.svg";
 import Gcp from "@/assets/Partners/lockup_GoogleCloud_Reverse_rgb_544x96px.svg";
@@ -57,6 +57,7 @@ import TBA from "@/assets/Partners/TBA.png";
 import Tst from "@/assets/Partners/Tst.png";
 import Gosmart from "@/assets/Partners/gosmart.png";
 import Typus from "@/assets/Partners/Typus logo_horizontal_white.png";
+import BTSE from "@/assets/Partners/BTSE_logo_White.png";
 
 
 //VC
@@ -143,6 +144,7 @@ function PartnersDoc() {
     { pic: term.src, link: "https://termstructure.com/" },
     { pic: Pionex.src, link: "https://www.pionex.com/" },
     { pic: Typus.src, link: "https://typus.finance/" },
+    { pic: BTSE.src, link: "https://www.btse.com/en/home" },
     { pic: ikala.src, link: "" },
   ];
   const vcArr = [

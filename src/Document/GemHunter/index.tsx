@@ -112,18 +112,6 @@ function HunterDoc() {
       },
     },
     {
-      title: "Bonk",
-      prize: "-",
-      pic: Bonk.src,
-      data: {
-        title: "Bonk",
-        linkArr: [
-          { icon: "icon-website", link: "https://www.bonkcoin.com/" },
-          { icon: "icon-twitter", link: "https://twitter.com/bonk_inu" },
-        ],
-      },
-    },
-    {
       title: "Bucket Protocol",
       prize: "Task",
       pic: Bucket.src,
@@ -317,6 +305,25 @@ function HunterDoc() {
           { title: t("TI1T"), detail: [t("TI1C1")] },
           { title: t("TI2T"), detail: [t("TI2C1")] },
           { title: t("TI3T"), detail: [t("TI3C1")] },
+        ],
+      },
+    },
+    {
+      title: "Bonk",
+      prize: "Task",
+      pic: Bonk.src,
+      data: {
+        title: "Bonk",
+        linkArr: [
+          { icon: "icon-website", link: "https://www.bonkcoin.com/" },
+          { icon: "icon-twitter", link: "https://twitter.com/bonk_inu" },
+          { icon: "icon-discord", link: "https://discord.com/invite/bonkcoin" },
+        ],
+        illustrate: t("BONKS"),
+        content: [
+          { title: t("BONK1"), detail: [] },
+          { title: t("BONK2"), detail: [] },
+          { title: t("BONK3"), detail: [] },
         ],
       },
     },

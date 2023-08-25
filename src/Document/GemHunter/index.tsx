@@ -15,7 +15,7 @@ import Orderly from "@/assets/Prizes/Orderly.svg";
 import Term from "@/assets/Hunter/logo_term.png";
 import Gash from "@/assets/Hunter/GASH.png";
 import Mayg from "@/assets/Hunter/MAYG.png";
-
+import noneland from "@/assets/Partners/noneland.svg";
 
 //icon-website
 //icon-twitter
@@ -261,7 +261,8 @@ function HunterDoc() {
           { icon: "icon-telegram", link: "https://t.me/pawnfiprotocol" },
           { icon: "icon-discord", link: "https://discord.com/invite/pawnfi" },
         ],
-        illustrate: "Backed by Digital Currency Group, Coinbase, Crypto.com and so forth, Pawnfi is a pioneering NFT liquidity initiator that supports NFT trading, lending and earning in one go.",
+        illustrate:
+          "Backed by Digital Currency Group, Coinbase, Crypto.com and so forth, Pawnfi is a pioneering NFT liquidity initiator that supports NFT trading, lending and earning in one go.",
         content: [
           {
             title: `1. Successfully connect with a wallet. (Signature only, no further interaction required)”`,
@@ -269,7 +270,7 @@ function HunterDoc() {
           },
           {
             title: `2. Follow Social Media`,
-            detail: ['Twitter：@PawnfiOfficial + Join Discord'],
+            detail: ["Twitter：@PawnfiOfficial + Join Discord"],
           },
           {
             title: `3. Retweet their pinned post`,
@@ -326,7 +327,10 @@ function HunterDoc() {
         linkArr: [
           { icon: "icon-website", link: "https://termstructure.com/" },
           { icon: "icon-twitter", link: "https://twitter.com/TermStructLabs" },
-          { icon: "icon-discord", link: "https://discord.com/invite/XQdGCMGjaR" },
+          {
+            icon: "icon-discord",
+            link: "https://discord.com/invite/XQdGCMGjaR",
+          },
         ],
         illustrate: t("Termi"),
         content: [
@@ -345,7 +349,10 @@ function HunterDoc() {
         linkArr: [
           { icon: "icon-website", link: "https://www.bonkcoin.com/" },
           { icon: "icon-twitter", link: "https://twitter.com/GASH_tw" },
-          { icon: "icon-discord", link: "https://discord.com/invite/gash-invitelink" },
+          {
+            icon: "icon-discord",
+            link: "https://discord.com/invite/gash-invitelink",
+          },
         ],
         illustrate: t("GASHi"),
         content: [
@@ -354,7 +361,8 @@ function HunterDoc() {
           { title: t("GASH3"), detail: [] },
         ],
       },
-    },    {
+    },
+    {
       title: "MAYG",
       prize: "Task",
       pic: Mayg.src,
@@ -363,7 +371,10 @@ function HunterDoc() {
         linkArr: [
           { icon: "icon-website", link: "https://www.mayg.io/" },
           { icon: "icon-twitter", link: "https://twitter.com/Maygnft" },
-          { icon: "icon-discord", link: "https://discord.com/invite/hr9YJ84AsK" },
+          {
+            icon: "icon-discord",
+            link: "https://discord.com/invite/hr9YJ84AsK",
+          },
         ],
         illustrate: t("MAYGi"),
         content: [
@@ -372,7 +383,8 @@ function HunterDoc() {
           { title: t("MAYG3"), detail: [] },
         ],
       },
-    },    {
+    },
+    {
       title: "Bonk",
       prize: "Task",
       pic: Bonk.src,

@@ -12,9 +12,9 @@ import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 import Mexc from "@/assets/Prizes/mexc.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
-import Term from "@/assets/Partners/logo_term.png";
-import Gash from "@/assets/Partners/GASH.png";
-import Mayg from "@/assets/Partners/MAYG.png";
+import Term from "@/assets/Hunter/logo_term.png";
+import Gash from "@/assets/Hunter/GASH.png";
+import Mayg from "@/assets/Hunter/MAYG.png";
 
 
 //icon-website

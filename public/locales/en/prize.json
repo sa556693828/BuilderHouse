@@ -63,10 +63,5 @@
   "ACE3T": "Please note",
   "ACE3C1": "Trading volume is calculated only for TWD trading pairs in the form of Maker.",
   "ACE3C2": "Fee refunds will be processed on a weekly basis.",
-  "ACE3C3": "Taker fees will be calculated according to the original fee structure.",
-  "BONKS": "THE DOG COIN OF THE PEOPLE : Initially launched as a free airdrop to the Solana community on Christmas Day 2022, BONK's adoption has since grown parabolically to emerge as the true community coin of web3",
-  "BONK1": "Taker將依照原有手續費計算",
-  "BONK2": "Taker將依照原有手續費計算",
-  "BONK3": "Taker將依照原有手續費計算",
-  "BONK4": "Taker將依照原有手續費計算"
+  "ACE3C3": "Taker fees will be calculated according to the original fee structure."
 }

@@ -12,7 +12,10 @@ import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 import Mexc from "@/assets/Prizes/mexc.png";
 import Orderly from "@/assets/Prizes/Orderly.svg";
-import noneland from "@/assets/Partners/noneland.svg";
+import Term from "@/assets/Partners/logo_term.png";
+import Gash from "@/assets/Partners/GASH.png";
+import Mayg from "@/assets/Partners/MAYG.png";
+
 
 //icon-website
 //icon-twitter
@@ -198,7 +201,7 @@ function HunterDoc() {
     },
     {
       title: "Genopets",
-      prize: "-",
+      prize: "Task",
       pic: Genopets.src,
       data: {
         title: "Genopets",
@@ -206,6 +209,12 @@ function HunterDoc() {
           { icon: "icon-website", link: "https://www.genopets.me/" },
           { icon: "icon-twitter", link: "https://twitter.com/genopets" },
           { icon: "icon-discord", link: "https://discord.com/invite/genopets" },
+        ],
+        illustrate: t("Genoi"),
+        content: [
+          { title: t("Geno1"), detail: [] },
+          { title: t("Geno2"), detail: [] },
+          { title: t("Geno3"), detail: [] },
         ],
       },
     },
@@ -309,6 +318,61 @@ function HunterDoc() {
       },
     },
     {
+      title: "Term Structure",
+      prize: "Task",
+      pic: Term.src,
+      data: {
+        title: "Term Structure",
+        linkArr: [
+          { icon: "icon-website", link: "https://termstructure.com/" },
+          { icon: "icon-twitter", link: "https://twitter.com/TermStructLabs" },
+          { icon: "icon-discord", link: "https://discord.com/invite/XQdGCMGjaR" },
+        ],
+        illustrate: t("Termi"),
+        content: [
+          { title: t("Term1"), detail: [] },
+          { title: t("Term2"), detail: [] },
+          { title: t("Term3"), detail: [] },
+        ],
+      },
+    },
+    {
+      title: "GASH",
+      prize: "Task",
+      pic: Gash.src,
+      data: {
+        title: "GASH",
+        linkArr: [
+          { icon: "icon-website", link: "https://www.bonkcoin.com/" },
+          { icon: "icon-twitter", link: "https://twitter.com/GASH_tw" },
+          { icon: "icon-discord", link: "https://discord.com/invite/gash-invitelink" },
+        ],
+        illustrate: t("GASHi"),
+        content: [
+          { title: t("GASH1"), detail: [] },
+          { title: t("GASH2"), detail: [] },
+          { title: t("GASH3"), detail: [] },
+        ],
+      },
+    },    {
+      title: "MAYG",
+      prize: "Task",
+      pic: Mayg.src,
+      data: {
+        title: "MAYG",
+        linkArr: [
+          { icon: "icon-website", link: "https://www.mayg.io/" },
+          { icon: "icon-twitter", link: "https://twitter.com/Maygnft" },
+          { icon: "icon-discord", link: "https://discord.com/invite/hr9YJ84AsK" },
+        ],
+        illustrate: t("MAYGi"),
+        content: [
+          { title: t("MAYG1"), detail: [] },
+          { title: t("MAYG2"), detail: [] },
+          { title: t("MAYG3"), detail: [] },
+        ],
+      },
+    },    {
       title: "Bonk",
       prize: "Task",
       pic: Bonk.src,

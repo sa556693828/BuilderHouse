@@ -77,7 +77,6 @@ import Tikki from "@/assets/Hunter/tikki.png";
 import Bucket from "@/assets/Hunter/bucket.png";
 import Dmail from "@/assets/Hunter/dmail.png";
 import Pawnfi_gem from "@/assets/Hunter/pawnfi_logo_purple.svg";
-import Bonk from "@/assets/Hunter/bonk.png";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
 

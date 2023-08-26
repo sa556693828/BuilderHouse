@@ -159,22 +159,6 @@ function PrizeDoc() {
       },
     },
     {
-      title: "Bonk",
-      prize: "$4,000",
-      pic: Bonk.src,
-      data: {
-        title: t("Bonkt"),
-        prize: `${t("pA")}：$4,000U`,
-        illustrate: t("Bonki"),
-        content: [
-          {
-            title: t("Bonkt1"),
-            detail: [],
-          },
-        ],
-      },
-    },
-    {
       title: "Wormhole",
       prize: "$2,000",
       pic: Wormhole.src,

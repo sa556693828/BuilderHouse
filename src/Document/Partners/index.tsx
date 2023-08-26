@@ -58,6 +58,7 @@ import Tst from "@/assets/Partners/Tst.png";
 import Gosmart from "@/assets/Partners/gosmart.png";
 import Typus from "@/assets/Partners/Typus logo_horizontal_white.png";
 import BTSE from "@/assets/Partners/BTSE_logo_White.png";
+import Bonk from "@/assets/Partners/BONK_logo.svg";
 
 
 //VC
@@ -126,12 +127,13 @@ function PartnersDoc() {
   ];
   const partnersArr = [
     { pic: Cathy.src, link: "" },
-    { pic: BCI.src, link: "https://www.chain.tw/", w: "150" },
+    { pic: BCI.src, link: "https://www.chain.tw/" },
     { pic: wormhole.src, link: "https://wormhole.com/" },
     { pic: Binance.src, link: "https://binance.com/" },
     { pic: Gash.src, link: "https://twitter.com/GASH_tw", w: "150" },
     { pic: Appworks.src, link: "https://appworks.tw/" },
     { pic: Onekey.src, link: "https://www.onekey.so/", w: "200" },
+    { pic: Bonk.src, link: "https://www.bonkcoin.com/" },
     { pic: Solana.src, link: "https://solana.com/zh" },
     { pic: Sei.src, link: "https://www.sei.io/", w: "150" },
     { pic: Tezos.src, link: "https://tezos.com/", w: "200" },

@@ -11,6 +11,8 @@ import TBH1 from "@/assets/Prizes/TBH_Tiffany_1.png";
 import TBH2 from "@/assets/Prizes/TBH_Tiffany_3.png";
 import TBH3 from "@/assets/Prizes/TBH_White_3.png";
 import Tzapac from "@/assets/Partners/tzapac_logo.svg";
+import Bonk from "@/assets/Partners/BONK_logo.svg";
+
 
 import { useTranslation } from "next-i18next";
 
@@ -151,6 +153,22 @@ function PrizeDoc() {
           },
           {
             title: t("LC2T"),
+            detail: [],
+          },
+        ],
+      },
+    },
+    {
+      title: "Bonk",
+      prize: "$4,000",
+      pic: Bonk.src,
+      data: {
+        title: t("Bonkt"),
+        prize: `${t("pA")}：$4,000U`,
+        illustrate: t("Bonki"),
+        content: [
+          {
+            title: t("Bonkt1"),
             detail: [],
           },
         ],

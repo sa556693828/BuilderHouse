@@ -158,7 +158,7 @@ function PrizeDoc() {
         ],
       },
     },
-    /*{
+    {
       title: "Bonk",
       prize: "$4,000",
       pic: Bonk.src,
@@ -173,7 +173,7 @@ function PrizeDoc() {
           },
         ],
       },
-    },*/
+    },
     {
       title: "Wormhole",
       prize: "$2,000",
@@ -311,7 +311,7 @@ function PrizeDoc() {
     subTitle: t("subTitle"),
     id: "Prizes",
     data: prizeArray,
-    totalPrize: 42000,
+    totalPrize: 46000,
   };
   return prizeData;
 }

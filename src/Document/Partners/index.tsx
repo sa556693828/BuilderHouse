@@ -60,7 +60,6 @@ import Typus from "@/assets/Partners/Typus logo_horizontal_white.png";
 import BTSE from "@/assets/Partners/BTSE_logo_White.png";
 import Bonk from "@/assets/Partners/BONK_logo.svg";
 
-
 //VC
 import Ld from "@/assets/Partners/LD.png";
 import Ac from "@/assets/Partners/ac_capital.png";
@@ -100,12 +99,10 @@ import Dwoc from "@/assets/Partners/DWOC.png";
 import Head from "@/assets/Partners/HeadDAO.png";
 import LeadFi from "@/assets/Partners/LeapFi_Logo.svg";
 import Silver from "@/assets/Partners/SilverBay.png";
-import Brain from "@/assets/Partners/Brainbrox.png";
+import Brain from "@/assets/Partners/Brainbro.png";
 import Face from "@/assets/Partners/facecoin.jpg";
 import LBFS from "@/assets/Partners/LBFS.png";
 import ZZZ from "@/assets/Partners/Z.png";
-
-
 
 import { useTranslation } from "next-i18next";
 
@@ -127,8 +124,8 @@ function PartnersDoc() {
     { pic: TBW.src, link: "https://www.taipeiblockchainweek.com/", w: "200" },
     { pic: Abga.src, link: "https://www.abga.asia/", w: "220" },
     { pic: Gen3.src, link: "https://gen3.network/", w: "180" },
-    { pic: Tst.src, link: "https://www.startupterrace.tw/"},
-    { pic: Gosmart.src, link: "https://www.citiesgosmart.org/"},
+    { pic: Tst.src, link: "https://www.startupterrace.tw/" },
+    { pic: Gosmart.src, link: "https://www.citiesgosmart.org/" },
   ];
   const diamondArr = [{ pic: BingX.src, link: "https://bingx.com/" }];
   const goldArr = [
@@ -180,9 +177,7 @@ function PartnersDoc() {
     { pic: Tikki.src, link: "https://www.tikki.app/", w: "150" },
     { pic: Hong.src, link: "https://www.hongwangtec.com/  ", w: "200" },
   ];
-  const advisedArr = [
-    { pic: TBA.src, link: "https://tballiance.org.tw/" },
-  ];
+  const advisedArr = [{ pic: TBA.src, link: "https://tballiance.org.tw/" }];
   const gemArr = [
     {
       pic: Mexc.src,
@@ -236,18 +231,18 @@ function PartnersDoc() {
     { pic: C5.src, link: "https://www.paraland.world/", w: "100" },
     { pic: C6.src, link: "https://link3.to/snapfingersdao", w: "100" },
     { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
-    { pic: Brain.src, link: ""},
-    { pic: LeadFi.src, link: ""},
-    { pic: wearepoor.src, link: ""},
-    { pic: CryptoCowboy.src, link: ""},
-    { pic: CryptoMUSES.src, link: ""},
-    { pic: Demi.src, link: ""},
-    { pic: Dwoc.src, link: ""},
-    { pic: Head.src, link: ""},
-    { pic: Silver.src, link: ""},
-    { pic: Face.src, link: ""},
-    { pic: LBFS.src, link: ""},
-    { pic: ZZZ.src, link: ""},
+    { pic: Brain.src, link: "" },
+    { pic: LeadFi.src, link: "" },
+    { pic: wearepoor.src, link: "" },
+    { pic: CryptoCowboy.src, link: "" },
+    { pic: CryptoMUSES.src, link: "" },
+    { pic: Demi.src, link: "" },
+    { pic: Dwoc.src, link: "" },
+    { pic: Head.src, link: "" },
+    { pic: Silver.src, link: "" },
+    { pic: Face.src, link: "" },
+    { pic: LBFS.src, link: "" },
+    { pic: ZZZ.src, link: "" },
   ];
 
   const partnersData = {

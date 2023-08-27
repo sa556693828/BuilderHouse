@@ -103,7 +103,7 @@ import Silver from "@/assets/Partners/SilverBay.png";
 import Brain from "@/assets/Partners/Brainbrox.png";
 import Face from "@/assets/Partners/facecoin.jpg";
 import LBFS from "@/assets/Partners/LBFS.png";
-import Z from "@/assets/Partners/Z.png";
+import ZZZ from "@/assets/Partners/Z.png";
 
 
 
@@ -247,7 +247,7 @@ function PartnersDoc() {
     { pic: Silver.src, link: ""},
     { pic: Face.src, link: ""},
     { pic: LBFS.src, link: ""},
-    { pic: Z.src, link: ""},
+    { pic: ZZZ.src, link: ""},
   ];
 
   const partnersData = {

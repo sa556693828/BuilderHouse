@@ -400,7 +400,6 @@ function HunterDoc() {
         content: [
           { title: t("Term1"), detail: [] },
           { title: t("Term2"), detail: [] },
-          { title: t("Term3"), detail: [] },
         ],
       },
     },

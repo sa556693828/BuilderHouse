@@ -16,6 +16,8 @@ import Term from "@/assets/Hunter/logo_term.png";
 import Gash from "@/assets/Hunter/GASH.png";
 import Mayg from "@/assets/Hunter/MAYG.png";
 import noneland from "@/assets/Partners/noneland.svg";
+import PA from "@/assets/Partners/PANews_hunter.png";
+
 
 //icon-website
 //icon-twitter
@@ -381,6 +383,24 @@ function HunterDoc() {
           { title: t("MAYG1"), detail: [] },
           { title: t("MAYG2"), detail: [] },
           { title: t("MAYG3"), detail: [] },
+        ],
+      },
+    },
+    {
+      title: "PANews",
+      prize: "Task",
+      pic: PA.src,
+      data: {
+        title: "PANews",
+        linkArr: [
+          { icon: "icon-website", link: "https://www.panews.io/" },
+          { icon: "icon-twitter", link: "https://twitter.com/PANewsCN" },
+          { icon: "icon-telegram", link: "https://t.me/PANewsLab"},
+        ],
+        illustrate: t("PAi"),
+        content: [
+          { title: t("PA1"), detail: [] },
+          { title: t("PA2"), detail: [] },
         ],
       },
     },

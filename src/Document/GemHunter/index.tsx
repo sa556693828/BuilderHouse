@@ -79,7 +79,7 @@ function HunterDoc() {
     },
     {
       title: "MAYG",
-      prize: "entralizedTask",
+      prize: "Task",
       pic: Mayg.src,
       data: {
         title: "MAYG",

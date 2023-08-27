@@ -91,7 +91,20 @@ import C6 from "@/assets/Partners/c6.png";
 import C7 from "@/assets/Partners/c7_w.png";
 import ISC2 from "@/assets/Partners/ISC2.png";
 import OWASP from "@/assets/Partners/OWASP.png";
-import GDG from "@/assets/Partners/GDG_Taipei.png";
+import wearepoor from "@/assets/Partners/wearepoor.jpeg";
+import CryptoCowboy from "@/assets/Partners/CryptoCowboy.jpg";
+import CryptoMUSES from "@/assets/Partners/CryptoMUSES_LOGO.jpeg";
+import Demi from "@/assets/Partners/DemiHuman.jpg";
+import Dwoc from "@/assets/Partners/DWOC.png";
+import Head from "@/assets/Partners/HeadDAO.png";
+import LeadFi from "@/assets/Partners/LeapFi_Logo.svg";
+import Silver from "@/assets/Partners/SilverBay.png";
+import Brain from "@/assets/Partners/Brainbrox.png";
+import Face from "@/assets/Partners/facecoin.jpg";
+import LBFS from "@/assets/Partners/LBFS.png";
+import Z from "@/assets/Partners/Z.png";
+
+
 
 import { useTranslation } from "next-i18next";
 
@@ -219,9 +232,21 @@ function PartnersDoc() {
     { pic: C2.src, link: "https://discord.gg/JYazfmtbNE", w: "100" },
     { pic: C3.src, link: "https://discord.gg/xpgnft", w: "200" },
     { pic: C4.src, link: "https://twitter.com/cryptowilson_", w: "150" },
-    { pic: C5.src, link: "https://link3.to/snapfingersdao", w: "100" },
-    { pic: C6.src, link: "https://www.paraland.world/", w: "100" },
+    { pic: C5.src, link: "https://www.paraland.world/", w: "100" },
+    { pic: C6.src, link: "https://link3.to/snapfingersdao", w: "100" },
     { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
+    { pic: Brain.src, link: ""},
+    { pic: LeadFi.src, link: ""},
+    { pic: wearepoor.src, link: ""},
+    { pic: CryptoCowboy.src, link: ""},
+    { pic: CryptoMUSES.src, link: ""},
+    { pic: Demi.src, link: ""},
+    { pic: Dwoc.src, link: ""},
+    { pic: Head.src, link: ""},
+    { pic: Silver.src, link: ""},
+    { pic: Face.src, link: ""},
+    { pic: LBFS.src, link: ""},
+    { pic: Z.src, link: ""},
   ];
 
   const partnersData = {

@@ -93,14 +93,14 @@ import OWASP from "@/assets/Partners/OWASP.png";
 import GDG from "@/assets/Partners/GDG_Taipei.png";
 import wearepoor from "@/assets/Partners/wearepoor.jpeg";
 import CryptoCowboy from "@/assets/Partners/CryptoCowboy.jpg";
-import CryptoMUSES from "@/assets/Partners/CryptoMUSES_LOGO.jpeg";
-import Demi from "@/assets/Partners/DemiHuman.jpg";
+import CryptoMUSES from "@/assets/Partners/CryptoMUSES_LOGO.png";
+import Demi from "@/assets/Partners/DemiHuman.png";
 import Dwoc from "@/assets/Partners/DWOC.png";
 import Head from "@/assets/Partners/HeadDAO.png";
 import LeadFi from "@/assets/Partners/LeapFi_Logo.svg";
 import Silver from "@/assets/Partners/SilverBay.png";
 import Brain from "@/assets/Partners/Brainbro.png";
-import Face from "@/assets/Partners/facecoin.jpg";
+import Face from "@/assets/Partners/facecoin.png";
 import LBFS from "@/assets/Partners/LBFS.png";
 import ZZZ from "@/assets/Partners/Z.png";
 
@@ -231,18 +231,18 @@ function PartnersDoc() {
     { pic: C5.src, link: "https://www.paraland.world/", w: "100" },
     { pic: C6.src, link: "https://link3.to/snapfingersdao", w: "100" },
     { pic: C7.src, link: "https://linktr.ee/crossspace", w: "150" },
-    { pic: Brain.src, link: "" },
+    { pic: Brain.src, link: "https://www.youtube.com/@brainbrocrypto" },
     { pic: LeadFi.src, link: "" },
-    { pic: wearepoor.src, link: "" },
-    { pic: CryptoCowboy.src, link: "" },
-    { pic: CryptoMUSES.src, link: "" },
-    { pic: Demi.src, link: "" },
-    { pic: Dwoc.src, link: "" },
-    { pic: Head.src, link: "" },
-    { pic: Silver.src, link: "" },
-    { pic: Face.src, link: "" },
-    { pic: LBFS.src, link: "" },
-    { pic: ZZZ.src, link: "" },
+    { pic: wearepoor.src, link: "", w: "150" },
+    { pic: CryptoCowboy.src, link: "", w: "150" },
+    { pic: CryptoMUSES.src, link: "" , w: "150"},
+    { pic: Demi.src, link: "" , w: "150"},
+    { pic: Dwoc.src, link: "" , w: "150"},
+    { pic: Head.src, link: "" , w: "150"},
+    { pic: Silver.src, link: "" , w: "150"},
+    { pic: Face.src, link: "https://discord.gg/UK8rQjdhmc" , w: "150"},
+    { pic: LBFS.src, link: "https://linktr.ee/blockchain_zh" , w: "150"},
+    { pic: ZZZ.src, link: "https://zinstitute.net" , w: "150"},
   ];
 
   const partnersData = {

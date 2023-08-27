@@ -78,6 +78,68 @@ function HunterDoc() {
       },
     },
     {
+      title: "MAYG",
+      prize: "entralizedTask",
+      pic: Mayg.src,
+      data: {
+        title: "MAYG",
+        linkArr: [
+          { icon: "icon-website", link: "https://www.mayg.io/" },
+          { icon: "icon-twitter", link: "https://twitter.com/Maygnft" },
+          {
+            icon: "icon-discord",
+            link: "https://discord.com/invite/hr9YJ84AsK",
+          },
+        ],
+        illustrate: t("MAYGi"),
+        content: [
+          { title: t("MAYG1"), detail: [] },
+          { title: t("MAYG2"), detail: [] },
+          { title: t("MAYG3"), detail: [] },
+        ],
+      },
+    },
+    {
+      title: "PANews",
+      prize: "Task",
+      pic: PA.src,
+      data: {
+        title: "PANews",
+        linkArr: [
+          { icon: "icon-website", link: "https://www.panews.io/" },
+          { icon: "icon-twitter", link: "https://twitter.com/PANewsCN" },
+          { icon: "icon-telegram", link: "https://t.me/PANewsLab"},
+        ],
+        illustrate: t("PAi"),
+        content: [
+          { title: t("PA1"), detail: [] },
+          { title: t("PA2"), detail: [] },
+        ],
+      },
+    },
+    {
+      title: "GASH",
+      prize: "Task",
+      pic: Gash.src,
+      data: {
+        title: "GASH",
+        linkArr: [
+          { icon: "icon-website", link: "https://www.bonkcoin.com/" },
+          { icon: "icon-twitter", link: "https://twitter.com/GASH_tw" },
+          {
+            icon: "icon-discord",
+            link: "https://discord.com/invite/gash-invitelink",
+          },
+        ],
+        illustrate: t("GASHi"),
+        content: [
+          { title: t("GASH1"), detail: [] },
+          { title: t("GASH2"), detail: [] },
+          { title: t("GASH3"), detail: [] },
+        ],
+      },
+    },
+    {
       title: "NONE LAND",
       prize: "Task",
       pic: noneland.src,
@@ -339,68 +401,6 @@ function HunterDoc() {
           { title: t("Term1"), detail: [] },
           { title: t("Term2"), detail: [] },
           { title: t("Term3"), detail: [] },
-        ],
-      },
-    },
-    {
-      title: "GASH",
-      prize: "Task",
-      pic: Gash.src,
-      data: {
-        title: "GASH",
-        linkArr: [
-          { icon: "icon-website", link: "https://www.bonkcoin.com/" },
-          { icon: "icon-twitter", link: "https://twitter.com/GASH_tw" },
-          {
-            icon: "icon-discord",
-            link: "https://discord.com/invite/gash-invitelink",
-          },
-        ],
-        illustrate: t("GASHi"),
-        content: [
-          { title: t("GASH1"), detail: [] },
-          { title: t("GASH2"), detail: [] },
-          { title: t("GASH3"), detail: [] },
-        ],
-      },
-    },
-    {
-      title: "MAYG",
-      prize: "Task",
-      pic: Mayg.src,
-      data: {
-        title: "MAYG",
-        linkArr: [
-          { icon: "icon-website", link: "https://www.mayg.io/" },
-          { icon: "icon-twitter", link: "https://twitter.com/Maygnft" },
-          {
-            icon: "icon-discord",
-            link: "https://discord.com/invite/hr9YJ84AsK",
-          },
-        ],
-        illustrate: t("MAYGi"),
-        content: [
-          { title: t("MAYG1"), detail: [] },
-          { title: t("MAYG2"), detail: [] },
-          { title: t("MAYG3"), detail: [] },
-        ],
-      },
-    },
-    {
-      title: "PANews",
-      prize: "Task",
-      pic: PA.src,
-      data: {
-        title: "PANews",
-        linkArr: [
-          { icon: "icon-website", link: "https://www.panews.io/" },
-          { icon: "icon-twitter", link: "https://twitter.com/PANewsCN" },
-          { icon: "icon-telegram", link: "https://t.me/PANewsLab"},
-        ],
-        illustrate: t("PAi"),
-        content: [
-          { title: t("PA1"), detail: [] },
-          { title: t("PA2"), detail: [] },
         ],
       },
     },

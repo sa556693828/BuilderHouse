@@ -91,6 +91,7 @@ import C6 from "@/assets/Partners/c6.png";
 import C7 from "@/assets/Partners/c7_w.png";
 import ISC2 from "@/assets/Partners/ISC2.png";
 import OWASP from "@/assets/Partners/OWASP.png";
+import GDG from "@/assets/Partners/GDG_Taipei.png";
 import wearepoor from "@/assets/Partners/wearepoor.jpeg";
 import CryptoCowboy from "@/assets/Partners/CryptoCowboy.jpg";
 import CryptoMUSES from "@/assets/Partners/CryptoMUSES_LOGO.jpeg";

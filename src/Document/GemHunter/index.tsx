@@ -16,7 +16,7 @@ import Term from "@/assets/Hunter/logo_term.png";
 import Gash from "@/assets/Hunter/GASH.png";
 import Mayg from "@/assets/Hunter/MAYG.png";
 import noneland from "@/assets/Partners/noneland.svg";
-import PA from "@/assets/Partners/PANews_hunter.png";
+import PA from "@/assets/Hunter/PANews_hunter.png";
 
 
 //icon-website

@@ -3,11 +3,11 @@ import { useTranslation } from "next-i18next";
 function AgendaDoc() {
   const { t } = useTranslation("agenda");
   const agendaData = [
-    { time: "09:00", topic: "Opening", subTitle: ["Mei-Ling Chen, General Convener of Taiwan Blockchain Alliance Former Minister of National Development Council"] },
-    { time: "09:15", topic: "TBD", subTitle: ["TBD"] },
+    { time: "09:00", topic: "Opening", subTitle: ["Mei-Ling Chen, General Convener of Taiwan Blockchain Alliance & Former Minister of National Development Council \n Taka Kao, Chairman of Taiwan Association for Blockchain Ecosystem Innovation (TABEI)"] },
+    { time: "09:15", topic: "TBD", subTitle: ["Anita Chen, Startup Terrace Chief of International Affairs"] },
     {
       time: "09:30",
-      topic: "TBD",
+      topic: "How Google Cloud Enables the Web3 Ecosystem",
       subTitle: ["Blues, Google Cloud Field Sales Representative"],
     },
     {
@@ -90,10 +90,11 @@ function AgendaDoc() {
       time: "17:30",
       topic: "From Campus to Crypto: Empowering Young Minds in the Web3 Startup Ecosystem",
       subTitle: [
-        "Host : TBD",
+        "Host : Reki Wu, Section Manager of III DTRI",
         "Henry, NTUST.CS, Cryptoeducate CTO\n",
         "Jennifer, NTU, FR PR Lead\n",
         "Ken Leong, NTUT.IFM, Anyway network Founder\n",
+        "Kevin, NTU, NTUFC VP",
       ],
     },
     {

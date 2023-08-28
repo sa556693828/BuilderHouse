@@ -18,7 +18,6 @@ import Mayg from "@/assets/Hunter/MAYG.png";
 import noneland from "@/assets/Partners/noneland.svg";
 import PA from "@/assets/Hunter/PANews_hunter.png";
 
-
 //icon-website
 //icon-twitter
 //icon-discord
@@ -108,7 +107,7 @@ function HunterDoc() {
         linkArr: [
           { icon: "icon-website", link: "https://www.panews.io/" },
           { icon: "icon-twitter", link: "https://twitter.com/PANewsCN" },
-          { icon: "icon-telegram", link: "https://t.me/PANewsLab"},
+          { icon: "icon-telegram", link: "https://t.me/PANewsLab" },
         ],
         illustrate: t("PAi"),
         content: [
@@ -423,11 +422,66 @@ function HunterDoc() {
       },
     },
   ];
+  const detail = {
+    title: "Gem Hunter 挑戰活動規則",
+    illustrate:
+      "Hunter 有機會完成 GEM 任務以獲取 GEM NFT。收集特定數量的 GEM NFT 可以解鎖對應等級的獎品抽獎資格。接受挑戰，成為真正的 Gem Hunter！任務完成要求與獎品分配(只可擇一兌換)：",
+    content: [
+      {
+        title: "1. 完成收集 8 個 GEM NFT",
+        detail: [
+          "權益：能抽取 Silver 抽獎箱(先到先抽，抽完為止)",
+          "Silver 抽獎箱包括：10 USDT*30、TBH衣服20件、Binance 非刺繡黑T*10、MEXC衣服*10、MEXC 袋子10、MEXC 帽子20。",
+        ],
+      },
+      {
+        title: "2. 完成收集 12 個 GEM NFT",
+        detail: [
+          "直接獎勵：Gem Hunter VIP PASS",
+          "權益：能選擇抽取 Gold 抽獎箱(先到先抽，抽完為止)",
+          "Gold 抽獎箱包括：300 USDT *1、100 USDT *1、30 USDT *10、TBH不鏽鋼杯*10、Binance 刺繡黑色T*5 白*1、Binance 黃色帽T *2、Binance 黑色帽T *2、Orderly 禮包、OKX 咖啡組 * 1、Pionex 充電盤 * 5。",
+        ],
+      },
+      {
+        title: "3. 完成收集 16 個 GEM NFT",
+        detail: [
+          "直接獎勵：Gem Hunter VIP PASS",
+          "權益：能選擇抽取 Diamond 抽獎箱(先到先抽，抽完為止)",
+          "Diamond 抽獎箱包括：1000USDT *1、500 USDT*1、300 USDT*1、100 USDT*2、Binance 五週年禮盒*1、Binance 六週年禮盒*1、Binance 行李箱*1、Binance 滑板*1、Binance 按摩槍*1、OKEX 禮包*3、Onekey mini*2、OKX機械鍵盤禮盒 * 1、Pionex 行李箱 * 1。",
+        ],
+      },
+      {
+        title: "活動流程",
+        detail: [
+          "Hunters 完成任務後會收到 GEM NFT。",
+          "在活動當天，Hunters 帶著自己的 GEM NFT 到指定地點，由工作人員進行驗證。",
+          "根據驗證結果，Hunters 可根據擁有的 GEM NFT 數量選擇抽獎箱進行抽獎。",
+          "每位 Hunter 只能抽取一項獎品。",
+          "獎品數量有限，先到先抽，抽完為止。",
+        ],
+      },
+      {
+        title: "注意事項",
+        detail: [
+          "工作人員驗證後，Hunter 可以進行抽獎。",
+          "每位 Hunter 只能從符合其資格的抽獎箱中選擇一個進行抽取。",
+        ],
+      },
+      {
+        title: "免責聲明",
+        detail: [
+          "活動主辦方保留最終解釋權。如有任何更改，將會事先通知參與者。",
+        ],
+      },
+    ],
+  };
+
   const hunterData = {
     title: { name: "Gem Hunter", color: "red" },
     subTitle: t("subTitle"),
     id: "GemHunter",
     data: hunterArray,
+    detail: detail,
     totalPrize: 3000,
   };
   return hunterData;

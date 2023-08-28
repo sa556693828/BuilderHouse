@@ -5,6 +5,11 @@ module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontSize: {
+        title: "4rem",
+        list: "3rem",
+      },
+
       colors: {
         blue: "#4285F4",
         green: "#00FFB0",

@@ -44,7 +44,7 @@ export default function DesktopFooter(props: any) {
         </div>
       </div>
       <div className="flex w-full justify-between">
-        <div className="-ml-3 flex justify-start">
+        <div className="-ml-3 flex">
           <div
             className="cursor-pointer rounded-full p-3 transition-all hover:bg-white/20"
             onClick={() => openLink("https://bit.ly/TBH_twitter")}
@@ -56,6 +56,20 @@ export default function DesktopFooter(props: any) {
             onClick={() => openLink("https://bit.ly/3MRkvxF")}
           >
             <SvgIcon width={30} height={30} iconName="icon-telegram" />
+          </div>
+          <div className="flex flex-col gap-2 pl-14 text-sm text-black underline underline-offset-2">
+            <a
+              onClick={() => goPage("/privacy")}
+              className="cursor-pointer hover:opacity-80"
+            >
+              Privacy Policy
+            </a>
+            <a
+              onClick={() => goPage("/terms")}
+              className="cursor-pointer hover:opacity-80"
+            >
+              Term & Condition
+            </a>
           </div>
         </div>
         <div className="flex max-w-sm justify-end text-xs font-medium text-black xl:text-base">

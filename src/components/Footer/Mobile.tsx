@@ -28,6 +28,20 @@ export default function FooterMobile(props: any) {
         >
           <SvgIcon width={30} height={30} iconName="icon-telegram" />
         </div>
+        <div className="flex flex-col gap-2 pl-14 text-sm text-black underline underline-offset-2">
+          <a
+            onClick={() => goPage("/privacy")}
+            className="cursor-pointer hover:opacity-80"
+          >
+            Privacy Policy
+          </a>
+          <a
+            onClick={() => goPage("/terms")}
+            className="cursor-pointer hover:opacity-80"
+          >
+            Term & Condition
+          </a>
+        </div>
       </div>
       <div className="-ml-1 grid grid-cols-2 gap-x-10 gap-y-5 text-base font-medium">
         <Link href="/#OverView" passHref>

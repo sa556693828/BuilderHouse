@@ -21,7 +21,8 @@ export default function Main() {
       <Flex
         className="relative flex-col items-center overflow-hidden"
         minH={isMobile ? "full" : ""}
-        h={isMobile ? "" : "calc(100vh - 5rem)"}
+        h={isMobile ? "" : "calc(100vh)"}
+        pt="5rem"
       >
         <div className="absolute -right-10 top-32 transition-all lg:right-32 lg:top-44 xl:top-52">
           <img src={Sphere.src} alt="" width="" height="100" />

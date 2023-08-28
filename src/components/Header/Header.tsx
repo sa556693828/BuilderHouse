@@ -18,7 +18,7 @@ export default function Header() {
         align="center"
         px={{ base: "2rem", xl: "4rem", "2xl": "8rem" }}
         overflow="hidden"
-        className="divider fixed z-50 h-20 w-full bg-bg text-text transition-all"
+        className="divider fixed z-[100] h-20 w-full bg-bg text-text transition-all"
       >
         <Desktop goPage={goPage} locale={locale} />
         <Mobile goPage={goPage} locale={locale} />

@@ -63,9 +63,9 @@ function AgendaDoc() {
       time: "13:00",
       topic: "Non-EVM Panel",
       subTitle: [
-        "Host : TBD",
+        "Host : Kyrie, Typus",
         "Greg, Bucket, Sui\n",
-        "Bonk, Solana\n",
+        "Justin, Solana\n",
         "Howard, Ton Foundation, Ton\n",
       ],
     },
@@ -83,7 +83,7 @@ function AgendaDoc() {
     {
       time: "14:30",
       topic: "How to Increase Your Chances to Get Funded through Demo3",
-      subTitle: ["Jim, Gen3、Demo3 Founder"],
+      subTitle: ["Jim, Co-founder of DappioLab"],
     },
     { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["SuiDouBashi\nScallop\nDyson Finance\nZkafi\nFriends Protocol\nFollowin\nTikki\nFansi\nBOXTradEx"] },
     {

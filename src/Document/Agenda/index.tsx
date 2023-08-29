@@ -3,20 +3,19 @@ import { useTranslation } from "next-i18next";
 function AgendaDoc() {
   const { t } = useTranslation("agenda");
   const agendaData = [
-    { time: "09:00", topic: "Opening", subTitle: ["Mei-Ling Chen, General Convener of Taiwan Blockchain Alliance & Former Minister of National Development Council \n Taka Kao, Chairman of Taiwan Association for Blockchain Ecosystem Innovation (TABEI)"] },
-    { time: "09:15", topic: "TBD", subTitle: ["Anita Chen, Startup Terrace Chief of International Affairs"] },
+    { time: "09:00", topic: "Opening", subTitle: ["Mei-Ling Chen, General Convener of Taiwan Blockchain Alliance & Former Minister of National Development Council \n Taka Kao, Chairman of Taiwan Association for Blockchain Ecosystem Innovation (TABEI) \n Anita Chen, Startup Terrace Chief of International Affairs"] },
     {
-      time: "09:30",
+      time: "09:15",
       topic: "How Google Cloud Enables the Web3 Ecosystem",
       subTitle: ["Blues, Google Cloud Field Sales Representative"],
     },
     {
-      time: "09:45",
+      time: "09:30",
       topic: "Empowing Web3 Startups: AppWorks",
       subTitle: ["Johnny, Appworks Analyst"],
     },
     {
-      time: "10:00",
+      time: "09:45",
       topic:
         "Decentralization in Community Management：\nHow Web3 Changes the Landscape",
       subTitle: [
@@ -25,12 +24,13 @@ function AgendaDoc() {
         "Justin, JClub Founder\n",
         "Alvin, CryptoWesearch Co - Founder\n",
         "JZ, JZ Invest Founder\n",
+        "Yoyo Wang, GASH Community Managr\n",
       ],
     },
     {
-      time: "11:00",
-      topic: "Taiwan Builder House Demos",
-      subTitle: ["Reyield Finance", "Blablablcok", "Crypto Arsenal"],
+      time: "10:45",
+      topic: "Taiwan Builder House Trading Demos",
+      subTitle: ["Reyield Finance", "Custard Protocol", "Blablablcok", "Crypto Arsenal"],
     },
     {
       time: "11:45",
@@ -61,7 +61,7 @@ function AgendaDoc() {
     },
     {
       time: "13:00",
-      topic: "Non-EVM Panel",
+      topic: "Comparing Landscapes: Unique Advantages and Limitations of Non-EVM Chains",
       subTitle: [
         "Host : Kyrie, Typus",
         "Greg, Bucket, Sui\n",
@@ -85,7 +85,7 @@ function AgendaDoc() {
       topic: "How to Increase Your Chances to Get Funded through Demo3",
       subTitle: ["Jim, Co-founder of DappioLab"],
     },
-    { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["SuiDouBashi\nScallop\nDyson Finance\nZkafi\nFriends Protocol\nFollowin\nTikki\nFansi\nBOXTradEx"] },
+    { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["SuiDouBashi\nScallop\nDyson Finance\nFriends Protocol\nTobi\nZkafi\nFollowin\nTikki\nFansi\nBOXTradEx"] },
     {
       time: "17:30",
       topic: "From Campus to Crypto: Empowering Young Minds in the Web3 Startup Ecosystem",

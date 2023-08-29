@@ -14,6 +14,12 @@
   "MEXCC": "註冊任務",
   "MEXC1T": "點選<a href='https://www.mexc.com/zh-TW/register?inviteCode=mexc-TBH' target='_blank' class=\" underline underline-offset-2 text-greenT\">網站連結</a>進行註冊",
   "MEXC1C1": "前100名註冊每位將額外活得10USDT",
+  "OKXi": "註冊任務",
+  "OKX1": "1. 透過builderhouse連結註冊OKX，享有終生20%手續費折扣",
+  "OKX2": "2. 前100名透過builderhouse連結註冊，並完成KYC2進階認證，即可獲得10U合約券 ",
+  "OKX3": "3. 9/25前完成一次現貨/合約交易，即可獲得20U合約券(限量50人)",
+  "OKX4": "4. 只要透過builderhosue連結註冊，即可參加OKX限量周邊抽獎",
+  "OKX4t": "限量周邊：咖啡組、周邊禮盒套組",
   "FNC": "完成新手任務",
   "FN1T": "1. 成功綁定錢包",
   "FN2T": "2. 關注一個項目",
@@ -80,5 +86,9 @@
   "Geno3": "3. 下載 Genopets 並開啟一場 step battle (邀請碼 ALBERT)",
   "PAi": "PANews是專為區塊鏈技術應用及金融科技創業者及領導者而打造的智庫型媒體。我們致力於為區塊鏈及金融科技領域的創業者、創新者,提供有價值的加密貨幣、虛擬貨幣、比特幣新聞資訊和洞察,與諮詢顧問公司PANONY為企業尋找增長引擎,賦能未來行業領袖。",
   "PA1": "加入<a href='https://t.me/PANewsLab' target='_blank' class=\"underline underline-offset-2 text-greenT\">電報</a>、追蹤<a href='https://twitter.com/PANewsCN' target='_blank' class=\"underline underline-offset-2 text-greenT\">Twitter</a>、造訪<a href='https://www.panews.io/' target='_blank' class=\"underline underline-offset-2 text-greenT\">網站</a>",
-  "PA2": "下載APP：<a href='https://www.panewslab.com/download.html' target='_blank' class=\" underline underline-offset-2 text-greenT\">https://www.panewslab.com/download.html</a>"
+  "PA2": "下載APP：<a href='https://www.panewslab.com/download.html' target='_blank' class=\" underline underline-offset-2 text-greenT\">https://www.panewslab.com/download.html</a>",
+  "Zommai": "ZOMMA aims to be the underlying fuel for all on-chain financial products, focusing to contribute to the DeFi world by building an array of innovative and diversified products, that include staking, yield mining, buy & sell European style options, settlements and minimal collateral to achieve a win-win for all our ecosystem participants.",
+  "Zomma1": "1. Make an option trade (buy/sell call or puts) or Add Liquidity into Zomma Pools",
+  "Zomma2": "2. Follow Twitter @ZommaProtocol ",
+  "Zomma3": "3. Join https://discord.com/invite/VAkBKQKXnh"
 }

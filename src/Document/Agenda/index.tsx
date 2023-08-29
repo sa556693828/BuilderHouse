@@ -85,7 +85,7 @@ function AgendaDoc() {
       topic: "How to Increase Your Chances to Get Funded through Demo3",
       subTitle: ["Jim, Co-founder of DappioLab"],
     },
-    { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["SuiDouBashi\nScallop\nDyson Finance\nFriends Protocol\nTobi\nZkafi\nFollowin\nTikki\nFansi\nBOXTradEx"] },
+    { time: "14:45", topic: "Taiwan Builder House Demos", subTitle: ["SuiDouBashi\nScallop\nDyson Finance\nFriends Protocol\nCPA Protocal\nTobi\nZkafi\nFollowin\nTikki\nFansi\nBOXTradEx"] },
     {
       time: "17:30",
       topic: "From Campus to Crypto: Empowering Young Minds in the Web3 Startup Ecosystem",

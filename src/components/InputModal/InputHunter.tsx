@@ -10,6 +10,7 @@ import {
   UnorderedList,
 } from "@chakra-ui/react";
 import SvgIcon from "../SvgIcon/SvgIcon";
+import ClientOnly from "../clientOnly";
 
 export default function InputHunter(props: {
   data: any;
@@ -58,17 +59,20 @@ export default function InputHunter(props: {
                 <div className="flex h-full w-full flex-col rounded-xl bg-bg px-10 py-6">
                   {data?.content?.map((item: any, idx: any) => (
                     <React.Fragment key={idx}>
-                      <div
-                        className="text-left text-lg"
-                        dangerouslySetInnerHTML={{ __html: item.title }}
-                      />
+                      <ClientOnly>
+                        <div
+                          className="text-left text-lg"
+                          dangerouslySetInnerHTML={{ __html: item.title }}
+                        />
+                      </ClientOnly>
                       <UnorderedList spacing={3} my="4">
-                        {item.detail.map((item: any, idx: any) => (
-                          <ListItem
-                            key={idx}
-                            className="text-left text-sm font-normal text-text"
-                            dangerouslySetInnerHTML={{ __html: item }}
-                          />
+                        {item?.detail?.map((item: any, idx: any) => (
+                          <ClientOnly key={idx}>
+                            <ListItem
+                              className="text-left text-sm font-normal text-text"
+                              dangerouslySetInnerHTML={{ __html: item }}
+                            />
+                          </ClientOnly>
                         ))}
                       </UnorderedList>
                     </React.Fragment>

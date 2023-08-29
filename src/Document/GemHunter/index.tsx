@@ -428,7 +428,10 @@ function HunterDoc() {
         illustrate: t("Termi"),
         content: [
           { title: t("Term1"), detail: [] },
-          { title: t("Term2"), detail: [] },
+          { title: t("Term2"), detail: ["https://faucet.testnet.termstructure.io/"] },
+          { title: t("Term3"), detail: ["https://app.demo.termstructure.io/"] },
+          { title: t("Term4"), detail: [] },
+          { title: t("Term5"), detail: ["https://dyno.gg/form/5a4c8f0e"] },
         ],
       },
     },

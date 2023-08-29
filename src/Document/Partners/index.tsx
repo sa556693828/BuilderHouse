@@ -78,6 +78,8 @@ import Dmail from "@/assets/Hunter/dmail.png";
 import Pawnfi_gem from "@/assets/Hunter/pawnfi_logo_purple.svg";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
+import Zomma from "@/assets/Partners/zomma.png";
+
 
 //communtity
 import Web3ass from "@/assets/Partners/web3_ass.png";
@@ -186,12 +188,13 @@ function PartnersDoc() {
     },
     { pic: Bla.src, link: "", w: "200" },
     { pic: CA.src, link: "", w: "200" },
-    { pic: Pawnfi_gem.src, link: "", w: "100" },
+    { pic: Pawnfi_gem.src, link: "", w: "200" },
     { pic: Rentii.src, link: "", w: "100" },
     { pic: Friends.src, link: "", w: "200" },
     { pic: Dmail.src, link: "", w: "100" },
     { pic: Bucket.src, link: "", w: "100" },
     { pic: Paraspace.src, link: "", w: "100" },
+    { pic: Zomma.src, link: ""},
   ];
   const mediaArr = [
     { pic: followIn.src, link: "https://followin.io/zh-Hant" },

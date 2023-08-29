@@ -8,6 +8,7 @@ export default function HunterCard(props: {
   prize: string;
   pic: any;
   data: any;
+  mr: string;
 }) {
   const { isOpen, onClose, onOpen } = useDisclosure();
   const [data, setData] = useState({
@@ -20,7 +21,7 @@ export default function HunterCard(props: {
   useEffect(() => {
     setData(props.data);
   }, [props.data]);
-
+  //mx-2
   return (
     <div
       className="h-full rounded-xl bg-gradient-to-r from-redF to-redT p-[2px] transition-all"
@@ -34,6 +35,7 @@ export default function HunterCard(props: {
           width={props.pic?.w}
           height="60"
           alt="avatar"
+          className={`mx-${props.mr}`}
         />
         <div className="flex flex-col">
           <div className="text-lg">{props.title}</div>

@@ -67,9 +67,8 @@ export default function InputHunter(props: {
                           <ListItem
                             key={idx}
                             className="text-left text-sm font-normal text-text"
-                          >
-                            {item}
-                          </ListItem>
+                            dangerouslySetInnerHTML={{ __html: item }}
+                          />
                         ))}
                       </UnorderedList>
                     </React.Fragment>

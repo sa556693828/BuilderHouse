@@ -307,7 +307,10 @@ function HunterDoc() {
           },
           {
             title: `3. Follow Social Media`,
-            detail: ["Twitter：@ParaSpace_NFT @ParaSpace_CN", "Join Discord"],
+            detail: [
+              "Twitter：<a href='https://twitter.com/ParaSpace_NFT' target='_blank' class=\" underline underline-offset-2 text-greenT\">@ParaSpace_NFT</a> <a href='https://twitter.com/ParaSpace_CN' target='_blank' class=\" underline underline-offset-2 text-greenT\">@ParaSpace_CN</a>",
+              "Join <a href='https://discord.com/invite/paraspace' target='_blank' class=\" underline underline-offset-2 text-greenT\">Discord</a>",
+            ],
           },
         ],
       },
@@ -333,7 +336,9 @@ function HunterDoc() {
           },
           {
             title: `2. Follow Social Media`,
-            detail: ["Twitter：@PawnfiOfficial + Join Discord"],
+            detail: [
+              "Twitter：<a href='https://twitter.com/pawnfiofficial' target='_blank' class=\" underline underline-offset-2 text-greenT\">@PawnfiOfficial</a> + Join <a href='https://discord.com/invite/pawnfi' target='_blank' class=\" underline underline-offset-2 text-greenT\">Discord</a>",
+            ],
           },
           {
             title: `3. Retweet their pinned post`,

@@ -17,9 +17,6 @@ import Gash from "@/assets/Hunter/GASH.png";
 import Mayg from "@/assets/Hunter/MAYG.png";
 import noneland from "@/assets/Partners/noneland.svg";
 import PA from "@/assets/Hunter/PANews_hunter.png";
-import Okx from "@/assets/Hunter/OKX_Logo_white.png";
-import Zomma from "@/assets/Hunter/zomma_hunter.png";
-
 
 //icon-website
 //icon-twitter
@@ -45,27 +42,6 @@ function HunterDoc() {
         ],
         illustrate: t("MEXCC"),
         content: [{ title: t("MEXC1T"), detail: [t("MEXC1C1")] }],
-      },
-    },
-    {
-      title: "OKX",
-      prize: "Task",
-      pic: Okx.src,
-      data: {
-        title: "OKX",
-        linkArr: [
-          {
-            icon: "icon-website",
-            link: "https://www.okx.com/join/TBH2023",
-          },
-        ],
-        illustrate: t("OKXi"),
-        content: [
-          { title: t("OKX1")},
-          { title: t("OKX2")},
-          { title: t("OKX3")},
-          { title: t("OKX4")},
-        ],
       },
     },
     {
@@ -126,6 +102,7 @@ function HunterDoc() {
       title: "PANews",
       prize: "Task",
       pic: PA.src,
+      w: "34",
       data: {
         title: "PANews",
         linkArr: [
@@ -447,26 +424,6 @@ function HunterDoc() {
           { title: t("BONK1"), detail: [] },
           { title: t("BONK2"), detail: [] },
           { title: t("BONK3"), detail: [] },
-        ],
-      },
-    },
-    {
-      title: "Zomma Protocol",
-      prize: "Task",
-      pic: Zomma.src,
-      data: {
-        title: "Zomma Protocol",
-        linkArr: [
-          { icon: "icon-website", link: "https://app.zomma.pro/en/main/trade" },
-          { icon: "icon-twitter", link: "https://twitter.com/ZommaProtocol" },
-          { icon: "icon-telegram", link: "https://t.me/ZommaProtocol" },
-          { icon: "icon-discord", link: "https://discord.com/invite/VAkBKQKXnh" },
-        ],
-        illustrate: t("Zommai"),
-        content: [
-          { title: t("Zomma1"), detail: [] },
-          { title: t("Zomma2"), detail: [] },
-          { title: t("Zomma3"), detail: [] },
         ],
       },
     },

@@ -77,7 +77,7 @@ export default function GemHunter(props: { data: any }) {
               key={idx}
               title={item.title}
               prize={item.prize}
-              pic={{ pic: item.pic, w: "50" }}
+              pic={{ pic: item.pic, w: item?.w ? item?.w : "50" }}
               data={item.data}
             />
           ))}

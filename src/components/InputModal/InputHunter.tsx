@@ -29,7 +29,7 @@ export default function InputHunter(props: {
     >
       <ModalOverlay />
       <ModalContent className="overflow-hidden whitespace-pre-wrap rounded-sm bg-rainbow p-[1px] transition-all">
-        <div className="flex h-full w-full flex-col rounded-sm bg-bg p-5 shadow-greenLi xl:p-10">
+        <div className="flex max-h-[90vh] w-full flex-col overflow-auto rounded-sm bg-bg p-5 shadow-greenLi xl:p-10">
           <ModalHeader className="flex justify-center text-center text-2xl">
             {data?.title}
           </ModalHeader>
@@ -58,7 +58,10 @@ export default function InputHunter(props: {
                 <div className="flex h-full w-full flex-col rounded-xl bg-bg px-10 py-6">
                   {data?.content?.map((item: any, idx: any) => (
                     <React.Fragment key={idx}>
-                      <div className="text-left text-lg">{item.title}</div>
+                      <div
+                        className="text-left text-lg"
+                        dangerouslySetInnerHTML={{ __html: item.title }}
+                      />
                       <UnorderedList spacing={3} my="4">
                         {item.detail.map((item: any, idx: any) => (
                           <ListItem

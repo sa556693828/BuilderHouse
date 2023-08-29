@@ -26,7 +26,7 @@ export default function InputModal(props: {
     >
       <ModalOverlay />
       <ModalContent className="whitespace-pre-wrap rounded-sm bg-rainbow p-[1px] transition-all">
-        <div className="flex h-[90vh] w-full flex-col overflow-auto rounded-sm bg-bg p-5 shadow-greenLi xl:p-10">
+        <div className="flex max-h-[90vh] w-full flex-col overflow-auto rounded-sm bg-bg p-5 shadow-greenLi xl:p-10">
           <ModalHeader className="flex justify-center text-center text-2xl">
             {data?.title}
           </ModalHeader>

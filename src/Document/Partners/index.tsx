@@ -80,7 +80,7 @@ import Dmail from "@/assets/Hunter/dmail.png";
 import Pawnfi_gem from "@/assets/Hunter/pawnfi_logo_purple.svg";
 import Genopets from "@/assets/Hunter/genopets.png";
 import Paraspace from "@/assets/Hunter/paraspace_logo.png";
-import Zomma from "@/assets/Partners/zomma.png";
+import Zomma from "@/assets/Partners/zomma protocol_standard_white.svg";
 
 
 //communtity

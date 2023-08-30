@@ -90,7 +90,7 @@ function AgendaDoc() {
       time: "17:30",
       topic: "From Campus to Crypto: Empowering Young Minds in the Web3 Startup Ecosystem",
       subTitle: [
-        "Host : Reki Wu, Section Manager of III DTRI",
+        "Host : Reki Wu, Blockchain Section Manager of DTRI, III",
         "Henry, NTUST.CS, Cryptoeducate CTO\n",
         "Jennifer, NTU, FR PR Lead\n",
         "Ken Leong, NTUT.IFM, Anyway network Founder\n",

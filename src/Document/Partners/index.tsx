@@ -59,6 +59,8 @@ import Gosmart from "@/assets/Partners/gosmart.png";
 import Typus from "@/assets/Partners/Typus logo_horizontal_white.png";
 import BTSE from "@/assets/Partners/BTSE_logo_White.png";
 import Bonk from "@/assets/Partners/BONK_logo.svg";
+import Cw from "@/assets/Partners/CW_white.svg";
+
 
 //VC
 import Ld from "@/assets/Partners/LD.png";
@@ -105,6 +107,15 @@ import Brain from "@/assets/Partners/Brainbro.png";
 import Face from "@/assets/Partners/facecoin.png";
 import LBFS from "@/assets/Partners/LBFS.png";
 import ZZZ from "@/assets/Partners/Z.png";
+import Sun from "@/assets/Partners/Sun_Huang.png";
+import Emma from "@/assets/Partners/Emma_Huang.png";
+import Starbit from "@/assets/Partners/starbit.png";
+import Jcard from "@/assets/Partners/Jcard.png";
+import Bitssuecredit from "@/assets/Partners/bitssuecredit.png";
+import Ceo from "@/assets/Partners/ceo.png";
+import Tiffj from "@/assets/Partners/tiffj.png";
+import Web_Hub from "@/assets/Partners/Web_Hub.png";
+
 
 import { useTranslation } from "next-i18next";
 
@@ -205,6 +216,7 @@ function PartnersDoc() {
     { pic: BN.src, link: "https://www.bnext.com.tw/" },
     { pic: Web3.src, link: "https://web3plus.bnext.com.tw/" },
     { pic: Stockfeel.src, link: "https://www.stockfeel.com.tw/" },
+    { pic: Cw.src, link: "https://cryptowesearch.com/" },
   ];
   const communityArr = [
     { pic: buzhidao.src, link: "https://buzhidao.tw/zh" },
@@ -246,6 +258,15 @@ function PartnersDoc() {
     { pic: Face.src, link: "https://discord.gg/UK8rQjdhmc" , w: "150"},
     { pic: LBFS.src, link: "https://linktr.ee/blockchain_zh" , w: "150"},
     { pic: ZZZ.src, link: "https://zinstitute.net" , w: "150"},
+    { pic: Sun.src, link: "https://github.com/SunWeb3Sec/DeFiHackLabs" },
+    { pic: Emma.src, link: "https://www.instagram.com/savemoney3000/" },
+    { pic: Jcard.src, link: "https://www.jcard.io/tw" },
+    { pic: Starbit.src, link: "https://www.jcard.io/tw" },
+    { pic: Bitssuecredit.src, link: "portaly.cc/bitssue_credit" },
+    { pic: Ceo.src, link: "https://www.instagram.com/crypto_edu_org/" },
+    { pic: Tiffj.src, link: "https://www.instagram.com/tiffj_trading/" },
+    { pic: Starbit.src, link: "https://star-bit.io/tw" },
+    { pic: Web_Hub.src, link: "https://linktr.ee/w3projecthub" },
   ];
 
   const partnersData = {

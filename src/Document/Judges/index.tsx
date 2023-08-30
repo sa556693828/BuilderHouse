@@ -4,6 +4,7 @@ import michael from "@/assets/Judges/michael.jpg";
 import damien from "@/assets/Judges/damien.jpeg";
 import Josh from "@/assets/Judges/Josh.jpeg";
 import Albert from "@/assets/Judges/albert.jpeg";
+import Ryder from "@/assets/Judges/Ryder.jpeg";
 
 
 //icon-website
@@ -43,6 +44,12 @@ function JudgesDoc() {
       name: "Albert",
       company: "Genopets\nFounder ",
       avatar: Albert.src,
+      linkin: "",
+    },
+    {
+      name: "Ryder",
+      company: "Google Cloud ",
+      avatar: Ryder.src,
       linkin: "",
     },
   ];

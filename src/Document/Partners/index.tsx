@@ -59,7 +59,7 @@ import Gosmart from "@/assets/Partners/gosmart.png";
 import Typus from "@/assets/Partners/Typus logo_horizontal_white.png";
 import BTSE from "@/assets/Partners/BTSE_logo_White.png";
 import Bonk from "@/assets/Partners/BONK_logo.svg";
-import Cw from "@/assets/Partners/CW_white.svg";
+import Cw from "@/assets/Partners/CW_white.png";
 
 
 //VC

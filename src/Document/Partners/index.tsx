@@ -261,7 +261,6 @@ function PartnersDoc() {
     { pic: Sun.src, link: "https://github.com/SunWeb3Sec/DeFiHackLabs" },
     { pic: Emma.src, link: "https://www.instagram.com/savemoney3000/" },
     { pic: Jcard.src, link: "https://www.jcard.io/tw" },
-    { pic: Starbit.src, link: "https://www.jcard.io/tw" },
     { pic: Bitssuecredit.src, link: "portaly.cc/bitssue_credit" },
     { pic: Ceo.src, link: "https://www.instagram.com/crypto_edu_org/" },
     { pic: Tiffj.src, link: "https://www.instagram.com/tiffj_trading/" },

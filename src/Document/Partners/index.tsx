@@ -110,7 +110,7 @@ import ZZZ from "@/assets/Partners/Z.png";
 import Sun from "@/assets/Partners/Sun_Huang.png";
 import Emma from "@/assets/Partners/Emma_Huang.png";
 import Starbit from "@/assets/Partners/starbit.png";
-import Jcard from "@/assets/Partners/Jcard.png";
+import Jcard from "@/assets/Partners/Jcard_new_logo.png";
 import Bitssuecredit from "@/assets/Partners/bitssuecredit.png";
 import Ceo from "@/assets/Partners/ceo.png";
 import Tiffj from "@/assets/Partners/tiffj.png";

@@ -407,7 +407,7 @@ function HunterDoc() {
         content: [
           { title: t("TI1T"), detail: [t("TI1C1")] },
           { title: t("TI2T"), detail: [t("TI2C1")] },
-          { title: t("TI3T"), detail: [t("TI3C1")] },
+          { title: t("TI3T"), detail: [] },
         ],
       },
     },

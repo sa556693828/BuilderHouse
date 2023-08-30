@@ -48,7 +48,7 @@ function JudgesDoc() {
     },
     {
       name: "Ryder",
-      company: "Google Cloud ",
+      company: "Google Cloud \n Field Sales Representative",
       avatar: Ryder.src,
       linkin: "",
     },

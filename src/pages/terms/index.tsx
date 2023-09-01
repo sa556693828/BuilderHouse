@@ -73,7 +73,7 @@ export default function Terms() {
   return (
     <>
       <Header />
-      <div className="my-10 flex flex-col gap-10 whitespace-pre-wrap px-20">
+      <div className=" flex flex-col gap-10 whitespace-pre-wrap px-20 py-20">
         <a className="text-title">TERMS AND CONDITIONS</a>
         <VStack align="start">
           <a className="text-list">AGREEMENT TO OUR LEGAL TERMS</a>

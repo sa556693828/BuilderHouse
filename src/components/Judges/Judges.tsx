@@ -24,7 +24,7 @@ export default function Judges(props: { data: any }) {
           />
         ))}
       </div>
-      <Image src={textileD.src} alt="bigTextile" height="100vh" width="auto" />
+      <Image src={textileD.src} alt="bigTextile" height="1vh" width="auto" />
     </Section>
   );
 }

@@ -2,7 +2,6 @@ import { Image } from "@chakra-ui/react";
 import React from "react";
 import Section from "../Section/Section";
 import ProfileCard from "./ProfileCard";
-import textileD from "@/assets/gif/test.gif";
 
 export default function Judges(props: { data: any }) {
   const { data } = props;
@@ -24,7 +23,6 @@ export default function Judges(props: { data: any }) {
           />
         ))}
       </div>
-      <Image src={textileD.src} alt="bigTextile" height="1vh" width="auto" />
     </Section>
   );
 }
